@@ -67,7 +67,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <iframe v-if="videoPlaying" :src="videoUrl" frameborder="0"
+                        <iframe v-if="videoPlaying" src="https://www.youtube.com/embed/5aSTaVY0J7I" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen class="video-iframe"></iframe>
                     </div>
@@ -299,13 +299,10 @@ import '@/assets/css/public.css'
 
 // 视频相关状态
 const videoPlaying = ref(false)
-const videoUrl = ref('')
 
 // 播放视频方法
 const playVideo = () => {
     videoPlaying.value = true
-    // 这里可以设置实际的视频URL，比如YouTube或Vimeo
-    videoUrl.value = 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1'
 }
 </script>
 
