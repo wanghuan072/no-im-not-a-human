@@ -18,7 +18,7 @@
                                 class="highlight-text">game mechanics</span>, <span class="highlight-text">energy
                                 management</span>, and <span class="highlight-text">survival strategies</span>. Learn to
                             distinguish between genuine human survivors and dangerous Visitors in this apocalyptic
-                            nightmare.</p>
+                            nightmare. For more game information, visit our <a href="/">homepage</a>.</p>
                     </div>
 
                     <!-- Navigation Cards -->
@@ -49,7 +49,7 @@
                         <h2 class="home-title">Game Flow Overview</h2>
                         <p class="section-subtitle">Master the three critical stages of your survival journey with our
                             "No I'm Not a Human Guides" - this psychological horror experience that tests your ability
-                            to distinguish friend from foe.</p>
+                            to distinguish friend from foe. Discover all possible <a href="/endings">endings</a>.</p>
                     </div>
 
                     <div class="flow-stages">
@@ -216,7 +216,7 @@
                     <div class="section-header">
                         <h2 class="home-title">Energy Management System</h2>
                         <p class="section-subtitle">Energy is the most critical resource in the game. Master its usage
-                            with our "No I'm Not a Human Guides" to survive the paranoid nightmare.</p>
+                            with our "No I'm Not a Human Guides" to survive the paranoid nightmare. Get the game from our <a href="/download">download page</a>.</p>
                     </div>
 
                     <div class="energy-grid">
@@ -275,14 +275,14 @@
                     <div class="section-header">
                         <h2 class="home-title">Guest Interaction Basics</h2>
                         <p class="section-subtitle">Learn how to safely assess new arrivals and categorize different
-                            character types with our "No I'm Not a Human Guides" to survive.</p>
+                            character types with our "No I'm Not a Human Guides" to survive. Check our comprehensive <a href="/visitors">visitor database</a>.</p>
                     </div>
 
                     <div class="guests-grid">
                         <div class="guest-card always-human">
                             <h3>Confirmed Safe Characters</h3>
                             <p>These individuals are guaranteed to be genuine humans in every game session. Our "No I'm
-                                Not a Human Guides" will help you identify them:</p>
+                                Not a Human Guides" will help you identify them. Visit our <a href="/visitors">visitor database</a>:</p>
                             <ul class="guest-list">
                                 <li>The Elderly Gentleman</li>
                                 <li>Young Survivor Girl</li>
@@ -293,7 +293,7 @@
 
                         <div class="guest-card always-visitor">
                             <h3>Confirmed Threats</h3>
-                            <p>These entities should be removed immediately upon identification:</p>
+                            <p>These entities should be removed immediately upon identification. Learn more about dangerous characters in our <a href="/visitors">visitor database</a>:</p>
                             <ul class="guest-list">
                                 <li>Hostile Stranger</li>
                                 <li>Mysterious Figure in Unusual Attire</li>
@@ -305,9 +305,9 @@
                         <div class="guest-card variable">
                             <h3>Uncertain Individuals</h3>
                             <p>These visitors have inconsistent status across different game sessions, making them
-                                unpredictable.</p>
+                                unpredictable. Check our <a href="/visitors">visitor database</a> for detailed analysis.</p>
                             <p class="warning-text">Thorough physical examination and behavioral analysis are essential
-                                for accurate identification.</p>
+                                for accurate identification. Use our <a href="/visitors">visitor identification guide</a> for detailed strategies.</p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                     <div class="section-header">
                         <h2 class="home-title">Visitor Identification Basics</h2>
                         <p class="section-subtitle">Master the four key physical traits that expose dangerous Visitors
-                            with our "No I'm Not a Human Guides"</p>
+                            with our "No I'm Not a Human Guides".</p>
                     </div>
 
                     <div class="warning-box">
@@ -349,14 +349,14 @@
                             <div class="trait-icon">💅</div>
                             <h3>Dirty/Black Nails</h3>
                             <p>Look for fingernails that appear unusually dirty or blackened, contrasting with otherwise
-                                clean appearance.</p>
+                                clean appearance. See more identification tips in our <a href="/visitors">visitor database</a>.</p>
                         </div>
 
                         <div class="trait-card">
                             <div class="trait-icon">👁️</div>
                             <h3>Severely Bloodshot Eyes</h3>
                             <p>Eyes that are intensely red and bloodshot, more severe than normal tiredness or stress.
-                            </p>
+                                Learn more about visitor characteristics in our database.</p>
                         </div>
 
                         <div class="trait-card">
@@ -376,7 +376,7 @@
                     <div class="section-header">
                         <h2 class="home-title">Essential Survival Strategies</h2>
                         <p class="section-subtitle">Critical rules and advanced tips to survive the paranoid nightmare
-                            with our "No I'm Not a Human Guides"</p>
+                            with our "No I'm Not a Human Guides". Learn more about <a href="/endings">game endings</a>.</p>
                     </div>
 
                     <div class="critical-rule">
@@ -393,7 +393,7 @@
                             <p>This means you cannot eliminate every guest, even if you suspect them. Always maintain at
                                 least one confirmed human guest for the <strong>Night 4</strong> encounter. Our "No I'm
                                 Not a Human Guides" emphasize this critical rule. Being alone when the Intruder arrives
-                                results in <strong>immediate game over</strong>.</p>
+                                results in <strong>immediate game over</strong>. Learn more about <a href="/endings">all possible endings</a>.</p>
                         </div>
                     </div>
 
@@ -409,7 +409,7 @@
                                 <ul>
                                     <li>Always exhaust free conversation options first</li>
                                     <li>Focus investigations on genuinely suspicious behavior</li>
-                                    <li>Don't waste energy on clearly safe "Always Human" characters</li>
+                                    <li>Don't waste energy on clearly safe "Always Human" characters - check our <a href="/visitors">visitor database</a></li>
                                     <li>Save energy for unexpected late-day arrivals</li>
                                 </ul>
                             </div>
@@ -418,7 +418,7 @@
                                 <h4>Risk Management:</h4>
                                 <ul>
                                     <li>Eliminate confirmed Visitors immediately</li>
-                                    <li>Keep one confirmed human for Night 4 safety</li>
+                                    <li>Keep one confirmed human for Night 4 safety - essential for <a href="/endings">good endings</a></li>
                                     <li>Monitor guest interactions for behavioral changes</li>
                                     <li>Trust patterns over single suspicious incidents</li>
                                 </ul>
@@ -434,7 +434,7 @@
                             <div class="mistakes-list">
                                 <div class="mistake-item">
                                     <h4>Eliminating all guests:</h4>
-                                    <p>This guarantees death on Night 4 when the Intruder arrives</p>
+                                    <p>This guarantees death on Night 4 when the Intruder arrives - leads to <a href="/endings">bad endings</a></p>
                                 </div>
                                 <div class="mistake-item">
                                     <h4>Relying on single traits:</h4>
@@ -487,8 +487,47 @@ const scrollToSection = (sectionId) => {
 }
 
 .section.hero {
-    padding: 100px 0 0 0;
+    padding: 100px 0 40px 0;
     background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.section.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/about-img.webp');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.section.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, 
+        rgba(0, 0, 0, 1) 0%, 
+        rgba(0, 0, 0, 1) 40%, 
+        rgba(0, 0, 0, 0.8) 55%, 
+        rgba(0, 0, 0, 0.4) 70%, 
+        rgba(0, 0, 0, 0.1) 85%, 
+        rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+}
+
+.section.hero .container {
+    position: relative;
+    z-index: 3;
 }
 
 /* Hero Banner */
@@ -646,20 +685,6 @@ const scrollToSection = (sectionId) => {
     z-index: 3;
 }
 
-/* Section Wrappers */
-.section.hero .hero-wrapper {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(8px);
-    border-radius: 15px;
-    padding: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
-
 .mechanics-wrapper,
 .energy-wrapper,
 .guests-wrapper,
@@ -678,7 +703,38 @@ const scrollToSection = (sectionId) => {
     z-index: 2;
 }
 
-/* Game Flow Stages */
+/* 各板块差异化边框和阴影效果 */
+.mechanics-wrapper {
+    border: 1px solid rgba(0, 150, 0, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 150, 0, 0.1), 
+                inset 0 1px 0 rgba(0, 200, 0, 0.1);
+}
+
+.energy-wrapper {
+    border: 1px solid rgba(255, 100, 0, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 100, 0, 0.1), 
+                inset 0 1px 0 rgba(255, 150, 0, 0.1);
+}
+
+.guests-wrapper {
+    border: 1px solid rgba(150, 0, 200, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(150, 0, 200, 0.1), 
+                inset 0 1px 0 rgba(200, 0, 255, 0.1);
+}
+
+.identification-wrapper {
+    border: 1px solid rgba(200, 0, 0, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 0, 0, 0.1), 
+                inset 0 1px 0 rgba(255, 0, 0, 0.1);
+}
+
+.survival-wrapper {
+    border: 1px solid rgba(0, 100, 200, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 100, 200, 0.1), 
+                inset 0 1px 0 rgba(0, 150, 255, 0.1);
+}
+
+/* Game Flow Stages - 学习阶段绿色主题 */
 .flow-stages {
     display: flex;
     justify-content: center;
@@ -688,19 +744,21 @@ const scrollToSection = (sectionId) => {
 }
 
 .stage-card {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 20, 0, 0.6);
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 150, 0, 0.3);
     border-radius: 15px;
     padding: 25px;
     text-align: center;
     transition: all 0.3s ease;
     flex: 1;
+    box-shadow: 0 8px 25px rgba(0, 100, 0, 0.1), inset 0 1px 0 rgba(0, 200, 0, 0.1);
 }
 
 .stage-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 150, 0, 0.2), inset 0 1px 0 rgba(0, 250, 0, 0.2);
+    border-color: rgba(0, 200, 0, 0.5);
 }
 
 .stage-icon {
@@ -973,7 +1031,7 @@ const scrollToSection = (sectionId) => {
     line-height: 1.5;
 }
 
-/* Energy Section */
+/* Energy Section - 能量管理橙红色主题 */
 .energy-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -981,19 +1039,19 @@ const scrollToSection = (sectionId) => {
 }
 
 .energy-card {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(20, 5, 0, 0.6);
     backdrop-filter: blur(8px);
     padding: 30px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 255, 136, 0.3);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 255, 136, 0.1);
+    border: 1px solid rgba(255, 100, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 150, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 .energy-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(0, 255, 136, 0.5);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 255, 136, 0.2);
+    border-color: rgba(255, 150, 0, 0.5);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 100, 0, 0.2);
 }
 
 .energy-costs {
@@ -1046,7 +1104,7 @@ const scrollToSection = (sectionId) => {
     line-height: 1.5;
 }
 
-/* Guests Section */
+/* Guests Section - 访客交互紫色主题 */
 .guests-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1054,13 +1112,13 @@ const scrollToSection = (sectionId) => {
 }
 
 .guest-card {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(10, 0, 20, 0.6);
     backdrop-filter: blur(8px);
     padding: 25px;
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 255, 136, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(150, 0, 200, 0.1);
 }
 
 .guest-card.always-human {
@@ -1128,13 +1186,26 @@ const scrollToSection = (sectionId) => {
 
 /* Identification Section */
 .warning-box {
-    background: #331a1a;
-    border: 1px solid #4a2c2c;
-    border-radius: 8px;
+    background: rgba(200, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    border-radius: 12px;
     padding: 20px;
     margin-bottom: 40px;
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15), inset 0 1px 0 rgba(255, 50, 0, 0.2);
+    position: relative;
+}
+
+.warning-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 0, 0, 0.05) 50%, transparent 70%);
+    border-radius: 12px;
+    pointer-events: none;
 }
 
 .warning-title {
@@ -1183,20 +1254,20 @@ const scrollToSection = (sectionId) => {
 }
 
 .trait-card {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(20, 0, 0, 0.6);
     backdrop-filter: blur(8px);
     padding: 25px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 255, 136, 0.3);
+    border: 1px solid rgba(200, 0, 0, 0.3);
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 255, 136, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 0, 0, 0.1);
 }
 
 .trait-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(0, 255, 136, 0.5);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 255, 136, 0.2);
+    border-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(200, 0, 0, 0.2);
 }
 
 .trait-icon {
@@ -1219,13 +1290,26 @@ const scrollToSection = (sectionId) => {
 
 /* Survival Section */
 .critical-rule {
-    background: #331a1a;
-    border: 1px solid #4a2c2c;
-    border-radius: 8px;
+    background: rgba(200, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    border-radius: 12px;
     padding: 20px;
     margin-bottom: 40px;
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15), inset 0 1px 0 rgba(255, 50, 0, 0.2);
+    position: relative;
+}
+
+.critical-rule::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 0, 0, 0.05) 50%, transparent 70%);
+    border-radius: 12px;
+    pointer-events: none;
 }
 
 .rule-title {
@@ -1279,19 +1363,19 @@ const scrollToSection = (sectionId) => {
 }
 
 .strategy-column {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 5, 20, 0.6);
     backdrop-filter: blur(8px);
     padding: 30px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 255, 136, 0.3);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 255, 136, 0.1);
+    border: 1px solid rgba(0, 100, 200, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 150, 255, 0.1);
     transition: all 0.3s ease;
 }
 
 .strategy-column:hover {
     transform: translateY(-5px);
-    border-color: rgba(0, 255, 136, 0.5);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 255, 136, 0.2);
+    border-color: rgba(0, 150, 255, 0.5);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 100, 200, 0.2);
 }
 
 .strategy-header {
@@ -1359,25 +1443,136 @@ const scrollToSection = (sectionId) => {
     line-height: 1.5;
 }
 
-/* Section Backgrounds */
+/* Section Backgrounds - 恐怖主题差异化颜色 */
 .section.mechanics {
-    background: #0a0a0a;
+    background: linear-gradient(135deg, #0d1b0d 0%, #0a0a0a 50%, #0d1b0d 100%);
+    position: relative;
+}
+
+.section.mechanics::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 80%, rgba(0, 100, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 150, 0, 0.05) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .section.energy {
-    background: #111111;
+    background: linear-gradient(135deg, #1a0d0d 0%, #111111 50%, #1a0d0d 100%);
+    position: relative;
+}
+
+.section.energy::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 70%, rgba(255, 100, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 30%, rgba(255, 50, 0, 0.05) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .section.guests {
-    background: #0a0a0a;
+    background: linear-gradient(135deg, #0d0d1a 0%, #0a0a0a 50%, #0d0d1a 100%);
+    position: relative;
+}
+
+.section.guests::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 40% 60%, rgba(100, 0, 150, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 60% 40%, rgba(150, 0, 200, 0.05) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .section.identification {
-    background: #111111;
+    background: linear-gradient(135deg, #1a0d0d 0%, #111111 50%, #1a0d0d 100%);
+    position: relative;
+}
+
+.section.identification::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 25% 75%, rgba(200, 0, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 25%, rgba(150, 0, 0, 0.06) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .section.survival {
-    background: #0a0a0a;
+    background: linear-gradient(135deg, #0d0d1a 0%, #0a0a0a 50%, #0d0d1a 100%);
+    position: relative;
+}
+
+.section.survival::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 35% 65%, rgba(0, 50, 150, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 65% 35%, rgba(0, 100, 200, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* Link Styles */
+a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+/* Special styling for links in different contexts */
+.hero-description a,
+.section-subtitle a,
+.night-description a,
+.guest-card a,
+.trait-card a,
+.strategy-section a,
+.mistake-item a,
+.rule-content a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.hero-description a:hover,
+.section-subtitle a:hover,
+.night-description a:hover,
+.guest-card a:hover,
+.trait-card a:hover,
+.strategy-section a:hover,
+.mistake-item a:hover,
+.rule-content a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
 }
 
 /* Responsive Design - 1024px */
@@ -1387,11 +1582,7 @@ const scrollToSection = (sectionId) => {
     }
 
     .section.hero {
-        padding-top: 100px;
-    }
-
-    .section.hero .hero-wrapper {
-        padding: 20px;
+        padding: 100px 0 2 0;
     }
 
     .hero-banner {
@@ -1486,12 +1677,7 @@ const scrollToSection = (sectionId) => {
     }
 
     .section.hero {
-        padding-top: 70px;
-        padding-bottom: 20px;
-    }
-
-    .section.hero .hero-wrapper {
-        padding: 10px;
+        padding: 70px 0 20px 0;
     }
 
     .hero-banner {

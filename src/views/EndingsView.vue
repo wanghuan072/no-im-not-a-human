@@ -8,13 +8,13 @@
                 <div class="hero-wrapper">
                     <!-- Main Title -->
                     <h1 class="hero-title">
-                        <span class="highlight">No I'm Not a Human Endings Guide</span>
+                        <span class="highlight">No I'm Not a Human Endings</span>
                     </h1>
 
                     <!-- Description -->
                     <div class="hero-description">
                         <p>Discover all possible endings in the psychological horror experience. Our comprehensive <span
-                                class="highlight-text">"No I'm Not a Human Endings Guide"</span> reveals every path, condition, and consequence in this apocalyptic nightmare.</p>
+                                class="highlight-text">"No I'm Not a Human Endings"</span> reveals every path, condition, and consequence in this apocalyptic nightmare. For complete game guides, visit our <a href="/guides">strategy section</a> or explore our <a href="/">game features</a>.</p>
                     </div>
 
                     <!-- Ending Summary Stats -->
@@ -46,7 +46,7 @@
                 <div class="endings-wrapper">
                     <div class="section-header">
                         <h2 class="home-title">All Game Endings</h2>
-                        <p class="section-subtitle">Explore every possible outcome in your survival journey with our "No I'm Not a Human Endings Guide"</p>
+                        <p class="section-subtitle">Explore every possible outcome in your survival journey with our "No I'm Not a Human Endings". Learn about <a href="/visitors">visitor identification</a> and <a href="/guides">survival strategies</a>.</p>
                     </div>
 
                     <!-- Primary Endings Grid -->
@@ -54,7 +54,6 @@
                         <!-- Best Ending -->
                         <div class="ending-card best-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">🏆</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Best Ending</h3>
                                     <p class="ending-subtitle">The Ultimate Achievement</p>
@@ -65,8 +64,8 @@
                                 <div class="conditions-section">
                                     <h4>Conditions to Achieve:</h4>
                                     <ul class="conditions-list">
-                                        <li>Only allow confirmed human guests into your house</li>
-                                        <li>Ensure no Visitors are ever admitted</li>
+                                        <li>Only allow confirmed human guests into your house - check our <a href="/visitors">visitor database</a></li>
+                                        <li>Ensure no <a href="/visitors">Visitors</a> are ever admitted</li>
                                         <li>Maintain this perfect record through all 5 days</li>
                                         <li>Reach Day 5 ending with only humans present</li>
                                     </ul>
@@ -81,7 +80,6 @@
                         <!-- Good Ending -->
                         <div class="ending-card good-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">✅</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Good Ending</h3>
                                     <p class="ending-subtitle">Hopeful Survival</p>
@@ -92,8 +90,8 @@
                                 <div class="conditions-section">
                                     <h4>Conditions to Achieve:</h4>
                                     <ul class="conditions-list">
-                                        <li>End Day 5 with only human guests in your house</li>
-                                        <li>You may have admitted some Visitors but eliminated them</li>
+                                        <li>End Day 5 with only human guests in your house - learn <a href="/guides">survival techniques</a></li>
+                                        <li>You may have admitted some <a href="/visitors">Visitors</a> but eliminated them</li>
                                         <li>At least one human guest must remain</li>
                                         <li>No active Visitors present at the end</li>
                                     </ul>
@@ -108,7 +106,6 @@
                         <!-- Bad Ending -->
                         <div class="ending-card bad-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">❌</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Bad Ending</h3>
                                     <p class="ending-subtitle">Overwhelmed by Numbers</p>
@@ -119,7 +116,7 @@
                                 <div class="conditions-section">
                                     <h4>Conditions to Achieve:</h4>
                                     <ul class="conditions-list">
-                                        <li>Have 3 or more guests in your house at the end of Day 5</li>
+                                        <li>Have 3 or more guests in your house at the end of Day 5 - understand <a href="/guides">guest management</a></li>
                                         <li>This includes any combination of humans and Visitors</li>
                                         <li>Too many people creates chaos and danger</li>
                                         <li>Your shelter becomes compromised</li>
@@ -135,7 +132,6 @@
                         <!-- Massacre Ending -->
                         <div class="ending-card massacre-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">💀</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Massacre Ending</h3>
                                     <p class="ending-subtitle">Violence Begets Violence</p>
@@ -162,7 +158,6 @@
                         <!-- Intruder Ending -->
                         <div class="ending-card intruder-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">👻</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Intruder Ending</h3>
                                     <p class="ending-subtitle">Alone in the Dark</p>
@@ -173,7 +168,7 @@
                                 <div class="conditions-section">
                                     <h4>Conditions to Achieve:</h4>
                                     <ul class="conditions-list">
-                                        <li>Be alone in your house when the Intruder arrives</li>
+                                        <li>Be alone in your house when the Intruder arrives - avoid this with our <a href="/guides">Night 4 guide</a></li>
                                         <li>The shirtless visitor appears and asks if you're alone</li>
                                         <li>Have no guests present to lie about</li>
                                         <li>Results in immediate game over</li>
@@ -189,7 +184,6 @@
                         <!-- Speedrun Ending -->
                         <div class="ending-card speedrun-ending">
                             <div class="ending-header">
-                                <div class="ending-icon">⚡</div>
                                 <div class="ending-title-section">
                                     <h3 class="ending-title">Speedrun Ending</h3>
                                     <p class="ending-subtitle">Life Lived Too Fast</p>
@@ -223,20 +217,19 @@
                 <div class="strategy-wrapper">
                     <div class="section-header">
                         <h2 class="home-title">How to Achieve Each Ending</h2>
-                        <p class="section-subtitle">Detailed strategies and tips for unlocking every ending with our "No I'm Not a Human Endings Guide"</p>
+                        <p class="section-subtitle">Detailed strategies and tips for unlocking every ending with our "No I'm Not a Human Endings". Master the <a href="/guides">core gameplay</a> first.</p>
                     </div>
 
                     <div class="strategy-grid">
                         <!-- Best Ending Strategy -->
                         <div class="strategy-card best-strategy">
                             <div class="strategy-header">
-                                <div class="strategy-icon">🏆</div>
                                 <h3>Achieving the Best Ending</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
                                     <h4>Perfect Guest Selection:</h4>
-                                    <p>Only admit the 'Always Human' characters: Tall Man, Neighbor's Daughter, Burned Man, and Mourning Widow. Never take risks with variable characters.</p>
+                                    <p>Only admit the 'Always Human' characters: Tall Man, Neighbor's Daughter, Burned Man, and Mourning Widow. Check our <a href="/visitors">visitor database</a> for safe characters.</p>
                                 </div>
                                 <div class="strategy-point">
                                     <h4>Thorough Investigation:</h4>
@@ -252,17 +245,16 @@
                         <!-- Good Ending Strategy -->
                         <div class="strategy-card good-strategy">
                             <div class="strategy-header">
-                                <div class="strategy-icon">✅</div>
                                 <h3>Good Ending Strategy</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
                                     <h4>Careful Visitor Management:</h4>
-                                    <p>You can admit some Visitors during the game, but eliminate them before Day 5 ends. Focus on ending with only humans.</p>
+                                    <p>You can admit some <a href="/visitors">Visitors</a> during the game, but eliminate them before Day 5 ends. Focus on ending with only humans.</p>
                                 </div>
                                 <div class="strategy-point">
                                     <h4>Strategic Eliminations:</h4>
-                                    <p>When you confirm a guest is a Visitor, eliminate them immediately but avoid killing more than one per day to prevent Massacre Ending.</p>
+                                    <p>When you confirm a guest is a <a href="/visitors">Visitor</a>, eliminate them immediately but avoid killing more than one per day to prevent Massacre Ending.</p>
                                 </div>
                             </div>
                         </div>
@@ -270,17 +262,16 @@
                         <!-- Endings to Avoid -->
                         <div class="strategy-card avoid-strategy">
                             <div class="strategy-header">
-                                <div class="strategy-icon">⚠️</div>
                                 <h3>Endings to Avoid (Unless Intentional)</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="avoid-ending">
                                     <h4 class="bad-ending-text">Bad Ending</h4>
-                                    <p>Avoid having 3+ total guests on Day 5. Manage your guest count carefully.</p>
+                                    <p>Avoid having 3+ total guests on Day 5. Learn <a href="/guides">guest management</a> strategies.</p>
                                 </div>
                                 <div class="avoid-ending">
                                     <h4 class="massacre-ending-text">Massacre Ending</h4>
-                                    <p>Never kill 2+ guests in one day. Spread eliminations across multiple days.</p>
+                                    <p>Never kill 2+ guests in one day. Follow our <a href="/guides">elimination strategies</a>.</p>
                                 </div>
                                 <div class="avoid-ending">
                                     <h4 class="intruder-ending-text">Intruder Ending</h4>
@@ -299,13 +290,12 @@
                 <div class="tips-wrapper">
                     <div class="section-header">
                         <h2 class="home-title">Ending Unlock Tips</h2>
-                        <p class="section-subtitle">Master the art of survival with our comprehensive "No I'm Not a Human Endings Guide"</p>
+                        <p class="section-subtitle">Master the art of survival with our comprehensive "No I'm Not a Human Endings". Start with our <a href="/guides">beginner guide</a>.</p>
                     </div>
 
                     <div class="tips-grid">
                         <div class="tips-card">
                             <div class="tips-header">
-                                <div class="tips-icon">💡</div>
                                 <h3>General Advice</h3>
                             </div>
                             <div class="tips-content">
@@ -320,7 +310,6 @@
 
                         <div class="tips-card">
                             <div class="tips-header">
-                                <div class="tips-icon">🎯</div>
                                 <h3>Unlock Strategy</h3>
                             </div>
                             <div class="tips-content">
@@ -347,37 +336,120 @@ import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <style scoped>
-.endings-page {
-    min-height: 100vh;
-    background: #000;
-    color: #fff;
-    padding-top: 80px;
+/* Link Styles */
+a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
 }
 
-/* Hero Section */
-.section.hero {
-    background: #0a0a0a;
-    padding: 80px 0;
-    text-align: center;
+a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
 }
+
+/* Special styling for links in different contexts */
+.hero-description a,
+.section-subtitle a,
+.conditions-list a,
+.strategy-content a,
+.tips-content a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.hero-description a:hover,
+.section-subtitle a:hover,
+.conditions-list a:hover,
+.strategy-content a:hover,
+.tips-content a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+.section {
+    position: relative;
+    padding: 80px 0;
+    background: #000;
+}
+
+.section.hero {
+    padding: 100px 0 40px 0;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.section.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/about-img.webp');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.section.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, 
+        rgba(0, 0, 0, 1) 0%, 
+        rgba(0, 0, 0, 1) 40%, 
+        rgba(0, 0, 0, 0.8) 55%, 
+        rgba(0, 0, 0, 0.4) 70%, 
+        rgba(0, 0, 0, 0.1) 85%, 
+        rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+}
+
+.section.hero .container {
+    position: relative;
+    z-index: 3;
+}
+
 
 .hero-title {
-    font-family: 'Creepster', cursive;
-    font-size: 48px;
-    color: #00ff88;
-    text-shadow: 0 0 10px #00ff88;
-    margin-bottom: 30px;
-    font-weight: normal;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    line-height: 1.2;
 }
 
 .hero-title .highlight {
+    font-family: 'Creepster', cursive;
     color: #00ff88;
     text-shadow: 0 0 10px #00ff88;
+    font-weight: normal;
 }
 
 .hero-description {
-    max-width: 800px;
-    margin: 0 auto 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
 }
 
 .hero-description p {
@@ -430,8 +502,69 @@ import AppFooter from '@/components/AppFooter.vue'
 
 /* Main Endings Section */
 .section.main-endings {
-    background: #111111;
-    padding: 80px 0;
+    background: linear-gradient(135deg, #0d0d1a 0%, #111111 50%, #0d0d1a 100%);
+    position: relative;
+}
+
+.section.main-endings::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 70%, rgba(100, 0, 150, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 30%, rgba(150, 0, 200, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* Wrapper Styles with Theme Colors */
+.endings-wrapper {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(150, 0, 200, 0.1);
+    border: 1px solid rgba(150, 0, 200, 0.3);
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(150, 0, 200, 0.1), 
+                inset 0 1px 0 rgba(200, 0, 255, 0.1);
+}
+
+.strategy-wrapper {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 0, 0, 0.1);
+    border: 1px solid rgba(200, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 0, 0, 0.1), 
+                inset 0 1px 0 rgba(255, 0, 0, 0.1);
+}
+
+.tips-wrapper {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 100, 200, 0.1);
+    border: 1px solid rgba(0, 100, 200, 0.3);
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 100, 200, 0.1), 
+                inset 0 1px 0 rgba(0, 150, 255, 0.1);
 }
 
 .section-header {
@@ -446,6 +579,7 @@ import AppFooter from '@/components/AppFooter.vue'
     text-shadow: 0 0 10px #00ff88;
     margin-bottom: 20px;
     font-weight: normal;
+    text-align: center;
 }
 
 .section-subtitle {
@@ -563,11 +697,6 @@ import AppFooter from '@/components/AppFooter.vue'
     gap: 15px;
 }
 
-.ending-icon {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .ending-title-section {
     flex: 1;
 }
@@ -656,8 +785,20 @@ import AppFooter from '@/components/AppFooter.vue'
 
 /* Strategy Guide Section */
 .section.strategy-guide {
-    background: #0a0a0a;
-    padding: 80px 0;
+    background: linear-gradient(135deg, #1a0d0d 0%, #0a0a0a 50%, #1a0d0d 100%);
+    position: relative;
+}
+
+.section.strategy-guide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 25% 75%, rgba(200, 0, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 25%, rgba(150, 0, 0, 0.06) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .strategy-grid {
@@ -684,10 +825,6 @@ import AppFooter from '@/components/AppFooter.vue'
     align-items: center;
     gap: 15px;
     margin-bottom: 25px;
-}
-
-.strategy-icon {
-    font-size: 28px;
 }
 
 .strategy-header h3 {
@@ -741,8 +878,20 @@ import AppFooter from '@/components/AppFooter.vue'
 
 /* Tips Section */
 .section.tips-section {
-    background: #111111;
-    padding: 80px 0;
+    background: linear-gradient(135deg, #0d0d1a 0%, #111111 50%, #0d0d1a 100%);
+    position: relative;
+}
+
+.section.tips-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 35% 65%, rgba(0, 50, 150, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 65% 35%, rgba(0, 100, 200, 0.05) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .tips-grid {
@@ -769,10 +918,6 @@ import AppFooter from '@/components/AppFooter.vue'
     align-items: center;
     gap: 15px;
     margin-bottom: 25px;
-}
-
-.tips-icon {
-    font-size: 28px;
 }
 
 .tips-header h3 {
@@ -803,56 +948,182 @@ import AppFooter from '@/components/AppFooter.vue'
     font-weight: bold;
 }
 
-/* Responsive Design */
+/* Responsive Design - 1024px */
 @media (max-width: 1024px) {
-    .endings-grid {
-        grid-template-columns: 1fr;
+    .section {
+        padding: 40px 0;
     }
-    
-    .strategy-grid {
-        grid-template-columns: 1fr;
+
+    .section.hero {
+        padding: 100px 0 20px 0;
     }
-    
-    .tips-grid {
-        grid-template-columns: 1fr;
+
+    .section.hero .hero-wrapper {
+        padding: 20px;
     }
-    
+
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-description p {
+        font-size: 17px;
+    }
+
+    .home-title {
+        font-size: 24px;
+    }
+
     .ending-stats {
         grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .stat-number {
+        font-size: 28px;
+    }
+
+    .stat-label {
+        font-size: 12px;
+    }
+
+    .endings-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .ending-card {
+        padding: 20px;
+    }
+
+    .ending-title {
+        font-size: 18px;
+    }
+
+    .ending-subtitle {
+        font-size: 12px;
+    }
+
+    .strategy-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .strategy-card {
+        padding: 20px;
+    }
+
+    .strategy-header h3 {
+        font-size: 18px;
+    }
+
+    .strategy-point h4 {
+        font-size: 14px;
+    }
+
+    .strategy-point p {
+        font-size: 13px;
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tips-card {
+        padding: 20px;
+    }
+
+    .tips-header h3 {
+        font-size: 18px;
+    }
+
+    .tips-list li {
+        font-size: 13px;
     }
 }
 
 @media (max-width: 768px) {
-    .hero-title {
-        font-size: 32px;
+    .section {
+        padding: 20px 0;
     }
-    
+
+    .section.hero {
+        padding: 70px 0 20px 0;
+    }
+
+    .section.hero .hero-wrapper {
+        padding: 10px 0;
+    }
+
+
+    .hero-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .hero-description {
+        margin-bottom: 20px;
+    }
+
+    .hero-description p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
     .home-title {
-        font-size: 32px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .section-subtitle {
+        font-size: 12px;
     }
     
     .ending-stats {
-        grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 10px;
+    }
+
+    .section-header{
+        margin-bottom: 20px;
     }
     
     .stat-card {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .stat-number{
+        font-size: 24px;
+        margin-bottom: 5px;
     }
     
     .ending-card {
-        padding: 20px;
+        padding: 10px;
+    }
+
+    .conditions-list li{
+        font-size: 12px;
+    }
+
+    .description-section p{
+        font-size: 12px;
     }
     
     .strategy-card,
     .tips-card {
-        padding: 20px;
+        padding: 10px;
     }
     
     .ending-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+        margin-bottom: 10px;
     }
     
     .strategy-header,
@@ -860,6 +1131,7 @@ import AppFooter from '@/components/AppFooter.vue'
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+        margin-bottom: 10px;
     }
 }
 </style>

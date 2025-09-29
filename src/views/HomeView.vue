@@ -24,16 +24,16 @@
                     </h1>
                     <div class="hero-description">
                         <p>Dive deep into the world of this acclaimed psychological horror game. We provide the most
-                            comprehensive No I'm not a Human guides, detailed system requirement analysis, secure
-                            download channels, and professional gaming tutorials. Whether you're a newcomer or a veteran
-                            player seeking to collect all endings, you'll find everything you need here.</p>
+                            comprehensive <a href="/guides">No I'm not a Human guides</a>, detailed system requirement analysis, secure
+                            <a href="/download">download channels</a>, and professional gaming tutorials. Whether you're a newcomer or a veteran
+                            player seeking to collect <a href="/endings">all endings</a>, you'll find everything you need here.</p>
                     </div>
                     <div class="hero-buttons">
                         <a href="https://store.steampowered.com/" target="_blank" class="btn btn-primary btn-download">
                             <span class="btn-icon">⬇️</span>
                             <span>Download Game Now</span>
                         </a>
-                        <a href="#" class="btn btn-secondary btn-guide">
+                        <a href="/guides" class="btn btn-secondary btn-guide">
                             <span class="btn-icon">📖</span>
                             <span>Start Learning Guides</span>
                         </a>
@@ -90,7 +90,7 @@
                             <h3 class="subsection-title">The Challenge</h3>
                             <p>You play as a survivor barricaded in an apartment, trying to last until... what? Rescue?
                                 A solution? Or simply one more day? Your survival depends on identifying who is human
-                                and who is a visitor. Every decision is critical, as letting in the wrong person could
+                                and who is a <a href="/visitors">visitor</a>. Every decision is critical, as letting in the wrong person could
                                 be fatal. The game explores themes of trust, paranoia, and survival in extreme
                                 circumstances, where the greatest threat might be the person you choose to help.</p>
                         </div>
@@ -103,7 +103,7 @@
                     <div class="features-grid">
                         <div class="feature-card">
                             <h3>Complex Multi-Branching Ending System</h3>
-                            <p>No I'm not a Human features over 15 different ending paths, where each player's choice
+                            <p>No I'm not a Human features over 15 different <a href="/endings">ending paths</a>, where each player's choice
                                 creates a butterfly effect, influencing the story's final direction. This design makes
                                 every gameplay experience unique, greatly enhancing the game's replay value and
                                 exploration fun.</p>
@@ -112,7 +112,7 @@
                             <h3>Three-Night Progressive Horror Challenge</h3>
                             <p>The game cleverly divides the horror experience into three nights, with each night's
                                 difficulty and complexity increasing progressively. Players need to learn to identify
-                                real and fake visitors, master survival skills, and make correct judgments under
+                                real and fake <a href="/visitors">visitors</a>, master <a href="/guides">survival skills</a>, and make correct judgments under
                                 pressure.</p>
                         </div>
                         <div class="feature-card">
@@ -138,7 +138,7 @@
                             <div class="why-image">
                                 <img src="/images/why-01.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3>Complete Walkthrough</h3>
+                            <h3><a href="/guides">Complete Walkthrough</a></h3>
                             <p>Day-by-day survival strategy including critical Night 4 Intruder survival and guest
                                 management techniques for optimal gameplay.</p>
                         </div>
@@ -146,7 +146,7 @@
                             <div class="why-image">
                                 <img src="/images/why-02.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3>All Endings Guide</h3>
+                            <h3><a href="/endings">All Endings Guide</a></h3>
                             <p>Unlock every possible outcome with step-by-step achievement guides and decision trees for
                                 all six different endings.</p>
                         </div>
@@ -154,7 +154,7 @@
                             <div class="why-image">
                                 <img src="/images/why-03.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3>Expert Strategies</h3>
+                            <h3><a href="/guides">Expert Strategies</a></h3>
                             <p>Advanced tips for energy efficiency, guest prioritization, and avoiding fatal mistakes
                                 that lead to game over.</p>
                         </div>
@@ -162,8 +162,8 @@
                             <div class="why-image">
                                 <img src="/images/why-04.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3>Psychological Warfare Guide</h3>
-                            <p>Master stress management, visitor psychological analysis, and decision-making techniques
+                            <h3><a href="/wiki">Psychological Warfare Guide</a></h3>
+                            <p>Master stress management, <a href="/visitors">visitor psychological analysis</a>, and decision-making techniques
                                 to maintain sanity and judgment in this paranoid world.</p>
                         </div>
                     </div>
@@ -181,34 +181,34 @@
                         of this intense horror survival adventure.</p>
                     <div class="guide-grid">
                         <div class="guide-card">
-                            <h3>Visitor Identification Guide</h3>
-                            <p>Comprehensive guide to detecting dangerous Visitors through physical traits, behavioral
+                            <h3><a href="/guides">Visitor Identification Guide</a></h3>
+                            <p>Comprehensive guide to detecting dangerous <a href="/visitors">Visitors</a> through physical traits, behavioral
                                 patterns, and investigation techniques. Master survival strategies with detailed
                                 identification methods.</p>
                         </div>
                         <div class="guide-card">
-                            <h3>All 6 Endings Walkthrough</h3>
+                            <h3><a href="/endings">All 6 Endings Walkthrough</a></h3>
                             <p>Step-by-step guides to unlock every ending including the secret best ending with detailed
                                 choice explanations and survival strategies. Complete walkthrough for all six possible
                                 outcomes.</p>
                         </div>
                         <div class="guide-card">
-                            <h3>Energy Management System</h3>
+                            <h3><a href="/guides">Energy Management System</a></h3>
                             <p>Master the energy-based investigation system with optimization strategies for maximum
                                 efficiency.</p>
                         </div>
                         <div class="guide-card">
-                            <h3>Survival Strategies</h3>
+                            <h3><a href="/guides">Survival Strategies</a></h3>
                             <p>Advanced tips for shelter management, guest prioritization, and avoiding fatal mistakes
                                 in gameplay.</p>
                         </div>
                         <div class="guide-card">
-                            <h3>Achievement Guide</h3>
+                            <h3><a href="/endings">Achievement Guide</a></h3>
                             <p>Complete achievement hunting guide with requirements and unlock strategies for 100%
                                 completion.</p>
                         </div>
                         <div class="guide-card">
-                            <h3>Night 4 Intruder Guide</h3>
+                            <h3><a href="/guides">Night 4 Intruder Guide</a></h3>
                             <p>Critical survival strategies for the most challenging night including intruder detection
                                 and defense.</p>
                         </div>
@@ -229,7 +229,7 @@
                                 <h3 class="faq-question">What is No I'm not a Human?</h3>
                                 <p class="faq-answer">No I'm not a Human is a psychological horror visual novel where
                                     extreme solar activity has made daytime survival impossible. You must survive the
-                                    night by identifying dangerous Visitors disguised as humans seeking shelter in your
+                                    night by identifying dangerous <a href="/visitors">Visitors</a> disguised as humans seeking shelter in your
                                     apartment, making critical decisions that determine your fate.</p>
                             </div>
                             <div class="faq-item">
@@ -242,7 +242,7 @@
                                 <h3 class="faq-question">How does the energy system work?</h3>
                                 <p class="faq-answer">You have limited daily energy for investigating guests. Each
                                     inspection of body parts, conversation, or action costs energy. You can eat, drink,
-                                    or rest to pass time, but must balance investigation needs with energy conservation.
+                                    or rest to pass time, but must balance investigation needs with energy conservation. For detailed strategies, check our <a href="/guides">complete guides</a>.
                                 </p>
                             </div>
                             <div class="faq-item">
@@ -254,8 +254,8 @@
                             </div>
                             <div class="faq-item">
                                 <h3 class="faq-question">How many endings are there?</h3>
-                                <p class="faq-answer">The game features multiple endings based on your choices and
-                                    interactions with visitors. Each playthrough can lead to different outcomes
+                                <p class="faq-answer">The game features multiple <a href="/endings">endings</a> based on your choices and
+                                    interactions with <a href="/visitors">visitors</a>. Each playthrough can lead to different outcomes
                                     depending on how you handle the mysterious visitors and manage your survival
                                     strategy.</p>
                             </div>
@@ -263,7 +263,7 @@
                                 <h3 class="faq-question">Where can I play it?</h3>
                                 <p class="faq-answer">No I'm not a Human is available on Steam for Windows PC. Console
                                     versions are planned for future release. A demo is available on Steam for players to
-                                    try before purchasing.</p>
+                                    try before purchasing. Check our <a href="/download">download page</a> for system requirements and platform compatibility.</p>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                     <div class="cta-buttons">
                         <a href="https://store.steampowered.com/" target="_blank" class="btn btn-primary btn-large">Play
                             on Steam</a>
-                        <a href="#" class="btn btn-secondary btn-large">Try Free Demo</a>
+                        <a href="/download" class="btn btn-secondary btn-large">Try Free Demo</a>
                     </div>
                 </div>
             </div>
@@ -1134,6 +1134,65 @@ const playVideo = () => {
         padding: 16px 32px;
         font-size: 16px;
     }
+}
+
+/* Link Styles */
+a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+/* Special styling for links in different contexts */
+.hero-description a,
+.about-text a,
+.feature-card a,
+.why-card a,
+.guide-card a,
+.faq-answer a {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.hero-description a:hover,
+.about-text a:hover,
+.feature-card a:hover,
+.why-card a:hover,
+.guide-card a:hover,
+.faq-answer a:hover {
+    color: #00cc66;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+/* Title links should inherit title styling */
+.guide-card h3 a,
+.why-card h3 a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+}
+
+.guide-card h3 a:hover,
+.why-card h3 a:hover {
+    color: inherit;
+    text-decoration-color: #00cc66;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
 }
 
 /* Responsive Design - 768px Mobile */

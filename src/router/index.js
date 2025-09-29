@@ -22,17 +22,17 @@ const router = createRouter({
     {
       path: '/wiki',
       name: 'wiki',
-      component: () => import('../views/HomeView.vue'),
+      component: () => import('../views/WikiView.vue'),
     },
     {
       path: '/visitors',
       name: 'visitors',
-      component: () => import('../views/HomeView.vue'),
+      component: () => import('../views/VisitorsView.vue'),
     },
     {
       path: '/download',
       name: 'download',
-      component: () => import('../views/HomeView.vue'),
+      component: () => import('../views/DownloadView.vue'),
     },
   ],
 })
