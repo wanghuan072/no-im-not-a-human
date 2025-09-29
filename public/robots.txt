@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://noimnotahuman.org/sitemap.xml
+
+# Disallow certain paths if needed in the future
+# Disallow: /admin/
+# Disallow: /private/
