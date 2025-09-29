@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: '/endings',
       name: 'endings',
-      component: () => import('../views/HomeView.vue'),
+      component: () => import('../views/EndingsView.vue'),
     },
     {
       path: '/wiki',
