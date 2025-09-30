@@ -11,39 +11,33 @@
                         <div class="banner-left">
                             <div class="hot-badge">
                                 <span class="flame-icon">🔥</span>
-                                <span>Hot Recommendation</span>
+                                <span>{{ $t('HomePage.hero.banner.hotBadge') }}</span>
                             </div>
                         </div>
                         <div class="banner-right">
                             <span class="star-icon">✨</span>
-                            <span>No I'm not a Human Complete Guide Now Live - Your Path to Perfect Completion</span>
+                            <span>{{ $t('HomePage.hero.banner.announcement') }}</span>
                         </div>
                     </div>
-                    <h1 class="hero-title">
-                        Master the Ultimate <span class="highlight">No I'm not a Human</span> Strategy Guide
-                    </h1>
+                    <h1 class="hero-title" v-html="$t('HomePage.hero.title', {}, { raw: true })"></h1>
                     <div class="hero-description">
-                        <p>Dive deep into the world of this acclaimed psychological horror game. We provide the most
-                            comprehensive <a href="/guides">No I'm not a Human guides</a>, detailed system requirement analysis, secure
-                            <a href="/download">download channels</a>, and professional gaming tutorials. Whether you're a newcomer or a veteran
-                            player seeking to collect <a href="/endings">all endings</a>, you'll find everything you need here.</p>
+                        <p v-html="$t('HomePage.hero.description', {}, { raw: true })"></p>
                     </div>
                     <div class="hero-buttons">
                         <a href="https://store.steampowered.com/" target="_blank" class="btn btn-primary btn-download">
                             <span class="btn-icon">⬇️</span>
-                            <span>Download Game Now</span>
+                            <span>{{ $t('HomePage.hero.buttons.download') }}</span>
                         </a>
                         <a href="/guides" class="btn btn-secondary btn-guide">
                             <span class="btn-icon">📖</span>
-                            <span>Start Learning Guides</span>
+                            <span>{{ $t('HomePage.hero.buttons.guides') }}</span>
                         </a>
                     </div>
 
                     <!-- Footer Text -->
                     <div class="hero-footer">
-                        <div class="footer-icon">⚡</div>
-                        <p>Expertly crafted by our professional guide team to help you survive and discover all secrets
-                            in the horror world</p>
+                        <div class="footer-icon">{{ $t('HomePage.hero.footer.icon') }}</div>
+                        <p>{{ $t('HomePage.hero.footer.text') }}</p>
                     </div>
                 </div>
             </div>
@@ -53,18 +47,16 @@
         <section class="section video">
             <div class="container">
                 <div class="video-wrapper">
-                    <h2 class="home-title">Watch the Trailer</h2>
+                    <h2 class="home-title">{{ $t('HomePage.video.title') }}</h2>
                     <div class="video-container">
                         <div class="video-overlay" v-if="!videoPlaying" @click="playVideo">
                             <div class="video-poster">
                                 <img src="/images/video-bg.webp" alt="No I'm not a Human Video Poster" />
                                 <div class="video-mask"></div>
                             </div>
-                            <div class="play-button">
-                                <svg class="play-icon" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8 5V19L19 12L8 5Z" fill="currentColor" />
-                                </svg>
+                            <div class="play-text-button" @click.stop="playVideo">
+                                <span class="play-text-icon">{{ $t('HomePage.video.playButton') }}</span>
+                                <span class="play-text-label">{{ $t('HomePage.video.playLabel') }}</span>
                             </div>
                         </div>
                         <iframe v-if="videoPlaying" src="https://www.youtube.com/embed/5aSTaVY0J7I" frameborder="0"
@@ -79,20 +71,13 @@
         <section class="section about">
             <div class="container">
                 <div class="about-wrapper">
-                    <h2 class="home-title">About No I'm not a Human</h2>
+                    <h2 class="home-title">{{ $t('HomePage.about.title') }}</h2>
                     <div class="about-content">
                         <div class="about-text">
-                            <p>As the sun draws closer to Earth, civilization has collapsed. The extreme heat during the
-                                day makes outdoor survival impossible, forcing the remaining population to seek shelter.
-                                But something else emerged in this new world - visitors who can mimic human appearance
-                                and behavior, but whose intentions remain unknown and deadly.</p>
+                            <p>{{ $t('HomePage.about.description') }}</p>
 
-                            <h3 class="subsection-title">The Challenge</h3>
-                            <p>You play as a survivor barricaded in an apartment, trying to last until... what? Rescue?
-                                A solution? Or simply one more day? Your survival depends on identifying who is human
-                                and who is a <a href="/visitors">visitor</a>. Every decision is critical, as letting in the wrong person could
-                                be fatal. The game explores themes of trust, paranoia, and survival in extreme
-                                circumstances, where the greatest threat might be the person you choose to help.</p>
+                            <h3 class="subsection-title">{{ $t('HomePage.about.challenge.title') }}</h3>
+                            <p v-html="$t('HomePage.about.challenge.description', {}, { raw: true })"></p>
                         </div>
                         <div class="about-image">
                             <div class="game-image">
@@ -102,24 +87,16 @@
                     </div>
                     <div class="features-grid">
                         <div class="feature-card">
-                            <h3>Complex Multi-Branching Ending System</h3>
-                            <p>No I'm not a Human features over 15 different <a href="/endings">ending paths</a>, where each player's choice
-                                creates a butterfly effect, influencing the story's final direction. This design makes
-                                every gameplay experience unique, greatly enhancing the game's replay value and
-                                exploration fun.</p>
+                            <h3>{{ $t('HomePage.features.card1.title') }}</h3>
+                            <p v-html="$t('HomePage.features.card1.description', {}, { raw: true })"></p>
                         </div>
                         <div class="feature-card">
-                            <h3>Three-Night Progressive Horror Challenge</h3>
-                            <p>The game cleverly divides the horror experience into three nights, with each night's
-                                difficulty and complexity increasing progressively. Players need to learn to identify
-                                real and fake <a href="/visitors">visitors</a>, master <a href="/guides">survival skills</a>, and make correct judgments under
-                                pressure.</p>
+                            <h3>{{ $t('HomePage.features.card2.title') }}</h3>
+                            <p v-html="$t('HomePage.features.card2.description', {}, { raw: true })"></p>
                         </div>
                         <div class="feature-card">
-                            <h3>Deep Psychological Horror Experience</h3>
-                            <p>No I'm not a Human doesn't rely on cheap jump scares, but creates sustained tension
-                                through carefully constructed atmosphere, subtle sound design, and clever visual cues,
-                                allowing players to experience true psychological horror.</p>
+                            <h3>{{ $t('HomePage.features.card3.title') }}</h3>
+                            <p>{{ $t('HomePage.features.card3.description') }}</p>
                         </div>
                     </div>
                 </div>
@@ -130,41 +107,36 @@
         <section class="section why">
             <div class="container">
                 <div class="why-wrapper">
-                    <h2 class="home-title">Why Our Game Guide is Essential</h2>
-                    <p class="why-intro">Get everything you need to master the intense survival horror experience - from
-                        beginner tips to advanced strategies for this challenging game.</p>
+                    <h2 class="home-title">{{ $t('HomePage.why.title') }}</h2>
+                    <p class="why-intro">{{ $t('HomePage.why.intro') }}</p>
                     <div class="why-grid">
                         <div class="why-card">
                             <div class="why-image">
                                 <img src="/images/why-01.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3><a href="/guides">Complete Walkthrough</a></h3>
-                            <p>Day-by-day survival strategy including critical Night 4 Intruder survival and guest
-                                management techniques for optimal gameplay.</p>
+                            <h3 v-html="$t('HomePage.why.card1.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.why.card1.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
                                 <img src="/images/why-02.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3><a href="/endings">All Endings Guide</a></h3>
-                            <p>Unlock every possible outcome with step-by-step achievement guides and decision trees for
-                                all six different endings.</p>
+                            <h3 v-html="$t('HomePage.why.card2.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.why.card2.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
                                 <img src="/images/why-03.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3><a href="/guides">Expert Strategies</a></h3>
-                            <p>Advanced tips for energy efficiency, guest prioritization, and avoiding fatal mistakes
-                                that lead to game over.</p>
+                            <h3 v-html="$t('HomePage.why.card3.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.why.card3.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
                                 <img src="/images/why-04.webp" alt="No I'm not a Human Game Screenshot" />
                             </div>
-                            <h3><a href="/wiki">Psychological Warfare Guide</a></h3>
-                            <p>Master stress management, <a href="/visitors">visitor psychological analysis</a>, and decision-making techniques
-                                to maintain sanity and judgment in this paranoid world.</p>
+                            <h3 v-html="$t('HomePage.why.card4.title', {}, { raw: true })"></h3>
+                            <p v-html="$t('HomePage.why.card4.description', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -175,42 +147,32 @@
         <section class="section guide">
             <div class="container">
                 <div class="guide-wrapper">
-                    <h2 class="home-title">Complete Guide Features</h2>
-                    <p class="guide-intro">Everything you need to master this survival horror experience and become an
-                        expert at the challenging paranoia-driven gameplay. Our comprehensive guides cover all aspects
-                        of this intense horror survival adventure.</p>
+                    <h2 class="home-title">{{ $t('HomePage.guide.title') }}</h2>
+                    <p class="guide-intro">{{ $t('HomePage.guide.intro') }}</p>
                     <div class="guide-grid">
                         <div class="guide-card">
-                            <h3><a href="/guides">Visitor Identification Guide</a></h3>
-                            <p>Comprehensive guide to detecting dangerous <a href="/visitors">Visitors</a> through physical traits, behavioral
-                                patterns, and investigation techniques. Master survival strategies with detailed
-                                identification methods.</p>
+                            <h3 v-html="$t('HomePage.guide.card1.title', {}, { raw: true })"></h3>
+                            <p v-html="$t('HomePage.guide.card1.description', {}, { raw: true })"></p>
                         </div>
                         <div class="guide-card">
-                            <h3><a href="/endings">All 6 Endings Walkthrough</a></h3>
-                            <p>Step-by-step guides to unlock every ending including the secret best ending with detailed
-                                choice explanations and survival strategies. Complete walkthrough for all six possible
-                                outcomes.</p>
+                            <h3 v-html="$t('HomePage.guide.card2.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.guide.card2.description') }}</p>
                         </div>
                         <div class="guide-card">
-                            <h3><a href="/guides">Energy Management System</a></h3>
-                            <p>Master the energy-based investigation system with optimization strategies for maximum
-                                efficiency.</p>
+                            <h3 v-html="$t('HomePage.guide.card3.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.guide.card3.description') }}</p>
                         </div>
                         <div class="guide-card">
-                            <h3><a href="/guides">Survival Strategies</a></h3>
-                            <p>Advanced tips for shelter management, guest prioritization, and avoiding fatal mistakes
-                                in gameplay.</p>
+                            <h3 v-html="$t('HomePage.guide.card4.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.guide.card4.description') }}</p>
                         </div>
                         <div class="guide-card">
-                            <h3><a href="/endings">Achievement Guide</a></h3>
-                            <p>Complete achievement hunting guide with requirements and unlock strategies for 100%
-                                completion.</p>
+                            <h3 v-html="$t('HomePage.guide.card5.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.guide.card5.description') }}</p>
                         </div>
                         <div class="guide-card">
-                            <h3><a href="/guides">Night 4 Intruder Guide</a></h3>
-                            <p>Critical survival strategies for the most challenging night including intruder detection
-                                and defense.</p>
+                            <h3 v-html="$t('HomePage.guide.card6.title', {}, { raw: true })"></h3>
+                            <p>{{ $t('HomePage.guide.card6.description') }}</p>
                         </div>
                     </div>
                 </div>
@@ -221,49 +183,33 @@
         <section class="section faq">
             <div class="container">
                 <div class="faq-wrapper">
-                    <h2 class="home-title">Frequently Asked Questions</h2>
-                    <p class="faq-intro">Learn more about this acclaimed horror visual novel.</p>
+                    <h2 class="home-title">{{ $t('HomePage.faq.title') }}</h2>
+                    <p class="faq-intro">{{ $t('HomePage.faq.intro') }}</p>
                     <div class="faq-content">
                         <div class="faq-list">
                             <div class="faq-item">
-                                <h3 class="faq-question">What is No I'm not a Human?</h3>
-                                <p class="faq-answer">No I'm not a Human is a psychological horror visual novel where
-                                    extreme solar activity has made daytime survival impossible. You must survive the
-                                    night by identifying dangerous <a href="/visitors">Visitors</a> disguised as humans seeking shelter in your
-                                    apartment, making critical decisions that determine your fate.</p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q1.question') }}</h3>
+                                <p class="faq-answer" v-html="$t('HomePage.faq.q1.answer', {}, { raw: true })"></p>
                             </div>
                             <div class="faq-item">
-                                <h3 class="faq-question">Who developed the game?</h3>
-                                <p class="faq-answer">The game was developed by Russian indie studio Trioskaz and
-                                    published by Critical Reflex. It's available on Steam for PC, with console versions
-                                    planned for future release.</p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q2.question') }}</h3>
+                                <p class="faq-answer">{{ $t('HomePage.faq.q2.answer') }}</p>
                             </div>
                             <div class="faq-item">
-                                <h3 class="faq-question">How does the energy system work?</h3>
-                                <p class="faq-answer">You have limited daily energy for investigating guests. Each
-                                    inspection of body parts, conversation, or action costs energy. You can eat, drink,
-                                    or rest to pass time, but must balance investigation needs with energy conservation. For detailed strategies, check our <a href="/guides">complete guides</a>.
-                                </p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q3.question') }}</h3>
+                                <p class="faq-answer" v-html="$t('HomePage.faq.q3.answer', {}, { raw: true })"></p>
                             </div>
                             <div class="faq-item">
-                                <h3 class="faq-question">What makes this game unique?</h3>
-                                <p class="faq-answer">The game combines psychological horror with moral dilemmas and
-                                    resource management. You must make split-second decisions about who to trust, with
-                                    each choice having potentially deadly consequences in this atmospheric
-                                    post-apocalyptic setting.</p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q4.question') }}</h3>
+                                <p class="faq-answer">{{ $t('HomePage.faq.q4.answer') }}</p>
                             </div>
                             <div class="faq-item">
-                                <h3 class="faq-question">How many endings are there?</h3>
-                                <p class="faq-answer">The game features multiple <a href="/endings">endings</a> based on your choices and
-                                    interactions with <a href="/visitors">visitors</a>. Each playthrough can lead to different outcomes
-                                    depending on how you handle the mysterious visitors and manage your survival
-                                    strategy.</p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q5.question') }}</h3>
+                                <p class="faq-answer" v-html="$t('HomePage.faq.q5.answer', {}, { raw: true })"></p>
                             </div>
                             <div class="faq-item">
-                                <h3 class="faq-question">Where can I play it?</h3>
-                                <p class="faq-answer">No I'm not a Human is available on Steam for Windows PC. Console
-                                    versions are planned for future release. A demo is available on Steam for players to
-                                    try before purchasing. Check our <a href="/download">download page</a> for system requirements and platform compatibility.</p>
+                                <h3 class="faq-question">{{ $t('HomePage.faq.q6.question') }}</h3>
+                                <p class="faq-answer" v-html="$t('HomePage.faq.q6.answer', {}, { raw: true })"></p>
                             </div>
                         </div>
                     </div>
@@ -275,13 +221,12 @@
         <section class="section cta">
             <div class="container">
                 <div class="cta-wrapper">
-                    <h2 class="home-title">Face the Night</h2>
-                    <p class="cta-text">Join thousands of survivors in this intense psychological horror experience. Can
-                        you survive until dawn?</p>
+                    <h2 class="home-title">{{ $t('HomePage.cta.title') }}</h2>
+                    <p class="cta-text">{{ $t('HomePage.cta.text') }}</p>
                     <div class="cta-buttons">
-                        <a href="https://store.steampowered.com/" target="_blank" class="btn btn-primary btn-large">Play
-                            on Steam</a>
-                        <a href="/download" class="btn btn-secondary btn-large">Try Free Demo</a>
+                        <a href="https://store.steampowered.com/" target="_blank" class="btn btn-primary btn-large">{{
+                            $t('HomePage.cta.steamButton') }}</a>
+                        <a href="/download" class="btn btn-secondary btn-large">{{ $t('HomePage.cta.demoButton') }}</a>
                     </div>
                 </div>
             </div>
@@ -397,6 +342,7 @@ const playVideo = () => {
     text-shadow: 0 0 10px #00ff88;
     font-weight: normal;
 }
+
 
 @keyframes glow {
     from {
@@ -921,46 +867,58 @@ const playVideo = () => {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
 
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
-    background: rgba(0, 255, 136, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
-    z-index: 10;
-}
-
-.play-button:hover {
-    background: rgba(0, 255, 136, 1);
-    transform: translate(-50%, -50%) scale(1.1);
-    box-shadow: 0 0 30px rgba(0, 255, 136, 0.8);
-}
-
-.play-icon {
-    width: 32px;
-    height: 32px;
-    color: #000;
-    margin-left: 2px;
-}
 
 .video-iframe {
     width: 100%;
     height: 100%;
     border: none;
     border-radius: 12px;
+}
+
+/* 蒙版内的播放按钮样式 */
+.play-text-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff41;
+    border-radius: 30px;
+    color: #00ff41;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.play-text-button:hover {
+    background: rgba(0, 255, 65, 0.2);
+    border-color: #00ff88;
+    color: #00ff88;
+    transform: translate(-50%, -50%) scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+}
+
+.play-text-icon {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.play-text-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .section.hero {
@@ -1074,15 +1032,6 @@ const playVideo = () => {
         padding: 20px;
     }
 
-    .play-button {
-        width: 60px;
-        height: 60px;
-    }
-
-    .play-icon {
-        width: 24px;
-        height: 24px;
-    }
 
     .about-content {
         grid-template-columns: 1fr;
@@ -1283,14 +1232,15 @@ a:hover {
         padding: 10px;
     }
 
-    .play-button {
-        width: 50px;
-        height: 50px;
+
+    .play-text-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        gap: 6px;
     }
 
-    .play-icon {
-        width: 20px;
-        height: 20px;
+    .play-text-icon {
+        font-size: 12px;
     }
 
     .hero-subtitle {
@@ -1361,7 +1311,7 @@ a:hover {
         padding: 10px;
     }
 
-    .why-image{
+    .why-image {
         margin-bottom: 10px;
     }
 
@@ -1428,6 +1378,6 @@ a:hover {
     }
 
 
-    
+
 }
 </style>

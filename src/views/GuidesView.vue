@@ -7,33 +7,26 @@
             <div class="container">
                 <div class="hero-wrapper">
                     <!-- Main Title -->
-                    <h1 class="hero-title">
-                        <span class="highlight">No I'm Not a Human Guides - Complete Gameplay Guide</span>
-                    </h1>
+                    <h1 class="hero-title" v-html="$t('GuidesPage.hero.title', {}, { raw: true })"></h1>
 
                     <!-- Description -->
                     <div class="hero-description">
-                        <p>Master the paranoia-driven horror experience with our comprehensive <span
-                                class="highlight-text">"No I'm Not a Human Guides"</span> covering <span
-                                class="highlight-text">game mechanics</span>, <span class="highlight-text">energy
-                                management</span>, and <span class="highlight-text">survival strategies</span>. Learn to
-                            distinguish between genuine human survivors and dangerous Visitors in this apocalyptic
-                            nightmare. For more game information, visit our <a href="/">homepage</a>.</p>
+                        <p v-html="$t('GuidesPage.hero.description', {}, { raw: true })"></p>
                     </div>
 
                     <!-- Navigation Cards -->
                     <div class="guide-nav">
                         <div class="nav-card" @click="scrollToSection('core-mechanics')">
-                            <span>Game Mechanics</span>
+                            <span>{{ $t('GuidesPage.hero.navCards.mechanics') }}</span>
                         </div>
                         <div class="nav-card" @click="scrollToSection('energy')">
-                            <span>Energy System</span>
+                            <span>{{ $t('GuidesPage.hero.navCards.energy') }}</span>
                         </div>
                         <div class="nav-card" @click="scrollToSection('guests')">
-                            <span>Guest Types</span>
+                            <span>{{ $t('GuidesPage.hero.navCards.guests') }}</span>
                         </div>
                         <div class="nav-card" @click="scrollToSection('survival')">
-                            <span>Survival Tips</span>
+                            <span>{{ $t('GuidesPage.hero.navCards.survival') }}</span>
                         </div>
                     </div>
 
@@ -46,10 +39,8 @@
             <div class="container">
                 <div class="mechanics-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Game Flow Overview</h2>
-                        <p class="section-subtitle">Master the three critical stages of your survival journey with our
-                            "No I'm Not a Human Guides" - this psychological horror experience that tests your ability
-                            to distinguish friend from foe. Discover all possible <a href="/endings">endings</a>.</p>
+                        <h2 class="home-title">{{ $t('GuidesPage.mechanics.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('GuidesPage.mechanics.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="flow-stages">
@@ -57,62 +48,59 @@
                             <div class="stage-icon">
                                 <div class="stage-number">1</div>
                             </div>
-                            <h3>Learning Stage</h3>
-                            <p>Master basic survival mechanics and visitor identification techniques</p>
+                            <h3>{{ $t('GuidesPage.mechanics.stages.stage1.title') }}</h3>
+                            <p>{{ $t('GuidesPage.mechanics.stages.stage1.description') }}</p>
                         </div>
                         <div class="stage-card stage-2">
                             <div class="stage-icon">
                                 <div class="stage-number">2</div>
                             </div>
-                            <h3>Challenge Stage</h3>
-                            <p>Navigate complex situations with sophisticated visitor disguises</p>
+                            <h3>{{ $t('GuidesPage.mechanics.stages.stage2.title') }}</h3>
+                            <p>{{ $t('GuidesPage.mechanics.stages.stage2.description') }}</p>
                         </div>
                         <div class="stage-card stage-3">
                             <div class="stage-icon">
                                 <div class="stage-number">3</div>
                             </div>
-                            <h3>Final Stage</h3>
-                            <p>Face ultimate judgment challenges that determine your ending</p>
+                            <h3>{{ $t('GuidesPage.mechanics.stages.stage3.title') }}</h3>
+                            <p>{{ $t('GuidesPage.mechanics.stages.stage3.description') }}</p>
                         </div>
                     </div>
 
                     <div class="night-details">
                         <div class="night-card">
                             <div class="night-header">
-                                <h3>Night 1: First Contact</h3>
-                                <span class="difficulty-tag easy">Easy</span>
+                                <h3>{{ $t('GuidesPage.mechanics.nights.night1.title') }}</h3>
+                                <span class="difficulty-tag easy">{{ $t('GuidesPage.mechanics.nights.night1.difficulty') }}</span>
                             </div>
                             <div class="night-content">
                                 <div class="night-left">
-                                    <p class="night-description">The introductory night where you learn basic mechanics
-                                        and visitor identification methods. Our "No I'm Not a Human Guides" will help
-                                        you master these fundamentals.</p>
+                                    <p class="night-description">{{ $t('GuidesPage.mechanics.nights.night1.description') }}</p>
                                     <div class="playtime">
                                         <span class="time-icon">⏱️</span>
-                                        <span>Estimated Play Time: 30-45 minutes</span>
+                                        <span>{{ $t('GuidesPage.mechanics.nights.night1.playTime') }}</span>
                                     </div>
                                     <div class="visitor-types">
-                                        <h4>Main Visitor Types:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night1.visitorTypesTitle') }}</h4>
                                         <div class="visitor-tags">
-                                            <span class="visitor-tag">Friendly Visitor</span>
-                                            <span class="visitor-tag">Suspicious Stranger</span>
-                                            <span class="visitor-tag">Delivery Person</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night1.visitorType1') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night1.visitorType2') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night1.visitorType3') }}</span>
                                         </div>
                                     </div>
                                     <div class="strategy-tips">
-                                        <h4><span class="tip-icon">💡</span>Strategy Tips</h4>
-                                        <p>Focus on familiarizing yourself with game mechanics. Carefully observe
-                                            visitors' appearance and behavioral characteristics.</p>
+                                        <h4><span class="tip-icon">💡</span>{{ $t('GuidesPage.mechanics.nights.night1.strategyTitle') }}</h4>
+                                        <p>{{ $t('GuidesPage.mechanics.nights.night1.strategyDesc') }}</p>
                                     </div>
                                 </div>
                                 <div class="night-right">
                                     <div class="key-points">
-                                        <h4>Key Points:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night1.keyPointsTitle') }}</h4>
                                         <ul>
-                                            <li>Learn basic visitor identification methods</li>
-                                            <li>Familiarize with game interface and controls</li>
-                                            <li>Establish initial judgment criteria</li>
-                                            <li>Avoid first fatal mistakes</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night1.keyPoint1') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night1.keyPoint2') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night1.keyPoint3') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night1.keyPoint4') }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -121,41 +109,38 @@
 
                         <div class="night-card">
                             <div class="night-header">
-                                <h3>Night 2: Deepening Challenge</h3>
-                                <span class="difficulty-tag medium">Medium</span>
+                                <h3>{{ $t('GuidesPage.mechanics.nights.night2.title') }}</h3>
+                                <span class="difficulty-tag medium">{{ $t('GuidesPage.mechanics.nights.night2.difficulty') }}</span>
                             </div>
                             <div class="night-content">
                                 <div class="night-left">
-                                    <p class="night-description">Difficulty increases with more complex visitors and
-                                        choice situations. Our "No I'm Not a Human Guides" provide advanced strategies
-                                        for this challenging phase.</p>
+                                    <p class="night-description">{{ $t('GuidesPage.mechanics.nights.night2.description') }}</p>
                                     <div class="playtime">
                                         <span class="time-icon">⏱️</span>
-                                        <span>Estimated Play Time: 45-60 minutes</span>
+                                        <span>{{ $t('GuidesPage.mechanics.nights.night2.playTime') }}</span>
                                     </div>
                                     <div class="visitor-types">
-                                        <h4>Main Visitor Types:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night2.visitorTypesTitle') }}</h4>
                                         <div class="visitor-tags">
-                                            <span class="visitor-tag">Disguised Visitor</span>
-                                            <span class="visitor-tag">Emergency Help Seeker</span>
-                                            <span class="visitor-tag">Maintenance Worker</span>
-                                            <span class="visitor-tag">Mysterious Woman</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night2.visitorType1') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night2.visitorType2') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night2.visitorType3') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night2.visitorType4') }}</span>
                                         </div>
                                     </div>
                                     <div class="strategy-tips">
-                                        <h4><span class="tip-icon">💡</span>Strategy Tips</h4>
-                                        <p>Night 2 is the turning point of the game, visitors' disguises are more
-                                            sophisticated. Pay special attention to details and intuition.</p>
+                                        <h4><span class="tip-icon">💡</span>{{ $t('GuidesPage.mechanics.nights.night2.strategyTitle') }}</h4>
+                                        <p>{{ $t('GuidesPage.mechanics.nights.night2.strategyDesc') }}</p>
                                     </div>
                                 </div>
                                 <div class="night-right">
                                     <div class="key-points">
-                                        <h4>Key Points:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night2.keyPointsTitle') }}</h4>
                                         <ul>
-                                            <li>Handle more complex disguised visitors</li>
-                                            <li>Deal with moral choices in emergencies</li>
-                                            <li>Identify subtle abnormal signals</li>
-                                            <li>Manage increased psychological pressure</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night2.keyPoint1') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night2.keyPoint2') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night2.keyPoint3') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night2.keyPoint4') }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -164,41 +149,38 @@
 
                         <div class="night-card">
                             <div class="night-header">
-                                <h3>Night 3: Final Trial</h3>
-                                <span class="difficulty-tag hard">Hard</span>
+                                <h3>{{ $t('GuidesPage.mechanics.nights.night3.title') }}</h3>
+                                <span class="difficulty-tag hard">{{ $t('GuidesPage.mechanics.nights.night3.difficulty') }}</span>
                             </div>
                             <div class="night-content">
                                 <div class="night-left">
-                                    <p class="night-description">The most challenging night, with key choices that
-                                        determine the final ending. Our "No I'm Not a Human Guides" offer crucial
-                                        insights for this decisive moment.</p>
+                                    <p class="night-description">{{ $t('GuidesPage.mechanics.nights.night3.description') }}</p>
                                     <div class="playtime">
                                         <span class="time-icon">⏱️</span>
-                                        <span>Estimated Play Time: 60-90 minutes</span>
+                                        <span>{{ $t('GuidesPage.mechanics.nights.night3.playTime') }}</span>
                                     </div>
                                     <div class="visitor-types">
-                                        <h4>Main Visitor Types:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night3.visitorTypesTitle') }}</h4>
                                         <div class="visitor-tags">
-                                            <span class="visitor-tag">Advanced Impersonator</span>
-                                            <span class="visitor-tag">Familiar Mimic</span>
-                                            <span class="visitor-tag">Authority Figure</span>
-                                            <span class="visitor-tag">Final Boss</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night3.visitorType1') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night3.visitorType2') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night3.visitorType3') }}</span>
+                                            <span class="visitor-tag">{{ $t('GuidesPage.mechanics.nights.night3.visitorType4') }}</span>
                                         </div>
                                     </div>
                                     <div class="strategy-tips">
-                                        <h4><span class="tip-icon">💡</span>Strategy Tips</h4>
-                                        <p>Night 3 determines the game ending. Experience and choices from the first two
-                                            nights will affect this night's situation.</p>
+                                        <h4><span class="tip-icon">💡</span>{{ $t('GuidesPage.mechanics.nights.night3.strategyTitle') }}</h4>
+                                        <p>{{ $t('GuidesPage.mechanics.nights.night3.strategyDesc') }}</p>
                                     </div>
                                 </div>
                                 <div class="night-right">
                                     <div class="key-points">
-                                        <h4>Key Points:</h4>
+                                        <h4>{{ $t('GuidesPage.mechanics.nights.night3.keyPointsTitle') }}</h4>
                                         <ul>
-                                            <li>Face the highest difficulty judgment challenges</li>
-                                            <li>Handle conflicts between emotion and reason</li>
-                                            <li>Make key choices that affect the ending</li>
-                                            <li>Endure maximum psychological pressure</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night3.keyPoint1') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night3.keyPoint2') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night3.keyPoint3') }}</li>
+                                            <li>{{ $t('GuidesPage.mechanics.nights.night3.keyPoint4') }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -214,53 +196,44 @@
             <div class="container">
                 <div class="energy-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Energy Management System</h2>
-                        <p class="section-subtitle">Energy is the most critical resource in the game. Master its usage
-                            with our "No I'm Not a Human Guides" to survive the paranoid nightmare. Get the game from our <a href="/download">download page</a>.</p>
+                        <h2 class="home-title">{{ $t('GuidesPage.energy.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('GuidesPage.energy.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="energy-grid">
                         <div class="energy-card">
-                            <h3>Daily Energy Allocation</h3>
-                            <p>Energy serves as your most precious resource in the game. Each day provides you with a
-                                finite amount of energy, and when completely exhausted, the day concludes automatically,
-                                leaving you to deal with the outcomes of your choices. Our "No I'm Not a Human Guides"
-                                will help you master this crucial system.</p>
+                            <h3>{{ $t('GuidesPage.energy.dailyAllocation.title') }}</h3>
+                            <p>{{ $t('GuidesPage.energy.dailyAllocation.description') }}</p>
 
                             <div class="energy-costs">
-                                <h4>💰 Energy Costs:</h4>
+                                <h4>{{ $t('GuidesPage.energy.dailyAllocation.costsTitle') }}</h4>
                                 <div class="cost-item">
-                                    <span class="cost-action">Talking to guests:</span>
-                                    <span class="cost-value free">FREE</span>
+                                    <span class="cost-action">{{ $t('GuidesPage.energy.dailyAllocation.talking') }}</span>
+                                    <span class="cost-value free">{{ $t('GuidesPage.energy.dailyAllocation.talkingCost') }}</span>
                                 </div>
                                 <div class="cost-item">
-                                    <span class="cost-action">Physical examination:</span>
-                                    <span class="cost-value">1 Energy</span>
+                                    <span class="cost-action">{{ $t('GuidesPage.energy.dailyAllocation.examination') }}</span>
+                                    <span class="cost-value">{{ $t('GuidesPage.energy.dailyAllocation.examinationCost') }}</span>
                                 </div>
                                 <div class="cost-item">
-                                    <span class="cost-action">Room investigation:</span>
-                                    <span class="cost-value">1-2 Energy</span>
+                                    <span class="cost-action">{{ $t('GuidesPage.energy.dailyAllocation.roomInvestigation') }}</span>
+                                    <span class="cost-value">{{ $t('GuidesPage.energy.dailyAllocation.roomCost') }}</span>
                                 </div>
                                 <div class="cost-item">
-                                    <span class="cost-action">Item examination:</span>
-                                    <span class="cost-value">1 Energy</span>
+                                    <span class="cost-action">{{ $t('GuidesPage.energy.dailyAllocation.itemExamination') }}</span>
+                                    <span class="cost-value">{{ $t('GuidesPage.energy.dailyAllocation.itemCost') }}</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="energy-card">
-                            <h3>Strategic Energy Management</h3>
+                            <h3>{{ $t('GuidesPage.energy.strategicManagement.title') }}</h3>
                             <ol class="strategy-list">
-                                <li><strong>Begin with dialogue:</strong> Start each day by conversing with all visitors
-                                    to collect initial behavioral data and verbal indicators.</li>
-                                <li><strong>Monitor broadcast updates:</strong> Daily news reports frequently contain
-                                    vital information about new identification methods for detecting threats.</li>
-                                <li><strong>Target high-risk individuals:</strong> Allocate energy resources to guests
-                                    displaying unusual behavior patterns or suspicious responses.</li>
-                                <li><strong>Concentrate on primary indicators:</strong> Focus your energy on the most
-                                    reliable physical characteristics rather than minor details.</li>
-                                <li><strong>Maintain emergency reserves:</strong> Always preserve some energy for
-                                    unexpected late-day arrivals or critical situations.</li>
+                                <li v-html="$t('GuidesPage.energy.strategicManagement.step1', {}, { raw: true })"></li>
+                                <li v-html="$t('GuidesPage.energy.strategicManagement.step2', {}, { raw: true })"></li>
+                                <li v-html="$t('GuidesPage.energy.strategicManagement.step3', {}, { raw: true })"></li>
+                                <li v-html="$t('GuidesPage.energy.strategicManagement.step4', {}, { raw: true })"></li>
+                                <li v-html="$t('GuidesPage.energy.strategicManagement.step5', {}, { raw: true })"></li>
                             </ol>
                         </div>
                     </div>
@@ -273,41 +246,37 @@
             <div class="container">
                 <div class="guests-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Guest Interaction Basics</h2>
-                        <p class="section-subtitle">Learn how to safely assess new arrivals and categorize different
-                            character types with our "No I'm Not a Human Guides" to survive. Check our comprehensive <a href="/visitors">visitor database</a>.</p>
+                        <h2 class="home-title">{{ $t('GuidesPage.guests.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('GuidesPage.guests.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="guests-grid">
                         <div class="guest-card always-human">
-                            <h3>Confirmed Safe Characters</h3>
-                            <p>These individuals are guaranteed to be genuine humans in every game session. Our "No I'm
-                                Not a Human Guides" will help you identify them. Visit our <a href="/visitors">visitor database</a>:</p>
+                            <h3>{{ $t('GuidesPage.guests.confirmedSafe.title') }}</h3>
+                            <p v-html="$t('GuidesPage.guests.confirmedSafe.description', {}, { raw: true })"></p>
                             <ul class="guest-list">
-                                <li>The Elderly Gentleman</li>
-                                <li>Young Survivor Girl</li>
-                                <li>Scarred Veteran</li>
-                                <li>Grieving Mother</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedSafe.char1') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedSafe.char2') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedSafe.char3') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedSafe.char4') }}</li>
                             </ul>
                         </div>
 
                         <div class="guest-card always-visitor">
-                            <h3>Confirmed Threats</h3>
-                            <p>These entities should be removed immediately upon identification. Learn more about dangerous characters in our <a href="/visitors">visitor database</a>:</p>
+                            <h3>{{ $t('GuidesPage.guests.confirmedThreats.title') }}</h3>
+                            <p v-html="$t('GuidesPage.guests.confirmedThreats.description', {}, { raw: true })"></p>
                             <ul class="guest-list">
-                                <li>Hostile Stranger</li>
-                                <li>Mysterious Figure in Unusual Attire</li>
-                                <li>Prediction Specialist</li>
-                                <li>Service Worker</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedThreats.char1') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedThreats.char2') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedThreats.char3') }}</li>
+                                <li>{{ $t('GuidesPage.guests.confirmedThreats.char4') }}</li>
                             </ul>
                         </div>
 
                         <div class="guest-card variable">
-                            <h3>Uncertain Individuals</h3>
-                            <p>These visitors have inconsistent status across different game sessions, making them
-                                unpredictable. Check our <a href="/visitors">visitor database</a> for detailed analysis.</p>
-                            <p class="warning-text">Thorough physical examination and behavioral analysis are essential
-                                for accurate identification. Use our <a href="/visitors">visitor identification guide</a> for detailed strategies.</p>
+                            <h3>{{ $t('GuidesPage.guests.uncertainIndividuals.title') }}</h3>
+                            <p v-html="$t('GuidesPage.guests.uncertainIndividuals.description1', {}, { raw: true })"></p>
+                            <p class="warning-text" v-html="$t('GuidesPage.guests.uncertainIndividuals.description2', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -319,50 +288,44 @@
             <div class="container">
                 <div class="identification-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Visitor Identification Basics</h2>
-                        <p class="section-subtitle">Master the four key physical traits that expose dangerous Visitors
-                            with our "No I'm Not a Human Guides".</p>
+                        <h2 class="home-title">{{ $t('GuidesPage.identification.title') }}</h2>
+                        <p class="section-subtitle">{{ $t('GuidesPage.identification.subtitle') }}</p>
                     </div>
 
                     <div class="warning-box">
                         <div class="warning-title">
                             <span class="warning-icon">⚠️</span>
-                            <span class="warning-title-text">Critical Warning</span>
+                            <span class="warning-title-text">{{ $t('GuidesPage.identification.warning.title') }}</span>
                         </div>
                         <div class="warning-content">
-                            <p>Never trust a single sign! Even humans can appear suspicious in the apocalypse.</p>
-                            <p>You need at least <strong>TWO</strong> confirmed traits to safely identify a
-                                <strong>Visitor</strong> - never rely on just one sign.
-                            </p>
+                            <p>{{ $t('GuidesPage.identification.warning.description1') }}</p>
+                            <p v-html="$t('GuidesPage.identification.warning.description2', {}, { raw: true })"></p>
                         </div>
                     </div>
 
                     <div class="traits-grid">
                         <div class="trait-card">
-                            <div class="trait-icon">🦷</div>
-                            <h3>Perfect White Teeth</h3>
-                            <p>Visitors have unnaturally perfect, gleaming white teeth that stand out during
-                                conversations or examinations.</p>
+                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.perfectTeeth.icon') }}</div>
+                            <h3>{{ $t('GuidesPage.identification.traits.perfectTeeth.title') }}</h3>
+                            <p>{{ $t('GuidesPage.identification.traits.perfectTeeth.description') }}</p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">💅</div>
-                            <h3>Dirty/Black Nails</h3>
-                            <p>Look for fingernails that appear unusually dirty or blackened, contrasting with otherwise
-                                clean appearance. See more identification tips in our <a href="/visitors">visitor database</a>.</p>
+                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.dirtyNails.icon') }}</div>
+                            <h3>{{ $t('GuidesPage.identification.traits.dirtyNails.title') }}</h3>
+                            <p v-html="$t('GuidesPage.identification.traits.dirtyNails.description', {}, { raw: true })"></p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">👁️</div>
-                            <h3>Severely Bloodshot Eyes</h3>
-                            <p>Eyes that are intensely red and bloodshot, more severe than normal tiredness or stress.
-                                Learn more about visitor characteristics in our database.</p>
+                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.bloodshotEyes.icon') }}</div>
+                            <h3>{{ $t('GuidesPage.identification.traits.bloodshotEyes.title') }}</h3>
+                            <p>{{ $t('GuidesPage.identification.traits.bloodshotEyes.description') }}</p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">🚫</div>
-                            <h3>Completely Hairless Armpits</h3>
-                            <p>Visitors lack any armpit hair, which can be checked during physical examinations.</p>
+                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.hairlessArmpits.icon') }}</div>
+                            <h3>{{ $t('GuidesPage.identification.traits.hairlessArmpits.title') }}</h3>
+                            <p>{{ $t('GuidesPage.identification.traits.hairlessArmpits.description') }}</p>
                         </div>
                     </div>
                 </div>
@@ -374,26 +337,20 @@
             <div class="container">
                 <div class="survival-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Essential Survival Strategies</h2>
-                        <p class="section-subtitle">Critical rules and advanced tips to survive the paranoid nightmare
-                            with our "No I'm Not a Human Guides". Learn more about <a href="/endings">game endings</a>.</p>
+                        <h2 class="home-title">{{ $t('GuidesPage.survival.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('GuidesPage.survival.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="critical-rule">
                         <div class="rule-title">
                             <span class="clock-icon">🕐</span>
                             <span class="bell-icon">🔔</span>
-                            <span class="rule-title-text">The Critical Night 4 Rule</span>
+                            <span class="rule-title-text">{{ $t('GuidesPage.survival.criticalRule.title') }}</span>
                         </div>
                         <div class="rule-content">
-                            <p>You <strong>MUST</strong> have at least one guest in your home on <strong>Night
-                                    4</strong>.</p>
-                            <p>When the shirtless "Intruder" arrives and asks if you're alone, you must answer
-                                "<strong>No</strong>" and have someone present to survive.</p>
-                            <p>This means you cannot eliminate every guest, even if you suspect them. Always maintain at
-                                least one confirmed human guest for the <strong>Night 4</strong> encounter. Our "No I'm
-                                Not a Human Guides" emphasize this critical rule. Being alone when the Intruder arrives
-                                results in <strong>immediate game over</strong>. Learn more about <a href="/endings">all possible endings</a>.</p>
+                            <p v-html="$t('GuidesPage.survival.criticalRule.description1', {}, { raw: true })"></p>
+                            <p v-html="$t('GuidesPage.survival.criticalRule.description2', {}, { raw: true })"></p>
+                            <p v-html="$t('GuidesPage.survival.criticalRule.description3', {}, { raw: true })"></p>
                         </div>
                     </div>
 
@@ -401,26 +358,26 @@
                         <div class="strategy-column">
                             <div class="strategy-header">
                                 <div class="strategy-icon">🛡️</div>
-                                <h3>Advanced Survival Tips</h3>
+                                <h3>{{ $t('GuidesPage.survival.advancedTips.title') }}</h3>
                             </div>
 
                             <div class="strategy-section">
-                                <h4>Energy Conservation:</h4>
+                                <h4>{{ $t('GuidesPage.survival.advancedTips.energyConservation.title') }}</h4>
                                 <ul>
-                                    <li>Always exhaust free conversation options first</li>
-                                    <li>Focus investigations on genuinely suspicious behavior</li>
-                                    <li>Don't waste energy on clearly safe "Always Human" characters - check our <a href="/visitors">visitor database</a></li>
-                                    <li>Save energy for unexpected late-day arrivals</li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.energyConservation.tip1') }}</li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.energyConservation.tip2') }}</li>
+                                    <li v-html="$t('GuidesPage.survival.advancedTips.energyConservation.tip3', {}, { raw: true })"></li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.energyConservation.tip4') }}</li>
                                 </ul>
                             </div>
 
                             <div class="strategy-section">
-                                <h4>Risk Management:</h4>
+                                <h4>{{ $t('GuidesPage.survival.advancedTips.riskManagement.title') }}</h4>
                                 <ul>
-                                    <li>Eliminate confirmed Visitors immediately</li>
-                                    <li>Keep one confirmed human for Night 4 safety - essential for <a href="/endings">good endings</a></li>
-                                    <li>Monitor guest interactions for behavioral changes</li>
-                                    <li>Trust patterns over single suspicious incidents</li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.riskManagement.tip1') }}</li>
+                                    <li v-html="$t('GuidesPage.survival.advancedTips.riskManagement.tip2', {}, { raw: true })"></li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.riskManagement.tip3') }}</li>
+                                    <li>{{ $t('GuidesPage.survival.advancedTips.riskManagement.tip4') }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -428,29 +385,29 @@
                         <div class="strategy-column">
                             <div class="strategy-header">
                                 <div class="strategy-icon">💀</div>
-                                <h3>Common <span class="fatal-text">Fatal Mistakes</span> to Avoid</h3>
+                                <h3 v-html="$t('GuidesPage.survival.fatalMistakes.title', {}, { raw: true })"></h3>
                             </div>
 
                             <div class="mistakes-list">
                                 <div class="mistake-item">
-                                    <h4>Eliminating all guests:</h4>
-                                    <p>This guarantees death on Night 4 when the Intruder arrives - leads to <a href="/endings">bad endings</a></p>
+                                    <h4>{{ $t('GuidesPage.survival.fatalMistakes.mistake1.title') }}</h4>
+                                    <p v-html="$t('GuidesPage.survival.fatalMistakes.mistake1.description', {}, { raw: true })"></p>
                                 </div>
                                 <div class="mistake-item">
-                                    <h4>Relying on single traits:</h4>
-                                    <p>One suspicious feature doesn't confirm Visitor status</p>
+                                    <h4>{{ $t('GuidesPage.survival.fatalMistakes.mistake2.title') }}</h4>
+                                    <p>{{ $t('GuidesPage.survival.fatalMistakes.mistake2.description') }}</p>
                                 </div>
                                 <div class="mistake-item">
-                                    <h4>Ignoring daily news:</h4>
-                                    <p>Missing new Visitor identification information</p>
+                                    <h4>{{ $t('GuidesPage.survival.fatalMistakes.mistake3.title') }}</h4>
+                                    <p>{{ $t('GuidesPage.survival.fatalMistakes.mistake3.description') }}</p>
                                 </div>
                                 <div class="mistake-item">
-                                    <h4>Energy wastage:</h4>
-                                    <p>Using energy on obvious humans or minor details</p>
+                                    <h4>{{ $t('GuidesPage.survival.fatalMistakes.mistake4.title') }}</h4>
+                                    <p>{{ $t('GuidesPage.survival.fatalMistakes.mistake4.description') }}</p>
                                 </div>
                                 <div class="mistake-item">
-                                    <h4>Hasty decisions:</h4>
-                                    <p>Making elimination choices without sufficient evidence</p>
+                                    <h4>{{ $t('GuidesPage.survival.fatalMistakes.mistake5.title') }}</h4>
+                                    <p>{{ $t('GuidesPage.survival.fatalMistakes.mistake5.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -598,6 +555,7 @@ const scrollToSection = (sectionId) => {
     text-shadow: 0 0 10px #00ff88;
     font-weight: normal;
 }
+
 
 .hero-description {
     margin-bottom: 40px;

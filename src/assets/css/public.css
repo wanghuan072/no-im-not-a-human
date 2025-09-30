@@ -57,3 +57,87 @@ code, pre {
     width: 100%;
   }
 }
+
+/* ========================================
+   v-html 渲染内容的通用样式
+   用于确保动态 HTML 内容能正确应用样式
+   ======================================== */
+
+/* 高亮文本样式 - 用于 v-html 中的 span.highlight */
+.hero-title .highlight,
+.hero-subtitle .highlight,
+.section-title .highlight {
+  font-family: 'Creepster', cursive;
+  color: #00ff88;
+  text-shadow: 0 0 10px #00ff88;
+  font-weight: normal;
+}
+
+/* 内链样式 - 用于 v-html 中的 a 标签 */
+.hero-description a,
+.hero-subtitle a,
+.section-subtitle a,
+.section-description a,
+.character-info a,
+.about-text a,
+.about-content a,
+.about-content li a,
+.contact-content a,
+.contact-content li a,
+.copyright-content a,
+.copyright-content li a,
+.text-content a,
+.rule-content a,
+.strategy-section a,
+.mistake-item a,
+.guest-card a,
+.warning-text a,
+.conditions-list a,
+.strategy-point a,
+.avoid-ending a,
+.tips-list a,
+.platform-description a,
+.download-description a,
+.info-value a {
+  color: #00ff88;
+  text-decoration: none;
+  border-bottom: 1px solid #00ff88;
+  transition: all 0.3s ease;
+}
+
+.hero-description a:hover,
+.hero-subtitle a:hover,
+.section-subtitle a:hover,
+.section-description a:hover,
+.character-info a:hover,
+.about-text a:hover,
+.about-content a:hover,
+.about-content li a:hover,
+.contact-content a:hover,
+.contact-content li a:hover,
+.copyright-content a:hover,
+.copyright-content li a:hover,
+.text-content a:hover,
+.rule-content a:hover,
+.strategy-section a:hover,
+.mistake-item a:hover,
+.guest-card a:hover,
+.warning-text a:hover,
+.conditions-list a:hover,
+.strategy-point a:hover,
+.avoid-ending a:hover,
+.tips-list a:hover,
+.platform-description a:hover,
+.download-description a:hover,
+.info-value a:hover {
+  color: #00cc6a;
+  border-bottom-color: #00cc6a;
+  text-shadow: 0 0 5px #00ff88;
+}
+
+/* 高亮文本样式 - 用于 v-html 中的 span.highlight-text */
+.highlight-text {
+  color: #00ff88;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 255, 136, 0.3);
+}

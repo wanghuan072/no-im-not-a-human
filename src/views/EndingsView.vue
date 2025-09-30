@@ -7,33 +7,30 @@
             <div class="container">
                 <div class="hero-wrapper">
                     <!-- Main Title -->
-                    <h1 class="hero-title">
-                        <span class="highlight">No I'm Not a Human Endings</span>
-                    </h1>
+                    <h1 class="hero-title" v-html="$t('EndingsPage.hero.title', {}, { raw: true })"></h1>
 
                     <!-- Description -->
                     <div class="hero-description">
-                        <p>Discover all possible endings in the psychological horror experience. Our comprehensive <span
-                                class="highlight-text">"No I'm Not a Human Endings"</span> reveals every path, condition, and consequence in this apocalyptic nightmare. For complete game guides, visit our <a href="/guides">strategy section</a> or explore our <a href="/">game features</a>.</p>
+                        <p v-html="$t('EndingsPage.hero.description', {}, { raw: true })"></p>
                     </div>
 
                     <!-- Ending Summary Stats -->
                     <div class="ending-stats">
                         <div class="stat-card">
-                            <div class="stat-number">6</div>
-                            <div class="stat-label">Total Endings</div>
+                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.total') }}</div>
+                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.totalLabel') }}</div>
                         </div>
                         <div class="stat-card">
-                            <div class="stat-number">2</div>
-                            <div class="stat-label">Easy Endings</div>
+                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.easy') }}</div>
+                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.easyLabel') }}</div>
                         </div>
                         <div class="stat-card">
-                            <div class="stat-number">2</div>
-                            <div class="stat-label">Medium Endings</div>
+                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.medium') }}</div>
+                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.mediumLabel') }}</div>
                         </div>
                         <div class="stat-card">
-                            <div class="stat-number">2</div>
-                            <div class="stat-label">Hard Endings</div>
+                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.hard') }}</div>
+                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.hardLabel') }}</div>
                         </div>
                     </div>
                 </div>
@@ -45,8 +42,8 @@
             <div class="container">
                 <div class="endings-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">All Game Endings</h2>
-                        <p class="section-subtitle">Explore every possible outcome in your survival journey with our "No I'm Not a Human Endings". Learn about <a href="/visitors">visitor identification</a> and <a href="/guides">survival strategies</a>.</p>
+                        <h2 class="home-title">{{ $t('EndingsPage.mainEndings.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('EndingsPage.mainEndings.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <!-- Primary Endings Grid -->
@@ -55,24 +52,24 @@
                         <div class="ending-card best-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Best Ending</h3>
-                                    <p class="ending-subtitle">The Ultimate Achievement</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.bestEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.bestEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag easy">Easy</div>
+                                <div class="difficulty-tag easy">{{ $t('EndingsPage.mainEndings.bestEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.bestEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>Only allow confirmed human guests into your house - check our <a href="/visitors">visitor database</a></li>
-                                        <li>Ensure no <a href="/visitors">Visitors</a> are ever admitted</li>
-                                        <li>Maintain this perfect record through all 5 days</li>
-                                        <li>Reach Day 5 ending with only humans present</li>
+                                        <li v-html="$t('EndingsPage.mainEndings.bestEnding.condition1', {}, { raw: true })"></li>
+                                        <li v-html="$t('EndingsPage.mainEndings.bestEnding.condition2', {}, { raw: true })"></li>
+                                        <li>{{ $t('EndingsPage.mainEndings.bestEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.bestEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>In a world where the surface is no longer safe, you've created the perfect sanctuary. You seal all windows and doors, consulting with your human guests about never venturing outside again. While you pray for this nightmare to end, hope still exists... at least for now... Fortunately, you had a keen eye for guests. Not a single Visitor crossed the threshold of what was once called home sweet home. At least there's a drop of honey in the current tar barrel of events.</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.bestEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.bestEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -81,24 +78,24 @@
                         <div class="ending-card good-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Good Ending</h3>
-                                    <p class="ending-subtitle">Hopeful Survival</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.goodEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.goodEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag easy">Easy</div>
+                                <div class="difficulty-tag easy">{{ $t('EndingsPage.mainEndings.goodEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.goodEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>End Day 5 with only human guests in your house - learn <a href="/guides">survival techniques</a></li>
-                                        <li>You may have admitted some <a href="/visitors">Visitors</a> but eliminated them</li>
-                                        <li>At least one human guest must remain</li>
-                                        <li>No active Visitors present at the end</li>
+                                        <li v-html="$t('EndingsPage.mainEndings.goodEnding.condition1', {}, { raw: true })"></li>
+                                        <li v-html="$t('EndingsPage.mainEndings.goodEnding.condition2', {}, { raw: true })"></li>
+                                        <li>{{ $t('EndingsPage.mainEndings.goodEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.goodEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>Living on Earth's surface is no longer safe. You seal all windows and block the doors. After consulting with your guests, you decide never to enter the outside world again. You pray helplessly that one day this will all end. If this nightmare really ends. But hope still exists... at least for now...</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.goodEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.goodEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -107,24 +104,24 @@
                         <div class="ending-card bad-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Bad Ending</h3>
-                                    <p class="ending-subtitle">Overwhelmed by Numbers</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.badEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.badEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag medium">Medium</div>
+                                <div class="difficulty-tag medium">{{ $t('EndingsPage.mainEndings.badEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.badEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>Have 3 or more guests in your house at the end of Day 5 - understand <a href="/guides">guest management</a></li>
-                                        <li>This includes any combination of humans and Visitors</li>
-                                        <li>Too many people creates chaos and danger</li>
-                                        <li>Your shelter becomes compromised</li>
+                                        <li v-html="$t('EndingsPage.mainEndings.badEnding.condition1', {}, { raw: true })"></li>
+                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>Living on Earth's surface is no longer safe. After consulting with your guests, you decide never to enter the outside world again. You pray helplessly that one day this will all end. If this nightmare really ends. Or maybe this is just a relatively optimistic dream you're having. In fact, your body was dismembered by the visitors.</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.badEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.badEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -133,24 +130,24 @@
                         <div class="ending-card massacre-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Massacre Ending</h3>
-                                    <p class="ending-subtitle">Violence Begets Violence</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.massacreEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.massacreEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag medium">Medium</div>
+                                <div class="difficulty-tag medium">{{ $t('EndingsPage.mainEndings.massacreEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.massacreEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>Shoot and kill 2 or more guests in a single day</li>
-                                        <li>This can include both humans and Visitors</li>
-                                        <li>Excessive violence triggers immediate consequence</li>
-                                        <li>The house considers you too dangerous</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>You did a lot for those you allowed in. But too much blood was spilled. You're too dangerous for this house and must leave. You were driven from your own home by people who fear you. You didn't survive a day, burned by the scorching sun outside.</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.massacreEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.massacreEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -159,24 +156,24 @@
                         <div class="ending-card intruder-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Intruder Ending</h3>
-                                    <p class="ending-subtitle">Alone in the Dark</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.intruderEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.intruderEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag hard">Hard</div>
+                                <div class="difficulty-tag hard">{{ $t('EndingsPage.mainEndings.intruderEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.intruderEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>Be alone in your house when the Intruder arrives - avoid this with our <a href="/guides">Night 4 guide</a></li>
-                                        <li>The shirtless visitor appears and asks if you're alone</li>
-                                        <li>Have no guests present to lie about</li>
-                                        <li>Results in immediate game over</li>
+                                        <li v-html="$t('EndingsPage.mainEndings.intruderEnding.condition1', {}, { raw: true })"></li>
+                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>No one knows what happened when the last visitor arrived. The house remained uninhabited for a long time. After your terrible disappearance, everyone avoided this abandoned house.</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.intruderEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.intruderEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -185,24 +182,24 @@
                         <div class="ending-card speedrun-ending">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">Speedrun Ending</h3>
-                                    <p class="ending-subtitle">Life Lived Too Fast</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.speedrunEnding.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.speedrunEnding.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag hard">Hard</div>
+                                <div class="difficulty-tag hard">{{ $t('EndingsPage.mainEndings.speedrunEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>Conditions to Achieve:</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.speedrunEnding.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>Quickly talk to guests at the door without investigation</li>
-                                        <li>Rush to Day 5 as fast as possible</li>
-                                        <li>Avoid conversations, drink beer to consume energy, sleep immediately</li>
-                                        <li>Ensure you're not alone (have at least one guest)</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>Ending Description:</h4>
-                                    <p>Living on Earth's surface is no longer safe. You seal all windows and block the doors. After consulting with your guests, you decide never to enter the outside world again. However, they start looking at you strangely. You lived too fast, trying to get through this nightmare as quickly as possible. Constantly rushing, abstracting yourself from the horrors of the outside world, was it worth it? Maybe. Most importantly, don't forget to live, find beauty in life and enjoy it.</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.speedrunEnding.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.speedrunEnding.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -216,28 +213,28 @@
             <div class="container">
                 <div class="strategy-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">How to Achieve Each Ending</h2>
-                        <p class="section-subtitle">Detailed strategies and tips for unlocking every ending with our "No I'm Not a Human Endings". Master the <a href="/guides">core gameplay</a> first.</p>
+                        <h2 class="home-title">{{ $t('EndingsPage.strategyGuide.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('EndingsPage.strategyGuide.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="strategy-grid">
                         <!-- Best Ending Strategy -->
                         <div class="strategy-card best-strategy">
                             <div class="strategy-header">
-                                <h3>Achieving the Best Ending</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.title') }}</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
-                                    <h4>Perfect Guest Selection:</h4>
-                                    <p>Only admit the 'Always Human' characters: Tall Man, Neighbor's Daughter, Burned Man, and Mourning Widow. Check our <a href="/visitors">visitor database</a> for safe characters.</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point1Title') }}</h4>
+                                    <p v-html="$t('EndingsPage.strategyGuide.bestEndingStrategy.point1Desc', {}, { raw: true })"></p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>Thorough Investigation:</h4>
-                                    <p>Always check for the four Visitor traits before admitting any unknown guests. Use energy wisely to investigate thoroughly.</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point2Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point2Desc') }}</p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>Zero Tolerance Policy:</h4>
-                                    <p>If you find even one confirmed Visitor trait, refuse entry immediately. Better safe than sorry for the Best Ending.</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point3Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point3Desc') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -245,16 +242,16 @@
                         <!-- Good Ending Strategy -->
                         <div class="strategy-card good-strategy">
                             <div class="strategy-header">
-                                <h3>Good Ending Strategy</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.title') }}</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
-                                    <h4>Careful Visitor Management:</h4>
-                                    <p>You can admit some <a href="/visitors">Visitors</a> during the game, but eliminate them before Day 5 ends. Focus on ending with only humans.</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.point1Title') }}</h4>
+                                    <p v-html="$t('EndingsPage.strategyGuide.goodEndingStrategy.point1Desc', {}, { raw: true })"></p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>Strategic Eliminations:</h4>
-                                    <p>When you confirm a guest is a <a href="/visitors">Visitor</a>, eliminate them immediately but avoid killing more than one per day to prevent Massacre Ending.</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.point2Title') }}</h4>
+                                    <p v-html="$t('EndingsPage.strategyGuide.goodEndingStrategy.point2Desc', {}, { raw: true })"></p>
                                 </div>
                             </div>
                         </div>
@@ -262,20 +259,20 @@
                         <!-- Endings to Avoid -->
                         <div class="strategy-card avoid-strategy">
                             <div class="strategy-header">
-                                <h3>Endings to Avoid (Unless Intentional)</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.endingsToAvoid.title') }}</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="avoid-ending">
-                                    <h4 class="bad-ending-text">Bad Ending</h4>
-                                    <p>Avoid having 3+ total guests on Day 5. Learn <a href="/guides">guest management</a> strategies.</p>
+                                    <h4 class="bad-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.badEnding') }}</h4>
+                                    <p v-html="$t('EndingsPage.strategyGuide.endingsToAvoid.badEndingDesc', {}, { raw: true })"></p>
                                 </div>
                                 <div class="avoid-ending">
-                                    <h4 class="massacre-ending-text">Massacre Ending</h4>
-                                    <p>Never kill 2+ guests in one day. Follow our <a href="/guides">elimination strategies</a>.</p>
+                                    <h4 class="massacre-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.massacreEnding') }}</h4>
+                                    <p v-html="$t('EndingsPage.strategyGuide.endingsToAvoid.massacreEndingDesc', {}, { raw: true })"></p>
                                 </div>
                                 <div class="avoid-ending">
-                                    <h4 class="intruder-ending-text">Intruder Ending</h4>
-                                    <p>Always keep at least one guest for the Night 4 Intruder encounter.</p>
+                                    <h4 class="intruder-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.intruderEnding') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.endingsToAvoid.intruderEndingDesc') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -289,35 +286,35 @@
             <div class="container">
                 <div class="tips-wrapper">
                     <div class="section-header">
-                        <h2 class="home-title">Ending Unlock Tips</h2>
-                        <p class="section-subtitle">Master the art of survival with our comprehensive "No I'm Not a Human Endings". Start with our <a href="/guides">beginner guide</a>.</p>
+                        <h2 class="home-title">{{ $t('EndingsPage.tips.title') }}</h2>
+                        <p class="section-subtitle" v-html="$t('EndingsPage.tips.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="tips-grid">
                         <div class="tips-card">
                             <div class="tips-header">
-                                <h3>General Advice</h3>
+                                <h3>{{ $t('EndingsPage.tips.generalAdvice.title') }}</h3>
                             </div>
                             <div class="tips-content">
                                 <ul class="tips-list">
-                                    <li>Carefully observe each visitor's characteristics and behavior</li>
-                                    <li>Record important dialogues and clues</li>
-                                    <li>Don't rush to make choices, think carefully</li>
-                                    <li>Use progress tracker to record unlocked endings</li>
+                                    <li>{{ $t('EndingsPage.tips.generalAdvice.tip1') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.generalAdvice.tip2') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.generalAdvice.tip3') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.generalAdvice.tip4') }}</li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="tips-card">
                             <div class="tips-header">
-                                <h3>Unlock Strategy</h3>
+                                <h3>{{ $t('EndingsPage.tips.unlockStrategy.title') }}</h3>
                             </div>
                             <div class="tips-content">
                                 <ul class="tips-list">
-                                    <li>Try easy endings first to familiarize with game mechanics</li>
-                                    <li>Play multiple times trying different choice combinations</li>
-                                    <li>Pay attention to hidden interactive elements and easter eggs</li>
-                                    <li>Refer to night guides to understand key choice points</li>
+                                    <li>{{ $t('EndingsPage.tips.unlockStrategy.tip1') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.unlockStrategy.tip2') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.unlockStrategy.tip3') }}</li>
+                                    <li>{{ $t('EndingsPage.tips.unlockStrategy.tip4') }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -333,6 +330,7 @@
 <script setup>
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import '@/assets/css/public.css'
 </script>
 
 <style scoped>
@@ -444,6 +442,7 @@ a:hover {
     text-shadow: 0 0 10px #00ff88;
     font-weight: normal;
 }
+
 
 .hero-description {
     margin-bottom: 40px;

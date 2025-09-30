@@ -1,0 +1,385 @@
+<template>
+    <div class="privacy-page">
+        <AppHeader />
+
+        <!-- Hero Section -->
+        <section class="section hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" v-html="$t('PrivacyPolicyPage.hero.title', {}, { raw: true })"></h1>
+                    <p class="hero-subtitle">{{ $t('PrivacyPolicyPage.hero.subtitle') }}</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <section class="section main-content">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="policy-content">
+                        <p class="last-updated">Last updated: September 30, 2025</p>
+
+                        <section>
+                            <h2>General Information</h2>
+                            <p>
+                                At <strong>No I'm Not a Human Guide</strong>, we are committed to protecting the privacy
+                                of all users of our websites and applications. This Privacy Policy applies to all
+                                services and products offered by <strong>noimnotahuman.org</strong>. By using this Site
+                                you agree to this Privacy Policy and confirm you are of legal age to consent to its
+                                terms. Continued use of the Site following any changes to this policy will constitute
+                                acceptance of those changes.
+                            </p>
+                            <p>
+                                The Site is intended for visitors aged 16 and above. If you are under 16, please do not
+                                use the Site. If you are a parent or guardian and allow a child to access the Site, you
+                                consent to this Privacy Policy on their behalf.
+                            </p>
+                            <p>
+                                If you have questions about this Privacy Policy, contact us at <a
+                                    href="mailto:wyong@iamnotahuman.org">wyong@iamnotahuman.org</a>.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2>Which Data Do We Collect?</h2>
+
+                            <h3>Data you provide</h3>
+                            <p>We only process personal data you voluntarily provide, for example when filling forms or
+                                contacting us. This may include:</p>
+                            <ul>
+                                <li>Name</li>
+                                <li>Email address</li>
+                                <li>Any other information you choose to provide</li>
+                            </ul>
+
+                            <h3>Data collected automatically</h3>
+                            <p>We may collect certain data automatically during your visit, such as:</p>
+                            <ul>
+                                <li>IP address (for fraud prevention, analytics, or location-based features)</li>
+                                <li>Browser type and version</li>
+                                <li>Referring page or site</li>
+                                <li>Device identifiers (including mobile device IDs)</li>
+                                <li>Cookie and tracking data</li>
+                                <li>User interaction data (e.g., whether you viewed or clicked an advertisement)</li>
+                            </ul>
+
+                            <h3>Third-party data</h3>
+                            <p>If we receive personal data from third parties, we will inform you when required.</p>
+                        </section>
+
+                        <section>
+                            <h2>Why We Collect Data & Legal Basis</h2>
+                            <p>We collect and process personal data for purposes including, but not limited to:</p>
+                            <ul>
+                                <li>Providing, improving, and optimizing our services and content</li>
+                                <li>Performing contractual obligations</li>
+                                <li>Sending updates, newsletters, and marketing communications (where permitted)</li>
+                                <li>Statistical analysis and research</li>
+                                <li>Compliance with legal obligations (e.g., age verification)</li>
+                            </ul>
+                            <p>Legal bases for processing may include your consent, performance of a contract,
+                                legitimate interests, or compliance with legal obligations.</p>
+                            <p><em>Note:</em> Advertisers or third-party services may collect data via their own cookies
+                                or tracking technologies. <strong>No I'm Not a Human Guide</strong> is not responsible
+                                for third-party data collection practices.</p>
+                        </section>
+
+                        <section>
+                            <h2>Data Retention</h2>
+                            <p>We retain personal data only as long as necessary to fulfil the purposes described in
+                                this policy. Data associated with inactive accounts or visitors may be deleted after a
+                                reasonable period of inactivity unless retention is required by law or for legitimate
+                                business reasons.</p>
+                        </section>
+
+                        <section>
+                            <h2>GDPR & Your Rights (EEA Residents)</h2>
+                            <p>If you are a resident of the European Economic Area (EEA), you have certain rights
+                                regarding your personal data, including:</p>
+                            <ul>
+                                <li>The right to access, update, or delete your personal data</li>
+                                <li>The right to rectification of inaccurate information</li>
+                                <li>The right to object to processing</li>
+                                <li>The right to restrict processing</li>
+                                <li>The right to data portability</li>
+                                <li>The right to withdraw consent where processing is based on consent</li>
+                            </ul>
+                            <p>We may request identity verification before fulfilling requests. For more information,
+                                you can also contact your local data protection authority.</p>
+                        </section>
+
+                        <section>
+                            <h2>Your Rights & Communication Preferences</h2>
+                            <p>You may opt out of marketing communications at any time by contacting <a
+                                    href="mailto:wyong@iamnotahuman.org">wyong@iamnotahuman.org</a> or by following
+                                unsubscribe instructions included in such communications. To request correction,
+                                deletion, or restriction of processing, please provide a clear reason for the request to
+                                help us verify and fulfil it promptly.</p>
+                        </section>
+
+                        <section>
+                            <h2>Cookies</h2>
+
+                            <h3>What are cookies?</h3>
+                            <p>Cookies are small files stored on your device that help websites remember preferences and
+                                improve user experience. Web beacons are small, typically transparent images used to
+                                monitor user behavior.</p>
+
+                            <h3>Types of cookies</h3>
+                            <ul>
+                                <li><strong>First-party cookies</strong>: Placed by this Site to support technical
+                                    features (e.g., language settings, session handling).</li>
+                                <li><strong>Third-party cookies</strong>: Placed by external providers (e.g., analytics,
+                                    advertising networks) and used to track browsing behavior across sites.</li>
+                            </ul>
+
+                            <h3>Which cookies we use</h3>
+                            <p><strong>No I'm Not a Human Guide</strong> uses first-party cookies to enhance usability
+                                and may allow third-party cookies (for example, Google Analytics or advertising
+                                partners) to provide analytics and advertising services. Cookies essential for site
+                                function do not require consent; other cookies may require your permission.</p>
+
+                            <h3>How to manage cookies</h3>
+                            <p>You may manage or disable cookies via your browser settings. Refer to your browser's
+                                support documentation (Chrome, Firefox, Safari, Edge/Internet Explorer, Opera) for
+                                instructions on blocking or removing cookies.</p>
+                        </section>
+
+                        <section>
+                            <h2>Security Measures</h2>
+                            <p>We implement reasonable technical and organizational measures to protect personal data
+                                and restrict access to authorized personnel only. We do not sell or rent your personal
+                                data. When external processors are used, they are contractually required to protect and
+                                securely process data and to delete it after completing assigned tasks.</p>
+                        </section>
+
+                        <section>
+                            <h2>Contact Information</h2>
+                            <p>If you have questions or concerns about this Privacy Policy, please contact:</p>
+                            <ul>
+                                <li>Email: <a href="mailto:wyong@iamnotahuman.org">wyong@iamnotahuman.org</a></li>
+                                <li>Website: <a href="https://noimnotahuman.org">noimnotahuman.org</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <AppFooter />
+    </div>
+</template>
+
+<script setup>
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
+</script>
+
+<style scoped>
+.privacy-page {
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #00ff41, #00cc33);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-content {
+    padding: 60px 0;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.policy-content {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.policy-content section {
+    margin-bottom: 2rem;
+}
+
+.policy-content section:last-child {
+    margin-bottom: 0;
+}
+
+.policy-content h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #00ff41;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.policy-content h2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 30px;
+    background: linear-gradient(135deg, #00ff41, #00cc33);
+    border-radius: 2px;
+}
+
+.policy-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    color: #fff;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.policy-content p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.policy-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+}
+
+.policy-content li {
+    list-style: none;
+    position: relative;
+    padding: 10px 0 10px 25px;
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.policy-content li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #00ff41;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.policy-content strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.policy-content em {
+    color: #888;
+    font-style: italic;
+}
+
+.policy-content a {
+    color: #00ff41;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.policy-content a:hover {
+    color: #00cc33;
+    border-bottom-color: #00cc33;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .main-content {
+        padding: 40px 0;
+    }
+
+    .policy-content {
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+
+    .policy-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding-left: 15px;
+    }
+
+    .policy-content h2:before {
+        width: 3px;
+        height: 25px;
+    }
+
+    .policy-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .policy-content p,
+    .policy-content li {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .policy-content li {
+        padding: 8px 0 8px 20px;
+    }
+
+    .policy-content section {
+        margin-bottom: 1.5rem;
+    }
+}
+</style>

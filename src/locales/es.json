@@ -1,0 +1,1300 @@
+{
+    "seo": {
+        "home": {
+            "title": "No I'm Not a Human - Guía Estratégica Completa | iamnothuman.org",
+            "description": "Domina la guía estratégica definitiva de No I'm Not a Human. Guías de juego completas, requisitos del sistema, canales de descarga seguros y tutoriales profesionales para todos los finales.",
+            "keywords": "No I'm Not a Human, guía estratégica, guía de juego, juego de terror, juego de supervivencia, finales, visitantes, descarga, iamnotahuman.org"
+        },
+        "guides": {
+            "title": "Guías de No I'm Not a Human - Guía de Juego Completa | iamnotahuman.org",
+            "description": "Domina la experiencia de horror paranoico con nuestras completas guías de No I'm Not a Human que cubren mecánicas del juego, gestión de energía y estrategias de supervivencia.",
+            "keywords": "guías de No I'm Not a Human, guía de juego, mecánicas del juego, sistema de energía, consejos de supervivencia, juego de terror, iamnotahuman.org"
+        },
+        "endings": {
+            "title": "Finales de No I'm Not a Human - Guía de Todos los Finales | iamnotahuman.org",
+            "description": "Descubre todos los finales posibles en esta experiencia de horror psicológico. La guía completa de finales de No I'm Not a Human revela cada camino, condición y consecuencia.",
+            "keywords": "finales de No I'm Not a Human, finales del juego, todos los finales, finales de juegos de terror, guía estratégica, iamnotahuman.org"
+        },
+        "wiki": {
+            "title": "Wiki de No I'm Not a Human - Enciclopedia Completa del Juego | iamnotahuman.org",
+            "description": "Wiki completa de No I'm Not a Human con información de personajes, mecánicas del juego, detalles de la historia y base de conocimiento exhaustiva.",
+            "keywords": "wiki de No I'm Not a Human, wiki del juego, guía de personajes, enciclopedia del juego, juego de terror, iamnotahuman.org"
+        },
+        "visitors": {
+            "title": "No I'm Not a Human Visitors - Guía Completa de Personajes | iamnotahuman.org",
+            "description": "Domina la experiencia de horror psicológico con nuestra completa enciclopedia de No I'm Not a Human Visitors que cubre los 58 personajes.",
+            "keywords": "No I'm Not a Human visitors, guía de personajes, guía de visitantes, personajes de juegos de terror, iamnotahuman.org"
+        },
+        "download": {
+            "title": "Descargar No I'm Not a Human - Guía Oficial de Descarga | iamnotahuman.org",
+            "description": "Descarga No I'm Not a Human de manera segura. Canales de descarga oficiales, requisitos del sistema y guía de instalación para este juego de horror y supervivencia.",
+            "keywords": "descargar No I'm Not a Human, descarga de juego, descarga de juego de terror, requisitos del sistema, iamnotahuman.org"
+        },
+        "about": {
+            "title": "Sobre Nosotros - Guía de No I'm Not a Human",
+            "description": "Conoce la Guía de No I'm Not a Human, tu fuente confiable de guías de juego completas, base de datos de personajes, análisis de finales y recursos para la comunidad.",
+            "keywords": "sobre nosotros, guía de No I'm Not a Human, guías de juego, comunidad, misión"
+        },
+        "contact": {
+            "title": "Contáctanos - Guía de No I'm Not a Human",
+            "description": "Ponte en contacto con la Guía de No I'm Not a Human. Contáctanos para soporte, comentarios, sugerencias de contenido o consultas de colaboración.",
+            "keywords": "contacto, soporte, comentarios, guía de No I'm Not a Human, colaboración"
+        },
+        "privacy": {
+            "title": "Política de Privacidad - Guía de No I'm Not a Human",
+            "description": "Lee nuestra política de privacidad para entender cómo recopilamos, usamos y protegemos tu información personal en la Guía de No I'm Not a Human.",
+            "keywords": "política de privacidad, protección de datos, información personal, privacidad"
+        },
+        "terms": {
+            "title": "Términos de Servicio - Guía de No I'm Not a Human",
+            "description": "Lee nuestros términos de servicio para entender las reglas y directrices para usar el sitio web de No I'm Not a Human Guide.",
+            "keywords": "términos de servicio, condiciones, acuerdo de usuario, reglas del sitio web"
+        },
+        "copyright": {
+            "title": "Declaración de Derechos de Autor - Guía de No I'm Not a Human",
+            "description": "Información sobre derechos de autor y propiedad intelectual de No I'm Not a Human Guide. Aprende sobre propiedad de contenidos, política de uso justo y directrices de uso.",
+            "keywords": "derechos de autor, propiedad intelectual, uso justo, DMCA, derechos de contenido"
+        }
+    },
+    "nav": {
+        "home": "Inicio",
+        "guides": "Guías",
+        "endings": "Finales",
+        "wiki": "Wiki",
+        "visitors": "Visitors",
+        "download": "Descarga",
+        "openMenu": "Abrir Menú",
+        "closeMenu": "Cerrar Menú"
+    },
+    "HomePage": {
+        "hero": {
+            "banner": {
+                "hotBadge": "🔥 Recomendación Popular",
+                "announcement": "✨ Guía Completa de No I'm Not a Human Ahora Disponible - Tu Camino hacia la Finalización Perfecta"
+            },
+            "title": "Domina la Guía Estratégica Definitiva de <span class=\"highlight\">No I'm Not a Human</span>",
+            "description": "Sumérgete en el mundo de este aclamado juego de horror psicológico. Proveemos las más completas <a href=\"/guides\">guías de No I'm Not a Human</a>, análisis detallado de requisitos del sistema, canales de <a href=\"/download\">descarga seguros</a> y tutoriales profesionales. Tanto si eres principiante como veterano buscando <a href=\"/endings\">todos los finales</a>, encontrarás todo lo que necesitas aquí.",
+            "buttons": {
+                "download": "⬇️ Descargar Juego Ahora",
+                "guides": "📖 Empezar Guías"
+            },
+            "footer": {
+                "icon": "⚡",
+                "text": "Creado por nuestro equipo de guías profesional para ayudarte a sobrevivir y descubrir todos los secretos en el mundo del horror"
+            }
+        },
+        "video": {
+            "title": "Ver el Tráiler",
+            "playButton": "▶",
+            "playLabel": "Ver Tráiler"
+        },
+        "about": {
+            "title": "Acerca de No I'm Not a Human",
+            "description": "A medida que el sol se acerca a la Tierra, la civilización colapsa. El calor extremo durante el día hace imposible la supervivencia al aire libre, obligando a la población restante a buscar refugio. Pero algo más surgió en este nuevo mundo: visitantes que pueden imitar la apariencia y comportamiento humano, pero cuyas intenciones permanecen desconocidas y mortales.",
+            "challenge": {
+                "title": "El Desafío",
+                "description": "Juegas como un superviviente atrincherado en un apartamento, intentando durar hasta... ¿qué? ¿Rescate? ¿Una solución? ¿O simplemente un día más? Tu supervivencia depende de identificar quién es humano y quién es un <a href=\"/visitors\">visitante</a>. Cada decisión es crítica, ya que permitir la entrada de la persona equivocada podría ser fatal. El juego explora temas de confianza, paranoia y supervivencia en circunstancias extremas, donde la mayor amenaza puede ser la persona a la que eliges ayudar."
+            }
+        },
+        "features": {
+            "title": "Características Clave",
+            "card1": {
+                "title": "Sistema de Finales Multi-Rama Complejo",
+                "description": "No I'm Not a Human presenta más de 15 <a href=\"/endings\">caminos de finales</a>, donde cada elección del jugador crea un efecto mariposa, influyendo en la dirección final de la historia. Este diseño hace que cada experiencia de juego sea única, aumentando enormemente la rejugabilidad y la diversión de exploración."
+            },
+            "card2": {
+                "title": "Desafío de Horror Progresivo de Tres Noches",
+                "description": "El juego divide inteligentemente la experiencia de horror en tres noches, con dificultad y complejidad creciente. Los jugadores deben aprender a identificar <a href=\"/visitors\">visitantes</a> reales y falsos, dominar <a href=\"/guides\">habilidades de supervivencia</a> y tomar decisiones correctas bajo presión."
+            },
+            "card3": {
+                "title": "Experiencia Profunda de Horror Psicológico",
+                "description": "No I'm Not a Human no se basa en sustos baratos, sino que crea tensión sostenida mediante atmósfera cuidadosamente construida, diseño de sonido sutil y señales visuales inteligentes, permitiendo a los jugadores experimentar un verdadero horror psicológico."
+            }
+        },
+        "why": {
+            "title": "Por Qué Nuestra Guía del Juego es Esencial",
+            "intro": "Obtén todo lo necesario para dominar la intensa experiencia de supervivencia de horror, desde consejos para principiantes hasta estrategias avanzadas para este desafiante juego.",
+            "card1": {
+                "title": "<a href=\"/guides\">Guía Completa</a>",
+                "description": "Estrategia diaria de supervivencia, incluyendo supervivencia crítica en la Noche 4 y técnicas de gestión de invitados para un juego óptimo."
+            },
+            "card2": {
+                "title": "<a href=\"/endings\">Guía de Todos los Finales</a>",
+                "description": "Desbloquea cada resultado posible con guías paso a paso y árboles de decisiones para los seis finales diferentes."
+            },
+            "card3": {
+                "title": "<a href=\"/guides\">Estrategias Expertas</a>",
+                "description": "Consejos avanzados para eficiencia energética, priorización de invitados y evitar errores fatales que llevan al game over."
+            },
+            "card4": {
+                "title": "<a href=\"/wiki\">Guía de Guerra Psicológica</a>",
+                "description": "Domina la gestión del estrés, <a href=\"/visitors\">análisis psicológico de visitantes</a> y técnicas de toma de decisiones para mantener la cordura en este mundo paranoico."
+            }
+        },
+        "guide": {
+            "title": "Características de la Guía Completa",
+            "intro": "Todo lo que necesitas para dominar esta experiencia de horror de supervivencia y convertirte en un experto en el desafiante juego paranoico. Nuestras guías completas cubren todos los aspectos de esta intensa aventura de horror.",
+            "card1": {
+                "title": "<a href=\"/guides\">Guía de Identificación de Visitantes</a>",
+                "description": "Guía completa para detectar <a href=\"/visitors\">Visitantes</a> peligrosos mediante rasgos físicos, patrones de comportamiento y técnicas de investigación. Domina estrategias de supervivencia con métodos detallados de identificación."
+            },
+            "card2": {
+                "title": "<a href=\"/endings\">Guía de los 6 Finales</a>",
+                "description": "Guías paso a paso para desbloquear cada final, incluyendo el final secreto, con explicaciones detalladas de elecciones y estrategias de supervivencia. Recorrido completo para los seis resultados posibles."
+            },
+            "card3": {
+                "title": "<a href=\"/guides\">Sistema de Gestión de Energía</a>",
+                "description": "Domina el sistema de investigación basado en energía con estrategias de optimización para máxima eficiencia."
+            },
+            "card4": {
+                "title": "<a href=\"/guides\">Estrategias de Supervivencia</a>",
+                "description": "Consejos avanzados para gestión del refugio, priorización de invitados y evitar errores fatales en el juego."
+            },
+            "card5": {
+                "title": "<a href=\"/endings\">Guía de Logros</a>",
+                "description": "Guía completa de búsqueda de logros con requisitos y estrategias de desbloqueo para el 100% de finalización."
+            },
+            "card6": {
+                "title": "<a href=\"/guides\">Guía de Intrusos Noche 4</a>",
+                "description": "Estrategias críticas de supervivencia para la noche más desafiante, incluyendo detección y defensa de intrusos."
+            }
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "intro": "Aprende más sobre esta aclamada novela visual de terror.",
+            "q1": {
+                "question": "¿Qué es No I'm Not a Human?",
+                "answer": "No I'm Not a Human es una novela visual de horror psicológico donde la actividad solar extrema hace imposible la supervivencia diurna. Debes sobrevivir la noche identificando <a href=\"/visitors\">Visitantes</a> peligrosos disfrazados de humanos que buscan refugio en tu apartamento, tomando decisiones críticas que determinarán tu destino."
+            },
+            "q2": {
+                "question": "¿Quién desarrolló el juego?",
+                "answer": "El juego fue desarrollado por el estudio indie ruso Trioskaz y publicado por Critical Reflex. Está disponible en Steam para PC, y se planean versiones para consola."
+            },
+            "q3": {
+                "question": "¿Cómo funciona el sistema de energía?",
+                "answer": "Tienes energía diaria limitada para investigar a los invitados. Cada inspección de partes del cuerpo, conversación o acción consume energía. Puedes comer, beber o descansar para pasar el tiempo, pero debes equilibrar las necesidades de investigación con la conservación de energía. Para estrategias detalladas, consulta nuestras <a href=\"/guides\">guías completas</a>."
+            },
+            "q4": {
+                "question": "¿Qué hace único a este juego?",
+                "answer": "El juego combina horror psicológico con dilemas morales y gestión de recursos. Debes tomar decisiones rápidas sobre en quién confiar, y cada elección puede tener consecuencias mortales en este entorno post-apocalíptico atmosférico."
+            },
+            "q5": {
+                "question": "¿Cuántos finales hay?",
+                "answer": "El juego tiene múltiples <a href=\"/endings\">finales</a> según tus elecciones e interacciones con los <a href=\"/visitors\">visitantes</a>. Cada partida puede conducir a resultados diferentes según cómo manejes a los visitantes misteriosos y gestiones tu estrategia de supervivencia."
+            },
+            "q6": {
+                "question": "¿Dónde puedo jugarlo?",
+                "answer": "No I'm Not a Human está disponible en Steam para Windows PC. Se planean versiones de consola. Hay una demo disponible en Steam para probar antes de comprar. Consulta nuestra <a href=\"/download\">página de descarga</a> para requisitos del sistema y compatibilidad de plataformas."
+            }
+        },
+        "cta": {
+            "title": "Enfrenta la Noche",
+            "text": "Únete a miles de supervivientes en esta intensa experiencia de horror psicológico. ¿Podrás sobrevivir hasta el amanecer?",
+            "steamButton": "Jugar en Steam",
+            "demoButton": "Probar Demo Gratis"
+        }
+    },
+    "GuidesPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Guías de No I'm Not a Human - Guía Completa de Juego</span>",
+            "description": "Domina la experiencia de horror paranoico con nuestras completas <span class=\"highlight-text\">\"Guías de No I'm Not a Human\"</span> que cubren <span class=\"highlight-text\">mecánicas del juego</span>, <span class=\"highlight-text\">gestión de energía</span> y <span class=\"highlight-text\">estrategias de supervivencia</span>. Aprende a distinguir entre verdaderos supervivientes humanos y peligrosos Visitantes en esta pesadilla apocalíptica. Para más información sobre el juego, visita nuestra <a href=\"/\">página principal</a>.",
+            "navCards": {
+                "mechanics": "Mecánicas del Juego",
+                "energy": "Sistema de Energía",
+                "guests": "Tipos de Invitados",
+                "survival": "Consejos de Supervivencia"
+            }
+        },
+        "mechanics": {
+            "title": "Resumen del Flujo de Juego",
+            "subtitle": "Domina las tres etapas críticas de tu supervivencia con nuestra guía completa \"Guías de No I'm Not a Human\" – esta experiencia de horror psicológico que prueba tu habilidad para distinguir amigo de enemigo. Descubre todos los posibles <a href=\"/endings\">finales</a>.",
+            "stages": {
+                "stage1": {
+                    "title": "Etapa de Aprendizaje",
+                    "description": "Domina las mecánicas básicas de supervivencia y técnicas de identificación de visitantes"
+                },
+                "stage2": {
+                    "title": "Etapa de Desafío",
+                    "description": "Navega por situaciones complejas con visitantes disfrazados sofisticadamente"
+                },
+                "stage3": {
+                    "title": "Etapa Final",
+                    "description": "Enfrenta los desafíos definitivos que determinan tu final"
+                }
+            },
+            "nights": {
+                "night1": {
+                    "title": "Noche 1: Primer Contacto",
+                    "difficulty": "Fácil",
+                    "description": "La noche introductoria donde aprendes las mecánicas básicas y métodos de identificación de visitantes. Nuestras \"Guías de No I'm Not a Human\" te ayudarán a dominar estos fundamentos.",
+                    "playTime": "Tiempo estimado de juego: 30-45 minutos",
+                    "visitorTypesTitle": "Tipos principales de Visitantes:",
+                    "visitorType1": "Visitante Amistoso",
+                    "visitorType2": "Extraño Sospechoso",
+                    "visitorType3": "Repartidor",
+                    "strategyTitle": "Consejos Estratégicos",
+                    "strategyDesc": "Concéntrate en familiarizarte con las mecánicas del juego. Observa cuidadosamente la apariencia y el comportamiento de los visitantes.",
+                    "keyPointsTitle": "Puntos Clave:",
+                    "keyPoint1": "Aprender métodos básicos de identificación de visitantes",
+                    "keyPoint2": "Familiarizarse con la interfaz y controles del juego",
+                    "keyPoint3": "Establecer criterios iniciales de juicio",
+                    "keyPoint4": "Evitar los primeros errores fatales"
+                },
+                "night2": {
+                    "title": "Noche 2: Desafío Profundizado",
+                    "difficulty": "Medio",
+                    "description": "La dificultad aumenta con visitantes más complejos y situaciones de elección. Nuestras \"Guías de No I'm Not a Human\" proporcionan estrategias avanzadas para esta fase desafiante.",
+                    "playTime": "Tiempo estimado de juego: 45-60 minutos",
+                    "visitorTypesTitle": "Tipos principales de Visitantes:",
+                    "visitorType1": "Visitante Disfrazado",
+                    "visitorType2": "Buscador de Ayuda de Emergencia",
+                    "visitorType3": "Trabajador de Mantenimiento",
+                    "visitorType4": "Mujer Misteriosa",
+                    "strategyTitle": "Consejos Estratégicos",
+                    "strategyDesc": "La Noche 2 es el punto de inflexión del juego, los disfraces de los visitantes son más sofisticados. Presta especial atención a los detalles y a tu intuición.",
+                    "keyPointsTitle": "Puntos Clave:",
+                    "keyPoint1": "Manejar visitantes disfrazados más complejos",
+                    "keyPoint2": "Enfrentar elecciones morales en emergencias",
+                    "keyPoint3": "Identificar señales sutiles anormales",
+                    "keyPoint4": "Gestionar el aumento de presión psicológica"
+                },
+                "night3": {
+                    "title": "Noche 3: Prueba Final",
+                    "difficulty": "Difícil",
+                    "description": "La noche más desafiante, con elecciones clave que determinan el final. Nuestras \"Guías de No I'm Not a Human\" ofrecen información crucial para este momento decisivo.",
+                    "playTime": "Tiempo estimado de juego: 60-90 minutos",
+                    "visitorTypesTitle": "Tipos principales de Visitantes:",
+                    "visitorType1": "Imitador Avanzado",
+                    "visitorType2": "Mimético Familiar",
+                    "visitorType3": "Figura de Autoridad",
+                    "visitorType4": "Jefe Final",
+                    "strategyTitle": "Consejos Estratégicos",
+                    "strategyDesc": "La Noche 3 determina el final del juego. La experiencia y las decisiones de las dos primeras noches afectarán la situación de esta noche.",
+                    "keyPointsTitle": "Puntos Clave:",
+                    "keyPoint1": "Enfrentar los desafíos de juicio de mayor dificultad",
+                    "keyPoint2": "Manejar conflictos entre emoción y razón",
+                    "keyPoint3": "Tomar decisiones clave que afecten el final",
+                    "keyPoint4": "Soportar la máxima presión psicológica"
+                }
+            }
+        },
+        "energy": {
+            "title": "Sistema de Gestión de Energía",
+            "subtitle": "La energía es el recurso más crítico del juego. Domina su uso con nuestras \"Guías de No I'm Not a Human\" para sobrevivir a la pesadilla paranoica. Consigue el juego en nuestra <a href=\"/download\">página de descarga</a>.",
+            "dailyAllocation": {
+                "title": "Asignación Diaria de Energía",
+                "description": "La energía es tu recurso más preciado en el juego. Cada día te proporciona una cantidad finita de energía y, cuando se agota completamente, el día termina automáticamente, dejándote lidiar con las consecuencias de tus decisiones. Nuestras \"Guías de No I'm Not a Human\" te ayudarán a dominar este sistema crucial.",
+                "costsTitle": "💰 Costos de Energía:",
+                "talking": "Hablar con invitados:",
+                "talkingCost": "GRATIS",
+                "examination": "Examen físico:",
+                "examinationCost": "1 Energía",
+                "roomInvestigation": "Investigación de habitación:",
+                "roomCost": "1-2 Energía",
+                "itemExamination": "Examen de objeto:",
+                "itemCost": "1 Energía"
+            },
+            "strategicManagement": {
+                "title": "Gestión Estratégica de Energía",
+                "step1": "<strong>Comienza con diálogos:</strong> Inicia cada día conversando con todos los visitantes para recopilar datos iniciales de comportamiento e indicadores verbales.",
+                "step2": "<strong>Monitorea actualizaciones de transmisión:</strong> Los informes diarios frecuentemente contienen información vital sobre nuevos métodos de identificación de amenazas.",
+                "step3": "<strong>Enfócate en individuos de alto riesgo:</strong> Asigna recursos de energía a invitados que muestren patrones de comportamiento inusuales o respuestas sospechosas.",
+                "step4": "<strong>Concentra en indicadores principales:</strong> Enfoca tu energía en las características físicas más fiables en lugar de detalles menores.",
+                "step5": "<strong>Mantén reservas de emergencia:</strong> Siempre conserva algo de energía para llegadas inesperadas al final del día o situaciones críticas."
+            }
+        },
+        "guests": {
+            "title": "Fundamentos de Interacción con Invitados",
+            "subtitle": "Aprende cómo evaluar de forma segura a los recién llegados y categorizar distintos tipos de personajes con nuestras \"Guías de No I'm Not a Human\" para sobrevivir. Consulta nuestra completa <a href=\"/visitors\">base de datos de visitantes</a>.",
+            "confirmedSafe": {
+                "title": "Personajes Confirmados Seguros",
+                "description": "Estos individuos son humanos genuinos garantizados en cada sesión del juego. Nuestras \"Guías de No I'm Not a Human\" te ayudarán a identificarlos. Visita nuestra <a href=\"/visitors\">base de datos de visitantes</a>:",
+                "char1": "El Caballero Anciano",
+                "char2": "Joven Superviviente",
+                "char3": "Veterano Marcado",
+                "char4": "Madre Afligida"
+            },
+            "confirmedThreats": {
+                "title": "Amenazas Confirmadas",
+                "description": "Estas entidades deben ser eliminadas inmediatamente al identificarlas. Aprende más sobre personajes peligrosos en nuestra <a href=\"/visitors\">base de datos de visitantes</a>:",
+                "char1": "Extraño Hostil",
+                "char2": "Figura Misteriosa con Atuendo Extraño",
+                "char3": "Especialista en Predicciones",
+                "char4": "Trabajador de Servicios"
+            },
+            "uncertainIndividuals": {
+                "title": "Individuos Inciertos",
+                "description1": "Estos visitantes tienen un estado inconsistente en distintas sesiones de juego, lo que los hace impredecibles. Consulta nuestra <a href=\"/visitors\">base de datos de visitantes</a> para análisis detallados.",
+                "description2": "Un examen físico exhaustivo y análisis de comportamiento son esenciales para una identificación precisa. Usa nuestra <a href=\"/visitors\">guía de identificación de visitantes</a> para estrategias detalladas."
+            }
+        },
+        "identification": {
+            "title": "Fundamentos de Identificación de Visitantes",
+            "subtitle": "Domina los cuatro rasgos físicos clave que delatan a los Visitantes peligrosos con nuestras \"Guías de No I'm Not a Human\".",
+            "warning": {
+                "title": "Advertencia Crítica",
+                "description1": "¡Nunca confíes en un solo signo! Incluso los humanos pueden parecer sospechosos en el apocalipsis.",
+                "description2": "Necesitas al menos <strong>DOS</strong> rasgos confirmados para identificar de forma segura a un <strong>Visitante</strong> - nunca confíes en un solo signo."
+            },
+            "traits": {
+                "perfectTeeth": {
+                    "icon": "🦷",
+                    "title": "Dientes Blancos Perfectos",
+                    "description": "Los visitantes tienen dientes excepcionalmente perfectos y blancos que destacan durante conversaciones o exámenes."
+                },
+                "dirtyNails": {
+                    "icon": "💅",
+                    "title": "Uñas Sucias o Negras",
+                    "description": "Busca uñas que parezcan inusualmente sucias o ennegrecidas, en contraste con una apariencia limpia. Más consejos de identificación en nuestra <a href=\"/visitors\">base de datos de visitantes</a>."
+                },
+                "bloodshotEyes": {
+                    "icon": "👁️",
+                    "title": "Ojos Severamente Inyectados en Sangre",
+                    "description": "Ojos intensamente rojos, más allá de fatiga o estrés normal. Más información en nuestra base de datos."
+                },
+                "hairlessArmpits": {
+                    "icon": "🚫",
+                    "title": "Axilas Completamente Sin Pelo",
+                    "description": "Los visitantes carecen de vello en las axilas, lo cual se puede comprobar durante exámenes físicos."
+                }
+            }
+        },
+        "survival": {
+            "title": "Estrategias Esenciales de Supervivencia",
+            "subtitle": "Reglas críticas y consejos avanzados para sobrevivir a la pesadilla paranoica con nuestras \"Guías de No I'm Not a Human\". Aprende más sobre <a href=\"/endings\">los finales del juego</a>.",
+            "criticalRule": {
+                "title": "La Regla Crítica de la Noche 4",
+                "description1": "Debes tener al menos un invitado en tu hogar en la <strong>Noche 4</strong>.",
+                "description2": "Cuando llegue el \"Intruso\" sin camisa y pregunte si estás solo, debes responder \"<strong>No</strong>\" y tener a alguien presente para sobrevivir.",
+                "description3": "Esto significa que no puedes eliminar a todos los invitados, incluso si sospechas de ellos. Mantén siempre al menos un invitado humano confirmado para el encuentro de la <strong>Noche 4</strong>. Nuestras \"Guías de No I'm Not a Human\" enfatizan esta regla crítica. Estar solo cuando llegue el Intruso resulta en <strong>game over inmediato</strong>. Aprende más sobre <a href=\"/endings\">todos los posibles finales</a>."
+            },
+            "advancedTips": {
+                "title": "Consejos Avanzados de Supervivencia",
+                "energyConservation": {
+                    "title": "Conservación de Energía:",
+                    "tip1": "Agota siempre primero las opciones de conversación gratuita",
+                    "tip2": "Enfoca las investigaciones en comportamientos realmente sospechosos",
+                    "tip3": "No desperdicies energía en personajes claramente seguros “Siempre Humanos” - consulta nuestra <a href=\"/visitors\">base de datos de visitantes</a>",
+                    "tip4": "Reserva energía para llegadas inesperadas al final del día"
+                },
+                "riskManagement": {
+                    "title": "Gestión de Riesgos:",
+                    "tip1": "Elimina de inmediato a los Visitantes confirmados",
+                    "tip2": "Mantén un humano confirmado para la seguridad de la Noche 4 - esencial para <a href=\"/endings\">buenos finales</a>",
+                    "tip3": "Monitorea interacciones de invitados para cambios de comportamiento",
+                    "tip4": "Confía en patrones más que en incidentes sospechosos aislados"
+                }
+            },
+            "fatalMistakes": {
+                "title": "Errores <span class=\"fatal-text\">Fatales</span> Comunes a Evitar",
+                "mistake1": {
+                    "title": "Eliminar a todos los invitados:",
+                    "description": "Esto garantiza la muerte en la Noche 4 cuando llegue el Intruso - conduce a <a href=\"/endings\">malos finales</a>"
+                },
+                "mistake2": {
+                    "title": "Confiar en rasgos individuales:",
+                    "description": "Un solo rasgo sospechoso no confirma el estatus de Visitante"
+                },
+                "mistake3": {
+                    "title": "Ignorar las noticias diarias:",
+                    "description": "Perder información nueva de identificación de Visitantes"
+                },
+                "mistake4": {
+                    "title": "Desperdiciar energía:",
+                    "description": "Usar energía en humanos obvios o detalles menores"
+                },
+                "mistake5": {
+                    "title": "Tomar decisiones apresuradas:",
+                    "description": "Eliminar sin suficiente evidencia"
+                }
+            }
+        }
+    },
+    "EndingsPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Finales de No I'm Not a Human</span>",
+            "description": "Descubre todos los posibles finales en esta experiencia de terror psicológico. Nuestra completa guía <span class=\"highlight-text\">\"No I'm Not a Human Endings\"</span> revela cada camino, condición y consecuencia en esta pesadilla apocalíptica. Para guías completas del juego, visita nuestra <a href=\"/guides\">sección de estrategias</a> o explora nuestras <a href=\"/\">características del juego</a>.",
+            "stats": {
+                "total": "6",
+                "totalLabel": "Total de Finales",
+                "easy": "2",
+                "easyLabel": "Finales Fáciles",
+                "medium": "2",
+                "mediumLabel": "Finales Medios",
+                "hard": "2",
+                "hardLabel": "Finales Difíciles"
+            }
+        },
+        "mainEndings": {
+            "title": "Todos los Finales del Juego",
+            "subtitle": "Explora cada resultado posible en tu viaje de supervivencia con nuestra guía \"No I'm Not a Human Endings\". Aprende sobre <a href=\"/visitors\">identificación de visitantes</a> y <a href=\"/guides\">estrategias de supervivencia</a>.",
+            "bestEnding": {
+                "title": "Mejor Final",
+                "subtitle": "El Logro Definitivo",
+                "difficulty": "Fácil",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Permitir únicamente la entrada de huéspedes confirmados como humanos - consulta nuestra <a href=\"/visitors\">base de datos de visitantes</a>",
+                "condition2": "Asegurarse de que nunca se admita a ningún <a href=\"/visitors\">Visitor</a>",
+                "condition3": "Mantener este registro perfecto durante los 5 días",
+                "condition4": "Alcanzar el final del Día 5 solo con humanos presentes",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "En un mundo donde la superficie ya no es segura, has creado un santuario perfecto. Sellas todas las ventanas y puertas, consultando con tus huéspedes humanos para nunca volver a salir. Mientras rezas para que esta pesadilla termine, todavía existe la esperanza... al menos por ahora... Afortunadamente, tu ojo fue agudo para los visitantes. Ningún Visitor cruzó el umbral de lo que alguna vez se llamó hogar dulce hogar. Al menos hay una gota de miel en el barril de alquitrán de los eventos actuales."
+            },
+            "goodEnding": {
+                "title": "Buen Final",
+                "subtitle": "Supervivencia con Esperanza",
+                "difficulty": "Fácil",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Terminar el Día 5 solo con huéspedes humanos en tu casa - aprende <a href=\"/guides\">técnicas de supervivencia</a>",
+                "condition2": "Puedes haber admitido algunos <a href=\"/visitors\">Visitors</a> pero eliminarlos",
+                "condition3": "Al menos un huésped humano debe permanecer",
+                "condition4": "No debe haber Visitors activos al final",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "Vivir en la superficie de la Tierra ya no es seguro. Sellas todas las ventanas y bloqueas las puertas. Tras consultar con tus huéspedes, decides nunca volver a salir. Rezas con desesperación para que algún día todo esto termine. Si esta pesadilla realmente termina. Pero la esperanza aún existe... al menos por ahora..."
+            },
+            "badEnding": {
+                "title": "Mal Final",
+                "subtitle": "Abrumado por la Cantidad",
+                "difficulty": "Medio",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Tener 3 o más huéspedes en tu casa al final del Día 5 - entiende la <a href=\"/guides\">gestión de huéspedes</a>",
+                "condition2": "Esto incluye cualquier combinación de humanos y Visitors",
+                "condition3": "Demasiadas personas generan caos y peligro",
+                "condition4": "Tu refugio se ve comprometido",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "Vivir en la superficie de la Tierra ya no es seguro. Tras consultar con tus huéspedes, decides nunca volver a salir. Rezas con desesperación para que algún día todo esto termine. Si esta pesadilla realmente termina. O quizás esto es solo un sueño relativamente optimista que estás teniendo. De hecho, tu cuerpo fue desmembrado por los visitantes."
+            },
+            "massacreEnding": {
+                "title": "Final de Masacre",
+                "subtitle": "La Violencia Engendra Violencia",
+                "difficulty": "Medio",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Dispara y mata a 2 o más huéspedes en un solo día",
+                "condition2": "Esto puede incluir humanos y Visitors",
+                "condition3": "La violencia excesiva desencadena consecuencias inmediatas",
+                "condition4": "La casa te considera demasiado peligroso",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "Hiciste mucho por aquellos a los que permitiste entrar. Pero se derramó demasiada sangre. Eres demasiado peligroso para esta casa y debes irte. Fuiste expulsado de tu propio hogar por personas que te temen. No sobreviviste ni un día, quemado por el sol abrasador afuera."
+            },
+            "intruderEnding": {
+                "title": "Final del Intruso",
+                "subtitle": "Solo en la Oscuridad",
+                "difficulty": "Difícil",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Estar solo en tu casa cuando llegue el Intruso - evita esto con nuestra <a href=\"/guides\">guía de la Noche 4</a>",
+                "condition2": "El visitante sin camiseta aparece y pregunta si estás solo",
+                "condition3": "No tener huéspedes presentes para mentir",
+                "condition4": "Resulta en un final de juego inmediato",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "Nadie sabe qué ocurrió cuando llegó el último visitante. La casa permaneció deshabitada durante mucho tiempo. Tras tu terrible desaparición, todos evitaron esta casa abandonada."
+            },
+            "speedrunEnding": {
+                "title": "Final Speedrun",
+                "subtitle": "Vida Vivida Demasiado Rápido",
+                "difficulty": "Difícil",
+                "conditionsTitle": "Condiciones para Alcanzarlo:",
+                "condition1": "Habla rápidamente con los huéspedes en la puerta sin investigar",
+                "condition2": "Avanza al Día 5 lo más rápido posible",
+                "condition3": "Evita conversaciones, bebe cerveza para consumir energía, duerme inmediatamente",
+                "condition4": "Asegúrate de no estar solo (tener al menos un huésped)",
+                "descriptionTitle": "Descripción del Final:",
+                "description": "Vivir en la superficie de la Tierra ya no es seguro. Sellas todas las ventanas y bloqueas las puertas. Tras consultar con tus huéspedes, decides nunca volver a salir. Sin embargo, ellos comienzan a mirarte de forma extraña. Viviste demasiado rápido, tratando de pasar esta pesadilla lo más rápido posible. Corriendo constantemente, abstraído de los horrores del mundo exterior, ¿valió la pena? Tal vez. Lo más importante, no olvides vivir, encontrar belleza en la vida y disfrutarla."
+            }
+        },
+        "strategyGuide": {
+            "title": "Cómo Alcanzar Cada Final",
+            "subtitle": "Estrategias y consejos detallados para desbloquear todos los finales con nuestra guía \"No I'm Not a Human Endings\". Domina primero la <a href=\"/guides\">jugabilidad básica</a>.",
+            "bestEndingStrategy": {
+                "title": "Cómo Obtener el Mejor Final",
+                "point1Title": "Selección Perfecta de Huéspedes:",
+                "point1Desc": "Solo admite a los personajes 'Siempre Humanos': Hombre Alto, Hija del Vecino, Hombre Quemado y Viuda de Luto. Consulta nuestra <a href=\"/visitors\">base de datos de visitantes</a> para personajes seguros.",
+                "point2Title": "Investigación Exhaustiva:",
+                "point2Desc": "Siempre verifica los cuatro rasgos de Visitor antes de admitir huéspedes desconocidos. Usa la energía sabiamente para investigar a fondo.",
+                "point3Title": "Política de Tolerancia Cero:",
+                "point3Desc": "Si encuentras incluso un solo rasgo confirmado de Visitor, rechaza la entrada de inmediato. Mejor prevenir que lamentar para obtener el Mejor Final."
+            },
+            "goodEndingStrategy": {
+                "title": "Estrategia para el Buen Final",
+                "point1Title": "Gestión Cuidadosa de Visitantes:",
+                "point1Desc": "Puedes admitir algunos <a href=\"/visitors\">Visitors</a> durante el juego, pero elimínalos antes de que termine el Día 5. Enfócate en terminar solo con humanos.",
+                "point2Title": "Eliminaciones Estratégicas:",
+                "point2Desc": "Cuando confirmes que un huésped es un <a href=\"/visitors\">Visitor</a>, elimínalo de inmediato, pero evita matar a más de uno por día para prevenir el Final de Masacre."
+            },
+            "endingsToAvoid": {
+                "title": "Finales a Evitar (a menos que sea intencional)",
+                "badEnding": "Mal Final",
+                "badEndingDesc": "Evita tener 3 o más huéspedes en total en el Día 5. Aprende estrategias de <a href=\"/guides\">gestión de huéspedes</a>.",
+                "massacreEnding": "Final de Masacre",
+                "massacreEndingDesc": "Nunca mates a 2 o más huéspedes en un día. Sigue nuestras estrategias de <a href=\"/guides\">eliminación</a>.",
+                "intruderEnding": "Final del Intruso",
+                "intruderEndingDesc": "Siempre mantén al menos un huésped para el encuentro con el Intruso de la Noche 4."
+            }
+        },
+        "tips": {
+            "title": "Consejos para Desbloquear Finales",
+            "subtitle": "Domina el arte de la supervivencia con nuestra completa guía \"No I'm Not a Human Endings\". Comienza con nuestra <a href=\"/guides\">guía para principiantes</a>.",
+            "generalAdvice": {
+                "title": "Consejos Generales",
+                "tip1": "Observa cuidadosamente las características y el comportamiento de cada visitante",
+                "tip2": "Registra diálogos importantes y pistas",
+                "tip3": "No te precipites a tomar decisiones, piensa cuidadosamente",
+                "tip4": "Usa el rastreador de progreso para registrar los finales desbloqueados"
+            },
+            "unlockStrategy": {
+                "title": "Estrategia de Desbloqueo",
+                "tip1": "Prueba primero los finales fáciles para familiarizarte con la mecánica del juego",
+                "tip2": "Juega varias veces probando diferentes combinaciones de decisiones",
+                "tip3": "Presta atención a elementos interactivos ocultos y easter eggs",
+                "tip4": "Consulta las guías nocturnas para entender los puntos clave de decisión"
+            }
+        }
+    },
+    "VisitorsPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Visitantes de No I'm Not a Human - Guía Completa de Personajes</span>",
+            "subtitle": "Domina la experiencia de terror psicológico con nuestra completa enciclopedia <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span>",
+            "description": "<p><strong>Advertencia:</strong> Este artículo contiene spoilers. Incluye directa o indirectamente elementos de la trama, finales y giros del trabajo o de los personajes descritos en este documento.</p><p>Hay un total de <strong>56 personajes</strong> en <strong>No I'm Not a Human</strong>, y para ver todos los personajes, debes jugar. En la versión demo antigua, la mayoría de los personajes ya estaban definidos, por lo que el nivel de dificultad se reduce rápidamente durante la segunda ronda, pero en la versión oficial, la identidad, apariencia y el orden de la mayoría de los personajes se determinan de forma aleatoria.</p><p>Nuestra completa guía <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> proporciona información detallada sobre cada personaje que puedas encontrar en esta experiencia de terror psicológico. Ya sea que busques aliados humanos o visitantes peligrosos, nuestra base de datos <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> te tiene cubierto. Para más información sobre el juego, visita nuestra <a href=\"/\">página principal</a>.</p>"
+        },
+        "mainCharacters": {
+            "title": "Visitantes de No I'm Not a Human - Personajes Principales",
+            "hero": {
+                "name": "Héroe (Personaje Principal)",
+                "role": "Protagonista",
+                "description": "El personaje principal de <strong>No I'm Not a Human</strong>. Un hombre que vive solo fuera de la ciudad, envía o expulsa a las personas que llegan a su hogar debido al fenómeno ideal del sol. Como se puede ver en la imagen, se representa que siempre lleva un suéter de cuello alto azul en todas las ilustraciones donde aparece el personaje principal. Si tiene una escopeta y sospecha que su oponente es un visitante, apuntará con el arma sin dudarlo. El ermitaño solitario, que no tiene muchos intercambios con su entorno, es descrito como un hermano. Nuestra guía <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> cubre toda su historia. Aprende más sobre <a href=\"/guides\">estrategias de juego</a>."
+            },
+            "cat": {
+                "name": "Gato",
+                "role": "Compañero Animal",
+                "description": "Animal añadido en la edición oficial de <strong>No I'm Not a Human</strong>. El Gato de Cara Puntiaguda, cuando envías a una mujer gato, aparecerá. A diferencia de otros personajes, generalmente se representa en 3D y se trata por separado de una mujer gato, por lo que no es necesario disparar ni eliminar a la mujer después de importarlo. Puedes interactuar acariciándolo y alimentarlo mediante el servicio de entrega de alimentos. También es popular entre los usuarios porque ofrece un efecto reconfortante en este oscuro mundo. Nuestra base de datos <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> incluye todas las interacciones con mascotas. Descubre más sobre la <a href=\"/wiki\">lore del juego</a>."
+            }
+        },
+        "guestCharacters": {
+            "title": "Visitantes de No I'm Not a Human - Personajes Invitados",
+            "neighbor": {
+                "name": "Vecino",
+                "role": "Personaje Tutorial (Humano)",
+                "description1": "Hombre que es uno de los personajes principales en <strong>No I'm Not a Human</strong>. Tiene esposa e hija. El primer día, viene a la casa del protagonista y nos dice que la gente vendrá de la ciudad, siendo un tutorial del juego que aconseja no decir si son humanos o visitantes.",
+                "description2": "Sin embargo, finalmente es asesinado por los visitantes porque accidentalmente deja entrar a algunos. Es una persona que confía en los demás y creía tanto en sus invitados que no podía rechazar a los visitantes. Afortunadamente, la hija fue enviada primero y salvada, pero cuando la casa desapareció, se presume que su cuerpo fue quemado. Nuestra guía <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> documenta su trágica historia. Aprende sobre los diferentes <a href=\"/endings\">finales de la historia</a>."
+            },
+            "girlNextDoor": {
+                "name": "Chica de al Lado",
+                "role": "Hija del Vecino (Humana)",
+                "description1": "Hija del vecino. El segundo día, aparece por primera vez para acompañar a su padre, quien vino a la casa del protagonista el día anterior, y luego juega con él. En la cuarta noche, un visitante llega finalmente a la casa, su padre muere y la casa es quemada.",
+                "description2": "Si la envías, permanece en la cocina. Si hay otra persona en la casa, debes decidir si expulsar a alguien de la casa o salir de la casa del vecino. Si intentas revisar la axila, el protagonista abandona por sí mismo."
+            },
+            "beanpole": {
+                "name": "Peralta",
+                "role": "Primer Invitado Fijo (Humano)",
+                "description1": "Excepto por los vecinos, es un hombre muy alto y de extremidades largas, fijo como el primer invitado real en <strong>No I'm Not a Human</strong>. Fue evacuado a un bar y quedó flotando después de ser expulsado debido a su personalidad angular.",
+                "description2": "Si lo envías, se queda en la sala. Otros personajes pueden mostrar signos de ser visitantes incluso si son humanos, pero este hombre es confiable y no muestra señales de visitante. Durante el progreso, se esconde de la cerveza del protagonista. Nuestra guía <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> confirma que siempre es humano. Consulta nuestra <a href=\"/guides\">guía de identificación</a> para más detalles."
+            },
+            "cashier": {
+                "name": "Cajera",
+                "role": "Segundo Invitado Fijo (Visitante)",
+                "description1": "Excepto por los vecinos, es una mujer fija como segunda invitada real, de cabello corto y con un fuerte desequilibrio en el hombro derecho. Dijo estar desempleada mientras trabajaba como cajera, y antes de llegar aquí se encontró con visitantes. Tiene ansiedad severa.",
+                "description2": "Tiene dientes muy cuidados, primer indicio de visitante, y recientemente afirmó haber recibido tratamiento dental, aunque no recuerda cuándo. Es un visitante confirmado que muestra todas las señales de los visitantes, pero a diferencia de otros, es muy educada. Aprende más sobre <a href=\"/wiki\">características de los visitantes</a>."
+            },
+            "char5": {
+                "name": "Hombre del Abrigo",
+                "role": "Visitante Misterioso",
+                "desc1": "Hombre con abrigo. Se dice que el mundo es frío a pesar del intenso calor causado por el fenómeno solar. Si le pides que se quite el abrigo, se niega. Si lo envías, se queda junto a las piernas del hombre en la sala.",
+                "desc2": "Dice estar cansado de vivir, afirmando que el fin del mundo no es ni feliz ni triste. También, cuando se le pregunta sobre la fuerza de otros, lo niega y comenta que ha sido lastimado por quienes le molestan a él y a los demás."
+            },
+            "char6": {
+                "name": "Viuda",
+                "role": "Mujer Aflicta",
+                "desc1": "Mujer cargando el cuerpo de su esposo fallecido. No quiere levantarse de nuevo y no puede enterrar a su esposo correctamente debido al calor solar extremo que derrite. Si la envías, permanece en el baño.",
+                "desc2": "Si continúas hablando con ella, puedes ver imágenes de tiempos felices del pasado. La forma en que murió su esposo no se explica con detalle, pero puedes conocer su historia mediante diálogos con el desempleado."
+            },
+            "char7": {
+                "name": "Fanático del Sol",
+                "role": "Fanático Religioso",
+                "desc1": "Hombre de mediana edad con barba y sobrepeso. Es confiado y apasionado. Afirma que el sol provoca fenómenos anormales para purgar el pecado de la humanidad.",
+                "desc2": "Le da al protagonista una lata de bebida energética y permanece en el baño. Al hablar, menciona estar casado, pero su esposa murió por alguna razón. El personaje está inspirado en la celebridad rusa Genadi Gerashi Mobic Cernezv."
+            },
+            "char8": {
+                "name": "Deuda",
+                "role": "Jugador",
+                "desc1": "Hombre con camiseta blanca de Amogus. Propone negocios fraudulentos prometiendo ganancias, pero si lo envías, se comporta como si nada. Si le pides salir, se muestra infantil.",
+                "desc2": "Si lo envías, permanece en la cocina. En la versión demo oficial, es un jugador endeudado."
+            },
+            "char9": {
+                "name": "Cirujano",
+                "role": "Doctor",
+                "desc1": "Anciano que fue doctor en un hospital cerca del protagonista. Los visitantes escaparon del hospital que se volvió un caos. Se dice que encontró la casa del protagonista e intentó forzar la puerta.",
+                "desc2": "Si lo dejas entrar, puede ayudar a cualquiera diciendo que puede tratarlo. Si lo envías, permanecerá en el armario. Sus ojos son inusuales, con pupilas dobles. Para más detalles, visita nuestra <a href=\"/\">página principal</a>."
+            },
+            "char10": {
+                "name": "Señora",
+                "role": "Propietaria",
+                "desc1": "Mujer de mediana edad, alrededor de 50 años. Gorda, con camisa amarilla y falda azul. Si la envías, se quedará en la biblioteca. Si le preguntas quién busca, no encuentra a nadie; si le preguntas quién es, dice ser la propietaria.",
+                "desc2": "Las personas que vivían allí fueron expulsadas por agentes de la serie debido a la exposición de sus edificios. Si decides dispararle, se ríe antes de morir y dice que será lo mismo. Descubre más sobre los <a href=\"/endings\">destinos de los personajes</a>."
+            },
+            "char11": {
+                "name": "Abuela",
+                "role": "Anciana",
+                "desc1": "Mujer mayor y gorda. Ha caminado mucho, perdiendo historia de vida, y pide descansar en la casa del protagonista. Si la envías, permanecerá en la sala.",
+                "desc2": "Inusualmente, tiene seis dedos al revisar sus manos. Comparada con otros personajes, sus expresiones faciales están más detalladas. Si observas de cerca, su rostro parece derretirse. Aprende más sobre <a href=\"/guides\">técnicas de identificación de personajes</a>."
+            },
+            "char12": {
+                "name": "Ermitaño / Cazador",
+                "role": "Habitante del Bosque",
+                "desc1": "Hombre con barba y ropa a cuadros rojos. Originalmente vivía en una cabaña en el bosque, cerca de los guardabosques. Solo escuchaba sobre visitantes por radio, sin televisión.",
+                "desc2": "Si lo envías, permanece en la cocina. Cada vez que le das una cerveza, cuenta su historia. Sorprendentemente, rechaza enviar invasores a su hogar. Encuentra un análisis completo en nuestra <a href=\"/wiki\">base de datos de personajes</a>."
+            },
+            "char13": {
+                "name": "Hombre de Traje",
+                "role": "Hombre de Negocios",
+                "desc1": "Hombre de unos 50 años, vestido con traje. Si lo envías, se queda en la sala. Solo los más fuertes sobreviven y continúan diciendo palabras ominosas que ya no hacen temblar a las personas.",
+                "desc2": "Si está en la misma posición que la mujer gato, dice que es un lobo con máscara de oveja."
+            },
+            "char14": {
+                "name": "Seductora",
+                "role": "Tentadora",
+                "desc1": "La única mujer joven que permanece en el dormitorio. Adopta una actitud seductora y amigable con el protagonista, pidiendo a otros que se queden, prometiendo algo especial que no pueden dar.",
+                "desc2": "Si la envías, permanecerá en el dormitorio, pero parece que tiene relaciones con el protagonista. Principalmente actúa como embajadora que abraza y alienta al protagonista."
+            },
+            "char15": {
+                "name": "Hermanas",
+                "role": "Hermanas Gemelas",
+                "desc1": "Dos hermanas que llegan juntas pidiendo ayuda tras la muerte de sus padres. Si las envías, permanecerán en la sala. Aunque llegan juntas, los visitantes deben ser evaluados por separado.",
+                "desc2": "Si matas a una hermana, la otra se convierte en un espíritu llorón. A partir de ese momento, no es posible conversar ni cooperar con la investigación; solo se puede matar o dejarla sola. Explora más sobre <a href=\"/endings\">consecuencias de la historia</a>."
+            },
+            "char16": {
+                "name": "Hombre Enojado",
+                "role": "Visitante Enojado",
+                "desc1": "Hombre de 30-40 años con gafas negras y camiseta marrón de manga corta. Cuando habla, usa palabrotas. Se dice que está enojado consigo mismo, no con otros, y libera estrés expresando su ira.",
+                "desc2": "Si lo rechazas la primera vez, te dará una bebida energética. Si lo envías, se queda en la sala."
+            },
+            "char17": {
+                "name": "Hijo",
+                "role": "Joven Perdido",
+                "desc1": "Joven que busca a un amigo desaparecido. Ignora totalmente la situación externa y sus conversaciones se relacionan con sus padres, mostrándose muy inquieto. Si lo envías, permanecerá en la sala. Vive la experiencia completa descargando el <a href=\"/download\">juego completo</a>."
+            },
+            "char18": {
+                "name": "Mujer Gato",
+                "role": "Visitante Misteriosa",
+                "desc1": "Mujer mencionada por el profeta para ser enviada. Visita la casa la cuarta noche. Si tienes un gato, se trata por separado. Si la envías, permanecerá en la sala.",
+                "desc2": "Debido a su apariencia extraña que recuerda al intruso, el protagonista la sospecha desde afuera. Al escuchar su historia, alguien la envió sin dar detalles."
+            },
+            "char19": {
+                "name": "Joven Fugitiva",
+                "role": "Adolescente",
+                "desc1": "Adolescente con bolso azul cruzado y gorra. Se dice que salió de su casa con sus padres frustrada. Sus padres podrían ser 'visitantes', indicando posible infección.",
+                "desc2": "Si la envías, permanece en la cocina. Tiene habilidades de combate destacadas y menciona que aprendió kickboxing de su padre."
+            },
+            "char20": {
+                "name": "Ciego",
+                "role": "Hombre Ciego",
+                "desc1": "Hombre sin ojos. Si lo envías, permanece en la cocina. Al tomarle una foto, aparece un extraño brillo en los ojos. Tras ver algo, no soporta el trauma y se extrae los ojos.",
+                "desc2": "Si continúas hablando, puede suicidarse en la cocina y desbloquear el logro \"Susurro en la oscuridad\"."
+            },
+            "char21": {
+                "name": "Calvo",
+                "role": "Hombre tipo Shrek",
+                "desc1": "Hombre parecido a Shrek. Si lo envías, se queda en la biblioteca."
+            },
+            "char22": {
+                "name": "Pareja Casada",
+                "role": "Esposo y Esposa",
+                "desc1": "Pareja donde solo la esposa habla. Similar a las hermanas gemelas, visitan juntos, pero están atados. Si los rechazas una vez, te darán un objeto aleatorio.",
+                "desc2": "Si los envías, permanecen en la cocina. Parecen amables, pero ocultan violencia doméstica."
+            },
+            "char23": {
+                "name": "Creyentes de la Muerte",
+                "role": "Miembros de Culto",
+                "desc1": "Tres creyentes que adoran la muerte. Si los envías, permanecen en la biblioteca. Este evento ocurre forzosamente la octava noche, expulsando automáticamente a otros invitados en la zona.",
+                "desc2": "En caso de estar en el centro, es uno de los pocos personajes con lugar dedicado."
+            },
+            "char24": {
+                "name": "Demonio",
+                "role": "Hombre Rico",
+                "desc1": "Hombre de cabello largo con estilo reggae. Si lo envías, permanece en el baño. Parece provenir de una familia rica. Con ayuda de sus padres, dejó su trabajo de administrador de almacén.",
+                "desc2": "Disfruta cosas como películas. Si sigues hablando, puedes encontrar un video, dependiendo de tus respuestas."
+            },
+            "char25": {
+                "name": "Conductor",
+                "role": "Hombre Asiático",
+                "desc1": "Hombre de apariencia asiática, parecido a Kojima Hideo. Si lo envías, permanecerá en la biblioteca. Tiene enfermedad de néctar en un brazo y actúa como embajador extrañando a su amante."
+            },
+            "char26": {
+                "name": "Ministro",
+                "role": "Hombre Gordo",
+                "desc1": "Hombre gordo, impactante. Sin embargo, según menciones, vivió con lujo. Pide ducharse antes de morir, pero si lo envías, permanece en la bañera.",
+                "desc2": "El protagonista le pide bebidas, tabaco, café y energía. Afortunadamente, no lo recibe gratis, pero obtiene recompensas."
+            },
+            "char27": {
+                "name": "Bombero",
+                "role": "Héroe Quemado",
+                "desc1": "Un hombre con la piel y el cabello muy dañados, que casi parece un zombi. Aparece después de que ocurre un incendio afuera. Tras apagar el fuego en el bosque, su piel se quemó y, debido a los visitantes, no fue posible ir al hospital.",
+                "desc2": "Si lo envías, permanecerá en la sala. Si lo rechazas la primera vez, te dará un aviso de la serie, pero dará el mismo aviso nuevamente."
+            },
+            "char28": {
+                "name": "Gentile",
+                "role": "Hombre con la Boca Cosida",
+                "desc1": "Un hombre extraño con la boca cosida. Si lo envías, permanecerá en el armario. Debido a que tiene la boca cosida, no puede decir nada antes de entrar, y aunque lo envíes a casa, hablará de manera difícil de entender.",
+                "desc2": "La interpretación dice que la gente cree que es extranjero y difícil de entender. Por eso su guía está escrita en inglés, pero no inglés normal, sino en realidad con Hangul escrito en inglés."
+            },
+            "char29": {
+                "name": "Desempleado",
+                "role": "Agente de la Serie",
+                "desc1": "Un hombre que viste ropa protectora de la serie. Si lo envías, permanecerá en el baño. Si te quejas de su ropa, argumenta que no es un agente de la oficina de la serie y solo se vistió con la ropa de la serie muerta para no ser llevado a la serie.",
+                "desc2": "En realidad, su identidad es la de un agente reciente. Si continúas hablando y le ordenas vaciar los bolsillos, puedes descubrir este hecho y se revela. Se logra el desafío."
+            },
+            "char30": {
+                "name": "Adivina",
+                "role": "Psíquica",
+                "desc1": "La adivina lleva un collar de gran tamaño. Dice que hay energía en el lugar y predice señales negativas. Si la envías, permanecerá con las cartas del tarot en la cocina.",
+                "desc2": "Al hablar con el protagonista, hay un escritor psíquico que conoce y, si es necesario, puede dar un número de teléfono. Si está en la misma posición que el ermitaño y el recluso está en la casa, las estrellas serán desastrosas."
+            },
+            "char31": {
+                "name": "Herido",
+                "role": "Hombre Lesionado",
+                "desc1": "Un hombre que huyó hacia el agente mientras escapaba del área de cuarentena porque sabía que no había intención de salvar a los aislados. Se dice que la mujer vecina lo llamó visitante.",
+                "desc2": "Si lo envías, permanecerá en la biblioteca. Fue herido en el barco, pero la bala no empeoró su condición. En realidad, fue mentira que el agente lo disparó; el doctor disfrazó los documentos y escapó del área de aislamiento."
+            },
+            "char32": {
+                "name": "Guardián de la Tumba",
+                "role": "Trabajador del Cementerio",
+                "desc1": "Hombre de mediana edad con chaqueta azul. Pasó por algo terrible en el cementerio y huyó. Si lo envías, permanecerá en la biblioteca.",
+                "desc2": "En la historia, escuchó relatos y memorizó qué persona estaba en cada tumba, su apariencia y su nombre."
+            },
+            "char33": {
+                "name": "Insomnio",
+                "role": "Hombre Sin Sueño",
+                "desc1": "Es similar a los creyentes de la muerte, pero no tiene relación con ellos. Si lo envías, permanecerá en la biblioteca."
+            },
+            "char34": {
+                "name": "Sin Hogar",
+                "role": "Hombre Sin Techo",
+                "desc1": "Si lo envías, permanecerá en el armario. Si hablas con él, verás que la casa vacía es la culpable, y solo se da la vuelta a la casa de los muertos."
+            },
+            "char35": {
+                "name": "Sombrero (Madre e Hijo)",
+                "role": "Madre e Hijo",
+                "desc1": "Madre e hijo. Según la madre, había cinco hijos, pero se perdieron y solo quedó uno. Si los envías, permanecerán en la biblioteca.",
+                "desc2": "En la versión demo formal, estaba sentado en el sofá de su madre sin el hijo, incluso si visitaba durante el día. Después de unos días en la versión oficial, el hijo desapareció y no le importó en absoluto."
+            },
+            "char36": {
+                "name": "Monja",
+                "role": "Mujer Religiosa",
+                "desc1": "Como mujer mayor, viste un atuendo ortodoxo y lleva un clobook y una cruz en la mano. Parece tener un culpable y le disgustan las cucarachas. Si la envías, permanecerá en la sala.",
+                "desc2": "La expresión de ira fue tomada de Christ the Saviour Ensemble y Mother Earth Our Icons."
+            },
+            "char37": {
+                "name": "Factor (Provocador)",
+                "role": "Contratista",
+                "desc1": "Hombre que dice que entrará a la casa del protagonista como inquilino. Si lo envías, permanecerá en la cocina. Mientras destruye la infraestructura social, insiste en redactar un contrato de arrendamiento.",
+                "desc2": "Su inteligencia es alta, pero es odiado por su falta de sociabilidad. Si hablas hasta el final, el protagonista que no soporta su ira dispara y mata, logrando el desafío 'Yo soy la ley'."
+            },
+            "char38": {
+                "name": "Horda",
+                "role": "Hombre con Capucha Púrpura",
+                "desc1": "Joven que muestra extraño interés en los asesinatos de las capuchas púrpuras. Al ver cómo manejan los visitantes y pedir quedarse, desea aprender. Si lo envías, permanecerá en la sala.",
+                "desc2": "Si lo disparas y matas, se logra el desafío 'o aprende bien'."
+            },
+            "char39": {
+                "name": "Taxista",
+                "role": "Conductor",
+                "desc1": "Hombre de mediana edad con aspecto rudo. Su trabajo es ser taxista. Fue llevado urgentemente a la serie debido a los visitantes que quemaban, pero la serie intentó atraparlo y huyó.",
+                "desc2": "Si lo envías, permanecerá en la sala."
+            },
+            "char40": {
+                "name": "Maestra",
+                "role": "Maestra de Jardín de Infantes",
+                "desc1": "Mujer con gafas, maestra de jardín de infantes. Escondió a los niños con señales de visitantes y, al final, todos quedaron atrapados en el edificio y quemados. Si la envías, permanecerá en la biblioteca.",
+                "desc2": "A primera vista, se muestra un suicidio en el video teaser, y hay una secuencia en la que toma el arma de la mano del protagonista por la culpa de no proteger a los niños en la historia principal."
+            },
+            "char41": {
+                "name": "Teórico de la Conspiración",
+                "role": "Creyente en Conspiraciones",
+                "desc1": "Teórico de la conspiración que habla sobre conspiraciones, como el alunizaje. Si lo envías, permanecerá en la cocina."
+            },
+            "char42": {
+                "name": "Discapacitado",
+                "role": "Hombre en Silla de Ruedas",
+                "desc1": "Hombre en silla de ruedas con las piernas cortadas. Intentó ir a la casa de un amigo, pero se equivocó y llegó a la casa del protagonista, y de todos modos no podía ir lejos con ese cuerpo.",
+                "desc2": "Si lo rechazas primero, te dará una bebida energética. Si lo envías, permanecerá en la biblioteca. Si es un visitante, al revisar sus manos, todos los dedos están cortados, logrando un desafío."
+            },
+            "char43": {
+                "name": "Funcionario Público",
+                "role": "Trabajador del Gobierno",
+                "desc1": "Mujer casada de unos 40 años con maquillaje excesivo. Estaba a cargo de defender la frontera, y por su esposo también era funcionaria. La serie lamenta que las mujeres no sean seleccionadas.",
+                "desc2": "Si la envías, permanecerá en la biblioteca."
+            },
+            "char44": {
+                "name": "Inmortal",
+                "role": "Hombre Misterioso",
+                "desc1": "Hombre de mediana edad ordinario. Se llama a sí mismo y al protagonista 'inmortales'. Sin embargo, si lo envías a casa, no es el 'inmortal' que el protagonista cree.",
+                "desc2": "Al escuchar su historia, dejó de buscar a su hija fugitiva y quería descansar. También dice que la serie lo persigue. Si lo envías, permanecerá en la biblioteca."
+            },
+            "char45": {
+                "name": "Optimista",
+                "role": "Hombre Sonriente",
+                "desc1": "Optimista de apariencia sonriente. Si lo envías, permanecerá en la biblioteca. Su estilo de moda recuerda extrañamente a Tyler y The Creator."
+            }
+        },
+        "specialCharacters": {
+            "title": "No I'm Not a Human Visitors - Personajes Especiales",
+            "char1": {
+                "name": "Intruso",
+                "role": "Antagonista Principal (Visitante)",
+                "desc1": "Los visitantes de Vana muestran una sonrisa extraña en <strong>No I'm Not a Human</strong>. Cada vez que aparece, le pregunta al protagonista: '¿Estás solo ahora?'. Incluso si hay otras personas, cuando dices que estás solo, el intruso rompe la puerta y mata al protagonista.",
+                "desc2": "Se trata de un asesino de humanos que deambula por la casa del protagonista y es un visitante muy poderoso, incomparable con otros. También aparece como personaje destacado en la imagen representativa de la tienda y en el tráiler. Nuestra guía <span class=\"highlight-text\">\"No I'm Not a Human Visitors\"</span> advierte sobre esta amenaza mortal."
+            },
+            "char2": {
+                "name": "Profeta",
+                "role": "Guía Misterioso",
+                "desc1": "Como otros humanos, llega a la casa del protagonista, pero se mantiene afuera y dice cosas incomprensibles sin intención de entrar.",
+                "desc2": "La edición oficial menciona que se debe enviar un gato. Si envías un gato, el protagonista no enfrentará visitantes durante tres días."
+            },
+            "char3": {
+                "name": "Agente de la Oficina de la Serie",
+                "role": "Funcionario del Gobierno",
+                "desc1": "Agencia Federal de Gestión de Desastres, abreviada como Servicio de Serie (FEMA), creada para enfrentar visitantes. Agente masculino, armado con un AK-74 y máscara antigás que protege del polvo y la arena sobre su ropa amarilla.",
+                "desc2": "Su rol es prevenir que solo uno o dos invitados humanos causen problemas, tomando a una persona de la casa del protagonista y luego a una o dos más para obtener muestras."
+            },
+            "char4": {
+                "name": "Vigilante",
+                "role": "Cazador de Visitantes",
+                "desc1": "Hombre armado que odia a los visitantes notorios. Como los agentes de la serie, lleva un AKM y un collar hecho con sus dedos y dientes.",
+                "desc2": "Su identidad es su hermano menor. Mientras viaja afuera, vigila la situación y muestra aspectos radicales al matar a quienes vivían en secreto tras el incendio de la casa vecina."
+            },
+            "char5": {
+                "name": "Mensajero",
+                "role": "Repartidor",
+                "desc1": "Cuando solicitas un servicio de entrega, realiza entregas nocturnas. Mientras el sistema social colapsa y los monstruos deambulan, hace entregas peligrosas.",
+                "desc2": "Si continúa la entrega, aparece la serie, y mientras el cliente histérico dispara a un compañero, los personajes circundantes desaparecen uno a uno, aumentando el pesimismo."
+            },
+            "char6": {
+                "name": "Apóstol",
+                "role": "Líder de Culto a la Muerte",
+                "desc1": "Socialista que adora la 'muerte'. Visita la casa del protagonista y entrega tres creyentes. Tres días después, si uno muere o se va, culpa al protagonista y se va.",
+                "desc2": "Si los tres sobreviven, sugiere que participarán en su conciencia y la 'muerte' purificará nuestros pecados, conduciendo al final."
+            },
+            "char7": {
+                "name": "Roobi Boy (Niño Amarillo)",
+                "role": "Personaje Huevo de Pascua",
+                "desc1": "Visita la casa del protagonista dejando solo palabras significativas, sin afectar la historia. No busca al inmortal. Simple Easter Egg de otro mundo."
+            },
+            "char8": {
+                "name": "Hongo",
+                "role": "Anciano",
+                "desc1": "Anciano de cabello blanco y barba. Sigue las instrucciones de la nota que entregó para llegar al final del hongo."
+            }
+        },
+        "tvCharacters": {
+            "title": "No I'm Not a Human Visitors - Personajes de TV",
+            "char1": {
+                "name": "Presentador Masculino",
+                "role": "Presentador de Noticias",
+                "desc1": "Un presentador de noticias con ojos grandes, gafas grandes y ropa azul, que informa todos los días sobre las señales de los visitantes. La imagen es demasiado grande, y se ve como si los ojos y la piel circundante estuvieran simplemente ajustados al borde de las gafas."
+            },
+            "char2": {
+                "name": "Meteorólogo",
+                "role": "Reportero del Clima",
+                "desc1": "Meteorólogo que informa sobre el clima en la televisión. Da la impresión de no ser visible debido al flequillo largo."
+            },
+            "char3": {
+                "name": "Presentadora Femenina",
+                "role": "Presentadora de Noticias",
+                "desc1": "Si ves la televisión, aparece como si transmitiera con brusquedad, diciendo comentarios significativos, e informa sobre las señales de los visitantes que los presentadores masculinos no mencionan."
+            }
+        }
+    },
+    "DownloadPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">No I'm Not a Human - Descargar</span>",
+            "subtitle": "Descarga la experiencia de horror psicológico y comienza tu viaje hacia lo desconocido",
+            "description1": "Experimenta el escalofriante mundo de <strong>No I'm Not a Human</strong>: una novela visual de horror psicológico en primera persona que pondrá a prueba tus instintos de supervivencia y desafiará tu percepción de la realidad.",
+            "description2": "Descarga ahora y descubre en quién puedes confiar en este aterrador juego donde los visitantes pueden no ser lo que parecen. Para más información del juego, visita nuestra <a href=\"/\">página principal</a>."
+        },
+        "requirements": {
+            "title": "Requisitos del Sistema de No I'm Not a Human",
+            "description": "Confirma si la configuración de tu computadora cumple con los requisitos del juego y obtén la mejor experiencia de juego. Aprende más sobre el juego con nuestras <a href=\"/guides\">guías completas</a>.",
+            "minimum": {
+                "title": "Requisitos Mínimos",
+                "os": "Windows 7/8/10/11 (64 bits)",
+                "processor": "Intel Core i3-2100 / AMD FX-6100",
+                "memory": "4 GB RAM",
+                "graphics": "Tarjeta gráfica compatible con DirectX 11",
+                "directx": "Versión 11",
+                "storage": "2 GB de espacio disponible requerido",
+                "sound": "Tarjeta de sonido compatible con DirectX"
+            },
+            "recommended": {
+                "title": "Requisitos Recomendados",
+                "os": "Windows 10/11 (64 bits)",
+                "processor": "Intel Core i5-4590 / AMD FX-8350",
+                "memory": "8 GB RAM",
+                "graphics": "NVIDIA GTX 960 / AMD R9 280",
+                "directx": "Versión 11",
+                "storage": "4 GB de espacio disponible requerido",
+                "sound": "Tarjeta de sonido dedicada (recomendado)"
+            },
+            "labels": {
+                "os": "Sistema Operativo:",
+                "processor": "Procesador:",
+                "memory": "Memoria:",
+                "graphics": "Gráficos:",
+                "directx": "DirectX:",
+                "storage": "Almacenamiento:",
+                "sound": "Tarjeta de Sonido:"
+            }
+        },
+        "compatibility": {
+            "title": "Compatibilidad de Plataforma",
+            "windows": {
+                "name": "Windows",
+                "description": "Soporte nativo, la mejor plataforma para jugar. Consulta nuestra <a href=\"/visitors\">base de datos de personajes</a> para información detallada.",
+                "supported": "Windows 7 y superior",
+                "recommended": "Windows 10/11"
+            },
+            "linux": {
+                "name": "Linux",
+                "description": "Funciona a través de la capa de compatibilidad Proton con buen rendimiento. Descubre todos los <a href=\"/endings\">finales posibles</a> del juego.",
+                "proton": "7.0 o superior",
+                "distributions": "Ubuntu, Fedora, Arch"
+            },
+            "steamDeck": {
+                "name": "Steam Deck",
+                "description": "Verificado, compatible con modo portátil. Explora nuestra <a href=\"/wiki\">enciclopedia completa del juego</a>.",
+                "status": "Verificado para Steam Deck",
+                "controls": "Pantalla táctil + Gamepad"
+            },
+            "labels": {
+                "supported": "Versiones Soportadas:",
+                "recommended": "Recomendado:",
+                "proton": "Proton Recomendado:",
+                "distributions": "Distribuciones:",
+                "status": "Estado:",
+                "controls": "Controles:"
+            }
+        },
+        "languages": {
+            "title": "Soporte de Idiomas",
+            "description": "El juego soporta múltiples idiomas para jugadores de todo el mundo. Para información detallada sobre los idiomas, visita nuestra <a href=\"/\">página principal</a>.",
+            "tableHeaders": {
+                "language": "Idioma",
+                "interface": "Interfaz",
+                "audio": "Audio Completo",
+                "subtitles": "Subtítulos"
+            }
+        },
+        "gameInfo": {
+            "title": "Información del Juego",
+            "description": "Información esencial sobre el juego. Aprende más sobre la mecánica del juego en nuestras <a href=\"/guides\">guías de estrategia</a>.",
+            "basicInfo": {
+                "title": "Información Básica",
+                "name": "寻找伪人 (No I'm Not a Human)",
+                "genre": "Indie, Simulación",
+                "developer": "Trioskaz - Aprende más sobre <a href=\"/wiki\">historia del desarrollo</a>",
+                "publisher": "CRITICAL REFLEX",
+                "series": "CRITICAL REFLEX",
+                "releaseDate": "16 de septiembre de 2025 - Descubre los <a href=\"/endings\">resultados de la historia</a>"
+            },
+            "download": {
+                "title": "Descargar Ahora",
+                "description": "¿Listo para comenzar tu viaje de supervivencia? Consulta nuestra <a href=\"/visitors\">guía de personajes</a> antes de comenzar.",
+                "steamButton": "Descargar en Steam"
+            },
+            "labels": {
+                "name": "Nombre:",
+                "genre": "Género:",
+                "developer": "Desarrollador:",
+                "publisher": "Editor:",
+                "series": "Serie:",
+                "releaseDate": "Fecha de Lanzamiento:"
+            }
+        }
+    },
+    "WikiPage": {
+        "hero": {
+            "title": "No I'm Not a Human Wiki - Enciclopedia Completa del Juego",
+            "subtitle": "Domina la experiencia de horror psicológico con nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span>",
+            "description1": "<strong>No, I'm not a Human</strong> es un videojuego de novela visual de horror en primera persona desarrollado por el estudio ruso <strong>Trioskaz</strong> y publicado por <strong>Critical Reflex</strong>. Fue lanzado en Steam el <strong>15 de septiembre de 2025</strong> solo para Windows. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> proporciona cobertura completa de esta aterradora experiencia. La versión demo se publicó el <strong>9 de junio de 2025</strong> en Steam.",
+            "description2": "El juego se desarrolla en un mundo donde la actividad solar aumenta drásticamente, provocando un calentamiento global catastrófico. El jugador toma el papel de un protagonista masculino sin nombre que vive en una casa en las afueras de un pueblo. Cada noche, las personas tocan la puerta buscando refugio del calor del día, y el jugador debe decidir si permitirles entrar. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> cubre todos los aspectos de esta pesadilla de supervivencia. Para más información del juego, visita nuestra <a href=\"/\">página principal</a>."
+        },
+        "gameplay": {
+            "title": "Jugabilidad de No I'm Not a Human",
+            "coreMechanics": {
+                "title": "Mecánicas Principales",
+                "description1": "<strong>No I'm Not a Human</strong> combina elementos de gráficos 2D y 3D. Durante el día, el jugador puede hablar con los huéspedes de la casa y examinarlos en busca de señales que indiquen si son humanos o un Visitante. Cada día, una nueva característica física para identificar a los Visitantes se revela a través de una transmisión televisiva. Estas características suelen ser circunstanciales e incluyen dientes impecables, uñas sucias y ojos enrojecidos.",
+                "description2": "Los Visitantes pueden no mostrar todas las características, los humanos pueden mostrar algunas de ellas, y los huéspedes no siempre consienten ser examinados. También hay otros tipos de visitantes nocturnos, como el \"Intruso\" (representado en el arte clave del juego) que forzará la entrada si el jugador está solo, un trabajador gubernamental que requiere que un huésped al azar sea entregado temporalmente para pruebas de Visitante, un vigilante armado que exigirá examinar al jugador, y miembros de un culto apocalíptico buscados por el gobierno. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> cubre todas estas complejas interacciones. Consulta nuestras <a href=\"/guides\">guías de estrategia</a> para consejos detallados de juego."
+            },
+            "energySystem": {
+                "title": "Sistema de Gestión de Energía",
+                "description1": "En <strong>No I'm Not a Human</strong>, el jugador dispone de una cantidad limitada de \"energía\" cada día y, para finalizar la fase del día, todos los puntos de energía deben gastarse. Esto se puede hacer examinando partes del cuerpo de los huéspedes en busca de rasgos de Visitante o bebiendo cerveza para pasar el tiempo. Si hay muchos huéspedes, es posible que el jugador no pueda examinarlos a todos cada día.",
+                "description2": "Después de cada examen, se le pedirá al jugador decidir si matar al huésped con una escopeta o escucharlo explicar por qué muestra un rasgo de Visitante. No hay consecuencias directas por matar a un humano por error. Sin embargo, si hay Visitantes en la casa y no son eliminados, matarán a huéspedes humanos al azar mientras el jugador duerme. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> proporciona estrategias detalladas para la gestión de energía. Aprende más sobre técnicas de <a href=\"/visitors\">identificación de Visitantes</a>."
+            }
+        },
+        "plot": {
+            "title": "Trama e Historia de No I'm Not a Human",
+            "solarCatastrophe": {
+                "title": "La Catástrofe Solar",
+                "description1": "En <strong>No I'm Not a Human</strong>, un aumento repentino y rápido de la actividad solar inunda la Tierra con luz cegadora y calor insoportable durante el día. Como se proyecta que las temperaturas continúen aumentando hasta niveles letales, las autoridades (FEMA en la traducción al inglés, EMERCOM en el guion original ruso) advierten a los ciudadanos permanecer en interiores durante el día, adoptando un estilo de vida nocturno.",
+                "description2": "Durante la noche, las personas comienzan a encontrarse con los misteriosos y hostiles \"Visitantes\", quienes se disfrazan de humanos y que supuestamente emergen del subsuelo para ganarse la confianza de las víctimas y matarlas. Los Visitantes presentan ciertas diferencias físicas que los distinguen de los humanos reales, y las autoridades tratan de mantener informada a la población sobre estas señales mediante noticieros. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> explora este aterrador mundo en detalle. Descubre todos los <a href=\"/endings\">finales posibles</a> del juego."
+            },
+            "protagonistJourney": {
+                "title": "El Viaje del Protagonista",
+                "description1": "El protagonista, un solitario que ha evitado el exterior durante años antes de la crisis, recibe la visita de su vecino, quien lo advierte sobre la necesidad de tomar precauciones, especialmente permitiendo que personas en busca de refugio del calor diurno permanezcan en su casa, ya que los Visitantes parecen atacar grupos de humanos. Descubre estrategias detalladas de <a href=\"/guides\">supervivencia</a> para gestionar a los huéspedes.",
+                "description2": "Con el tiempo, la catástrofe solar empeora y la sociedad colapsa. Incendios masivos arrasan el campo, los Visitantes matan a patrullas policiales y militares, las ciudades son puestas en cuarentena, los hospitales cierran, se implementa la ley marcial y estallan disturbios anti-gubernamentales. Eventualmente, el calor hace que sea demasiado peligroso para los humanos salir incluso de noche.",
+                "description3": "Existen múltiples finales basados en las elecciones e interacciones del protagonista hasta ese momento. En uno de esos finales, el protagonista decide que es demasiado peligroso permanecer en la superficie y, junto con las personas en su casa, se traslada al subsuelo, aislándose completamente del mundo exterior. Para detalles completos del juego, regresa a nuestra <a href=\"/\">página principal</a>."
+            }
+        },
+        "characters": {
+            "title": "Personajes y Visitantes de No I'm Not a Human",
+            "confirmedSafe": {
+                "title": "Personajes Confirmados como Seguros",
+                "intro": "En <strong>No I'm Not a Human</strong>, estos individuos son garantizados como humanos genuinos en cada partida:",
+                "elderlyGentleman": "<strong>El Caballero Anciano</strong> - Siempre confirmado como humano, seguro admitirlo sin examen",
+                "youngSurvivor": "<strong>Joven Superviviente</strong> - Siempre confirmado como humano, seguro admitirlo sin examen",
+                "scarredVeteran": "<strong>Veterano Marcado</strong> - Siempre confirmado como humano, seguro admitirlo sin examen",
+                "grievingMother": "<strong>Madre Afligida</strong> - Siempre confirmada como humana, segura admitirla sin examen",
+                "footer": "Para una lista completa de personajes y sus perfiles detallados, visita nuestra <a href=\"/visitors\">base de datos de visitantes</a>."
+            },
+            "confirmedThreats": {
+                "title": "Amenazas Confirmadas",
+                "intro": "Estas entidades deben ser eliminadas inmediatamente al ser identificadas:",
+                "hostileStranger": "<strong>Extraño Hostil</strong> - Visitante confirmado, debe ser eliminado de inmediato",
+                "serviceWorker": "<strong>Trabajador de Servicio</strong> - Visitante confirmado, debe ser eliminado de inmediato",
+                "predictionSpecialist": "<strong>Especialista en Predicciones</strong> - Visitante confirmado, debe ser eliminado de inmediato"
+            },
+            "specialCharacters": {
+                "title": "Personajes Especiales",
+                "intro": "En <strong>No I'm Not a Human</strong>, estos visitantes tienen roles únicos en el juego:",
+                "intruder": "<strong>El Intruso</strong> - Aparece en la Noche 4. Forzará la entrada si estás solo. Siempre responde \"No\" y ten a alguien presente",
+                "governmentWorker": "<strong>Trabajador Gubernamental</strong> - Requiere que un huésped al azar sea entregado temporalmente para pruebas de Visitante",
+                "armedVigilante": "<strong>Vigilante Armado</strong> - Exigirá examinar al jugador por señales de Visitante. Puede ser peligroso",
+                "doomCult": "<strong>Miembros del Culto Apocalíptico</strong> - Buscados por el gobierno, pueden tener su propia agenda",
+                "footer": "Para un análisis completo de personajes, consulta nuestros <a href=\"/visitors\">perfiles detallados de visitantes</a>."
+            },
+            "visitorTraits": {
+                "title": "Rasgos de Identificación de Visitantes",
+                "intro": "En <strong>No I'm Not a Human</strong>, los Visitantes pueden ser identificados por estas características físicas, reveladas en transmisiones televisivas diarias:",
+                "perfectTeeth": "<strong>Dientes Perfectos y Blancos</strong> - Dientes increíblemente perfectos y brillantes que destacan durante las conversaciones. También sangran en las encías",
+                "dirtyNails": "<strong>Uñas Sucias/Negras</strong> - Uñas que parecen inusualmente sucias o negras, contrastando con una apariencia limpia. También pueden aparecer erupciones en la piel",
+                "bloodshotEyes": "<strong>Ojos Enrojecidos</strong> - Ojos intensamente rojos y enrojecidos, más severos que el cansancio o estrés normal. También muestran movimiento rápido de pupilas",
+                "hairlessArmpits": "<strong>Axilas Sin Pelo</strong> - Los Visitantes carecen de vello en las axilas, lo cual se puede comprobar durante exámenes físicos. Puede haber pelos, pero pueden aparecer mohos",
+                "warning": "<strong>Importante:</strong> En <strong>No I'm Not a Human</strong>, los Visitantes pueden no mostrar todos los rasgos y los humanos pueden mostrar algunos. Necesitas al menos <strong>DOS</strong> rasgos confirmados para identificar a un Visitante con seguridad, nunca confíes en un solo signo. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> proporciona estrategias detalladas de identificación. Encuentra más consejos de supervivencia en nuestras <a href=\"/guides\">guías completas</a>."
+            }
+        },
+        "development": {
+            "title": "Historia del Desarrollo de No I'm Not a Human",
+            "prototypeToRelease": {
+                "title": "Del Prototipo al Lanzamiento Completo",
+                "description1": "Un prototipo de <strong>No, I'm not a Human</strong> debutó en <strong>Violent Horror Stories: Anthology</strong>, una colección de cuatro juegos cortos de horror creados por cuatro desarrolladores distintos y lanzada en Steam el <strong>6 de agosto de 2024</strong>. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> documenta este viaje completo.",
+                "description2": "Trioskaz, el desarrollador de <strong>No, I'm not a Human</strong>, anunció posteriormente el <strong>4 de septiembre de 2024</strong> que crearían una \"versión extendida\" del juego con personajes, eventos y mecánicas adicionales.",
+                "description3": "El <strong>31 de octubre de 2024</strong>, un desarrollador publicó en la comunidad de Steam un post titulado \"No, I'm not a Human ARG!\". Al interpretarlo, aparece el sitio relevante. Puedes ver el video hablando con los residentes y resolviendo pistas.",
+                "description4": "Una demo del juego ampliado <strong>No I'm Not a Human</strong> se lanzó el <strong>9 de junio de 2025</strong> en Steam. Para el <strong>16 de junio de 2025</strong>, el juego había sido añadido a la lista de deseos por más de <strong>500,000 usuarios</strong> en Steam. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> cubre todos los hitos del desarrollo. <a href=\"/download\">Descarga el juego</a> y comienza tu viaje de supervivencia hoy."
+            }
+        },
+        "reception": {
+            "title": "Recepción Crítica de No I'm Not a Human",
+            "criticalAcclaim": {
+                "title": "Reconocimiento Crítico y Participación de Jugadores",
+                "description1": "<strong>No, I'm not a Human</strong> ha sido descrito como \"lleno de sentimientos de miedo y paranoia\" con una \"estética surrealista y estilizada\" y genera preocupación sobre la inmoralidad de las propias acciones. Varios periodistas compararon el juego con <strong>Papers, Please</strong> por su complejidad moral y mecánicas de toma de decisiones. Nuestra <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> recopila todos los análisis críticos.",
+                "description2": "El diseño de horror atmosférico del juego ha sido elogiado por generar sentimientos genuinos de miedo y paranoia. Los críticos destacaron cómo el juego fuerza decisiones morales difíciles que cuestionan las acciones del jugador, creando una experiencia única de horror psicológico. Aprende más sobre los <a href=\"/endings\">resultados narrativos</a> del juego.",
+                "description3": "La estética surrealista y estilizada de <strong>No I'm Not a Human</strong> fue ampliamente apreciada por su enfoque único en los gráficos de horror, y la comparación con Papers, Please resaltó la innovación en la jugabilidad basada en decisiones. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> analiza todas las perspectivas críticas. Explora más contenido en nuestra <a href=\"/\">página principal</a>."
+            }
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Sobre Nosotros</span>",
+            "subtitle": "Conoce más sobre nuestra misión y compromiso con la comunidad de No I'm Not a Human"
+        },
+        "whoWeAre": {
+            "title": "Quiénes Somos",
+            "content": "No I'm Not a Human Guide es una plataforma líder dedicada a proporcionar contenido de alta calidad, guías y recursos para nuestra comunidad. Somos un equipo apasionado de creadores, investigadores y entusiastas que buscan ofrecer información precisa, atractiva y valiosa sobre el juego de horror psicológico \"No I'm Not a Human\"."
+        },
+        "mission": {
+            "title": "Nuestra Misión",
+            "content": "Nuestra misión es empoderar a los jugadores ofreciendo conocimiento confiable, estrategias prácticas y perspectivas impulsadas por la comunidad. Ya sea sobre mecánicas del juego, estrategias de supervivencia o análisis de personajes, nos esforzamos por ser la fuente principal de contenido confiable y actualizado sobre esta intensa experiencia de horror de supervivencia."
+        },
+        "whatWeOffer": {
+            "title": "Lo Que Ofrecemos",
+            "item1": "<strong>Guías Completas:</strong> Recorridos detallados y estrategias para ayudar a los jugadores a navegar el paranoico mundo de No I'm Not a Human.",
+            "item2": "<strong>Base de Datos de Personajes:</strong> Información completa sobre los 56 personajes y visitantes que podrías encontrar.",
+            "item3": "<strong>Análisis de Finales:</strong> Desglose detallado de los 6 finales posibles y cómo lograrlos.",
+            "item4": "<strong>Últimas Actualizaciones:</strong> Contenido actualizado regularmente para asegurar relevancia y precisión con las actualizaciones del juego.",
+            "item5": "<strong>Recursos Comunitarios:</strong> Un centro para la colaboración, intercambio de conocimiento e interacción significativa entre jugadores.",
+            "item6": "<strong>Funciones Especiales:</strong> Perspectivas exclusivas, herramientas y contenido curado para nuestra audiencia."
+        },
+        "commitment": {
+            "title": "Nuestro Compromiso",
+            "content": "Estamos comprometidos a mantener un alto estándar de calidad, integridad y transparencia en todo lo que publicamos. Nuestro equipo trabaja continuamente para verificar información, actualizar recursos y asegurar que nuestra plataforma siga siendo confiable y centrada en el usuario para la comunidad de No I'm Not a Human."
+        },
+        "communityFocus": {
+            "title": "Enfoque en la Comunidad",
+            "content": "En No I'm Not a Human Guide creemos en el poder de la comunidad. Nuestra plataforma está diseñada para conectar jugadores, fomentar la colaboración y crear un ambiente positivo donde todos puedan aprender y contribuir al conocimiento colectivo de este desafiante juego."
+        },
+        "qualityAssurance": {
+            "title": "Aseguramiento de Calidad",
+            "content": "La precisión está en el núcleo de lo que hacemos. Cada contenido es cuidadosamente revisado y verificado por nuestro equipo para asegurar que cumpla con los más altos estándares antes de publicarse en nuestra plataforma."
+        },
+        "regularUpdates": {
+            "title": "Actualizaciones Regulares",
+            "content": "Actualizamos nuestros recursos frecuentemente para mantenernos al día con las actualizaciones del juego, necesidades de la comunidad y comentarios de los usuarios. Esto asegura que nuestra audiencia siempre tenga acceso a la información más relevante y valiosa sobre No I'm Not a Human."
+        },
+        "contactUs": {
+            "title": "Contáctanos",
+            "content": "¿Tienes preguntas, sugerencias o comentarios? ¡Nos encantaría escucharte! Puedes contactarnos en <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a> y te responderemos lo antes posible."
+        },
+        "joinCommunity": {
+            "title": "Únete a Nuestra Comunidad",
+            "content": "Mantente conectado con No I'm Not a Human Guide siguiendo nuestras actualizaciones y participando en la comunidad. Juntos podemos construir un espacio más fuerte, informado y solidario para todos los que navegan esta intensa experiencia de horror de supervivencia."
+        }
+    },
+    "ContactPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Contáctanos</span>",
+            "subtitle": "Ponte en contacto con nuestro equipo para soporte, comentarios o colaboración"
+        },
+        "getInTouch": {
+            "title": "Ponte en Contacto",
+            "content": "¡Nos encantaría saber de ti! Ya sea que tengas preguntas sobre nuestras guías, sugerencias para mejorar o simplemente quieras saludarnos, estamos aquí para ayudarte."
+        },
+        "contactInfo": {
+            "title": "Información de Contacto",
+            "email": "<strong>Email:</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
+            "response": "Normalmente respondemos dentro de 24 horas."
+        },
+        "responseTime": {
+            "title": "Tiempo de Respuesta",
+            "weekday": "<strong>Lunes - Viernes:</strong> Dentro de 24 horas",
+            "weekend": "<strong>Fines de Semana:</strong> Dentro de 48 horas"
+        },
+        "whatWeHelp": {
+            "title": "En Qué Podemos Ayudarte",
+            "item1": "<strong>Preguntas de Guías:</strong> Ayuda para entender mecánicas, estrategias o recorridos del juego",
+            "item2": "<strong>Comentarios sobre la Web:</strong> Sugerencias para mejorar nuestra plataforma y experiencia de usuario",
+            "item3": "<strong>Solicitudes de Contenido:</strong> Ideas para nuevas guías, análisis de personajes o recursos del juego",
+            "item4": "<strong>Soporte Técnico:</strong> Asistencia con la funcionalidad del sitio o problemas de navegación",
+            "item5": "<strong>Consultas de Colaboración:</strong> Oportunidades de colaboración con otros creadores de contenido",
+            "item6": "<strong>Preguntas Generales:</strong> Cualquier otra cosa relacionada con No I'm Not a Human y nuestros servicios"
+        },
+        "beforeContact": {
+            "title": "Antes de Contactarnos",
+            "intro": "Para ayudarnos a ofrecer la mejor asistencia, por favor incluye los siguientes detalles en tu correo electrónico:",
+            "item1": "Tu pregunta o problema específico",
+            "item2": "Cualquier mensaje de error (si aplica)",
+            "item3": "Pasos que ya has intentado",
+            "item4": "Información de tu dispositivo y navegador (si es relevante)"
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "q1": "<strong>¿Con qué frecuencia se actualiza su contenido?</strong><br>Actualizamos nuestros recursos regularmente para garantizar precisión y actualidad con la información más reciente del juego.",
+            "q2": "<strong>¿Su contenido es seguro y confiable?</strong><br>Sí, toda la información que proporcionamos está verificada y obtenida de manera responsable de fuentes oficiales del juego.",
+            "q3": "<strong>¿Puedo sugerir nuevo contenido?</strong><br>¡Por supuesto! Apreciamos tus ideas y contribuciones; solo envíanoslas.",
+            "q4": "<strong>¿Proporcionan advertencias de spoilers?</strong><br>Sí, marcamos claramente el contenido que contiene spoilers para ayudarte a evitar información no deseada."
+        },
+        "businessHours": {
+            "title": "Horario de Atención",
+            "content": "Nuestro equipo está disponible de lunes a viernes, de 9:00 AM a 6:00 PM (EST). Aunque podemos responder fuera de este horario, permite hasta 24–48 horas para respuestas durante fines de semana y días festivos."
+        },
+        "privacy": {
+            "title": "Privacidad",
+            "content": "Respetamos tu privacidad y nunca compartiremos tu información personal con terceros. Todas las comunicaciones se mantienen confidenciales y se utilizan únicamente para brindarte el mejor servicio posible."
+        },
+        "thankYou": {
+            "title": "Gracias",
+            "content": "¡Gracias por ser parte de la comunidad de No I'm Not a Human Guide! Tus comentarios y apoyo nos ayudan a seguir ofreciendo la mejor experiencia para jugadores de todo el mundo."
+        }
+    },
+    "CopyrightPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Declaración de Derechos de Autor</span>",
+            "subtitle": "Derechos de propiedad intelectual y directrices de uso"
+        },
+        "statement": {
+            "title": "Declaración de Derechos de Autor",
+            "content": "Todo el contenido en <strong>No I'm Not a Human Guide</strong>, incluyendo pero no limitado a textos, gráficos, imágenes, videos y software, es propiedad de <strong>No I'm Not a Human Guide</strong> y está protegido por leyes internacionales de derechos de autor. El uso, reproducción o distribución no autorizada de este contenido está estrictamente prohibido."
+        },
+        "whatWeOwn": {
+            "title": "Lo Que Poseemos",
+            "item1": "<strong>Contenido Original:</strong> Todo contenido escrito, guías, tutoriales y reseñas creados por nuestro equipo.",
+            "item2": "<strong>Diseño del Sitio Web:</strong> Maquetación, estilo, interfaz de usuario y elementos generales de diseño del sitio.",
+            "item3": "<strong>Imágenes Originales:</strong> Capturas de pantalla, gráficos y contenido visual creado específicamente para este sitio web.",
+            "item4": "<strong>Código y Software:</strong> Código del sitio web, scripts y software desarrollado para esta plataforma."
+        },
+        "thirdParty": {
+            "title": "Contenido de Terceros",
+            "content": "Respetamos los derechos de propiedad intelectual de terceros. Algunos contenidos en nuestro sitio web pueden incluir referencias, imágenes o información relacionada con <strong>No I'm Not a Human</strong>, que pertenecen a sus respectivos propietarios (Trioskaz y Critical Reflex)."
+        },
+        "fairUse": {
+            "title": "Política de Uso Justo",
+            "intro": "Apoyamos el uso justo de nuestro contenido con fines educativos, de investigación y personales. Sin embargo, el uso comercial requiere permiso explícito.",
+            "allowedTitle": "<strong>Usos Permitidos:</strong>",
+            "allowed1": "Estudio y investigación personal",
+            "allowed2": "Fines educativos",
+            "allowed3": "Compartir sin fines comerciales",
+            "allowed4": "Crítica y comentarios",
+            "restrictedTitle": "<strong>Usos Restringidos:</strong>",
+            "restricted1": "Reproducción comercial",
+            "restricted2": "Distribución masiva",
+            "restricted3": "Modificación sin permiso",
+            "restricted4": "Eliminación de atribución"
+        },
+        "dmca": {
+            "title": "Cumplimiento DMCA",
+            "intro": "Cumplimos con la Ley de Derechos de Autor del Milenio Digital (DMCA). Si crees que tu obra con derechos de autor ha sido utilizada sin permiso, contáctanos de inmediato.",
+            "requirementsTitle": "<strong>Para presentar un aviso de eliminación DMCA, incluye:</strong>",
+            "req1": "Detalles específicos sobre el material protegido",
+            "req2": "Prueba de que eres el propietario de los derechos del contenido",
+            "req3": "Un aviso formal de DMCA enviado a nuestro agente designado"
+        },
+        "attribution": {
+            "title": "Requisitos de Atribución",
+            "content": "Al usar nuestro contenido bajo uso justo o con permiso, se requiere la atribución adecuada."
+        },
+        "license": {
+            "title": "Solicitudes de Licencia",
+            "intro": "Para uso comercial, licencias u otros permisos, contáctanos con tu solicitud específica.",
+            "requirementsTitle": "<strong>Tu solicitud debe incluir:</strong>",
+            "req1": "Contenido específico que deseas usar",
+            "req2": "Propósito e audiencia previstos",
+            "req3": "Duración del uso",
+            "req4": "Información de contacto"
+        },
+        "contact": {
+            "title": "Información de Contacto",
+            "email": "Correo electrónico: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
+        },
+        "updates": {
+            "title": "Actualizaciones de la Nota de Derechos de Autor",
+            "content1": "Esta nota de derechos de autor puede actualizarse periódicamente. La versión más reciente siempre estará disponible en esta página. El uso continuado de nuestro sitio web constituye la aceptación de cualquier cambio.",
+            "content2": "Revisa esta página regularmente para conocer las actualizaciones de nuestra política de derechos de autor."
+        }
+    },
+    "PrivacyPolicyPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Política de Privacidad</span>",
+            "subtitle": "Cómo recopilamos, usamos y protegemos tu información"
+        }
+    },
+    "TermsOfServicePage": {
+        "hero": {
+            "title": "<span class=\"highlight\">Términos de Servicio</span>",
+            "subtitle": "Términos y condiciones para usar nuestro sitio web"
+        }
+    },
+    "footer": {
+        "brandTitle": "No I'm Not a Human",
+        "brandDesc": "Domina la experiencia definitiva de supervivencia de horror psicológico",
+        "quickLinksTitle": "Enlaces Rápidos",
+        "quickLinksHome": "Inicio",
+        "quickLinksGuides": "Guías",
+        "quickLinksEndings": "Finales",
+        "quickLinksWiki": "Wiki",
+        "quickLinksVisitors": "Visitantes",
+        "quickLinksDownload": "Descargar",
+        "legalTitle": "Legal",
+        "legalPrivacy": "Política de Privacidad",
+        "legalTerms": "Términos de Servicio",
+        "legalCopyright": "Derechos de Autor",
+        "legalAbout": "Sobre Nosotros",
+        "legalContact": "Contáctanos",
+        "disclaimer": "No I'm Not a Human es una marca registrada de Trioskaz. Este sitio web no está afiliado con los desarrolladores oficiales del juego."
+    }
+}

@@ -5,9 +5,9 @@
                 <!-- Brand Section -->
                 <div class="footer-section brand-section">
                     <div class="brand-logo">
-                        <h3>No I'm not a Human</h3>
+                        <h3>{{ $t('footer.brandTitle') }}</h3>
                     </div>
-                    <p>Master the intense survival horror experience in No I'm not a Human. Navigate the paranoid world where every decision matters and trust is a luxury you can't afford.</p>
+                    <p>{{ $t('footer.brandDesc') }}</p>
                     <div class="social-links">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link"
                             aria-label="Follow us on Twitter">
@@ -36,35 +36,35 @@
 
                 <!-- Quick Links Section -->
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
+                    <h4>{{ $t('footer.quickLinksTitle') }}</h4>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/guides">Guides</a></li>
-                        <li><a href="/endings">Endings</a></li>
-                        <li><a href="/wiki">Wiki</a></li>
-                        <li><a href="/visitors">Visitors</a></li>
-                        <li><a href="/download">Download</a></li>
+                        <li><a href="/">{{ $t('footer.quickLinksHome') }}</a></li>
+                        <li><a href="/guides">{{ $t('footer.quickLinksGuides') }}</a></li>
+                        <li><a href="/endings">{{ $t('footer.quickLinksEndings') }}</a></li>
+                        <li><a href="/wiki">{{ $t('footer.quickLinksWiki') }}</a></li>
+                        <li><a href="/visitors">{{ $t('footer.quickLinksVisitors') }}</a></li>
+                        <li><a href="/download">{{ $t('footer.quickLinksDownload') }}</a></li>
                     </ul>
                 </div>
 
                 <!-- Legal Section -->
                 <div class="footer-section">
-                    <h4>Legal</h4>
+                    <h4>{{ $t('footer.legalTitle') }}</h4>
                     <ul>
-                        <li><a href="/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="/terms-of-service">Terms of Service</a></li>
-                        <li><a href="/copyright">Copyright</a></li>
-                        <li><a href="/about-us">About Us</a></li>
-                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/privacy-policy">{{ $t('footer.legalPrivacy') }}</a></li>
+                        <li><a href="/terms-of-service">{{ $t('footer.legalTerms') }}</a></li>
+                        <li><a href="/copyright">{{ $t('footer.legalCopyright') }}</a></li>
+                        <li><a href="/about-us">{{ $t('footer.legalAbout') }}</a></li>
+                        <li><a href="/contact-us">{{ $t('footer.legalContact') }}</a></li>
                     </ul>
                 </div>
             </div>
 
             <!-- Footer Bottom -->
             <div class="footer-bottom">
-                <p class="copyright-text">© 2025 noimnotahuman.org. All rights reserved.</p>
+                <p class="copyright-text">© 2025 iamnotahuman.org. All rights reserved.</p>
                 <p class="disclaimer-text">
-                    No I'm not a Human is a trademark of Trioskaz. This website is not affiliated with the official game developers.
+                    {{ $t('footer.disclaimer') }}
                 </p>
             </div>
         </div>
