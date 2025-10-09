@@ -69,17 +69,16 @@
     "HomePage": {
         "hero": {
             "banner": {
-                "hotBadge": "🔥 Recomendação Quente",
-                "announcement": "✨ Guia Completo de No I'm not a Human Agora Disponível - Seu Caminho para a Conclusão Perfeita"
+                "hotBadge": "Recomendação Quente",
+                "announcement": "Guia Completo de No I'm not a Human Agora Disponível - Seu Caminho para a Conclusão Perfeita"
             },
             "title": "Domine o Guia de Estratégia Definitivo de <span class=\"highlight\">No I'm not a Human</span>",
             "description": "Mergulhe no mundo deste aclamado jogo de horror psicológico. Oferecemos os <a href=\"/guides\">guias mais completos de No I'm not a Human</a>, análise detalhada de requisitos do sistema, <a href=\"/download\">canais de download seguros</a> e tutoriais profissionais de jogos. Seja você um iniciante ou um jogador veterano procurando coletar <a href=\"/endings\">todos os finais</a>, encontrará tudo o que precisa aqui.",
             "buttons": {
-                "download": "⬇️ Baixar Jogo Agora",
-                "guides": "📖 Começar a Aprender Guias"
+                "download": "Baixar Jogo Agora",
+                "guides": "Começar a Aprender Guias"
             },
             "footer": {
-                "icon": "⚡",
                 "text": "Elaborado por nossa equipe profissional de guias para ajudá-lo a sobreviver e descobrir todos os segredos no mundo do horror"
             }
         },
@@ -284,7 +283,7 @@
             "dailyAllocation": {
                 "title": "Alocação Diária de Energia",
                 "description": "A energia serve como seu recurso mais precioso no jogo. Cada dia fornece uma quantidade finita de energia, e quando completamente esgotada, o dia termina automaticamente, deixando você lidar com as consequências de suas escolhas. Nossos \"Guias de No I'm Not a Human\" ajudarão você a dominar este sistema crucial.",
-                "costsTitle": "💰 Custos de Energia:",
+                "costsTitle": "Custos de Energia:",
                 "talking": "Conversar com visitantes:",
                 "talkingCost": "GRÁTIS",
                 "examination": "Exame físico:",
@@ -338,22 +337,18 @@
             },
             "traits": {
                 "perfectTeeth": {
-                    "icon": "🦷",
                     "title": "Dentes Brancos Perfeitos",
                     "description": "Visitantes possuem dentes perfeitamente brancos e brilhantes que se destacam durante conversas ou exames."
                 },
                 "dirtyNails": {
-                    "icon": "💅",
                     "title": "Unhas Sujas/Negras",
                     "description": "Procure por unhas que aparentem sujeira ou escurecimento incomum, contrastando com aparência geral limpa. Veja mais dicas em nosso <a href=\"/visitors\">banco de dados de visitantes</a>."
                 },
                 "bloodshotEyes": {
-                    "icon": "👁️",
                     "title": "Olhos Fortemente Injetados",
                     "description": "Olhos intensamente vermelhos e injetados, mais severos que cansaço ou estresse normais. Saiba mais sobre características de visitantes em nosso banco de dados."
                 },
                 "hairlessArmpits": {
-                    "icon": "🚫",
                     "title": "Axilas Completamente Peladas",
                     "description": "Visitantes não possuem pelos nas axilas, podendo ser verificado durante exames físicos."
                 }

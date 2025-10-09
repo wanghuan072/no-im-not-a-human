@@ -69,17 +69,16 @@
   "HomePage": {
     "hero": {
       "banner": {
-        "hotBadge": "🔥 Hot Recommendation",
-        "announcement": "✨ No I'm not a Human Complete Guide Now Live - Your Path to Perfect Completion"
+        "hotBadge": "Hot Recommendation",
+        "announcement": "No I'm not a Human Complete Guide Now Live - Your Path to Perfect Completion"
       },
       "title": "Master the Ultimate <span class=\"highlight\">No I'm not a Human</span> Strategy Guide",
       "description": "Dive deep into the world of this acclaimed psychological horror game. We provide the most comprehensive <a href=\"/guides\">No I'm not a Human guides</a>, detailed system requirement analysis, secure <a href=\"/download\">download channels</a>, and professional gaming tutorials. Whether you're a newcomer or a veteran player seeking to collect <a href=\"/endings\">all endings</a>, you'll find everything you need here.",
       "buttons": {
-        "download": "⬇️ Download Game Now",
-        "guides": "📖 Start Learning Guides"
+        "download": "Download Game Now",
+        "guides": "Start Learning Guides"
       },
       "footer": {
-        "icon": "⚡",
         "text": "Expertly crafted by our professional guide team to help you survive and discover all secrets in the horror world"
       }
     },
@@ -284,7 +283,7 @@
       "dailyAllocation": {
         "title": "Daily Energy Allocation",
         "description": "Energy serves as your most precious resource in the game. Each day provides you with a finite amount of energy, and when completely exhausted, the day concludes automatically, leaving you to deal with the outcomes of your choices. Our \"No I'm Not a Human Guides\" will help you master this crucial system.",
-        "costsTitle": "💰 Energy Costs:",
+        "costsTitle": "Energy Costs:",
         "talking": "Talking to guests:",
         "talkingCost": "FREE",
         "examination": "Physical examination:",
@@ -338,22 +337,18 @@
       },
       "traits": {
         "perfectTeeth": {
-          "icon": "🦷",
           "title": "Perfect White Teeth",
           "description": "Visitors have unnaturally perfect, gleaming white teeth that stand out during conversations or examinations."
         },
         "dirtyNails": {
-          "icon": "💅",
           "title": "Dirty/Black Nails",
           "description": "Look for fingernails that appear unusually dirty or blackened, contrasting with otherwise clean appearance. See more identification tips in our <a href=\"/visitors\">visitor database</a>."
         },
         "bloodshotEyes": {
-          "icon": "👁️",
           "title": "Severely Bloodshot Eyes",
           "description": "Eyes that are intensely red and bloodshot, more severe than normal tiredness or stress. Learn more about visitor characteristics in our database."
         },
         "hairlessArmpits": {
-          "icon": "🚫",
           "title": "Completely Hairless Armpits",
           "description": "Visitors lack any armpit hair, which can be checked during physical examinations."
         }

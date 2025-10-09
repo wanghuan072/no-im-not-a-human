@@ -305,25 +305,25 @@
 
                     <div class="traits-grid">
                         <div class="trait-card">
-                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.perfectTeeth.icon') }}</div>
+                            <div class="trait-icon">🦷</div>
                             <h3>{{ $t('GuidesPage.identification.traits.perfectTeeth.title') }}</h3>
                             <p>{{ $t('GuidesPage.identification.traits.perfectTeeth.description') }}</p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.dirtyNails.icon') }}</div>
+                            <div class="trait-icon">💅</div>
                             <h3>{{ $t('GuidesPage.identification.traits.dirtyNails.title') }}</h3>
                             <p v-html="$t('GuidesPage.identification.traits.dirtyNails.description', {}, { raw: true })"></p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.bloodshotEyes.icon') }}</div>
+                            <div class="trait-icon">👁️</div>
                             <h3>{{ $t('GuidesPage.identification.traits.bloodshotEyes.title') }}</h3>
                             <p>{{ $t('GuidesPage.identification.traits.bloodshotEyes.description') }}</p>
                         </div>
 
                         <div class="trait-card">
-                            <div class="trait-icon">{{ $t('GuidesPage.identification.traits.hairlessArmpits.icon') }}</div>
+                            <div class="trait-icon">🚫</div>
                             <h3>{{ $t('GuidesPage.identification.traits.hairlessArmpits.title') }}</h3>
                             <p>{{ $t('GuidesPage.identification.traits.hairlessArmpits.description') }}</p>
                         </div>

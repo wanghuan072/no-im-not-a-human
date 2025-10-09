@@ -36,7 +36,7 @@
 
                     <!-- Footer Text -->
                     <div class="hero-footer">
-                        <div class="footer-icon">{{ $t('HomePage.hero.footer.icon') }}</div>
+                        <div class="footer-icon">⚡</div>
                         <p>{{ $t('HomePage.hero.footer.text') }}</p>
                     </div>
                 </div>

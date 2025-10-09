@@ -69,17 +69,16 @@
     "HomePage": {
         "hero": {
             "banner": {
-                "hotBadge": "🔥 热门推荐",
-                "announcement": "✨ 《No I'm Not a Human》完整攻略上线 - 完美通关之路"
+                "hotBadge": "热门推荐",
+                "announcement": "《No I'm Not a Human》完整攻略上线 - 完美通关之路"
             },
             "title": "掌握终极 <span class=\"highlight\">No I'm Not a Human</span> 攻略",
             "description": "深入探索这款备受好评的心理恐怖游戏。我们提供最全面的 <a href=\"/guides\">No I'm Not a Human指南</a>、详细系统需求分析、安全的 <a href=\"/download\">下载渠道</a> 及专业游戏教程。无论您是新手还是想收集 <a href=\"/endings\">全部结局</a> 的老玩家，都能在这里找到所需的一切。",
             "buttons": {
-                "download": "⬇️ 立即下载游戏",
-                "guides": "📖 开始学习指南"
+                "download": "立即下载游戏",
+                "guides": "开始学习指南"
             },
             "footer": {
-                "icon": "⚡",
                 "text": "由专业攻略团队精心打造，助你在恐怖世界中生存并发现所有秘密"
             }
         },
@@ -284,7 +283,7 @@
             "dailyAllocation": {
                 "title": "每日能量分配",
                 "description": "能量是你在游戏中最珍贵的资源。每天都会提供有限的能量，当能量耗尽时，白天将自动结束，你必须承担选择的后果。我们的《我不是人类》指南将帮助你掌握这一关键系统。",
-                "costsTitle": "💰 能量消耗：",
+                "costsTitle": "能量消耗：",
                 "talking": "与访客交谈：",
                 "talkingCost": "免费",
                 "examination": "身体检查：",
@@ -338,22 +337,18 @@
             },
             "traits": {
                 "perfectTeeth": {
-                    "icon": "🦷",
                     "title": "完美洁白的牙齿",
                     "description": "访客拥有异常完美、闪亮的白牙，在对话或检查中尤为显眼。"
                 },
                 "dirtyNails": {
-                    "icon": "💅",
                     "title": "肮脏/发黑的指甲",
                     "description": "注意那些异常肮脏或发黑的指甲，与整体清洁外观形成对比。更多识别技巧请查看我们的<a href=\"/visitors\">访客数据库</a>。"
                 },
                 "bloodshotEyes": {
-                    "icon": "👁️",
                     "title": "严重充血的眼睛",
                     "description": "眼睛异常血红，比普通疲劳或压力更严重。更多访客特征请参阅数据库。"
                 },
                 "hairlessArmpits": {
-                    "icon": "🚫",
                     "title": "完全无腋毛",
                     "description": "访客腋下完全没有毛发，可通过身体检查确认。"
                 }

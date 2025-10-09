@@ -69,17 +69,16 @@
     "HomePage": {
         "hero": {
             "banner": {
-                "hotBadge": "🔥 おすすめ",
-                "announcement": "✨ No I'm not a Human 完全攻略ガイド公開 - 完璧なクリアへの道"
+                "hotBadge": "おすすめ",
+                "announcement": "No I'm not a Human 完全攻略ガイド公開 - 完璧なクリアへの道"
             },
             "title": "究極の <span class=\"highlight\">No I'm not a Human</span> 攻略ガイドをマスター",
             "description": "この高評価心理ホラーゲームの世界に深く入り込みましょう。<a href=\"/guides\">No I'm not a Humanガイド</a>、詳細なシステム要件分析、安全な<a href=\"/download\">ダウンロードチャネル</a>、プロのゲームチュートリアルを提供します。初心者もベテランも、<a href=\"/endings\">全エンディング</a>収集に必要な情報をすべて見つけることができます。",
             "buttons": {
-                "download": "⬇️ 今すぐゲームをダウンロード",
-                "guides": "📖 ガイドを学ぶ"
+                "download": "今すぐゲームをダウンロード",
+                "guides": "ガイドを学ぶ"
             },
             "footer": {
-                "icon": "⚡",
                 "text": "プロのガイドチームによって作成された攻略情報で、ホラー世界の秘密を生き延びて発見できます"
             }
         },
@@ -284,7 +283,7 @@
             "dailyAllocation": {
                 "title": "1日のエネルギー配分",
                 "description": "エネルギーはゲーム内で最も貴重な資源です。毎日、限られた量のエネルギーが与えられ、完全に使い切ると自動的に日が終了し、選択の結果を処理することになります。「No I'm Not a Human ガイド」でこの重要なシステムをマスターできます。",
-                "costsTitle": "💰 エネルギー消費:",
+                "costsTitle": "エネルギー消費:",
                 "talking": "ゲストとの会話:",
                 "talkingCost": "無料",
                 "examination": "身体検査:",
@@ -338,7 +337,6 @@
             },
             "traits": {
                 "perfectTeeth": {
-                    "icon": "🦷",
                     "title": "完璧な白い歯",
                     "description": "訪問者は異常に完璧で輝く白い歯を持っており、会話や検査時に目立ちます。"
                 },
@@ -348,12 +346,10 @@
                     "description": "他は清潔でも、爪が異常に汚れていたり黒ずんでいることに注目。詳細は<a href=\"/visitors\">訪問者データベース</a>で確認できます。"
                 },
                 "bloodshotEyes": {
-                    "icon": "👁️",
                     "title": "著しく充血した目",
                     "description": "強烈に赤く充血した目で、通常の疲労やストレスよりも深刻です。訪問者の特徴はデータベースで確認可能です。"
                 },
                 "hairlessArmpits": {
-                    "icon": "🚫",
                     "title": "完全に無毛の脇",
                     "description": "訪問者は脇毛が全くなく、身体検査で確認できます。"
                 }

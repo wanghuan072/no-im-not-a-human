@@ -69,17 +69,16 @@
     "HomePage": {
         "hero": {
             "banner": {
-                "hotBadge": "🔥 Recommandation Hot",
-                "announcement": "✨ Guide Complet No I'm Not a Human Maintenant Disponible - Votre Chemin vers la Perfection"
+                "hotBadge": "Recommandation Hot",
+                "announcement": "Guide Complet No I'm Not a Human Maintenant Disponible - Votre Chemin vers la Perfection"
             },
             "title": "Maîtrisez le Guide de Stratégie Ultime <span class=\"highlight\">No I'm not a Human</span>",
             "description": "Plongez dans l'univers de ce jeu d'horreur psychologique acclamé. Nous proposons les <a href=\"/guides\">guides complets de No I'm not a Human</a>, analyse détaillée des configurations système, <a href=\"/download\">canaux de téléchargement sécurisés</a> et tutoriels professionnels. Que vous soyez débutant ou joueur expérimenté souhaitant obtenir <a href=\"/endings\">toutes les fins</a>, tout ce dont vous avez besoin est ici.",
             "buttons": {
-                "download": "⬇️ Télécharger le Jeu",
-                "guides": "📖 Commencer les Guides"
+                "download": "Télécharger le Jeu",
+                "guides": "Commencer les Guides"
             },
             "footer": {
-                "icon": "⚡",
                 "text": "Élaboré par notre équipe de guides professionnels pour vous aider à survivre et découvrir tous les secrets du monde de l'horreur"
             }
         },
@@ -284,7 +283,7 @@
             "dailyAllocation": {
                 "title": "Allocation d'Énergie Quotidienne",
                 "description": "L'énergie est votre ressource la plus précieuse. Chaque jour vous fournit une quantité limitée, et lorsqu'elle est épuisée, la journée se termine automatiquement, laissant les conséquences de vos choix. Nos \"Guides No I'm Not a Human\" vous aideront à maîtriser ce système crucial.",
-                "costsTitle": "💰 Coûts en Énergie :",
+                "costsTitle": "Coûts en Énergie :",
                 "talking": "Parler aux invités :",
                 "talkingCost": "GRATUIT",
                 "examination": "Examen physique :",
@@ -338,22 +337,18 @@
             },
             "traits": {
                 "perfectTeeth": {
-                    "icon": "🦷",
                     "title": "Dents Parfaites et Blanches",
                     "description": "Les visiteurs ont des dents anormalement parfaites et éclatantes, visibles lors des conversations ou examens."
                 },
                 "dirtyNails": {
-                    "icon": "💅",
                     "title": "Ongles Sales/Noirs",
                     "description": "Recherchez des ongles anormalement sales ou noircis, contrastant avec une apparence autrement propre. Plus de conseils dans notre <a href=\"/visitors\">base de données des visiteurs</a>."
                 },
                 "bloodshotEyes": {
-                    "icon": "👁️",
                     "title": "Yeux Très Injectés de Sang",
                     "description": "Yeux intensément rouges et injectés de sang, plus graves qu'une fatigue normale. Plus d'informations sur les caractéristiques des visiteurs dans notre base."
                 },
                 "hairlessArmpits": {
-                    "icon": "🚫",
                     "title": "Aisselles Complètement Imberbes",
                     "description": "Les visiteurs n'ont aucun poil sous les bras, vérifiable lors des examens physiques."
                 }

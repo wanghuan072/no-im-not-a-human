@@ -69,14 +69,14 @@
     "HomePage": {
         "hero": {
             "banner": {
-                "hotBadge": "🔥 Heiße Empfehlung",
-                "announcement": "✨ No I'm not a Human Komplett-Guide jetzt verfügbar – Dein Weg zur perfekten Vollendung"
+                "hotBadge": "Heiße Empfehlung",
+                "announcement": "No I'm not a Human Komplett-Guide jetzt verfügbar – Dein Weg zur perfekten Vollendung"
             },
             "title": "Meistere den ultimativen <span class=\"highlight\">No I'm not a Human</span> Strategie-Guide",
             "description": "Tauche tief in die Welt dieses gefeierten psychologischen Horrorspiels ein. Wir bieten die umfassendsten <a href=\"/guides\">No I'm not a Human Guides</a>, detaillierte Systemanforderungs-Analysen, sichere <a href=\"/download\">Download-Kanäle</a> und professionelle Gaming-Tutorials. Egal, ob du ein Neuling bist oder als Veteran <a href=\"/endings\">alle Enden</a> freischalten willst – hier findest du alles, was du brauchst.",
             "buttons": {
-                "download": "⬇️ Spiel jetzt herunterladen",
-                "guides": "📖 Guides ansehen"
+                "download": "Spiel jetzt herunterladen",
+                "guides": "Guides ansehen"
             },
             "footer": {
                 "icon": "⚡",
@@ -284,7 +284,7 @@
             "dailyAllocation": {
                 "title": "Tägliche Energiezuteilung",
                 "description": "Energie ist deine wertvollste Ressource im Spiel. Jeder Tag stellt dir eine begrenzte Energiemenge zur Verfügung, und wenn diese vollständig erschöpft ist, endet der Tag automatisch. Unsere \"No I'm Not a Human Guides\" helfen dir, dieses System zu meistern.",
-                "costsTitle": "💰 Energiekosten:",
+                "costsTitle": "Energiekosten:",
                 "talking": "Gespräche mit Gästen:",
                 "talkingCost": "KOSTENLOS",
                 "examination": "Körperliche Untersuchung:",
@@ -338,22 +338,18 @@
             },
             "traits": {
                 "perfectTeeth": {
-                    "icon": "🦷",
                     "title": "Perfekt weiße Zähne",
                     "description": "Besucher haben unnatürlich perfekte, glänzend weiße Zähne, die bei Gesprächen oder Untersuchungen auffallen."
                 },
                 "dirtyNails": {
-                    "icon": "💅",
                     "title": "Schmutzige/Schwarze Nägel",
                     "description": "Achte auf Fingernägel, die ungewöhnlich schmutzig oder geschwärzt wirken, im Kontrast zu einem ansonsten sauberen Erscheinungsbild. Weitere Tipps in unserer <a href=\"/visitors\">Besucherdatenbank</a>."
                 },
                 "bloodshotEyes": {
-                    "icon": "👁️",
                     "title": "Stark blutunterlaufene Augen",
                     "description": "Augen, die intensiv rot und blutunterlaufen sind – stärker als normale Müdigkeit oder Stress. Mehr in unserer Datenbank."
                 },
                 "hairlessArmpits": {
-                    "icon": "🚫",
                     "title": "Völlig haarlose Achseln",
                     "description": "Besucher haben keinerlei Achselhaare, was bei körperlichen Untersuchungen überprüft werden kann."
                 }
