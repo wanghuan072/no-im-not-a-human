@@ -333,7 +333,7 @@
             "warning": {
                 "title": "Avertissement Critique",
                 "description1": "Ne vous fiez jamais à un seul signe ! Même les humains peuvent sembler suspects dans l'apocalypse.",
-                "description2": "Vous avez besoin d'au moins <strong>DEUX</strong> traits confirmés pour identifier en toute sécurité un <strong>Visiteur</strong> - ne vous fiez jamais à un seul signe."
+                "description2": "Vous avez besoin d'au moins <strong>DEUX</strong> traits confirmés pour identifier en toute sécurité un <strong>Visiteur</strong> - ne vous fiez jamais à un seul signe. Après avoir pris votre décision, apprenez <a href=\"/blog/how-to-know-killed-visitor\">comment confirmer si vous avez tué un Visiteur ou un humain</a>."
             },
             "traits": {
                 "perfectTeeth": {
@@ -689,7 +689,7 @@
                 "name": "Caissière",
                 "role": "Deuxième Invité Fixe (Visiteur)",
                 "description1": "À part le voisin, une femme est fixée comme le deuxième invité réel, avec des cheveux courts et un fort déséquilibre de l'épaule droite. Elle dit qu'elle était au chômage tout en travaillant comme caissière et a rencontré des visiteurs avant de venir ici. Elle présente une grande anxiété.",
-                "description2": "Elle a des dents très soignées, premier signe des visiteurs, et a récemment affirmé avoir subi un traitement dentaire, mais on ne se souvient pas quand. C'est un visiteur certain, présentant tous les signes, mais contrairement aux autres visiteurs qui ont de la malice et s'immiscent dans la maison du personnage principal, elle est très polie. En savoir plus sur les <a href=\"/wiki\">caractéristiques des visiteurs</a>."
+                "description2": "Elle a des dents très soignées, premier signe des visiteurs, et a récemment affirmé avoir subi un traitement dentaire, mais on ne se souvient pas quand. C'est un visiteur certain, présentant tous les signes, mais contrairement aux autres visiteurs qui ont de la malice et s'immiscent dans la maison du personnage principal, elle est très polie. Lorsqu'elle est éliminée, elle laisse <a href=\"/blog/how-to-know-killed-visitor\">des signes visuels distincts confirmant qu'elle était un Visiteur</a>. En savoir plus sur les <a href=\"/wiki\">caractéristiques des visiteurs</a>."
             },
             "char5": {
                 "name": "Homme au Manteau",
@@ -701,7 +701,7 @@
                 "name": "Veuve",
                 "role": "Femme en Deuil",
                 "desc1": "Une femme portant le corps de son mari décédé. Elle ne veut pas se lever à nouveau ailleurs et ne peut pas enterrer son mari correctement à cause de la chaleur solaire intense qui fond. Si vous l'envoyez, elle reste dans la salle de bain.",
-                "desc2": "Si vous continuez à parler avec elle, vous pouvez voir un souvenir heureux du passé. La mort de son mari n'est pas expliquée en détail, mais l'histoire se découvre dans un dialogue avec le chômeur."
+                "desc2": "Si vous continuez à parler avec elle, vous pouvez voir un souvenir heureux du passé. La mort de son mari n'est pas expliquée en détail, mais l'histoire se découvre dans un dialogue avec le chômeur. Ses yeux rouges de pleurer peuvent être confondus avec un trait de Visiteur - apprenez <a href=\"/blog/how-to-know-killed-visitor\">comment confirmer ce que vous avez tué</a> si vous faites une erreur."
             },
             "char7": {
                 "name": "Lumière du Soleil",
@@ -749,7 +749,7 @@
                 "name": "Séduction",
                 "role": "Tentatrice",
                 "desc1": "La seule jeune femme restant dans la chambre. Elle adopte une attitude séduisante et amicale envers le protagoniste et demande aux autres de rester, affirmant pouvoir offrir quelque chose de spécial qu'ils ne peuvent donner.",
-                "desc2": "Si vous l'envoyez, elle reste dans la chambre, mais il n'y a pas de description précise, il semble qu'elle ait une relation sexuelle avec le protagoniste. Elle utilise principalement son rôle d'ambassadrice pour soutenir et encourager le protagoniste."
+                "desc2": "Si vous l'envoyez, elle reste dans la chambre, mais il n'y a pas de description précise, il semble qu'elle ait une relation sexuelle avec le protagoniste. Elle utilise principalement son rôle d'ambassadrice pour soutenir et encourager le protagoniste. Lui permettre de rester mène à la mystérieuse <a href=\"/blog/ending-1-child-of-doom\">fin Enfant de la Perdition</a>."
             },
             "char15": {
                 "name": "Sœurs",
@@ -1122,7 +1122,7 @@
             "energySystem": {
                 "title": "Système de gestion de l'énergie",
                 "description1": "Dans <strong>No I'm Not a Human</strong>, le joueur dispose d'une quantité limitée d'« énergie » chaque jour, et pour terminer la phase de jour, tous les points d'énergie doivent être dépensés. Cela peut se faire en examinant certaines parties du corps des invités pour détecter des traits de Visiteur ou en buvant de la bière pour passer le temps. Si plusieurs invités sont présents, le joueur ne pourra peut-être pas tous les examiner chaque jour.",
-                "description2": "Après chaque examen, le joueur peut soit tuer l'invité avec un fusil de chasse, soit l'écouter expliquer pourquoi il présente un trait de Visiteur. Il n'y a pas de conséquences directes pour avoir tué un humain par erreur. Cependant, si des Visiteurs sont présents et ne sont pas éliminés, ils tueront des invités humains aléatoires pendant le sommeil du joueur. Notre <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> fournit des stratégies détaillées pour la gestion de l'énergie. Apprenez-en plus sur les techniques <a href=\"/visitors\">d'identification des Visiteurs</a>."
+                "description2": "Après chaque examen, le joueur peut soit tuer l'invité avec un fusil de chasse, soit l'écouter expliquer pourquoi il présente un trait de Visiteur. Il n'y a pas de conséquences directes pour avoir tué un humain par erreur. Cependant, si des Visiteurs sont présents et ne sont pas éliminés, ils tueront des invités humains aléatoires pendant le sommeil du joueur. Apprenez <a href=\"/blog/how-to-know-killed-visitor\">comment déterminer si vous avez tué un Visiteur ou un humain</a> grâce aux indices visuels. Notre <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> fournit des stratégies détaillées pour la gestion de l'énergie. Apprenez-en plus sur les techniques <a href=\"/visitors\">d'identification des Visiteurs</a>."
             }
         },
         "plot": {

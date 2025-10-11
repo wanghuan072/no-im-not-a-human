@@ -333,7 +333,7 @@
             "warning": {
                 "title": "Aviso Crítico",
                 "description1": "Nunca confie em um único sinal! Até humanos podem parecer suspeitos no apocalipse.",
-                "description2": "Você precisa de pelo menos <strong>DOIS</strong> traços confirmados para identificar com segurança um <strong>Visitante</strong> - nunca dependa de apenas um sinal."
+                "description2": "Você precisa de pelo menos <strong>DOIS</strong> traços confirmados para identificar com segurança um <strong>Visitante</strong> - nunca dependa de apenas um sinal. Após tomar sua decisão, aprenda <a href=\"/blog/how-to-know-killed-visitor\">como confirmar se você matou um Visitante ou humano</a>."
             },
             "traits": {
                 "perfectTeeth": {
@@ -689,7 +689,7 @@
                 "name": "Caixa",
                 "role": "Segundo Convidado Fixo (Visitante)",
                 "description1": "Exceto pelos vizinhos, uma mulher é fixada como o segundo convidado real, com cabelo curto e desequilíbrio grave no ombro direito. Ela diz estar desempregada, mas já encontrou visitantes antes de chegar aqui. Possui ansiedade severa.",
-                "description2": "Possui dentes muito limpos, que é o primeiro sinal de visitante. Recentemente afirmou ter feito tratamento dentário, mas não lembra quando. É uma visitante definitiva, com todos os sinais de visitante, mas, ao contrário de outros visitantes maliciosos, é muito educada. Saiba mais sobre <a href=\"/wiki\">características de visitantes</a>."
+                "description2": "Possui dentes muito limpos, que é o primeiro sinal de visitante. Recentemente afirmou ter feito tratamento dentário, mas não lembra quando. É uma visitante definitiva, com todos os sinais de visitante, mas, ao contrário de outros visitantes maliciosos, é muito educada. Quando eliminada, deixará <a href=\"/blog/how-to-know-killed-visitor\">sinais visuais distintos confirmando que era Visitante</a>. Saiba mais sobre <a href=\"/wiki\">características de visitantes</a>."
             },
             "char5": {
                 "name": "Homem do Casaco",
@@ -701,7 +701,7 @@
                 "name": "Viúva",
                 "role": "Mulher Enlutada",
                 "desc1": "Mulher carregando o corpo do marido morto. Não quer levantar-se novamente em algum lugar e não consegue enterrar o marido adequadamente devido ao calor intenso do sol. Se enviada, ficará no banheiro.",
-                "desc2": "Se continuar conversando, você verá imagens de momentos felizes do passado. A morte do marido não é explicada detalhadamente, mas a história pode ser vista em diálogos com o desempregado."
+                "desc2": "Se continuar conversando, você verá imagens de momentos felizes do passado. A morte do marido não é explicada detalhadamente, mas a história pode ser vista em diálogos com o desempregado. Seus olhos vermelhos de chorar podem ser confundidos com um traço de Visitante - aprenda <a href=\"/blog/how-to-know-killed-visitor\">como confirmar o que você matou</a> se cometer um erro."
             },
             "char7": {
                 "name": "Luz do Sol",
@@ -749,7 +749,7 @@
                 "name": "Sedutora",
                 "role": "Tentadora",
                 "desc1": "Única mulher jovem, permanecendo no quarto. Adota atitude sedutora e amigável com o protagonista e pede que outros fiquem, prometendo algo especial que não podem oferecer.",
-                "desc2": "Se enviada, ficará no quarto. Não há descrição detalhada, mas aparentemente mantém relações sexuais com o protagonista. Atua principalmente como embaixadora, abraçando e encorajando o protagonista."
+                "desc2": "Se enviada, ficará no quarto. Não há descrição detalhada, mas aparentemente mantém relações sexuais com o protagonista. Atua principalmente como embaixadora, abraçando e encorajando o protagonista. Permitir que ela fique leva ao misterioso <a href=\"/blog/ending-1-child-of-doom\">final Filho da Perdição</a>."
             },
             "char15": {
                 "name": "Irmãs",
@@ -1122,7 +1122,7 @@
             "energySystem": {
                 "title": "Sistema de Gestão de Energia",
                 "description1": "Em <strong>No I'm Not a Human</strong>, o jogador possui uma quantidade limitada de \"energia\" por dia, e para encerrar a fase do dia, todos os pontos de energia devem ser gastos. Isso pode ser feito examinando partes do corpo dos hóspedes em busca de características de Visitantes ou bebendo cerveja para passar o tempo. Se houver muitos hóspedes na casa, o jogador pode não conseguir examiná-los todos diariamente.",
-                "description2": "Após cada exame, o jogador pode matar o hóspede com uma espingarda ou ouvi-lo explicar por que apresenta um traço de Visitante. Não há consequências diretas por matar um humano por engano. No entanto, se houver Visitantes na casa que não forem mortos, eles matarão hóspedes humanos aleatórios enquanto o jogador dorme. Nossa abrangente <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> fornece estratégias detalhadas de gestão de energia. Saiba mais sobre técnicas de <a href=\"/visitors\">identificação de Visitantes</a>."
+                "description2": "Após cada exame, o jogador pode matar o hóspede com uma espingarda ou ouvi-lo explicar por que apresenta um traço de Visitante. Não há consequências diretas por matar um humano por engano. No entanto, se houver Visitantes na casa que não forem mortos, eles matarão hóspedes humanos aleatórios enquanto o jogador dorme. Aprenda <a href=\"/blog/how-to-know-killed-visitor\">como identificar se você matou um Visitante ou humano</a> com base em pistas visuais. Nossa abrangente <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> fornece estratégias detalhadas de gestão de energia. Saiba mais sobre técnicas de <a href=\"/visitors\">identificação de Visitantes</a>."
             }
         },
         "plot": {

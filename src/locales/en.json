@@ -339,7 +339,7 @@
       "warning": {
         "title": "Critical Warning",
         "description1": "Never trust a single sign! Even humans can appear suspicious in the apocalypse.",
-        "description2": "You need at least <strong>TWO</strong> confirmed traits to safely identify a <strong>Visitor</strong> - never rely on just one sign."
+        "description2": "You need at least <strong>TWO</strong> confirmed traits to safely identify a <strong>Visitor</strong> - never rely on just one sign. After making your decision, learn <a href=\"/blog/how-to-know-killed-visitor\">how to confirm if you killed a Visitor or human</a>."
       },
       "traits": {
         "perfectTeeth": {
@@ -695,7 +695,7 @@
         "name": "Cashier",
         "role": "Second Fixed Guest (Visitor)",
         "description1": "Except for the neighbors, a woman is fixed as a real second guest and has a short hair and a very severe right shoulder imbalance. I said that I was unemployed while working as a cashier, and I met with visitors before coming here. There is severe anxiety.",
-        "description2": "It has a very neat teeth, which is the first sign of the visitors, and recently claimed to be dental treatment, but I do not remember when it was treated. It is a definite visitor who has signs of all visitors, but unlike other visitors who have malice and put them into the main character's house, they are very polite. Learn more about <a href=\"/wiki\">visitor characteristics</a>."
+        "description2": "It has a very neat teeth, which is the first sign of the visitors, and recently claimed to be dental treatment, but I do not remember when it was treated. It is a definite visitor who has signs of all visitors, but unlike other visitors who have malice and put them into the main character's house, they are very polite. When eliminated, she will leave <a href=\"/blog/how-to-know-killed-visitor\">distinct visual signs confirming she was a Visitor</a>. Learn more about <a href=\"/wiki\">visitor characteristics</a>."
       },
       "char5": {
         "name": "Coatman",
@@ -707,7 +707,7 @@
         "name": "Widow",
         "role": "Grieving Woman",
         "desc1": "A woman carrying a dead husband's body. I don't want to get up again somewhere, and I can't bury my husband properly because of the high solar heat that melts. If you send it in, stay in the bathroom.",
-        "desc2": "If you keep talking with her, you can see a picture of a happy time in the past. How her husband died is not explained in detail, but you can see the story in a dialogue with the unemployed."
+        "desc2": "If you keep talking with her, you can see a picture of a happy time in the past. How her husband died is not explained in detail, but you can see the story in a dialogue with the unemployed. Her red eyes from crying can be mistaken for a Visitor trait - learn <a href=\"/blog/how-to-know-killed-visitor\">how to confirm what you killed</a> if you make a mistake."
       },
       "char7": {
         "name": "Sunlight",
@@ -755,7 +755,7 @@
         "name": "Seduction",
         "role": "Temptress",
         "desc1": "The only young woman staying in the bedroom. Take a seductive and friendly attitude to the protagonist, and ask others to stay there, saying that they can give something special that they cannot give.",
-        "desc2": "If you send it in, you stay in the bedroom, but there is no description, but it seems to have sex with the protagonist. It mainly uses an ambassador that embraces and encourages the protagonist."
+        "desc2": "If you send it in, you stay in the bedroom, but there is no description, but it seems to have sex with the protagonist. It mainly uses an ambassador that embraces and encourages the protagonist. Allowing her to stay leads to the mysterious <a href=\"/blog/ending-1-child-of-doom\">Child of Doom ending</a>."
       },
       "char15": {
         "name": "Sisters",
@@ -1128,7 +1128,7 @@
       "energySystem": {
         "title": "Energy Management System",
         "description1": "In <strong>No I'm Not a Human</strong>, the player has a finite amount of \"energy\" each day, and in order to end the day phase, all energy points must be spent. This can be done by examining specific body parts of guests for Visitor traits, or by drinking beer to pass time. If there are many guests in the house, the player may not be able to examine them all each day.",
-        "description2": "After each examination, the player is prompted to either kill the guest with a shotgun or listen to them explain why they show a Visitor trait. There are no direct consequences for killing a human by mistake. If any Visitors are in the house and are not killed, however, they will kill random human guests while the player sleeps. Our comprehensive <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> provides detailed strategies for energy management. Learn more about <a href=\"/visitors\">visitor identification</a> techniques."
+        "description2": "After each examination, the player is prompted to either kill the guest with a shotgun or listen to them explain why they show a Visitor trait. There are no direct consequences for killing a human by mistake. If any Visitors are in the house and are not killed, however, they will kill random human guests while the player sleeps. Learn <a href=\"/blog/how-to-know-killed-visitor\">how to tell if you killed a Visitor or human</a> based on visual cues. Our comprehensive <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> provides detailed strategies for energy management. Learn more about <a href=\"/visitors\">visitor identification</a> techniques."
       }
     },
     "plot": {

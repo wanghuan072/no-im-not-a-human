@@ -333,7 +333,7 @@
             "warning": {
                 "title": "Advertencia Crítica",
                 "description1": "¡Nunca confíes en un solo signo! Incluso los humanos pueden parecer sospechosos en el apocalipsis.",
-                "description2": "Necesitas al menos <strong>DOS</strong> rasgos confirmados para identificar de forma segura a un <strong>Visitante</strong> - nunca confíes en un solo signo."
+                "description2": "Necesitas al menos <strong>DOS</strong> rasgos confirmados para identificar de forma segura a un <strong>Visitante</strong> - nunca confíes en un solo signo. Después de tomar tu decisión, aprende <a href=\"/blog/how-to-know-killed-visitor\">cómo confirmar si mataste a un Visitante o un humano</a>."
             },
             "traits": {
                 "perfectTeeth": {
@@ -689,7 +689,7 @@
                 "name": "Cajera",
                 "role": "Segundo Invitado Fijo (Visitante)",
                 "description1": "Excepto por los vecinos, es una mujer fija como segunda invitada real, de cabello corto y con un fuerte desequilibrio en el hombro derecho. Dijo estar desempleada mientras trabajaba como cajera, y antes de llegar aquí se encontró con visitantes. Tiene ansiedad severa.",
-                "description2": "Tiene dientes muy cuidados, primer indicio de visitante, y recientemente afirmó haber recibido tratamiento dental, aunque no recuerda cuándo. Es un visitante confirmado que muestra todas las señales de los visitantes, pero a diferencia de otros, es muy educada. Aprende más sobre <a href=\"/wiki\">características de los visitantes</a>."
+                "description2": "Tiene dientes muy cuidados, primer indicio de visitante, y recientemente afirmó haber recibido tratamiento dental, aunque no recuerda cuándo. Es un visitante confirmado que muestra todas las señales de los visitantes, pero a diferencia de otros, es muy educada. Cuando es eliminada, deja <a href=\"/blog/how-to-know-killed-visitor\">señales visuales distintivas confirmando que era un Visitante</a>. Aprende más sobre <a href=\"/wiki\">características de los visitantes</a>."
             },
             "char5": {
                 "name": "Hombre del Abrigo",
@@ -701,7 +701,7 @@
                 "name": "Viuda",
                 "role": "Mujer Aflicta",
                 "desc1": "Mujer cargando el cuerpo de su esposo fallecido. No quiere levantarse de nuevo y no puede enterrar a su esposo correctamente debido al calor solar extremo que derrite. Si la envías, permanece en el baño.",
-                "desc2": "Si continúas hablando con ella, puedes ver imágenes de tiempos felices del pasado. La forma en que murió su esposo no se explica con detalle, pero puedes conocer su historia mediante diálogos con el desempleado."
+                "desc2": "Si continúas hablando con ella, puedes ver imágenes de tiempos felices del pasado. La forma en que murió su esposo no se explica con detalle, pero puedes conocer su historia mediante diálogos con el desempleado. Sus ojos rojos del llanto pueden ser confundidos con un rasgo de Visitante - aprende <a href=\"/blog/how-to-know-killed-visitor\">cómo confirmar lo que mataste</a> si cometes un error."
             },
             "char7": {
                 "name": "Fanático del Sol",
@@ -749,7 +749,7 @@
                 "name": "Seductora",
                 "role": "Tentadora",
                 "desc1": "La única mujer joven que permanece en el dormitorio. Adopta una actitud seductora y amigable con el protagonista, pidiendo a otros que se queden, prometiendo algo especial que no pueden dar.",
-                "desc2": "Si la envías, permanecerá en el dormitorio, pero parece que tiene relaciones con el protagonista. Principalmente actúa como embajadora que abraza y alienta al protagonista."
+                "desc2": "Si la envías, permanecerá en el dormitorio, pero parece que tiene relaciones con el protagonista. Principalmente actúa como embajadora que abraza y alienta al protagonista. Permitir que se quede conduce al misterioso <a href=\"/blog/ending-1-child-of-doom\">final Hijo de la Perdición</a>."
             },
             "char15": {
                 "name": "Hermanas",
@@ -1122,7 +1122,7 @@
             "energySystem": {
                 "title": "Sistema de Gestión de Energía",
                 "description1": "En <strong>No I'm Not a Human</strong>, el jugador dispone de una cantidad limitada de \"energía\" cada día y, para finalizar la fase del día, todos los puntos de energía deben gastarse. Esto se puede hacer examinando partes del cuerpo de los huéspedes en busca de rasgos de Visitante o bebiendo cerveza para pasar el tiempo. Si hay muchos huéspedes, es posible que el jugador no pueda examinarlos a todos cada día.",
-                "description2": "Después de cada examen, se le pedirá al jugador decidir si matar al huésped con una escopeta o escucharlo explicar por qué muestra un rasgo de Visitante. No hay consecuencias directas por matar a un humano por error. Sin embargo, si hay Visitantes en la casa y no son eliminados, matarán a huéspedes humanos al azar mientras el jugador duerme. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> proporciona estrategias detalladas para la gestión de energía. Aprende más sobre técnicas de <a href=\"/visitors\">identificación de Visitantes</a>."
+                "description2": "Después de cada examen, se le pedirá al jugador decidir si matar al huésped con una escopeta o escucharlo explicar por qué muestra un rasgo de Visitante. No hay consecuencias directas por matar a un humano por error. Sin embargo, si hay Visitantes en la casa y no son eliminados, matarán a huéspedes humanos al azar mientras el jugador duerme. Aprende <a href=\"/blog/how-to-know-killed-visitor\">cómo determinar si mataste a un Visitante o a un humano</a> basándote en señales visuales. Nuestra completa <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> proporciona estrategias detalladas para la gestión de energía. Aprende más sobre técnicas de <a href=\"/visitors\">identificación de Visitantes</a>."
             }
         },
         "plot": {

@@ -38,6 +38,24 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://iamnotahuman.org/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://iamnotahuman.org/about-us</loc>
         <lastmod>2025-09-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -102,6 +120,24 @@
     <url>
         <loc>https://iamnotahuman.org/zh/download</loc>
         <lastmod>2025-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/zh/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/zh/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/zh/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -174,6 +210,24 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://iamnotahuman.org/ja/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ja/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ja/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://iamnotahuman.org/ja/about-us</loc>
         <lastmod>2025-09-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -238,6 +292,24 @@
     <url>
         <loc>https://iamnotahuman.org/ru/download</loc>
         <lastmod>2025-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ru/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ru/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ru/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -310,6 +382,24 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://iamnotahuman.org/ko/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ko/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/ko/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://iamnotahuman.org/ko/about-us</loc>
         <lastmod>2025-09-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -374,6 +464,24 @@
     <url>
         <loc>https://iamnotahuman.org/de/download</loc>
         <lastmod>2025-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/de/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/de/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/de/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -446,6 +554,24 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://iamnotahuman.org/fr/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/fr/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/fr/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://iamnotahuman.org/fr/about-us</loc>
         <lastmod>2025-09-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -514,6 +640,24 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://iamnotahuman.org/es/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/es/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/es/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://iamnotahuman.org/es/about-us</loc>
         <lastmod>2025-09-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -578,6 +722,24 @@
     <url>
         <loc>https://iamnotahuman.org/pt/download</loc>
         <lastmod>2025-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/pt/blog</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/pt/blog/ending-1-child-of-doom</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://iamnotahuman.org/pt/blog/how-to-know-killed-visitor</loc>
+        <lastmod>2025-10-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

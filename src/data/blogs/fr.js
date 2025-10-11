@@ -73,7 +73,98 @@ const blogs = [
             <h3>Trivia</h3>
             <p>Certains spéculent que l'enfant représente l'Antéchrist. La Femme Séductrice pourrait symboliser Babylone la Grande, qui a donné naissance à l'Antéchrist. Les références bibliques relient l'apparition de l'Antéchrist à la Grande Tribulation. La scène de l'enfant se nourrissant d'un chien pourrait s'inspirer de Romulus et Rémus, nourris par une louve. Pour plus d'informations sur l'<a href="/copyright">histoire et les thèmes</a> du jeu, visitez notre section dédiée.</p>
         `
+    },
+
+    {
+        "id": 2,
+        "title": "No I'm Not a Human : Comment savoir si vous avez tué un visiteur",
+        "addressBar": "how-to-know-killed-visitor",
+        "publishDate": "2025-10-11",
+        "imageUrl": "/images/2.webp",
+        "imageAlt": "Conséquences de la mort dans No I'm Not a Human – distinguer les morts humaines des visiteurs",
+        "seo": {
+            "title": "No I'm Not a Human : Comment savoir si vous avez tué un visiteur ou un humain",
+            "description": "Découvrez les différences visuelles entre tuer des visiteurs et des humains dans No I'm Not a Human. Sacs mortuaires vs cadavres, distorsion de la vision et guide de confirmation de mort.",
+            "keywords": "No I'm Not a Human, mort de visiteur, mort humaine, sacs mortuaires, cadavre, confirmation de tuerie, mécaniques de jeu, identification de visiteur"
+        },
+        "detailsHtml": `
+            <h2>Introduction</h2>
+            <p>Dans <strong><a href="/">No I'm Not a Human</a></strong>, tuer est inévitable, mais la vraie question est de savoir si vous avez pris la bonne décision. Les <a href="/visitors">visiteurs</a> et les humains laissent derrière eux des signes différents après la mort. Connaître ces signes vous permet de confirmer si votre paranoïa était justifiée ou si vous avez simplement tué un invité innocent. Ce guide vous aidera à comprendre les conséquences de vos décisions meurtrières.</p>
+            
+            <div class="image-container">
+                <img src="/images/2.webp" alt="Conséquences de la mort dans No I'm Not a Human" />
+            </div>
+    
+            <h2>Morts humaines dans le jeu</h2>
+            <p>Lorsque vous tuez un humain, son corps n'est pas montré directement. À la place, <strong>trois sacs mortuaires ensanglantés</strong> apparaissent. Cette représentation est la même pour chaque victime humaine. C'est la façon dont le jeu vous fait ressentir le poids de votre erreur.</p>
+            
+            <p>Le système des sacs mortuaires sert de rappel constant de vos erreurs de jugement. Chaque fois que vous voyez ces trois sacs, vous savez que vous avez pris une vie innocente. Cette mécanique renforce l'aspect horreur psychologique du jeu, vous incitant à remettre en question chaque décision. Pour en savoir plus sur la gestion de cette pression, consultez notre <a href="/guides">guide des stratégies de survie</a>.</p>
+    
+            <h2>Morts des visiteurs dans No I'm Not a Human</h2>
+            <p>Lorsque vous tuez un <a href="/visitors">Visiteur</a>, le résultat est très différent. Les visiteurs laissent <strong>leur cadavre</strong> au lieu de sacs. De plus, votre vision se déforme momentanément, montrant <strong>des visages inquiétants et inhumains</strong>. Cet effet est unique aux visiteurs et confirme que l'invité que vous avez tué n'était pas humain.</p>
+            
+            <p>La distorsion de la vision est une mécanique clé qui fournit un retour immédiat. Ces effets visuels perturbants servent à la fois de confirmation et de récompense : vous avez pris la bonne décision, mais le jeu vous rappelle encore l'horreur que vous avez vue. Le cadavre reste visible, contrairement aux victimes humaines, qui sont discrètement placées dans des sacs.</p>
+    
+            <h3>Résumé des différences clés</h3>
+            <ul>
+                <li><strong>Mort humaine :</strong> Trois sacs mortuaires apparaissent, pas de cadavre visible</li>
+                <li><strong>Mort de visiteur :</strong> Cadavre visible, vision déformée avec visages inhumains</li>
+                <li><strong>Confirmation :</strong> La différence visuelle est la seule manière de savoir avec certitude</li>
+            </ul>
+    
+            <h2>Personnages aléatoires</h2>
+            <p>Tous les personnages n'ont pas un rôle fixe, il peut donc être difficile de savoir à l'avance. <strong>Dame en fauteuil roulant</strong>, <strong>Homme à la bière</strong>, la <strong>Femme avec un enfant</strong> et la <strong>Femme voûtée</strong> sont des exemples de rôles aléatoires. Leur mort suit le même système de sacs ou de cadavres, ce qui rend les conséquences votre seule confirmation claire.</p>
+            
+            <p>Ce système d'aléatoire ajoute une grande rejouabilité à <strong><a href="/">No I'm Not a Human</a></strong>. Vous ne pouvez pas vous fier uniquement à la mémorisation : chaque partie nécessite observation et jugement. L'incertitude vous oblige à examiner attentivement les invités plutôt que de suivre un schéma appris par cœur. Découvrez-en plus sur <a href="/visitors">tous les types de visiteurs</a> dans notre base de données complète.</p>
+    
+            <h2>Rôles fixes</h2>
+            <p>Certains invités sont toujours sûrs ou toujours dangereux (voir la <a href="/visitors">liste complète des visiteurs ici</a>). Le <strong>Grand Homme</strong>, la <strong>Veuve</strong>, la <strong>Fille du voisin</strong> et le <strong>Pompier</strong> sont garantis humains. La <strong>Caissière</strong>, l'<strong>Homme Amogus</strong> et l'<strong>Intrus</strong> sont garantis visiteurs. Pas besoin de deviner : leur mort correspond toujours à leur rôle confirmé.</p>
+            
+            <p>Comprendre quels personnages sont fixes peut améliorer considérablement vos chances de survie. Cependant, s'appuyer trop sur cette connaissance peut rendre négligent face aux personnages aléatoires. Le jeu équilibre mémorisation et observation, créant une expérience plus immersive. Pour des stratégies sur la gestion des invités fixes et aléatoires, consultez notre <a href="/guides">guide complet de gameplay</a>.</p>
+    
+            <h3>Personnages confirmés sûrs (toujours humains)</h3>
+            <ul>
+                <li><strong>Grand Homme</strong> - produit toujours des sacs mortuaires à la mort</li>
+                <li><strong>Veuve</strong> - malgré ses yeux rouges de pleurs, toujours humaine</li>
+                <li><strong>Fille du voisin</strong> - garantie sûre</li>
+                <li><strong>Pompier</strong> - toujours humain, jamais une menace</li>
+            </ul>
+    
+            <h3>Menaces confirmées (toujours visiteurs)</h3>
+            <ul>
+                <li><strong>Caissière</strong> - laisse toujours un cadavre à la mort</li>
+                <li><strong>Homme Amogus</strong> - visiteur garanti, éliminer immédiatement</li>
+                <li><strong>Intrus</strong> - toujours dangereux, toujours visiteur</li>
+            </ul>
+    
+            <h2>Réflexions finales</h2>
+            <p><strong><a href="/">No I'm Not a Human</a></strong> utilise les visuels de mort pour indiquer si vous avez tué un <a href="/visitors">visiteur</a> ou un humain. Les sacs signifient que vous avez tué une personne. Un cadavre avec une vision déformée signifie que vous avez tué un visiteur. Cette simple différence vous rend responsable de vos choix et vous fait vivre avec les conséquences après le coup à la porte.</p>
+            
+            <p>Le poids psychologique de ces décisions rend le jeu mémorable. Chaque mort compte et le système de retour visuel assure que vous connaissez toujours les conséquences. Que vous visiez une <a href="/endings">fin</a> spécifique ou que vous essayiez simplement de survivre, comprendre ces mécaniques de mort est crucial pour réussir.</p>
+    
+            <h2>Questions fréquentes</h2>
+            
+            <h3>Comment savoir si j'ai tué un visiteur ?</h3>
+            <p>Les visiteurs laissent des cadavres et votre vision se déforme avec des visages inquiétants et inhumains lorsqu'ils meurent. Cette distorsion visuelle est immédiate et claire, confirmant que vous avez éliminé une menace.</p>
+    
+            <h3>Comment savoir si j'ai tué un humain ?</h3>
+            <p>Tuer un humain affiche trois sacs mortuaires au lieu d'un cadavre. Le corps n'est jamais montré directement, seulement les sacs contenant les restes.</p>
+    
+            <h3>Tous les personnages sont-ils fixes comme humain ou visiteur ?</h3>
+            <p>Non. Certains sont fixes, comme le Grand Homme (humain) ou la Caissière (visiteur), mais beaucoup sont aléatoires. Des personnages comme Dame en fauteuil roulant, Homme à la bière, Femme avec enfant et Femme voûtée peuvent être humains ou visiteurs selon la partie. Consultez notre <a href="/visitors">base de données complète des visiteurs</a> pour plus de détails.</p>
+    
+            <h3>Tous les visiteurs montrent-ils les mêmes signes de mort ?</h3>
+            <p>Oui. Chaque mort de visiteur montre un cadavre et une distorsion de vision. Cette constance facilite la confirmation de vos éliminations, quel que soit le type de visiteur.</p>
+    
+            <h3>La veuve peut-elle être confondue avec un visiteur ?</h3>
+            <p>Oui. Elle a les yeux rouges à cause des pleurs, ce qui peut ressembler à un trait de visiteur. Cependant, si elle meurt, elle produit des sacs mortuaires, confirmant qu'elle est toujours humaine. Ses yeux rouges sont dus au deuil, pas à son rôle de visiteur. Apprenez-en plus sur l'identification des <a href="/visitors">traits des visiteurs</a> dans notre guide.</p>
+    
+            <blockquote>
+                "Le poids de chaque décision persiste bien après avoir appuyé sur la gâchette. Dans No I'm Not a Human, la mort n'est pas seulement une mécanique – c'est un miroir reflétant votre jugement, votre paranoïa et votre humanité."
+            </blockquote>
+        `
     }
+
 ]
 
 export default blogs;

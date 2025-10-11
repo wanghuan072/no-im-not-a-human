@@ -334,7 +334,7 @@
             "warning": {
                 "title": "Kritische Warnung",
                 "description1": "Vertraue niemals nur auf ein Anzeichen! Selbst Menschen können in der Apokalypse verdächtig wirken.",
-                "description2": "Du brauchst mindestens <strong>ZWEI</strong> bestätigte Merkmale, um sicher einen <strong>Besucher</strong> zu identifizieren – verlasse dich niemals nur auf ein einziges Anzeichen."
+                "description2": "Du brauchst mindestens <strong>ZWEI</strong> bestätigte Merkmale, um sicher einen <strong>Besucher</strong> zu identifizieren – verlasse dich niemals nur auf ein einziges Anzeichen. Nach deiner Entscheidung lerne <a href=\"/blog/how-to-know-killed-visitor\">wie du bestätigen kannst, ob du einen Besucher oder Menschen getötet hast</a>."
             },
             "traits": {
                 "perfectTeeth": {
@@ -690,7 +690,7 @@
                 "name": "Kassiererin",
                 "role": "Zweiter fester Gast (Besucher)",
                 "description1": "Abgesehen vom Nachbarn ist eine Frau als zweiter fester Gast gesetzt. Sie hat kurze Haare und eine sehr starke Rechts-Schulter-Asymmetrie. Sie sagte, sie sei arbeitslos, nachdem sie als Kassiererin gearbeitet hatte, und sie traf Besucher, bevor sie hierher kam. Sie leidet unter schwerer Angst.",
-                "description2": "Sie hat sehr gepflegte Zähne, was das erste Anzeichen für Besucher ist, und behauptete kürzlich, eine Zahnbehandlung erhalten zu haben, konnte sich aber nicht erinnern, wann dies geschehen war. Sie ist ein eindeutiger Besucher mit allen typischen Anzeichen, aber anders als andere Besucher, die bösartig sind und ins Haus des Protagonisten wollen, ist sie sehr höflich. Erfahre mehr über <a href=\"/wiki\">Besuchermerkmale</a>."
+                "description2": "Sie hat sehr gepflegte Zähne, was das erste Anzeichen für Besucher ist, und behauptete kürzlich, eine Zahnbehandlung erhalten zu haben, konnte sich aber nicht erinnern, wann dies geschehen war. Sie ist ein eindeutiger Besucher mit allen typischen Anzeichen, aber anders als andere Besucher, die bösartig sind und ins Haus des Protagonisten wollen, ist sie sehr höflich. Wenn sie eliminiert wird, hinterlässt sie <a href=\"/blog/how-to-know-killed-visitor\">deutliche visuelle Anzeichen, die bestätigen, dass sie ein Besucher war</a>. Erfahre mehr über <a href=\"/wiki\">Besuchermerkmale</a>."
             },
             "char5": {
                 "name": "Mantelmann",
@@ -702,7 +702,7 @@
                 "name": "Witwe",
                 "role": "Trauernde Frau",
                 "desc1": "Eine Frau, die den toten Körper ihres Mannes trägt. Sie möchte sich nicht wieder irgendwo erheben und kann ihren Mann nicht richtig begraben, weil die starke Sonneneinstrahlung alles schmelzen lässt. Wenn du sie hereinlässt, bleibt sie im Badezimmer.",
-                "desc2": "Wenn du weiter mit ihr sprichst, kannst du ein Bild einer glücklichen Zeit in der Vergangenheit sehen. Wie ihr Mann gestorben ist, wird nicht genau erklärt, aber du kannst die Geschichte in einem Dialog mit der Arbeitslosen erfahren."
+                "desc2": "Wenn du weiter mit ihr sprichst, kannst du ein Bild einer glücklichen Zeit in der Vergangenheit sehen. Wie ihr Mann gestorben ist, wird nicht genau erklärt, aber du kannst die Geschichte in einem Dialog mit der Arbeitslosen erfahren. Ihre vom Weinen roten Augen können mit einem Besuchermerkmal verwechselt werden - lerne <a href=\"/blog/how-to-know-killed-visitor\">wie du bestätigen kannst, was du getötet hast</a>, falls du einen Fehler machst."
             },
             "char7": {
                 "name": "Sonnenlicht",
@@ -750,7 +750,7 @@
                 "name": "Verführung",
                 "role": "Verführerin",
                 "desc1": "Die einzige junge Frau, die im Schlafzimmer bleibt. Sie nimmt eine verführerische und freundliche Haltung gegenüber dem Protagonisten ein und bittet andere, dort zu bleiben, indem sie sagt, dass sie etwas Besonderes geben kann, was andere nicht geben können.",
-                "desc2": "Wenn du sie hereinlässt, bleibt sie im Schlafzimmer, aber es gibt keine Beschreibung, es scheint jedoch, dass sie mit dem Protagonisten schläft. Sie benutzt hauptsächlich Redewendungen, die den Protagonisten umarmen und ermutigen."
+                "desc2": "Wenn du sie hereinlässt, bleibt sie im Schlafzimmer, aber es gibt keine Beschreibung, es scheint jedoch, dass sie mit dem Protagonisten schläft. Sie benutzt hauptsächlich Redewendungen, die den Protagonisten umarmen und ermutigen. Wenn du ihr erlaubst zu bleiben, führt dies zum mysteriösen <a href=\"/blog/ending-1-child-of-doom\">Kind des Verderbens-Ende</a>."
             },
             "char15": {
                 "name": "Schwestern",
@@ -1123,7 +1123,7 @@
             "energySystem": {
                 "title": "Energie-Management-System",
                 "description1": "Im Spiel hat der Spieler täglich eine begrenzte Menge an \"Energie\". Um den Tag abzuschließen, müssen alle Energiepunkte verbraucht werden. Dies geschieht, indem bestimmte Körperteile der Gäste auf Besuchermerkmale untersucht werden oder indem Bier getrunken wird, um Zeit zu verbringen. Bei vielen Gästen im Haus kann der Spieler nicht alle täglich untersuchen.",
-                "description2": "Nach jeder Untersuchung wird der Spieler aufgefordert, entweder den Gast mit einer Schrotflinte zu töten oder ihm zuzuhören, warum er ein Besuchermerkmal zeigt. Es gibt keine direkten Konsequenzen, wenn ein Mensch versehentlich getötet wird. Wenn jedoch Besucher im Haus sind und nicht getötet werden, töten sie zufällige menschliche Gäste, während der Spieler schläft. Unsere umfassende <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> bietet detaillierte Strategien zum Energie-Management. Erfahre mehr über <a href=\"/visitors\">Techniken zur Besuchererkennung</a>."
+                "description2": "Nach jeder Untersuchung wird der Spieler aufgefordert, entweder den Gast mit einer Schrotflinte zu töten oder ihm zuzuhören, warum er ein Besuchermerkmal zeigt. Es gibt keine direkten Konsequenzen, wenn ein Mensch versehentlich getötet wird. Wenn jedoch Besucher im Haus sind und nicht getötet werden, töten sie zufällige menschliche Gäste, während der Spieler schläft. Lerne <a href=\"/blog/how-to-know-killed-visitor\">wie du anhand visueller Hinweise erkennst, ob du einen Besucher oder Menschen getötet hast</a>. Unsere umfassende <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> bietet detaillierte Strategien zum Energie-Management. Erfahre mehr über <a href=\"/visitors\">Techniken zur Besuchererkennung</a>."
             }
         },
         "plot": {
