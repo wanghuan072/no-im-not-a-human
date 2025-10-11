@@ -405,134 +405,236 @@
             }
         }
     },
+    "BlogPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">Blog - Non, je ne suis pas un humain</span>",
+                "description": "Lisez les derniers guides, conseils et analyses sur Non, je ne suis pas un humain. Restez à jour avec des stratégies d'experts et l'analyse du jeu."
+            },
+            "loading": "Chargement des articles du blog...",
+            "error": {
+                "title": "Échec du chargement des articles du blog",
+                "description": "Nous n'avons pas pu charger les articles du blog. Veuillez réessayer plus tard.",
+                "retry": "Réessayer"
+            },
+            "empty": {
+                "title": "Aucun article disponible",
+                "description": "Il n'y a actuellement aucun article disponible. Revenez plus tard pour du nouveau contenu."
+            },
+            "pagination": {
+                "previous": "Précédent",
+                "next": "Suivant",
+                "page": "Page {current} sur {total}"
+            }
+        },
+        "detail": {
+            "loading": "Chargement de l'article...",
+            "error": {
+                "title": "Article introuvable",
+                "description": "L'article que vous recherchez n'existe pas ou a été déplacé.",
+                "backToBlog": "Retour au blog"
+            },
+            "breadcrumb": {
+                "home": "Accueil",
+                "blog": "Blog"
+            },
+            "share": {
+                "title": "Partager cet article",
+                "copyLink": "Copier le lien"
+            },
+            "related": {
+                "title": "Articles similaires"
+            }
+        }
+    },
     "EndingsPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human : Toutes les fins</span>",
-            "description": "Découvrez toutes les fins possibles de cette expérience d'horreur psychologique. Notre guide complet <span class=\"highlight-text\">\"No I'm Not a Human : Toutes les fins\"</span> révèle chaque chemin, condition et conséquence dans ce cauchemar apocalyptique. Pour des guides complets du jeu, visitez notre <a href=\"/guides\">section stratégie</a> ou explorez nos <a href=\"/\">fonctionnalités du jeu</a>.",
+            "title": "<span class=\"highlight\">Fin de Non, je ne suis pas un humain</span>",
+            "description": "Découvrez toutes les fins possibles dans cette expérience d'horreur psychologique. Plusieurs fins vous attendent selon vos choix tout au long du jeu. Dans <strong>Non, je ne suis pas un humain</strong>, les fins sont généralement atteintes après avoir rempli certaines conditions, bien que certaines puissent survenir plus tôt. Notre guide complet <span class=\"highlight-text\">\"Non, je ne suis pas un humain - fins\"</span> couvre les dialogues de fin et explique comment les atteindre. Pour des guides complets du jeu, consultez notre <a href=\"/guides\">section stratégie</a>, découvrez le <a href=\"/wiki\">monde et l'histoire du jeu</a> ou explorez nos <a href=\"/\">fonctionnalités du jeu</a>.",
             "stats": {
-                "total": "6",
-                "totalLabel": "Fins Totales",
-                "easy": "2",
-                "easyLabel": "Fins Faciles",
-                "medium": "2",
-                "mediumLabel": "Fins Moyennes",
-                "hard": "2",
-                "hardLabel": "Fins Difficiles"
+                "total": "10",
+                "totalLabel": "Fins Totales"
             }
         },
         "mainEndings": {
             "title": "Toutes les fins du jeu",
-            "subtitle": "Explorez chaque résultat possible de votre parcours de survie avec notre guide \"No I'm Not a Human : Toutes les fins\". Apprenez-en plus sur <a href=\"/visitors\">l'identification des visiteurs</a> et <a href=\"/guides\">les stratégies de survie</a>.",
-            "bestEnding": {
-                "title": "Meilleure fin",
-                "subtitle": "L'accomplissement ultime",
-                "difficulty": "Facile",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "N'autorisez que les invités humains confirmés à entrer dans votre maison - consultez notre <a href=\"/visitors\">base de données des visiteurs</a>",
-                "condition2": "Assurez-vous qu'aucun <a href=\"/visitors\">Visiteur</a> n'est admis",
-                "condition3": "Maintenez ce record parfait pendant les 5 jours",
-                "condition4": "Atteignez la fin du Jour 5 avec uniquement des humains présents",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Dans un monde où la surface n'est plus sûre, vous avez créé le sanctuaire parfait. Vous scellez toutes les fenêtres et portes, en consultant vos invités humains pour ne jamais sortir à nouveau. Bien que vous priiez pour que ce cauchemar se termine, l'espoir existe encore… du moins pour l'instant… Heureusement, vous aviez un œil avisé pour vos invités. Aucun Visiteur n'a franchi le seuil de ce qui était autrefois appelé 'home sweet home'. Au moins, il y a une goutte de miel dans ce baril de goudron d'événements."
+            "subtitle": "Explorez chaque résultat possible dans votre parcours de survie avec nos \"Fins de Non, je ne suis pas un humain\". Les fins sont listées dans l'ordre où elles apparaissent dans la section Collection du jeu. Apprenez-en plus sur <a href=\"/visitors\">l'identification des visiteurs</a> et <a href=\"/guides\">les stratégies de survie</a>.",
+            "ending1": {
+                "title": "Fin 1 : L'Enfant de la Malédiction",
+                "subtitle": "Une renaissance sombre",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Laissez entrer la <a href=\"/visitors\">Femme Séductrice</a> dans votre maison",
+                "condition2": "Choisissez toujours les options de dialogue les plus gentilles et non conflictuelles en interagissant avec elle",
+                "condition3": "Le quatrième jour après son arrivée, elle subira une mort inévitable",
+                "condition4": "Interagissez avec les rideaux dans la chambre et explorez la maison pour localiser le Fœtus",
+                "condition5": "La nuit suivante, observez l'enfant boire du lait de chien",
+                "condition6": "Regardez à travers le judas pour déclencher la cinématique de fin",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Un coup retentit à travers le lait de la brume, et au-dessus de la foule s'élevèrent des ailes qui empestaient la cendre.",
+                "note": "Un guide plus détaillé est disponible pour cette fin complexe. Le Fœtus peut être trouvé à deux endroits différents dans la maison."
             },
-            "goodEnding": {
-                "title": "Bonne fin",
-                "subtitle": "Survie pleine d'espoir",
-                "difficulty": "Facile",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "Terminez le Jour 5 avec uniquement des invités humains dans votre maison - apprenez les <a href=\"/guides\">techniques de survie</a>",
-                "condition2": "Vous pouvez avoir admis quelques <a href=\"/visitors\">Visiteurs</a> mais les avoir éliminés",
-                "condition3": "Au moins un invité humain doit rester",
-                "condition4": "Aucun Visiteur actif à la fin",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Vivre à la surface de la Terre n'est plus sûr. Vous scellez toutes les fenêtres et bloquez les portes. Après avoir consulté vos invités, vous décidez de ne jamais entrer dans le monde extérieur. Vous priez désespérément pour qu'un jour tout cela se termine. Si ce cauchemar se termine vraiment. Mais l'espoir existe encore… du moins pour l'instant…"
+            "ending2": {
+                "title": "Fin 2 : La Fin ?",
+                "subtitle": "Descente dans le silence",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Le 13e jour du mois, avant de barricader les fenêtres le 14e jour",
+                "condition2": "Assurez-vous que seuls les humains (à l'exception de la Caissière) restent dans la maison",
+                "condition3": "Alternativement, si vous êtes complètement seul, la même fin se produira",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Le sous-sol devint un univers — fenêtres murées, voix fusionnées avec le tic-tac de l'horloge. Le soleil s'efface... mais le tourment ne finit pas si doucement."
             },
-            "badEnding": {
-                "title": "Mauvaise fin",
-                "subtitle": "Submergé par les nombres",
-                "difficulty": "Moyen",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "Avoir 3 invités ou plus dans votre maison à la fin du Jour 5 - comprenez la <a href=\"/guides\">gestion des invités</a>",
-                "condition2": "Cela inclut toute combinaison d'humains et de Visiteurs",
-                "condition3": "Trop de personnes crée chaos et danger",
-                "condition4": "Votre abri devient compromis",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Vivre à la surface de la Terre n'est plus sûr. Après avoir consulté vos invités, vous décidez de ne jamais entrer dans le monde extérieur. Vous priez désespérément pour qu'un jour tout cela se termine. Si ce cauchemar se termine vraiment. Ou peut-être que ce n'est qu'un rêve relativement optimiste que vous faites. En fait, votre corps a été démembré par les visiteurs."
+            "ending3": {
+                "title": "Fin 3 : Non, je ne suis pas seul",
+                "subtitle": "Piégé avec des monstres",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Le 13e jour du mois, avant de barricader les fenêtres le 14e jour",
+                "condition2": "Gardez au moins un <a href=\"/visitors\">Visiteur</a> dans la maison",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Les Visiteurs étaient là depuis le début — un souffle chaud dans l'obscurité, un cruel murmure dans votre dos. Vous ne reverrez jamais la lumière, si tant est qu'elle revienne."
             },
-            "massacreEnding": {
-                "title": "Fin Massacre",
-                "subtitle": "La violence engendre la violence",
-                "difficulty": "Moyen",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "Tirez et tuez 2 invités ou plus en une seule journée",
-                "condition2": "Cela peut inclure des humains et des Visiteurs",
-                "condition3": "Une violence excessive déclenche des conséquences immédiates",
-                "condition4": "La maison vous considère comme trop dangereux",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Vous avez fait beaucoup pour ceux que vous avez admis. Mais trop de sang a été versé. Vous êtes trop dangereux pour cette maison et devez partir. Vous avez été chassé de votre propre maison par des personnes qui vous craignent. Vous n'avez pas survécu un jour, brûlé par le soleil ardent à l'extérieur."
+            "ending4": {
+                "title": "Fin 4 : Que la mort nous purifie de nos péchés !",
+                "subtitle": "Rejoindre la secte",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Gardez tous les <a href=\"/visitors\">Acolytes de la Secte de la Mort</a> dans la maison jusqu'à ce que le Leader de la Secte fasse sa seconde visite",
+                "condition2": "Pendant ce temps, ne les tuez pas personnellement",
+                "condition3": "Ne les laissez pas être tués par des <a href=\"/visitors\">Visiteurs</a> pendant la nuit",
+                "condition4": "Ne les laissez pas non plus être emmenés par la FEMA",
+                "condition5": "Si ces conditions sont remplies, le Leader de la Secte vous offrira la possibilité de rejoindre leurs rangs",
+                "condition6": "Acceptez l'offre pour devenir un des adorateurs de la mort et déclencher la fin",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Ils prièrent pour le silence final. Peut-être leur prière fut-elle enfin entendue — il fait calme dehors."
             },
-            "intruderEnding": {
-                "title": "Fin Intrus",
-                "subtitle": "Seul dans l'obscurité",
-                "difficulty": "Difficile",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "Soyez seul dans votre maison lorsque l'Intrus arrive - évitez cela grâce à notre <a href=\"/guides\">guide Nuit 4</a>",
-                "condition2": "Le visiteur torse nu apparaît et demande si vous êtes seul",
-                "condition3": "Aucun invité présent pour mentir",
-                "condition4": "Résultat : échec immédiat",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Personne ne sait ce qui s'est passé lorsque le dernier visiteur est arrivé. La maison est restée inhabitée pendant longtemps. Après votre terrible disparition, tout le monde a évité cette maison abandonnée."
+            "ending5": {
+                "title": "Fin 5 : Bienvenue à la FEMA",
+                "subtitle": "Service gouvernemental",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Appelez la FEMA 3 fois pendant la partie, à partir du moment où le numéro de la FEMA est affiché à la télévision",
+                "condition2": "Une fois que vous avez reçu les avis de la FEMA, remettez-en 3 à n'importe lequel des invités",
+                "condition3": "Choisissez toujours les options les plus conciliantes lorsque vous parlez à l'agent de la FEMA",
+                "condition4": "Demandez si vous devez faire vos valises lorsqu'on vous aborde pour la première fois et demandez un costume hazmat si l'option est proposée",
+                "condition5": "Ne questionnez pas leurs intentions ou motifs",
+                "condition6": "Finalement, vous vous réveillerez la nuit, incapable de vérifier les fenêtres",
+                "condition7": "Regardez à travers le judas — l'agent dira que vous avez montré de l'initiative et vous offrira un emploi à la FEMA",
+                "condition8": "Acceptez l'offre pour déclencher la cinématique de fin",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Ils vous emmenèrent sous les sirènes, laissant tous vos souvenirs derrière vous. Si seulement vous pouviez revenir, ne serait-ce que pour prendre l'affiche avec vous."
             },
-            "speedrunEnding": {
-                "title": "Fin Speedrun",
-                "subtitle": "Une vie vécue trop vite",
-                "difficulty": "Difficile",
-                "conditionsTitle": "Conditions à remplir :",
-                "condition1": "Parlez rapidement aux invités à la porte sans enquête",
-                "condition2": "Accélérez jusqu'au Jour 5 le plus rapidement possible",
-                "condition3": "Évitez les conversations, buvez de la bière pour consommer de l'énergie, dormez immédiatement",
-                "condition4": "Assurez-vous de ne pas être seul (au moins un invité)",
-                "descriptionTitle": "Description de la fin :",
-                "description": "Vivre à la surface de la Terre n'est plus sûr. Vous scellez toutes les fenêtres et bloquez les portes. Après avoir consulté vos invités, vous décidez de ne jamais entrer dans le monde extérieur. Cependant, ils commencent à vous regarder étrangement. Vous avez vécu trop vite, essayant de traverser ce cauchemar le plus rapidement possible. Toujours pressé, vous vous abstraisez des horreurs du monde extérieur, en valait-il la peine ? Peut-être. Surtout, n'oubliez pas de vivre, trouvez la beauté dans la vie et profitez-en."
+            "ending6": {
+                "title": "Fin 6 : Oui, je suis seul",
+                "subtitle": "Honnêteté fatale",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Laissez entrer l'Intrus en lui disant que vous êtes seul dans la maison",
+                "condition2": "Alternativement, n'ayez personne dans votre maison lorsqu'il frappe",
+                "condition3": "Ou ayez deux visiteurs ou plus ou aucun humain dans la maison après le 9e jour lorsqu'il frappe",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Au moment où son ombre franchit le seuil, la maison tomba dans le silence. Tout ce qui reste de vous maintenant ce sont les murmures.",
+                "note": "Cette fin est l'une des fins précoces les plus courantes. Gardez toujours au moins un invité humain pour l'éviter."
+            },
+            "ending7": {
+                "title": "Fin 7 : Oui, je suis un meurtrier",
+                "subtitle": "Consumée par la paranoïa",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Tuez un grand nombre d'humains en les tirant avec le pistolet",
+                "condition2": "Le moyen le plus simple est d'éliminer un groupe de cultistes",
+                "condition3": "Une fois qu'assez ont été éliminés, <a href=\"/visitors\">l'Homme Prophétique</a> apparaîtra à votre porte",
+                "condition4": "Il annoncera que votre destin est inévitable",
+                "condition5": "Après sa visite, la cinématique de fin sera déclenchée",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Tous ceux que vous rencontriez semblaient être des ennemis. La peur vous aveuglait, et les autres ne faisaient que finir ce que vous aviez déjà commencé."
+            },
+            "ending8": {
+                "title": "Fin 8 : Champi ou Destin",
+                "subtitle": "Voyage au Pays des Champignons",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "La <a href=\"/visitors\">Dame Chat</a> doit être autorisée à entrer dans la maison lorsqu'elle frappe la 4e nuit — cela débloque l'accès au sous-sol",
+                "condition2": "Le <a href=\"/visitors\">Mangeur de Champignons</a> fera sa première visite, vous donnant une page du Livre des Sourires avec des indices",
+                "condition3": "Choisissez le champignon qui pousse dans le sous-sol",
+                "condition4": "Placez le champignon dans le réfrigérateur et mangez-le",
+                "condition5": "Le lendemain, une pomme apparaîtra sur l'étagère du Hall, à côté de votre jouet d'enfance Toto",
+                "condition6": "Interagissez avec la pomme pour la manger automatiquement",
+                "condition7": "Le troisième jour, une horloge apparaîtra au-dessus du lit dans la chambre",
+                "condition8": "Cliquez sur l'horloge pour régler l'heure à minuit",
+                "condition9": "Le Mangeur de Champignons reviendra pour confirmer que vous êtes sur la bonne voie",
+                "condition10": "Lors de sa visite suivante, il vous invitera à l'accompagner dans un voyage au Pays des Champignons",
+                "condition11": "Acceptez son offre pour déclencher la cinématique de fin",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Les champignons s'élevèrent du sol, construisant de nouvelles cités étrangères. Vous vous hâtes, mais les portes de leur monde étaient déjà fermées.",
+                "note": "C'est l'une des fins les plus complexes avec plusieurs étapes. Suivez attentivement chaque condition."
+            },
+            "ending9": {
+                "title": "Fin 9 : Embrasser l'inévitable",
+                "subtitle": "Au-delà de l'abîme",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Complétez toutes les quêtes de <a href=\"/visitors\">l'Homme Prophétique</a> tout au long du jeu",
+                "condition2": "Après avoir laissé entrer la Dame Chat et son chat, il revient la 5e nuit",
+                "condition3": "Il vous demande de ne tester personne pendant deux jours",
+                "condition4": "Abstenez-vous de vérifier vous-même ou les autres les 6e et 7e jours",
+                "condition5": "Il réapparaîtra et vous demandera de creuser dans votre sous-sol",
+                "condition6": "Creusez trois fois (soit sur trois jours différents, soit en une fois avec des objets restaurateurs d'énergie)",
+                "condition7": "Une entrée cachée menant à un tunnel sous votre maison sera révélée",
+                "condition8": "À l'intérieur, un Mineur vous avertira de rester à l'écart d'un trou",
+                "condition9": "L'Homme Prophétique réapparaîtra bientôt, vous incitant à sauter dedans",
+                "condition10": "Le jour suivant sa troisième visite, un nouveau chemin de tunnel s'ouvre vers le trou",
+                "condition11": "Sautez dans le trou pour déclencher la cinématique finale interactive",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Un pas lourd franchit la ligne, et tout ce que vous craigniez perd son poids. Le temps a disparu, ne laissant qu'un froid qui ressemble à du réconfort.",
+                "note": "Cette fin exige une attention particulière aux instructions de l'Homme Prophétique et plusieurs jours d'engagement."
+            },
+            "ending10": {
+                "title": "Fin 10 : La colère du justicier",
+                "subtitle": "Inspection ratée",
+                "conditionsTitle": "Conditions pour atteindre cette fin :",
+                "condition1": "Lorsque le Justicier passe devant votre maison pour la deuxième fois, il exigera de vérifier les signes d'affiliation des <a href=\"/visitors\">Visiteurs</a>",
+                "condition2": "Pour débloquer cette fin, vous devez échouer à un de ses tests pendant la 10e ou la 12e nuit",
+                "condition3": "Vous devez sélectionner quelle partie du corps lui montrer : dents, mains, yeux, aisselles ou oreilles",
+                "condition4": "Alternativement, vous pouvez montrer une photo prise par auracamera",
+                "condition5": "Choisir la mauvaise option fera pointer son arme sur vous",
+                "condition6": "Cela déclenche immédiatement la cinématique de fin",
+                "descriptionTitle": "Dialogue de fin :",
+                "description": "Une épreuve terminée, une autre commence. Maintenant, aux yeux de la foule, vous êtes celui à craindre.",
+                "note": "Consultez le guide détaillé pour savoir comment échouer intentionnellement à son test."
             }
         },
         "strategyGuide": {
-            "title": "Comment obtenir chaque fin",
-            "subtitle": "Stratégies détaillées et conseils pour débloquer chaque fin avec notre guide \"No I'm Not a Human : Toutes les fins\". Maîtrisez d'abord le <a href=\"/guides\">jeu de base</a>.",
-            "bestEndingStrategy": {
-                "title": "Obtenir la meilleure fin",
-                "point1Title": "Sélection parfaite des invités :",
-                "point1Desc": "N'admettez que les personnages 'Toujours Humain' : Grand Homme, Fille du Voisin, Homme Brûlé et Veuve en deuil. Consultez notre <a href=\"/visitors\">base de données des visiteurs</a> pour les personnages sûrs.",
-                "point2Title": "Enquête approfondie :",
-                "point2Desc": "Vérifiez toujours les quatre traits des Visiteurs avant d'admettre des invités inconnus. Utilisez l'énergie judicieusement pour enquêter minutieusement.",
-                "point3Title": "Politique de tolérance zéro :",
-                "point3Desc": "Si vous trouvez ne serait-ce qu'un trait confirmé de Visiteur, refusez l'entrée immédiatement. Mieux vaut prévenir que guérir pour la meilleure fin."
+            "title": "Guide général des stratégies pour les fins",
+            "subtitle": "Comprendre comment débloquer les différentes fins dans \"Non, je ne suis pas un humain\". Chaque fin a des conditions uniques. Maîtrisez d'abord le <a href=\"/guides\">gameplay de base</a>.",
+            "questBasedEndings": {
+                "title": "Fins basées sur les quêtes",
+                "point1Title": "Suivez les personnages spéciaux :",
+                "point1Desc": "Certaines fins nécessitent de compléter les quêtes de personnages spécifiques comme l'Homme Prophétique, le Mangeur de Champignons ou le Leader de la Secte de la Mort. Faites attention à leurs dialogues et requêtes. En savoir plus sur ces personnages dans notre <a href=\"/visitors\">base de données des visiteurs</a>.",
+                "point2Title": "Processus multi-étapes :",
+                "point2Desc": "Des fins complexes comme 'Champi ou Destin' et 'Embrasser l'inévitable' nécessitent plusieurs étapes sur plusieurs jours. Prenez des notes sur votre progression.",
+                "point3Title": "Interactions avec les objets :",
+                "point3Desc": "Certaines fins impliquent d'interagir avec des objets ou lieux spécifiques de votre maison (sous-sol, chambre, rideaux, etc.). Explorez soigneusement lorsque nécessaire."
             },
-            "goodEndingStrategy": {
-                "title": "Stratégie pour la bonne fin",
-                "point1Title": "Gestion attentive des visiteurs :",
-                "point1Desc": "Vous pouvez admettre certains <a href=\"/visitors\">Visiteurs</a> pendant le jeu, mais éliminez-les avant la fin du Jour 5. Concentrez-vous sur finir avec uniquement des humains.",
-                "point2Title": "Éliminations stratégiques :",
-                "point2Desc": "Lorsque vous confirmez qu'un invité est un <a href=\"/visitors\">Visiteur</a>, éliminez-le immédiatement mais évitez d'en tuer plus d'un par jour pour prévenir la fin Massacre."
+            "choiceBasedEndings": {
+                "title": "Fins basées sur les choix",
+                "point1Title": "Gestion des invités :",
+                "point1Desc": "La composition de votre maison à certains jours détermine plusieurs fins. Suivez qui vous laissez entrer et leur statut - consultez notre <a href=\"/visitors\">base de données des visiteurs</a> pour l'identification.",
+                "point2Title": "Options de dialogue :",
+                "point2Desc": "Vos réponses aux personnages comme les agents de la FEMA, le Justicier et l'Intrus impactent directement les fins possibles. Réfléchissez aux conséquences avant de répondre.",
+                "point3Title": "Déclencheurs comportementaux :",
+                "point3Desc": "Certaines fins se déclenchent selon votre style de jeu - être trop violent, précipiter les jours ou montrer des caractéristiques spécifiques aux inspecteurs."
             },
-            "endingsToAvoid": {
-                "title": "Fins à éviter (sauf intentionnellement)",
-                "badEnding": "Mauvaise fin",
-                "badEndingDesc": "Évitez d'avoir 3 invités ou plus au Jour 5. Apprenez les stratégies de <a href=\"/guides\">gestion des invités</a>.",
-                "massacreEnding": "Fin Massacre",
-                "massacreEndingDesc": "Ne tuez jamais 2 invités ou plus en une journée. Suivez nos <a href=\"/guides\">stratégies d'élimination</a>.",
-                "intruderEnding": "Fin Intrus",
-                "intruderEndingDesc": "Gardez toujours au moins un invité pour l'Intrus de la Nuit 4."
+            "timingTips": {
+                "title": "Notes importantes sur le timing",
+                "point1Title": "Conditions spécifiques aux jours :",
+                "point1Desc": "Plusieurs fins dépendent de l'état de votre maison à des jours précis (13e, 14e) ou après certaines nuits (4e, 5e, 9e, 10e, 12e). Planifiez en conséquence.",
+                "point2Title": "Multiples parties :",
+                "point2Desc": "Vous ne pouvez pas atteindre toutes les fins en une seule partie. Chaque partie doit se concentrer sur les conditions d'une ou deux fins spécifiques.",
+                "point3Title": "Gestion des sauvegardes :",
+                "point3Desc": "Bien que le jeu puisse avoir des sauvegardes limitées, comprendre les déclencheurs de fin vous aide à planifier efficacement vos parcours pour compléter la collection."
             }
         },
         "tips": {
             "title": "Conseils pour débloquer les fins",
-            "subtitle": "Maîtrisez l'art de la survie avec notre guide complet \"No I'm Not a Human : Toutes les fins\". Commencez par notre <a href=\"/guides\">guide pour débutants</a>.",
+            "subtitle": "Maîtrisez l'art de la survie avec notre guide complet \"Fins de Non, je ne suis pas un humain\". Si vous êtes nouveau dans le jeu, commencez par notre <a href=\"/\">aperçu du jeu</a> et le <a href=\"/guides\">guide du débutant</a>.",
             "generalAdvice": {
                 "title": "Conseils généraux",
-                "tip1": "Observez attentivement les caractéristiques et le comportement de chaque visiteur",
-                "tip2": "Notez les dialogues et indices importants",
-                "tip3": "Ne vous précipitez pas pour prendre des décisions, réfléchissez attentivement",
+                "tip1": "Observez attentivement les caractéristiques et comportements de chaque visiteur",
+                "tip2": "Enregistrez les dialogues et indices importants",
+                "tip3": "Ne vous précipitez pas pour faire des choix, réfléchissez soigneusement",
                 "tip4": "Utilisez le suivi de progression pour enregistrer les fins débloquées"
             },
             "unlockStrategy": {
@@ -540,7 +642,7 @@
                 "tip1": "Essayez d'abord les fins faciles pour vous familiariser avec les mécaniques du jeu",
                 "tip2": "Jouez plusieurs fois en essayant différentes combinaisons de choix",
                 "tip3": "Faites attention aux éléments interactifs cachés et aux easter eggs",
-                "tip4": "Référez-vous aux guides nocturnes pour comprendre les points de choix clés"
+                "tip4": "Référez-vous aux guides nocturnes pour comprendre les moments clés des choix"
             }
         }
     },

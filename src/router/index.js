@@ -13,7 +13,9 @@ const pageConfigs = [
   { path: '/contact-us', component: 'ContactView', name: 'Contact' },
   { path: '/copyright', component: 'CopyrightView', name: 'Copyright' },
   { path: '/privacy-policy', component: 'PrivacyPolicyView', name: 'Privacy' },
-  { path: '/terms-of-service', component: 'TermsOfServiceView', name: 'Terms' }
+  { path: '/terms-of-service', component: 'TermsOfServiceView', name: 'Terms' },
+  { path: '/blog', component: 'BlogListView', name: 'BlogList' },
+  { path: '/blog/:slug', component: 'BlogDetailView', name: 'BlogDetail' }
 ]
 
 // 支持的语言列表
@@ -121,7 +123,8 @@ function getSEOKey(path, language) {
     '/contact-us': 'contact',
     '/privacy-policy': 'privacy',
     '/terms-of-service': 'terms',
-    '/copyright': 'copyright'
+    '/copyright': 'copyright',
+    '/blog': 'blog-list'
   }
 
   return pathMap[cleanPath] || 'home'

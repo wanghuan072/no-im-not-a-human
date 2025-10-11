@@ -15,24 +15,12 @@
                     </div>
 
                     <!-- Ending Summary Stats -->
-                    <div class="ending-stats">
+                    <!-- <div class="ending-stats">
                         <div class="stat-card">
                             <div class="stat-number">{{ $t('EndingsPage.hero.stats.total') }}</div>
                             <div class="stat-label">{{ $t('EndingsPage.hero.stats.totalLabel') }}</div>
                         </div>
-                        <div class="stat-card">
-                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.easy') }}</div>
-                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.easyLabel') }}</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.medium') }}</div>
-                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.mediumLabel') }}</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">{{ $t('EndingsPage.hero.stats.hard') }}</div>
-                            <div class="stat-label">{{ $t('EndingsPage.hero.stats.hardLabel') }}</div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -43,163 +31,315 @@
                 <div class="endings-wrapper">
                     <div class="section-header">
                         <h2 class="home-title">{{ $t('EndingsPage.mainEndings.title') }}</h2>
-                        <p class="section-subtitle" v-html="$t('EndingsPage.mainEndings.subtitle', {}, { raw: true })"></p>
+                        <p class="section-subtitle" v-html="$t('EndingsPage.mainEndings.subtitle', {}, { raw: true })">
+                        </p>
                     </div>
 
                     <!-- Primary Endings Grid -->
                     <div class="endings-grid">
-                        <!-- Best Ending -->
-                        <div class="ending-card best-ending">
+                        <!-- Ending 1 -->
+                        <div class="ending-card ending-1">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.bestEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.bestEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending1.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending1.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag easy">{{ $t('EndingsPage.mainEndings.bestEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.bestEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending1.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li v-html="$t('EndingsPage.mainEndings.bestEnding.condition1', {}, { raw: true })"></li>
-                                        <li v-html="$t('EndingsPage.mainEndings.bestEnding.condition2', {}, { raw: true })"></li>
-                                        <li>{{ $t('EndingsPage.mainEndings.bestEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.bestEnding.condition4') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending1.condition1', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending1.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending1.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending1.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending1.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending1.condition6') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.bestEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.bestEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending1.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending1.description') }}</p>
+                                    <p class="ending-note" v-if="$t('EndingsPage.mainEndings.ending1.note')">
+                                        <strong>Note:</strong> <span
+                                            v-html="$t('EndingsPage.mainEndings.ending1.note', {}, { raw: true })"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Good Ending -->
-                        <div class="ending-card good-ending">
+                        <!-- Ending 2 -->
+                        <div class="ending-card ending-2">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.goodEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.goodEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending2.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending2.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag easy">{{ $t('EndingsPage.mainEndings.goodEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.goodEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending2.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li v-html="$t('EndingsPage.mainEndings.goodEnding.condition1', {}, { raw: true })"></li>
-                                        <li v-html="$t('EndingsPage.mainEndings.goodEnding.condition2', {}, { raw: true })"></li>
-                                        <li>{{ $t('EndingsPage.mainEndings.goodEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.goodEnding.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending2.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending2.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending2.condition3') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.goodEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.goodEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending2.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending2.description') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Bad Ending -->
-                        <div class="ending-card bad-ending">
+                        <!-- Ending 3 -->
+                        <div class="ending-card ending-3">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.badEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.badEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending3.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending3.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag medium">{{ $t('EndingsPage.mainEndings.badEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.badEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending3.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li v-html="$t('EndingsPage.mainEndings.badEnding.condition1', {}, { raw: true })"></li>
-                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition2') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.badEnding.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending3.condition1') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending3.condition2', {}, { raw: true })">
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.badEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.badEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending3.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending3.description') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Massacre Ending -->
-                        <div class="ending-card massacre-ending">
+                        <!-- Ending 4 -->
+                        <div class="ending-card ending-4">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.massacreEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.massacreEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending4.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending4.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag medium">{{ $t('EndingsPage.mainEndings.massacreEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.massacreEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending4.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition1') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition2') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.massacreEnding.condition4') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending4.condition1', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending4.condition2') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending4.condition3', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending4.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending4.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending4.condition6') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.massacreEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.massacreEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending4.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending4.description') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Intruder Ending -->
-                        <div class="ending-card intruder-ending">
+                        <!-- Ending 5 -->
+                        <div class="ending-card ending-5">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.intruderEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.intruderEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending5.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending5.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag hard">{{ $t('EndingsPage.mainEndings.intruderEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.intruderEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending5.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li v-html="$t('EndingsPage.mainEndings.intruderEnding.condition1', {}, { raw: true })"></li>
-                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition2') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.intruderEnding.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition6') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition7') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending5.condition8') }}</li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.intruderEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.intruderEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending5.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending5.description') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Speedrun Ending -->
-                        <div class="ending-card speedrun-ending">
+                        <!-- Ending 6 -->
+                        <div class="ending-card ending-6">
                             <div class="ending-header">
                                 <div class="ending-title-section">
-                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.speedrunEnding.title') }}</h3>
-                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.speedrunEnding.subtitle') }}</p>
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending6.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending6.subtitle') }}</p>
                                 </div>
-                                <div class="difficulty-tag hard">{{ $t('EndingsPage.mainEndings.speedrunEnding.difficulty') }}</div>
                             </div>
                             <div class="ending-content">
                                 <div class="conditions-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.speedrunEnding.conditionsTitle') }}</h4>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending6.conditionsTitle') }}</h4>
                                     <ul class="conditions-list">
-                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition1') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition2') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition3') }}</li>
-                                        <li>{{ $t('EndingsPage.mainEndings.speedrunEnding.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending6.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending6.condition2') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending6.condition3', {}, { raw: true })">
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="description-section">
-                                    <h4>{{ $t('EndingsPage.mainEndings.speedrunEnding.descriptionTitle') }}</h4>
-                                    <p>{{ $t('EndingsPage.mainEndings.speedrunEnding.description') }}</p>
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending6.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending6.description') }}</p>
+                                    <p class="ending-note" v-if="$t('EndingsPage.mainEndings.ending6.note')">
+                                        <strong>Note:</strong> {{ $t('EndingsPage.mainEndings.ending6.note') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ending 7 -->
+                        <div class="ending-card ending-7">
+                            <div class="ending-header">
+                                <div class="ending-title-section">
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending7.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending7.subtitle') }}</p>
+                                </div>
+                            </div>
+                            <div class="ending-content">
+                                <div class="conditions-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending7.conditionsTitle') }}</h4>
+                                    <ul class="conditions-list">
+                                        <li>{{ $t('EndingsPage.mainEndings.ending7.condition1') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending7.condition2') }}</li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending7.condition3', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending7.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending7.condition5') }}</li>
+                                    </ul>
+                                </div>
+                                <div class="description-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending7.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending7.description') }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ending 8 -->
+                        <div class="ending-card ending-8">
+                            <div class="ending-header">
+                                <div class="ending-title-section">
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending8.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending8.subtitle') }}</p>
+                                </div>
+                            </div>
+                            <div class="ending-content">
+                                <div class="conditions-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending8.conditionsTitle') }}</h4>
+                                    <ul class="conditions-list">
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending8.condition1', {}, { raw: true })">
+                                        </li>
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending8.condition2', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition6') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition7') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition8') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition9') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition10') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending8.condition11') }}</li>
+                                    </ul>
+                                </div>
+                                <div class="description-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending8.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending8.description') }}</p>
+                                    <p class="ending-note" v-if="$t('EndingsPage.mainEndings.ending8.note')">
+                                        <strong>Note:</strong> {{ $t('EndingsPage.mainEndings.ending8.note') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ending 9 -->
+                        <div class="ending-card ending-9">
+                            <div class="ending-header">
+                                <div class="ending-title-section">
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending9.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending9.subtitle') }}</p>
+                                </div>
+                            </div>
+                            <div class="ending-content">
+                                <div class="conditions-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending9.conditionsTitle') }}</h4>
+                                    <ul class="conditions-list">
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending9.condition1', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition6') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition7') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition8') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition9') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition10') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending9.condition11') }}</li>
+                                    </ul>
+                                </div>
+                                <div class="description-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending9.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending9.description') }}</p>
+                                    <p class="ending-note" v-if="$t('EndingsPage.mainEndings.ending9.note')">
+                                        <strong>Note:</strong> {{ $t('EndingsPage.mainEndings.ending9.note') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ending 10 -->
+                        <div class="ending-card ending-10">
+                            <div class="ending-header">
+                                <div class="ending-title-section">
+                                    <h3 class="ending-title">{{ $t('EndingsPage.mainEndings.ending10.title') }}</h3>
+                                    <p class="ending-subtitle">{{ $t('EndingsPage.mainEndings.ending10.subtitle') }}</p>
+                                </div>
+                            </div>
+                            <div class="ending-content">
+                                <div class="conditions-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending10.conditionsTitle') }}</h4>
+                                    <ul class="conditions-list">
+                                        <li
+                                            v-html="$t('EndingsPage.mainEndings.ending10.condition1', {}, { raw: true })">
+                                        </li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending10.condition2') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending10.condition3') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending10.condition4') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending10.condition5') }}</li>
+                                        <li>{{ $t('EndingsPage.mainEndings.ending10.condition6') }}</li>
+                                    </ul>
+                                </div>
+                                <div class="description-section">
+                                    <h4>{{ $t('EndingsPage.mainEndings.ending10.descriptionTitle') }}</h4>
+                                    <p>{{ $t('EndingsPage.mainEndings.ending10.description') }}</p>
+                                    <p class="ending-note" v-if="$t('EndingsPage.mainEndings.ending10.note')">
+                                        <strong>Note:</strong> {{ $t('EndingsPage.mainEndings.ending10.note') }}
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -214,65 +354,72 @@
                 <div class="strategy-wrapper">
                     <div class="section-header">
                         <h2 class="home-title">{{ $t('EndingsPage.strategyGuide.title') }}</h2>
-                        <p class="section-subtitle" v-html="$t('EndingsPage.strategyGuide.subtitle', {}, { raw: true })"></p>
+                        <p class="section-subtitle"
+                            v-html="$t('EndingsPage.strategyGuide.subtitle', {}, { raw: true })"></p>
                     </div>
 
                     <div class="strategy-grid">
-                        <!-- Best Ending Strategy -->
-                        <div class="strategy-card best-strategy">
+                        <!-- Quest-Based Endings -->
+                        <div class="strategy-card quest-strategy">
                             <div class="strategy-header">
-                                <h3>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.title') }}</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.questBasedEndings.title') }}</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
-                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point1Title') }}</h4>
-                                    <p v-html="$t('EndingsPage.strategyGuide.bestEndingStrategy.point1Desc', {}, { raw: true })"></p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point1Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point1Desc') }}</p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point2Title') }}</h4>
-                                    <p>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point2Desc') }}</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point2Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point2Desc') }}</p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point3Title') }}</h4>
-                                    <p>{{ $t('EndingsPage.strategyGuide.bestEndingStrategy.point3Desc') }}</p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point3Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.questBasedEndings.point3Desc') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Good Ending Strategy -->
-                        <div class="strategy-card good-strategy">
+                        <!-- Choice-Based Endings -->
+                        <div class="strategy-card choice-strategy">
                             <div class="strategy-header">
-                                <h3>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.title') }}</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.title') }}</h3>
                             </div>
                             <div class="strategy-content">
                                 <div class="strategy-point">
-                                    <h4>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.point1Title') }}</h4>
-                                    <p v-html="$t('EndingsPage.strategyGuide.goodEndingStrategy.point1Desc', {}, { raw: true })"></p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.point1Title') }}</h4>
+                                    <p
+                                        v-html="$t('EndingsPage.strategyGuide.choiceBasedEndings.point1Desc', {}, { raw: true })">
+                                    </p>
                                 </div>
                                 <div class="strategy-point">
-                                    <h4>{{ $t('EndingsPage.strategyGuide.goodEndingStrategy.point2Title') }}</h4>
-                                    <p v-html="$t('EndingsPage.strategyGuide.goodEndingStrategy.point2Desc', {}, { raw: true })"></p>
+                                    <h4>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.point2Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.point2Desc') }}</p>
+                                </div>
+                                <div class="strategy-point">
+                                    <h4>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.point3Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.choiceBasedEndings.point3Desc') }}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Endings to Avoid -->
-                        <div class="strategy-card avoid-strategy">
+                        <!-- Timing Tips -->
+                        <div class="strategy-card timing-strategy">
                             <div class="strategy-header">
-                                <h3>{{ $t('EndingsPage.strategyGuide.endingsToAvoid.title') }}</h3>
+                                <h3>{{ $t('EndingsPage.strategyGuide.timingTips.title') }}</h3>
                             </div>
                             <div class="strategy-content">
-                                <div class="avoid-ending">
-                                    <h4 class="bad-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.badEnding') }}</h4>
-                                    <p v-html="$t('EndingsPage.strategyGuide.endingsToAvoid.badEndingDesc', {}, { raw: true })"></p>
+                                <div class="strategy-point">
+                                    <h4>{{ $t('EndingsPage.strategyGuide.timingTips.point1Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.timingTips.point1Desc') }}</p>
                                 </div>
-                                <div class="avoid-ending">
-                                    <h4 class="massacre-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.massacreEnding') }}</h4>
-                                    <p v-html="$t('EndingsPage.strategyGuide.endingsToAvoid.massacreEndingDesc', {}, { raw: true })"></p>
+                                <div class="strategy-point">
+                                    <h4>{{ $t('EndingsPage.strategyGuide.timingTips.point2Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.timingTips.point2Desc') }}</p>
                                 </div>
-                                <div class="avoid-ending">
-                                    <h4 class="intruder-ending-text">{{ $t('EndingsPage.strategyGuide.endingsToAvoid.intruderEnding') }}</h4>
-                                    <p>{{ $t('EndingsPage.strategyGuide.endingsToAvoid.intruderEndingDesc') }}</p>
+                                <div class="strategy-point">
+                                    <h4>{{ $t('EndingsPage.strategyGuide.timingTips.point3Title') }}</h4>
+                                    <p>{{ $t('EndingsPage.strategyGuide.timingTips.point3Desc') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -409,13 +556,13 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, 
-        rgba(0, 0, 0, 1) 0%, 
-        rgba(0, 0, 0, 1) 40%, 
-        rgba(0, 0, 0, 0.8) 55%, 
-        rgba(0, 0, 0, 0.4) 70%, 
-        rgba(0, 0, 0, 0.1) 85%, 
-        rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 1) 40%,
+            rgba(0, 0, 0, 0.8) 55%,
+            rgba(0, 0, 0, 0.4) 70%,
+            rgba(0, 0, 0, 0.1) 85%,
+            rgba(0, 0, 0, 0) 100%);
     z-index: 2;
 }
 
@@ -464,10 +611,10 @@ a:hover {
 
 /* Ending Stats */
 .ending-stats {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    max-width: 600px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -513,7 +660,7 @@ a:hover {
     right: 0;
     bottom: 0;
     background: radial-gradient(circle at 30% 70%, rgba(100, 0, 150, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 70% 30%, rgba(150, 0, 200, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 70% 30%, rgba(150, 0, 200, 0.05) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -530,8 +677,8 @@ a:hover {
     max-width: 1200px;
     position: relative;
     z-index: 2;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(150, 0, 200, 0.1), 
-                inset 0 1px 0 rgba(200, 0, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(150, 0, 200, 0.1),
+        inset 0 1px 0 rgba(200, 0, 255, 0.1);
 }
 
 .strategy-wrapper {
@@ -546,8 +693,8 @@ a:hover {
     max-width: 1200px;
     position: relative;
     z-index: 2;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 0, 0, 0.1), 
-                inset 0 1px 0 rgba(255, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 0, 0, 0.1);
 }
 
 .tips-wrapper {
@@ -562,8 +709,8 @@ a:hover {
     max-width: 1200px;
     position: relative;
     z-index: 2;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 100, 200, 0.1), 
-                inset 0 1px 0 rgba(0, 150, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 100, 200, 0.1),
+        inset 0 1px 0 rgba(0, 150, 255, 0.1);
 }
 
 .section-header {
@@ -628,64 +775,104 @@ a:hover {
 }
 
 /* Ending Card Themes */
-.best-ending {
-    border-color: #ffd700;
-    color: #ffd700;
-}
-
-.best-ending:hover {
-    background: rgba(255, 215, 0, 0.1);
-    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.2);
-}
-
-.good-ending {
-    border-color: #00ff88;
-    color: #00ff88;
-}
-
-.good-ending:hover {
-    background: rgba(0, 255, 136, 0.1);
-    box-shadow: 0 20px 40px rgba(0, 255, 136, 0.2);
-}
-
-.bad-ending {
-    border-color: #ff4444;
-    color: #ff4444;
-}
-
-.bad-ending:hover {
-    background: rgba(255, 68, 68, 0.1);
-    box-shadow: 0 20px 40px rgba(255, 68, 68, 0.2);
-}
-
-.massacre-ending {
+.ending-1 {
     border-color: #8b0000;
     color: #8b0000;
 }
 
-.massacre-ending:hover {
+.ending-1:hover {
     background: rgba(139, 0, 0, 0.1);
     box-shadow: 0 20px 40px rgba(139, 0, 0, 0.2);
 }
 
-.intruder-ending {
+.ending-2 {
+    border-color: #4a4a4a;
+    color: #4a4a4a;
+}
+
+.ending-2:hover {
+    background: rgba(74, 74, 74, 0.1);
+    box-shadow: 0 20px 40px rgba(74, 74, 74, 0.2);
+}
+
+.ending-3 {
+    border-color: #ff4444;
+    color: #ff4444;
+}
+
+.ending-3:hover {
+    background: rgba(255, 68, 68, 0.1);
+    box-shadow: 0 20px 40px rgba(255, 68, 68, 0.2);
+}
+
+.ending-4 {
+    border-color: #9b59b6;
+    color: #9b59b6;
+}
+
+.ending-4:hover {
+    background: rgba(155, 89, 182, 0.1);
+    box-shadow: 0 20px 40px rgba(155, 89, 182, 0.2);
+}
+
+.ending-5 {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.ending-5:hover {
+    background: rgba(52, 152, 219, 0.1);
+    box-shadow: 0 20px 40px rgba(52, 152, 219, 0.2);
+}
+
+.ending-6 {
     border-color: #666666;
     color: #666666;
 }
 
-.intruder-ending:hover {
+.ending-6:hover {
     background: rgba(102, 102, 102, 0.1);
     box-shadow: 0 20px 40px rgba(102, 102, 102, 0.2);
 }
 
-.speedrun-ending {
-    border-color: #4169e1;
-    color: #4169e1;
+.ending-7 {
+    border-color: #e74c3c;
+    color: #e74c3c;
 }
 
-.speedrun-ending:hover {
-    background: rgba(65, 105, 225, 0.1);
-    box-shadow: 0 20px 40px rgba(65, 105, 225, 0.2);
+.ending-7:hover {
+    background: rgba(231, 76, 60, 0.1);
+    box-shadow: 0 20px 40px rgba(231, 76, 60, 0.2);
+}
+
+.ending-8 {
+    border-color: #27ae60;
+    color: #27ae60;
+}
+
+.ending-8:hover {
+    background: rgba(39, 174, 96, 0.1);
+    box-shadow: 0 20px 40px rgba(39, 174, 96, 0.2);
+}
+
+.ending-9 {
+    border-color: #f39c12;
+    color: #f39c12;
+}
+
+.ending-9:hover {
+    background: rgba(243, 156, 18, 0.1);
+    box-shadow: 0 20px 40px rgba(243, 156, 18, 0.2);
+}
+
+.ending-10 {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+.ending-10:hover {
+    background: rgba(192, 57, 43, 0.1);
+    box-shadow: 0 20px 40px rgba(192, 57, 43, 0.2);
 }
 
 /* Ending Header */
@@ -711,32 +898,6 @@ a:hover {
     font-size: 14px;
     color: #ccc;
     font-style: italic;
-}
-
-.difficulty-tag {
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: 1px solid currentColor;
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.difficulty-tag.easy {
-    color: #00ff88;
-    border-color: #00ff88;
-}
-
-.difficulty-tag.medium {
-    color: #ffa500;
-    border-color: #ffa500;
-}
-
-.difficulty-tag.hard {
-    color: #ff4444;
-    border-color: #ff4444;
 }
 
 /* Ending Content */
@@ -782,6 +943,30 @@ a:hover {
     font-size: 14px;
 }
 
+.ending-note {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 3px solid #00ff88;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.ending-note strong {
+    color: #00ff88;
+    font-weight: 600;
+}
+
+.ending-note:deep(a) {
+    color: #00ff88;
+    text-decoration: underline;
+    text-decoration-color: #00ff88;
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
 /* Strategy Guide Section */
 .section.strategy-guide {
     background: linear-gradient(135deg, #1a0d0d 0%, #0a0a0a 50%, #1a0d0d 100%);
@@ -796,7 +981,7 @@ a:hover {
     right: 0;
     bottom: 0;
     background: radial-gradient(circle at 25% 75%, rgba(200, 0, 0, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 75% 25%, rgba(150, 0, 0, 0.06) 0%, transparent 50%);
+        radial-gradient(circle at 75% 25%, rgba(150, 0, 0, 0.06) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -889,7 +1074,7 @@ a:hover {
     right: 0;
     bottom: 0;
     background: radial-gradient(circle at 35% 65%, rgba(0, 50, 150, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 65% 35%, rgba(0, 100, 200, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 65% 35%, rgba(0, 100, 200, 0.05) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -975,7 +1160,7 @@ a:hover {
     }
 
     .ending-stats {
-        grid-template-columns: repeat(2, 1fr);
+        max-width: 250px;
         gap: 15px;
     }
 
@@ -1083,48 +1268,49 @@ a:hover {
     .section-subtitle {
         font-size: 12px;
     }
-    
+
     .ending-stats {
         gap: 10px;
+        max-width: 200px;
     }
 
-    .section-header{
+    .section-header {
         margin-bottom: 20px;
     }
-    
+
     .stat-card {
         padding: 10px;
     }
 
-    .stat-number{
+    .stat-number {
         font-size: 24px;
         margin-bottom: 5px;
     }
-    
+
     .ending-card {
         padding: 10px;
     }
 
-    .conditions-list li{
+    .conditions-list li {
         font-size: 12px;
     }
 
-    .description-section p{
+    .description-section p {
         font-size: 12px;
     }
-    
+
     .strategy-card,
     .tips-card {
         padding: 10px;
     }
-    
+
     .ending-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
         margin-bottom: 10px;
     }
-    
+
     .strategy-header,
     .tips-header {
         flex-direction: column;

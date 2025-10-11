@@ -405,142 +405,244 @@
             }
         }
     },
+    "BlogPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">博客 - 不，我不是人类</span>",
+                "description": "阅读关于“不，我不是人类”的最新指南、技巧和见解。随时掌握专家策略和游戏分析。"
+            },
+            "loading": "正在加载博客文章...",
+            "error": {
+                "title": "博客文章加载失败",
+                "description": "我们无法加载博客文章，请稍后再试。",
+                "retry": "重试"
+            },
+            "empty": {
+                "title": "暂无博客文章",
+                "description": "目前没有可用的博客文章，请稍后回来查看新内容。"
+            },
+            "pagination": {
+                "previous": "上一页",
+                "next": "下一页",
+                "page": "第 {current} 页，共 {total} 页"
+            }
+        },
+        "detail": {
+            "loading": "正在加载博客文章...",
+            "error": {
+                "title": "未找到博客文章",
+                "description": "您查找的博客文章不存在或已被移动。",
+                "backToBlog": "返回博客"
+            },
+            "breadcrumb": {
+                "home": "首页",
+                "blog": "博客"
+            },
+            "share": {
+                "title": "分享本文",
+                "copyLink": "复制链接"
+            },
+            "related": {
+                "title": "相关文章"
+            }
+        }
+    },
     "EndingsPage": {
         "hero": {
-            "title": "<span class=\"highlight\">《我不是人类》结局总览</span>",
-            "description": "探索这款心理恐怖游戏的所有可能结局。我们全面的<span class=\"highlight-text\">《我不是人类》结局指南</span>揭示了末日噩梦中每条路径、条件和后果。完整游戏攻略请访问我们的<a href=\"/guides\">攻略版块</a>或查看<a href=\"/\">游戏特色</a>。",
+            "title": "<span class=\"highlight\">不，我不是人类 的结局</span>",
+            "description": "探索心理恐怖游戏中的所有可能结局。根据您在游戏中的选择，将会触发多个不同结局。在 <strong>不，我不是人类</strong> 中，结局通常在完成特定条件后达成，但有些结局也可能提前出现。我们的综合 <span class=\"highlight-text\">“不，我不是人类 结局指南”</span> 涵盖了结局对话，并解释如何达成它们。欲获取完整游戏指南，请访问我们的 <a href=\"/guides\">策略版块</a>，了解游戏的 <a href=\"/wiki\">世界和剧情</a>，或探索我们的 <a href=\"/\">游戏特色</a>。",
             "stats": {
-                "total": "6",
-                "totalLabel": "总结局数",
-                "easy": "2",
-                "easyLabel": "简单结局",
-                "medium": "2",
-                "mediumLabel": "中等结局",
-                "hard": "2",
-                "hardLabel": "困难结局"
+                "total": "10",
+                "totalLabel": "结局总数"
             }
         },
         "mainEndings": {
             "title": "所有游戏结局",
-            "subtitle": "通过我们的《我不是人类》结局指南，探索生存旅程中的每种可能结果。了解<a href=\"/visitors\">访客识别</a>和<a href=\"/guides\">生存策略</a>。",
-            "bestEnding": {
-                "title": "最佳结局",
-                "subtitle": "终极成就",
-                "difficulty": "简单",
+            "subtitle": "通过我们的“不，我不是人类 结局指南”探索您生存旅程中的每个可能结果。结局按照游戏收藏章节中的顺序列出。了解 <a href=\"/visitors\">访客识别</a> 和 <a href=\"/guides\">生存策略</a>。",
+            "ending1": {
+                "title": "结局1：厄运之子",
+                "subtitle": "黑暗重生",
                 "conditionsTitle": "达成条件：",
-                "condition1": "只允许确认的人类访客进入家中 - 查看我们的<a href=\"/visitors\">访客数据库</a>",
-                "condition2": "确保绝不接纳任何<a href=\"/visitors\">访客</a>",
-                "condition3": "在所有5天内保持完美记录",
-                "condition4": "在第5天结束时家中仅有人类访客",
-                "descriptionTitle": "结局描述：",
-                "description": "在地表已不再安全的世界，你建立了完美的避难所。封闭所有窗户与门，与人类访客协商后决定不再外出。虽然你祈祷这场噩梦结束，但希望仍在……至少目前如此……幸运的是，你对访客有敏锐的判断，没有一位访客踏入曾经称作家的门槛。在当前充满危险的环境中，至少还有一丝甜美的希望。"
+                "condition1": "允许 <a href=\"/visitors\">诱惑女子</a> 进入你的房子",
+                "condition2": "与她互动时始终选择最善良、最不对抗的对话选项",
+                "condition3": "她到达后的第四天，她将遭遇不可避免的死亡",
+                "condition4": "与卧室的窗帘互动并搜索房子找到胎儿",
+                "condition5": "接下来的夜晚，观察孩子喝狗奶",
+                "condition6": "通过猫眼观察以触发结局动画",
+                "descriptionTitle": "结局对话：",
+                "description": "一声枪响穿透了雾中的牛奶，群体上方升起带有灰烬气味的翅膀。",
+                "note": "此复杂结局有更<a href=\"/blog/ending-1-child-of-doom\">详细的指南</a>。胎儿在房子的两个不同位置可找到。"
             },
-            "goodEnding": {
-                "title": "良好结局",
-                "subtitle": "充满希望的生存",
-                "difficulty": "简单",
+            "ending2": {
+                "title": "结局2：终结？",
+                "subtitle": "沉入寂静",
                 "conditionsTitle": "达成条件：",
-                "condition1": "在第5天结束时家中仅有人类访客 - 学习<a href=\"/guides\">生存技巧</a>",
-                "condition2": "可以接纳一些<a href=\"/visitors\">访客</a>但需将其消灭",
-                "condition3": "至少保留一位人类访客",
-                "condition4": "结束时无活跃访客存在",
-                "descriptionTitle": "结局描述：",
-                "description": "地表已不再安全，你封闭所有窗户并阻挡门口。在与访客协商后，决定永不再进入外界。你无助地祈祷，有朝一日这一切能结束。如果这场噩梦真的结束，仍有希望……至少目前如此……"
+                "condition1": "在本月13日，在14日封窗之前",
+                "condition2": "确保屋内只剩下人类（收银女孩除外）",
+                "condition3": "或者，如果你完全孤身一人，也会触发相同结局",
+                "descriptionTitle": "结局对话：",
+                "description": "地下室变成了一个宇宙——窗户被砖封住，声音与钟表的滴答声融合。太阳渐落……但折磨并没有那么温柔地结束。"
             },
-            "badEnding": {
-                "title": "糟糕结局",
-                "subtitle": "被人数压垮",
-                "difficulty": "中等",
+            "ending3": {
+                "title": "结局3：不，我不孤单",
+                "subtitle": "被怪物困住",
                 "conditionsTitle": "达成条件：",
-                "condition1": "第5天结束时家中有3位或以上访客 - 了解<a href=\"/guides\">访客管理</a>",
-                "condition2": "访客可以是人类或访客的任意组合",
-                "condition3": "过多的人群带来混乱与危险",
-                "condition4": "你的避难所被破坏",
-                "descriptionTitle": "结局描述：",
-                "description": "地表不再安全。在与访客协商后，决定永不外出。你无助地祈祷，希望这场噩梦终有一天结束。或者，这只是你相对乐观的梦境。事实上，你的身体已被访客肢解。"
+                "condition1": "在本月13日，在14日封窗之前",
+                "condition2": "屋内至少保留一名 <a href=\"/visitors\">访客</a>",
+                "descriptionTitle": "结局对话：",
+                "description": "访客一直都在——黑暗中的暖意呼吸，背后的残酷低语。你将再也看不到光明，即使它回来了。"
             },
-            "massacreEnding": {
-                "title": "大屠杀结局",
-                "subtitle": "暴力引发暴力",
-                "difficulty": "中等",
+            "ending4": {
+                "title": "结局4：愿死亡洗净我们的罪！",
+                "subtitle": "加入邪教",
                 "conditionsTitle": "达成条件：",
-                "condition1": "在一天内射杀2位或以上访客",
-                "condition2": "可包括人类与访客",
-                "condition3": "过度暴力触发即时后果",
-                "condition4": "房屋认为你太危险",
-                "descriptionTitle": "结局描述：",
-                "description": "你为允许进入的人付出了很多，但流了太多血。你对这个房子太危险，必须离开。你被害怕你的人赶出了家门。你没能活过一天，就被外面炙热的阳光烧死。"
+                "condition1": "保持所有 <a href=\"/visitors\">死亡邪教成员</a> 在屋内，直到邪教首领第二次造访",
+                "condition2": "期间不要亲手杀死他们",
+                "condition3": "不要让他们在夜晚被 <a href=\"/visitors\">访客</a> 杀死",
+                "condition4": "不要让他们被FEMA带走",
+                "condition5": "满足条件后，邪教首领会邀请你加入他们",
+                "condition6": "接受邀请成为死亡崇拜者以触发结局",
+                "descriptionTitle": "结局对话：",
+                "description": "他们祈求最终的寂静。也许他们的祈求终于被听到——外面一片安静。"
             },
-            "intruderEnding": {
-                "title": "入侵者结局",
-                "subtitle": "黑暗中的孤独",
-                "difficulty": "困难",
+            "ending5": {
+                "title": "结局5：欢迎加入FEMA",
+                "subtitle": "政府服务",
                 "conditionsTitle": "达成条件：",
-                "condition1": "入侵者到来时家中无人 - 可参考我们的<a href=\"/guides\">第四夜攻略</a>",
-                "condition2": "赤裸上身访客出现并询问你是否独自一人",
-                "condition3": "没有访客可以说谎",
-                "condition4": "立即导致游戏结束",
-                "descriptionTitle": "结局描述：",
-                "description": "无人知晓最后一位访客到来时发生了什么。房屋长时间无人居住。在你可怕的消失后，所有人都避开了这所废弃的房子。"
+                "condition1": "在整个游戏中拨打FEMA电话3次，从电视显示FEMA号码开始",
+                "condition2": "拿到FEMA通知后，将其中3份交给任意访客",
+                "condition3": "与FEMA特工对话时始终选择最服从的选项",
+                "condition4": "首次被接触时询问是否需要打包，出现选项时询问防护服",
+                "condition5": "不要质疑他们的动机",
+                "condition6": "最终，你将在夜晚醒来，无法检查窗户",
+                "condition7": "通过猫眼观察——特工会说你表现主动，并提供FEMA工作",
+                "condition8": "接受工作以触发结局动画",
+                "descriptionTitle": "结局对话：",
+                "description": "他们在警报声中带走你，留下所有记忆。如果你能回去，至少能带走海报。"
             },
-            "speedrunEnding": {
-                "title": "速通结局",
-                "subtitle": "生活过于匆忙",
-                "difficulty": "困难",
+            "ending6": {
+                "title": "结局6：是的，我孤单",
+                "subtitle": "致命的诚实",
                 "conditionsTitle": "达成条件：",
-                "condition1": "快速与门口访客对话，不做调查",
-                "condition2": "尽快进入第5天",
-                "condition3": "避免对话，通过喝啤酒消耗能量，立即睡觉",
-                "condition4": "确保不独自一人（至少有一位访客）",
-                "descriptionTitle": "结局描述：",
-                "description": "地表不再安全，你封闭所有窗户并阻挡门口。与访客协商后，决定永不外出。然而，他们开始用奇怪的眼神看你。你生活过于匆忙，试图尽快度过噩梦。不断匆忙，抽离自己与外界的恐怖，这值得吗？也许。最重要的是，不要忘记生活，找到生活中的美好并享受它。"
+                "condition1": "告诉入侵者你独自一人在家，让其进入",
+                "condition2": "或者，当他敲门时屋内无人",
+                "condition3": "或者9日后屋内有两名以上访客或无人类",
+                "descriptionTitle": "结局对话：",
+                "description": "当他的影子越过门槛时，房子陷入寂静。你所剩的只是低语。",
+                "note": "这是玩家常遇到的早期结局之一。始终保留至少一名人类访客以避免触发。"
+            },
+            "ending7": {
+                "title": "结局7：是的，我是杀手",
+                "subtitle": "被偏执吞噬",
+                "conditionsTitle": "达成条件：",
+                "condition1": "通过枪杀大量人类来达成",
+                "condition2": "最简单的方法是消灭一组邪教徒",
+                "condition3": "消灭足够多后，<a href=\"/visitors\">预言之人</a>会出现在你的门口",
+                "condition4": "他会宣布你的命运不可避免",
+                "condition5": "其访问后触发结局动画",
+                "descriptionTitle": "结局对话：",
+                "description": "你遇到的每个人似乎都是敌人。恐惧蒙蔽了你，而他人只是完成了你已开始的事。"
+            },
+            "ending8": {
+                "title": "结局8：蘑菇或厄运",
+                "subtitle": "前往蘑菇之地",
+                "conditionsTitle": "达成条件：",
+                "condition1": "允许 <a href=\"/visitors\">猫女</a> 第四夜敲门时进入屋内——开启地下室通道",
+                "condition2": "<a href=\"/visitors\">蘑菇食者</a> 首次造访，给你《微笑之书》一页线索",
+                "condition3": "选择地下室生长的蘑菇",
+                "condition4": "将蘑菇放入冰箱并食用",
+                "condition5": "第二天，客厅架子上出现一个苹果，旁边是你的童年玩具Toto",
+                "condition6": "与苹果互动以自动食用",
+                "condition7": "第三天，卧室床上方出现一个钟表",
+                "condition8": "点击钟表将时间设为午夜",
+                "condition9": "蘑菇食者返回确认你进度正确",
+                "condition10": "下次造访时，他邀请你前往蘑菇之地",
+                "condition11": "接受邀请触发结局动画",
+                "descriptionTitle": "结局对话：",
+                "description": "蘑菇从土壤中生长，重新建造异世界城市。你赶忙前行，但通往他们世界的门已关闭。",
+                "note": "这是最复杂的结局之一，有多个步骤。务必仔细跟踪每项要求。"
+            },
+            "ending9": {
+                "title": "结局9：拥抱不可避免",
+                "subtitle": "超越深渊",
+                "conditionsTitle": "达成条件：",
+                "condition1": "完成 <a href=\"/visitors\">预言之人</a> 的所有任务",
+                "condition2": "允许猫女及其猫进入后，他在第五夜返回",
+                "condition3": "他会指示你两天内不要检查任何人",
+                "condition4": "第6、7天不要检查自己或他人",
+                "condition5": "他将再次出现并指示你在地下室挖掘",
+                "condition6": "挖掘三次（可跨三天或一次用能量恢复物品）",
+                "condition7": "会揭示房屋下方的隐藏隧道入口",
+                "condition8": "隧道内，矿工会警告你远离深坑",
+                "condition9": "预言之人再次出现，催促你跳下去",
+                "condition10": "他第三次访问后的第二天，隧道通向深坑的新路径开启",
+                "condition11": "跳入深坑触发最终可交互动画",
+                "descriptionTitle": "结局对话：",
+                "description": "跨过界线的一步，所有恐惧都失去重量。时间消失，只剩下寒意，如同慰藉。",
+                "note": "此结局需要仔细遵循预言之人的指示，并连续多日操作。"
+            },
+            "ending10": {
+                "title": "结局10：义警之怒",
+                "subtitle": "检查失败",
+                "conditionsTitle": "达成条件：",
+                "condition1": "义警第二次路过你的房子时，他会要求检查是否有 <a href=\"/visitors\">访客</a> 迹象",
+                "condition2": "要解锁此结局，必须在第10或第12夜未通过他的测试",
+                "condition3": "你必须选择向他展示身体部位：牙齿、手、眼睛、腋下或耳朵",
+                "condition4": "或者展示奥拉相机照片",
+                "condition5": "选择错误会导致义警对你指枪",
+                "condition6": "这会立即触发结局动画",
+                "descriptionTitle": "结局对话：",
+                "description": "一个试炼结束，另一个开始。现在，在人群眼中，你成为令人畏惧的人。",
+                "note": "请查阅详细指南了解如何故意未通过测试的具体信息。"
             }
         },
         "strategyGuide": {
-            "title": "如何达成每个结局",
-            "subtitle": "通过我们的《我不是人类》结局指南，掌握解锁每个结局的详细策略和技巧。首先熟练掌握<a href=\"/guides\">核心玩法</a>。",
-            "bestEndingStrategy": {
-                "title": "达成最佳结局策略",
-                "point1Title": "完美访客选择：",
-                "point1Desc": "只允许“永远是人类”的角色：高个男子、邻居的女儿、烧伤男子和哀悼寡妇。查看我们的<a href=\"/visitors\">访客数据库</a>了解安全角色。",
-                "point2Title": "彻底调查：",
-                "point2Desc": "在允许任何未知访客进入前，始终检查四个访客特征。合理使用能量进行彻底调查。",
-                "point3Title": "零容忍政策：",
-                "point3Desc": "如果发现任何确认访客特征，立即拒绝入内。为最佳结局，宁可谨慎。"
+            "title": "通用结局策略指南",
+            "subtitle": "了解如何解锁“不，我不是人类”的不同结局。每个结局都有独特要求。首先掌握 <a href=\"/guides\">核心玩法</a>。",
+            "questBasedEndings": {
+                "title": "基于任务的结局",
+                "point1Title": "跟随特殊角色：",
+                "point1Desc": "部分结局需要完成特定角色的任务线，例如预言之人、蘑菇食者或死亡邪教首领。密切关注他们的对话和要求。更多信息请参阅我们的 <a href=\"/visitors\">访客数据库</a>。",
+                "point2Title": "多步骤流程：",
+                "point2Desc": "复杂结局如“蘑菇或厄运”和“拥抱不可避免”需要在多日内完成多个步骤。记录你的进度。",
+                "point3Title": "物品互动：",
+                "point3Desc": "部分结局涉及与房内特定物品或位置（地下室、卧室、窗帘等）互动。按提示仔细探索。"
             },
-            "goodEndingStrategy": {
-                "title": "达成良好结局策略",
-                "point1Title": "小心访客管理：",
-                "point1Desc": "游戏过程中可允许部分<a href=\"/visitors\">访客</a>进入，但在第5天结束前消灭他们。专注于最终仅有人类。",
-                "point2Title": "策略性消灭：",
-                "point2Desc": "确认访客身份后立即消灭，但每天不要杀多于一位，以避免大屠杀结局。"
+            "choiceBasedEndings": {
+                "title": "基于选择的结局",
+                "point1Title": "访客管理：",
+                "point1Desc": "特定日子屋内成员组成决定部分结局。记录允许谁进入及其状态——参考我们的 <a href=\"/visitors\">访客数据库</a>。",
+                "point2Title": "对话选项：",
+                "point2Desc": "你对FEMA特工、义警、入侵者等角色的回答会直接影响可达成结局。回答前考虑后果。",
+                "point3Title": "行为触发器：",
+                "point3Desc": "部分结局基于你的游戏风格触发——过度暴力、日程匆忙或向检查者展示特定特征。"
             },
-            "endingsToAvoid": {
-                "title": "应避免的结局（非刻意除外）",
-                "badEnding": "糟糕结局",
-                "badEndingDesc": "避免第5天总访客数达到3位或以上。学习<a href=\"/guides\">访客管理</a>策略。",
-                "massacreEnding": "大屠杀结局",
-                "massacreEndingDesc": "一天内切勿杀死2位以上访客。遵循我们的<a href=\"/guides\">消灭策略</a>。",
-                "intruderEnding": "入侵者结局",
-                "intruderEndingDesc": "第四夜入侵者出现时，始终保留至少一名访客。"
+            "timingTips": {
+                "title": "重要时间提示",
+                "point1Title": "特定日要求：",
+                "point1Desc": "部分结局依赖特定日期屋内状态（13日、14日）或特定夜晚后（第4、5、9、10、12夜）。提前计划。",
+                "point2Title": "多次通关：",
+                "point2Desc": "无法在一次通关中完成所有结局。每次游戏应专注于1-2个结局要求。",
+                "point3Title": "存档管理：",
+                "point3Desc": "虽然游戏可能存档有限，但了解结局触发条件有助于高效规划通关路线。"
             }
         },
         "tips": {
-            "title": "结局解锁提示",
-            "subtitle": "通过我们的《我不是人类》结局指南，掌握生存艺术。从<a href=\"/guides\">新手攻略</a>开始。",
+            "title": "结局解锁技巧",
+            "subtitle": "通过我们的综合“不，我不是人类 结局指南”掌握生存之道。如果你是新手，请先参考我们的 <a href=\"/\">游戏概览</a> 和 <a href=\"/guides\">新手指南</a>。",
             "generalAdvice": {
-                "title": "一般建议",
+                "title": "通用建议",
                 "tip1": "仔细观察每位访客的特征和行为",
                 "tip2": "记录重要对话和线索",
-                "tip3": "做决定时不要急躁，仔细思考",
+                "tip3": "不要急于做出选择，仔细思考",
                 "tip4": "使用进度追踪器记录已解锁的结局"
             },
             "unlockStrategy": {
                 "title": "解锁策略",
                 "tip1": "先尝试简单结局以熟悉游戏机制",
-                "tip2": "多次尝试不同选择组合",
-                "tip3": "注意隐藏互动元素和彩蛋",
-                "tip4": "参考夜间攻略了解关键选择点"
+                "tip2": "多次通关，尝试不同选择组合",
+                "tip3": "关注隐藏互动元素和彩蛋",
+                "tip4": "参考夜晚指南了解关键选择点"
             }
         }
     },

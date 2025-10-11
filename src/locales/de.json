@@ -406,146 +406,248 @@
             }
         }
     },
+    "BlogPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">Blog - No I'm Not a Human</span>",
+                "description": "Lies die neuesten Anleitungen, Tipps und Einblicke zu No I'm Not a Human. Bleib auf dem Laufenden mit Expertenstrategien und Spielanalysen."
+            },
+            "loading": "Blogbeiträge werden geladen...",
+            "error": {
+                "title": "Fehler beim Laden der Blogbeiträge",
+                "description": "Die Blogbeiträge konnten nicht geladen werden. Bitte versuche es später erneut.",
+                "retry": "Erneut versuchen"
+            },
+            "empty": {
+                "title": "Keine Blogbeiträge verfügbar",
+                "description": "Derzeit sind keine Blogbeiträge verfügbar. Schau später wieder vorbei, um neue Inhalte zu entdecken."
+            },
+            "pagination": {
+                "previous": "Zurück",
+                "next": "Weiter",
+                "page": "Seite {current} von {total}"
+            }
+        },
+        "detail": {
+            "loading": "Blogbeitrag wird geladen...",
+            "error": {
+                "title": "Blogbeitrag nicht gefunden",
+                "description": "Der gesuchte Blogbeitrag existiert nicht oder wurde verschoben.",
+                "backToBlog": "Zurück zum Blog"
+            },
+            "breadcrumb": {
+                "home": "Startseite",
+                "blog": "Blog"
+            },
+            "share": {
+                "title": "Diesen Artikel teilen",
+                "copyLink": "Link kopieren"
+            },
+            "related": {
+                "title": "Ähnliche Artikel"
+            }
+        }
+    },
     "EndingsPage": {
         "hero": {
             "title": "<span class=\"highlight\">No I'm Not a Human Enden</span>",
-            "description": "Entdecke alle möglichen Enden in diesem psychologischen Horror-Erlebnis. Unser umfassender <span class=\"highlight-text\">\"No I'm Not a Human Enden\"</span>-Guide enthüllt jeden Pfad, jede Bedingung und jede Konsequenz in diesem apokalyptischen Albtraum. Für vollständige Spielanleitungen besuche unseren <a href=\"/guides\">Strategiebereich</a> oder erkunde unsere <a href=\"/\">Spielfunktionen</a>.",
+            "description": "Entdecke alle möglichen Enden in diesem psychologischen Horror-Erlebnis. Mehrere Enden erwarten dich, basierend auf deinen Entscheidungen im Spiel. In <strong>No, I'm Not a Human</strong> werden Enden normalerweise nach dem Erfüllen bestimmter Bedingungen erreicht, einige können jedoch früher auftreten. Unser umfassender <span class=\"highlight-text\">\"No I'm Not a Human Enden\"</span>-Leitfaden enthält die Enddialoge und erklärt, wie man sie freischaltet. Für vollständige Spielanleitungen besuche unseren <a href=\"/guides\">Strategiebereich</a>, erfahre mehr über die <a href=\"/wiki\">Spielwelt und Geschichte</a> oder erkunde unsere <a href=\"/\">Spielfunktionen</a>.",
             "stats": {
-                "total": "6",
-                "totalLabel": "Gesamtenden",
-                "easy": "2",
-                "easyLabel": "Einfache Enden",
-                "medium": "2",
-                "mediumLabel": "Mittlere Enden",
-                "hard": "2",
-                "hardLabel": "Schwere Enden"
+                "total": "10",
+                "totalLabel": "Gesamtanzahl der Enden"
             }
         },
         "mainEndings": {
             "title": "Alle Spielenden",
-            "subtitle": "Erkunde jedes mögliche Ergebnis deiner Überlebensreise mit unseren \"No I'm Not a Human Enden\". Erfahre mehr über <a href=\"/visitors\">Besucheridentifikation</a> und <a href=\"/guides\">Überlebensstrategien</a>.",
-            "bestEnding": {
-                "title": "Bestes Ende",
-                "subtitle": "Die ultimative Leistung",
-                "difficulty": "Einfach",
+            "subtitle": "Erkunde jedes mögliche Ergebnis deiner Überlebensreise mit unseren \"No I'm Not a Human Enden\". Die Enden sind in der Reihenfolge aufgelistet, in der sie im Sammlungsabschnitt des Spiels erscheinen. Erfahre mehr über die <a href=\"/visitors\">Besucheridentifikation</a> und <a href=\"/guides\">Überlebensstrategien</a>.",
+            "ending1": {
+                "title": "Ende 1: Das Kind des Untergangs",
+                "subtitle": "Eine dunkle Wiedergeburt",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Lasse nur bestätigte menschliche Gäste in dein Haus – siehe unsere <a href=\"/visitors\">Besucherdatenbank</a>",
-                "condition2": "Stelle sicher, dass niemals <a href=\"/visitors\">Besucher</a> hereingelassen werden",
-                "condition3": "Halte diese perfekte Bilanz über alle 5 Tage",
-                "condition4": "Erreiche Tag 5 mit nur Menschen im Haus",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "In einer Welt, in der die Oberfläche nicht mehr sicher ist, hast du das perfekte Refugium geschaffen. Du versiegelst alle Fenster und Türen, berätst dich mit deinen menschlichen Gästen und beschließt, niemals wieder nach draußen zu gehen. Während du hoffst, dass dieser Albtraum endet, existiert noch Hoffnung … zumindest für jetzt … Zum Glück hattest du ein scharfes Auge für Gäste. Kein einziger Besucher überschritt die Schwelle dessen, was einst dein Zuhause war. Wenigstens ein Tropfen Honig im Fass voller Teer."
+                "condition1": "Lass die <a href=\"/visitors\">Verführerische Frau</a> in dein Haus",
+                "condition2": "Wähle immer die freundlichsten und konfliktvermeidenden Dialogoptionen bei Interaktionen mit ihr",
+                "condition3": "Am vierten Tag nach ihrer Ankunft wird sie einen unvermeidlichen Tod finden",
+                "condition4": "Interagiere mit den Vorhängen im Schlafzimmer und durchsuche das Haus, um den Fötus zu finden",
+                "condition5": "In der folgenden Nacht beobachte das Kind, wie es Hundemilch trinkt",
+                "condition6": "Blicke durch das Türspion, um die Endsequenz auszulösen",
+                "descriptionTitle": "Enddialog:",
+                "description": "Ein Schuss hallte durch die Milch des Nebels, und über der Menge erhoben sich Flügel, die nach Asche rochen.",
+                "note": "Ein detaillierterer Leitfaden ist für dieses komplexe Ende verfügbar. Der Fötus kann an zwei verschiedenen Stellen im Haus gefunden werden."
             },
-            "goodEnding": {
-                "title": "Gutes Ende",
-                "subtitle": "Hoffnungsvolles Überleben",
-                "difficulty": "Einfach",
+            "ending2": {
+                "title": "Ende 2: Das Ende?",
+                "subtitle": "Abstieg in die Stille",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Beende Tag 5 nur mit menschlichen Gästen – siehe <a href=\"/guides\">Überlebenstechniken</a>",
-                "condition2": "Du kannst einige <a href=\"/visitors\">Besucher</a> eingelassen, aber eliminiert haben",
-                "condition3": "Mindestens ein menschlicher Gast muss überleben",
-                "condition4": "Am Ende dürfen keine aktiven Besucher im Haus sein",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "Das Leben auf der Erdoberfläche ist nicht mehr sicher. Du versiegelst alle Fenster und blockierst die Türen. Nach Rücksprache mit deinen Gästen beschließt du, die Außenwelt nie wieder zu betreten. Du betest hilflos, dass eines Tages alles endet. Wenn dieser Albtraum jemals endet. Aber Hoffnung existiert noch … zumindest für jetzt …"
+                "condition1": "Am 13. Tag des Monats, bevor du am 14. die Fenster verriegelst",
+                "condition2": "Stelle sicher, dass nur Menschen (außer dem Kassiermädchen) im Haus bleiben",
+                "condition3": "Alternativ tritt dasselbe Ende ein, wenn du völlig allein bist",
+                "descriptionTitle": "Enddialog:",
+                "description": "Der Keller wurde zu einem Universum – Fenster zugemauert, Stimmen verschmolzen mit der tickenden Uhr. Die Sonne verblasst... doch die Qual endet nicht so sanft."
             },
-            "badEnding": {
-                "title": "Schlechtes Ende",
-                "subtitle": "Von der Menge überwältigt",
-                "difficulty": "Mittel",
+            "ending3": {
+                "title": "Ende 3: Nein, ich bin nicht allein",
+                "subtitle": "Gefangen mit Monstern",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Habe am Ende von Tag 5 drei oder mehr Gäste im Haus – siehe <a href=\"/guides\">Gästemanagement</a>",
-                "condition2": "Dies kann jede Kombination aus Menschen und Besuchern sein",
-                "condition3": "Zu viele Menschen schaffen Chaos und Gefahr",
-                "condition4": "Dein Unterschlupf wird kompromittiert",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "Das Leben auf der Erdoberfläche ist nicht mehr sicher. Nach Rücksprache mit deinen Gästen beschließt du, die Außenwelt nie wieder zu betreten. Du betest hilflos, dass eines Tages alles endet. Oder vielleicht ist dies nur ein relativ optimistischer Traum. In Wirklichkeit wurdest du von den Besuchern zerstückelt."
+                "condition1": "Am 13. Tag des Monats, bevor du am 14. die Fenster verriegelst",
+                "condition2": "Behalte mindestens einen <a href=\"/visitors\">Besucher</a> im Haus",
+                "descriptionTitle": "Enddialog:",
+                "description": "Die Besucher waren die ganze Zeit hier – ein warmer Atem in der Dunkelheit, ein grausames Flüstern in deinem Nacken. Du wirst das Licht nie wieder sehen, falls es jemals zurückkehrt."
             },
-            "massacreEnding": {
-                "title": "Massaker-Ende",
-                "subtitle": "Gewalt erzeugt Gewalt",
-                "difficulty": "Mittel",
+            "ending4": {
+                "title": "Ende 4: Möge der Tod uns von unseren Sünden reinigen!",
+                "subtitle": "Dem Kult beitreten",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Erschieße und töte 2 oder mehr Gäste an einem einzigen Tag",
-                "condition2": "Dies kann sowohl Menschen als auch Besucher betreffen",
-                "condition3": "Übermäßige Gewalt führt sofort zu Konsequenzen",
-                "condition4": "Das Haus betrachtet dich als zu gefährlich",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "Du hast viel für die getan, die du eingelassen hast. Aber zu viel Blut wurde vergossen. Du bist zu gefährlich für dieses Haus und musst gehen. Die Menschen, die dich fürchten, trieben dich aus deinem eigenen Zuhause. Du überlebtest keinen Tag, verbrannt von der sengenden Sonne draußen."
+                "condition1": "Behalte alle <a href=\"/visitors\">Todeskult-Anhänger</a> im Haus, bis der Kultführer zum zweiten Mal erscheint",
+                "condition2": "Töte sie in dieser Zeit nicht selbst",
+                "condition3": "Lass nicht zu, dass sie von <a href=\"/visitors\">Besuchern</a> in der Nacht getötet werden",
+                "condition4": "Lass sie nicht von FEMA abholen",
+                "condition5": "Wenn diese Bedingungen erfüllt sind, bietet dir der Kultführer an, sich ihnen anzuschließen",
+                "condition6": "Akzeptiere das Angebot, um einer der Todesanbeter zu werden und das Ende auszulösen",
+                "descriptionTitle": "Enddialog:",
+                "description": "Sie beteten für die endgültige Stille. Vielleicht wurde ihre Bitte endlich erhört – draußen ist es still geworden."
             },
-            "intruderEnding": {
-                "title": "Eindringlings-Ende",
-                "subtitle": "Allein in der Dunkelheit",
-                "difficulty": "Schwer",
+            "ending5": {
+                "title": "Ende 5: Willkommen bei FEMA",
+                "subtitle": "Staatsdienst",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Sei allein in deinem Haus, wenn der Eindringling erscheint – vermeide dies mit unserem <a href=\"/guides\">Nacht 4 Guide</a>",
-                "condition2": "Der Besucher ohne Hemd erscheint und fragt, ob du allein bist",
-                "condition3": "Habe keine Gäste, über die du lügen kannst",
-                "condition4": "Führt zu sofortigem Game Over",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "Niemand weiß, was geschah, als der letzte Besucher ankam. Das Haus blieb lange unbewohnt. Nach deinem schrecklichen Verschwinden mied jeder dieses verlassene Haus."
+                "condition1": "Rufe während des Durchlaufs 3-mal bei FEMA an, beginnend, wenn die Nummer im Fernsehen angezeigt wird",
+                "condition2": "Sobald du FEMA-Benachrichtigungen hast, übergib 3 davon an beliebige Gäste",
+                "condition3": "Wähle immer die gehorsamsten Optionen, wenn du mit dem FEMA-Agenten sprichst",
+                "condition4": "Frage, ob du packen sollst, wenn du das erste Mal angesprochen wirst, und nach einem Schutzanzug, wenn die Option erscheint",
+                "condition5": "Hinterfrage nicht ihre Motive oder Absichten",
+                "condition6": "Irgendwann wachst du nachts auf, unfähig, die Fenster zu überprüfen",
+                "condition7": "Blicke durch das Türspion – der Agent sagt, du hättest Initiative gezeigt, und bietet dir einen Job bei FEMA an",
+                "condition8": "Akzeptiere das Angebot, um die Endsequenz auszulösen",
+                "descriptionTitle": "Enddialog:",
+                "description": "Sie trugen dich unter Sirenen davon und ließen alle deine Erinnerungen zurück. Wenn du nur zurückkehren könntest, um das Poster mitzunehmen."
             },
-            "speedrunEnding": {
-                "title": "Speedrun-Ende",
-                "subtitle": "Ein zu schnelles Leben",
-                "difficulty": "Schwer",
+            "ending6": {
+                "title": "Ende 6: Ja, ich bin allein",
+                "subtitle": "Tödliche Ehrlichkeit",
                 "conditionsTitle": "Bedingungen zum Erreichen:",
-                "condition1": "Sprich schnell mit Gästen an der Tür ohne Untersuchung",
-                "condition2": "Eile so schnell wie möglich bis Tag 5",
-                "condition3": "Vermeide Gespräche, trinke Bier um Energie zu verbrauchen, schlafe sofort",
-                "condition4": "Stelle sicher, dass du nicht allein bist (mindestens ein Gast anwesend)",
-                "descriptionTitle": "Endbeschreibung:",
-                "description": "Das Leben auf der Erdoberfläche ist nicht mehr sicher. Du versiegelst alle Fenster und blockierst die Türen. Nach Rücksprache mit deinen Gästen beschließt du, die Außenwelt nie wieder zu betreten. Doch sie beginnen, dich seltsam anzusehen. Du hast zu schnell gelebt, wolltest diesen Albtraum so schnell wie möglich hinter dich bringen. Ständiges Hetzen, dich von den Schrecken draußen ablenken … War es das wert? Vielleicht. Am wichtigsten: Vergiss nicht zu leben, Schönheit im Leben zu finden und es zu genießen."
+                "condition1": "Lass den Eindringling herein, indem du ihm sagst, dass du allein zu Hause bist",
+                "condition2": "Alternativ: Sei allein, wenn er an die Tür klopft",
+                "condition3": "Oder habe nach dem 9. Tag zwei oder mehr <a href=\"/visitors\">Besucher</a> oder keine Menschen im Haus, wenn er klopft",
+                "descriptionTitle": "Enddialog:",
+                "description": "In dem Moment, als sein Schatten die Schwelle überquerte, wurde das Haus still. Nun bleiben nur deine Flüstern zurück.",
+                "note": "Dieses Ende ist eines der häufigsten frühen Enden. Behalte immer mindestens einen menschlichen Gast, um es zu vermeiden."
+            },
+            "ending7": {
+                "title": "Ende 7: Ja, ich bin ein Mörder",
+                "subtitle": "Verzehrt von Paranoia",
+                "conditionsTitle": "Bedingungen zum Erreichen:",
+                "condition1": "Töte viele Menschen, indem du sie erschießt",
+                "condition2": "Am einfachsten ist es, eine Gruppe von Kultisten zu eliminieren",
+                "condition3": "Nachdem du genug getötet hast, erscheint der <a href=\"/visitors\">Prophetische Mann</a> an deiner Tür",
+                "condition4": "Er wird verkünden, dass dein Schicksal unvermeidlich ist",
+                "condition5": "Nach seinem Besuch wird die Endsequenz ausgelöst",
+                "descriptionTitle": "Enddialog:",
+                "description": "Jeder, dem du begegnetest, schien ein Feind. Angst blendete dich, und die anderen beendeten nur, was du bereits begonnen hattest."
+            },
+            "ending8": {
+                "title": "Ende 8: Pilz oder Verderben",
+                "subtitle": "Reise ins Pilzland",
+                "conditionsTitle": "Bedingungen zum Erreichen:",
+                "condition1": "Lass die <a href=\"/visitors\">Katzenfrau</a> in der 4. Nacht herein – das schaltet den Keller frei",
+                "condition2": "Der <a href=\"/visitors\">Pilzesser</a> wird seinen ersten Besuch abstatten und dir eine Seite aus dem Buch des Lächelns geben",
+                "condition3": "Pflücke den Pilz, der im Keller wächst",
+                "condition4": "Lege den Pilz in den Kühlschrank und iss ihn",
+                "condition5": "Am folgenden Tag erscheint ein Apfel im Flurregal, neben deinem Kindheitsspielzeug Toto",
+                "condition6": "Interagiere mit dem Apfel, um ihn automatisch zu essen",
+                "condition7": "Am dritten Tag erscheint eine Uhr über dem Bett im Schlafzimmer",
+                "condition8": "Klicke auf die Uhr, um sie auf Mitternacht zu stellen",
+                "condition9": "Der Pilzesser kehrt zurück, um zu bestätigen, dass du auf dem richtigen Weg bist",
+                "condition10": "Beim nächsten Besuch lädt er dich ein, ihn auf eine Reise ins Pilzland zu begleiten",
+                "condition11": "Akzeptiere das Angebot, um die Endsequenz auszulösen",
+                "descriptionTitle": "Enddialog:",
+                "description": "Pilze erhoben sich aus der Erde und bauten fremde Städte neu. Du eiltest, aber die Türen zu ihrer Welt waren bereits geschlossen.",
+                "note": "Dies ist eines der komplexesten Enden mit mehreren Schritten. Behalte jede Anforderung genau im Blick."
+            },
+            "ending9": {
+                "title": "Ende 9: Umarme das Unvermeidliche",
+                "subtitle": "Jenseits des Abgrunds",
+                "conditionsTitle": "Bedingungen zum Erreichen:",
+                "condition1": "Schließe alle Quests des <a href=\"/visitors\">Prophetischen Mannes</a> ab",
+                "condition2": "Nachdem du die Katzenfrau und ihre Katze hereingelassen hast, kehrt er in der 5. Nacht zurück",
+                "condition3": "Er befiehlt dir, zwei Tage lang niemanden zu testen",
+                "condition4": "Unterlasse es, dich selbst oder andere am 6. und 7. Tag zu überprüfen",
+                "condition5": "Er wird erneut erscheinen und dich auffordern, im Keller zu graben",
+                "condition6": "Grabe dreimal (entweder über drei Tage verteilt oder mit Energiegegenständen auf einmal)",
+                "condition7": "Ein versteckter Eingang zu einem Tunnel unter deinem Haus wird sichtbar",
+                "condition8": "Im Inneren warnt dich ein Bergarbeiter vor einem Loch",
+                "condition9": "Der Prophetische Mann erscheint bald wieder und drängt dich, hineinzuspringen",
+                "condition10": "Am Tag nach seinem dritten Besuch öffnet sich ein neuer Tunnelpfad zum Loch",
+                "condition11": "Spring hinein, um die Endsequenz auszulösen",
+                "descriptionTitle": "Enddialog:",
+                "description": "Ein schwerer Schritt über die Linie, und alles, wovor du Angst hattest, verliert sein Gewicht. Die Zeit ist verschwunden – nur eine Kälte bleibt, die sich wie Trost anfühlt.",
+                "note": "Dieses Ende erfordert genaue Aufmerksamkeit auf die Anweisungen des Prophetischen Mannes und mehrere Tage Engagement."
+            },
+            "ending10": {
+                "title": "Ende 10: Zorn des Wächters",
+                "subtitle": "Gescheiterte Inspektion",
+                "conditionsTitle": "Bedingungen zum Erreichen:",
+                "condition1": "Wenn der Wächter dein Haus zum zweiten Mal passiert, verlangt er, nach Anzeichen einer <a href=\"/visitors\">Besucher</a>-Zugehörigkeit zu suchen",
+                "condition2": "Um dieses Ende zu erreichen, musst du einen seiner Tests während der 10. oder 12. Nacht nicht bestehen",
+                "condition3": "Du musst auswählen, welchen Körperteil du ihm zeigst: Zähne, Hände, Augen, Achseln oder Ohren",
+                "condition4": "Alternativ kannst du ein Aurafoto zeigen",
+                "condition5": "Die falsche Auswahl führt dazu, dass der Wächter seine Waffe auf dich richtet",
+                "condition6": "Dies löst sofort die Endsequenz aus",
+                "descriptionTitle": "Enddialog:",
+                "description": "Ein Prozess endete, nur damit ein anderer begann. Jetzt bist du in den Augen der Menge derjenige, vor dem man sich fürchtet.",
+                "note": "Siehe den detaillierten Leitfaden, um zu erfahren, wie du seinen Test absichtlich nicht bestehst."
             }
         },
         "strategyGuide": {
-            "title": "Wie man jedes Ende erreicht",
-            "subtitle": "Detaillierte Strategien und Tipps, um jedes Ende mit unseren \"No I'm Not a Human Enden\" freizuschalten. Meistere zuerst das <a href=\"/guides\">Kern-Gameplay</a>.",
-            "bestEndingStrategy": {
-                "title": "Das beste Ende erreichen",
-                "point1Title": "Perfekte Gästeauswahl:",
-                "point1Desc": "Lasse nur die 'Immer Mensch'-Charaktere herein: Großer Mann, Tochter des Nachbarn, Verbrannter Mann und Trauernde Witwe. Siehe unsere <a href=\"/visitors\">Besucherdatenbank</a> für sichere Charaktere.",
-                "point2Title": "Gründliche Untersuchung:",
-                "point2Desc": "Überprüfe immer die vier Besuchsmerkmale, bevor du unbekannte Gäste hereinlässt. Verwende Energie klug, um gründlich zu untersuchen.",
-                "point3Title": "Null-Toleranz-Politik:",
-                "point3Desc": "Wenn du auch nur ein einziges Besuchermerkmal findest, verweigere sofort den Eintritt. Sicher ist sicher für das beste Ende."
+            "title": "Allgemeiner Enden-Strategieleitfaden",
+            "subtitle": "Verstehe, wie man verschiedene Enden in \"No I'm Not a Human\" freischaltet. Jedes Ende hat einzigartige Anforderungen. Meistere zuerst das <a href=\"/guides\">Kernspiel</a>.",
+            "questBasedEndings": {
+                "title": "Questbasierte Enden",
+                "point1Title": "Folge speziellen Charakteren:",
+                "point1Desc": "Einige Enden erfordern das Abschließen von Questlinien mit bestimmten Charakteren wie dem Prophetischen Mann, dem Pilzesser oder dem Kultführer. Achte genau auf ihre Dialoge und Bitten. Erfahre mehr über diese Charaktere in unserer <a href=\"/visitors\">Besucherdatenbank</a>.",
+                "point2Title": "Mehrstufige Prozesse:",
+                "point2Desc": "Komplexe Enden wie 'Pilz oder Verderben' und 'Umarme das Unvermeidliche' erfordern mehrere Schritte über mehrere Tage hinweg. Notiere deinen Fortschritt.",
+                "point3Title": "Objektinteraktionen:",
+                "point3Desc": "Bestimmte Enden beinhalten Interaktionen mit spezifischen Objekten oder Orten in deinem Haus (Keller, Schlafzimmer, Vorhänge usw.). Erkunde gründlich, wenn du dazu aufgefordert wirst."
             },
-            "goodEndingStrategy": {
-                "title": "Strategie für gutes Ende",
-                "point1Title": "Sorgfältiges Besuchermanagement:",
-                "point1Desc": "Du kannst während des Spiels einige <a href=\"/visitors\">Besucher</a> hereinlassen, musst sie aber vor Ende von Tag 5 eliminieren. Konzentriere dich darauf, nur mit Menschen zu enden.",
-                "point2Title": "Strategische Eliminierungen:",
-                "point2Desc": "Wenn du bestätigst, dass ein Gast ein <a href=\"/visitors\">Besucher</a> ist, eliminiere ihn sofort, aber vermeide es, mehr als einen pro Tag zu töten, um das Massaker-Ende zu verhindern."
+            "choiceBasedEndings": {
+                "title": "Wahlbasierte Enden",
+                "point1Title": "Gastverwaltung:",
+                "point1Desc": "Die Zusammensetzung deines Haushalts an bestimmten Tagen bestimmt mehrere Enden. Verfolge, wen du hereinlässt und ihren Status – sieh dir unsere <a href=\"/visitors\">Besucherdatenbank</a> zur Identifikation an.",
+                "point2Title": "Dialogoptionen:",
+                "point2Desc": "Deine Antworten auf Charaktere wie FEMA-Agenten, den Wächter und den Eindringling beeinflussen direkt, welche Enden du erreichen kannst. Überlege die Konsequenzen deiner Antworten.",
+                "point3Title": "Verhaltensauslöser:",
+                "point3Desc": "Einige Enden werden durch deinen Spielstil ausgelöst – übermäßige Gewalt, Hast oder bestimmte Verhaltensmuster während Inspektionen."
             },
-            "endingsToAvoid": {
-                "title": "Zu vermeidende Enden (außer beabsichtigt)",
-                "badEnding": "Schlechtes Ende",
-                "badEndingDesc": "Vermeide 3+ Gäste am Tag 5. Lerne <a href=\"/guides\">Gästemanagement</a>-Strategien.",
-                "massacreEnding": "Massaker-Ende",
-                "massacreEndingDesc": "Töte niemals 2+ Gäste an einem Tag. Folge unseren <a href=\"/guides\">Eliminierungsstrategien</a>.",
-                "intruderEnding": "Eindringlings-Ende",
-                "intruderEndingDesc": "Halte immer mindestens einen Gast für die Begegnung mit dem Eindringling in Nacht 4."
+            "timingTips": {
+                "title": "Wichtige Zeitplanungshinweise",
+                "point1Title": "Tagesabhängige Anforderungen:",
+                "point1Desc": "Mehrere Enden hängen vom Zustand deines Hauses an bestimmten Tagen ab (13., 14.) oder nach bestimmten Nächten (4., 5., 9., 10., 12.). Plane entsprechend.",
+                "point2Title": "Mehrere Durchläufe:",
+                "point2Desc": "Du kannst nicht alle Enden in einem einzigen Durchlauf erreichen. Jeder Versuch sollte sich auf 1–2 spezifische Enden konzentrieren.",
+                "point3Title": "Speicherverwaltung:",
+                "point3Desc": "Auch wenn das Spiel eingeschränkte Speicherfunktionen hat, hilft das Verständnis der Endauslöser bei der effizienten Routenplanung für die Sammlung."
             }
         },
         "tips": {
             "title": "Tipps zum Freischalten von Enden",
-            "subtitle": "Meistere die Kunst des Überlebens mit unseren umfassenden \"No I'm Not a Human Enden\". Beginne mit unserem <a href=\"/guides\">Einsteiger-Guide</a>.",
+            "subtitle": "Meistere die Kunst des Überlebens mit unserem umfassenden \"No I'm Not a Human Enden\"-Leitfaden. Wenn du neu im Spiel bist, starte mit unserer <a href=\"/\">Spielübersicht</a> und dem <a href=\"/guides\">Anfängerleitfaden</a>.",
             "generalAdvice": {
                 "title": "Allgemeine Ratschläge",
-                "tip1": "Beobachte sorgfältig die Merkmale und das Verhalten jedes Besuchers",
+                "tip1": "Beobachte sorgfältig die Eigenschaften und das Verhalten jedes Besuchers",
                 "tip2": "Notiere wichtige Dialoge und Hinweise",
-                "tip3": "Treffe Entscheidungen nicht übereilt, denke sorgfältig nach",
-                "tip4": "Nutze einen Fortschrittstracker, um freigeschaltete Enden zu dokumentieren"
+                "tip3": "Treffe Entscheidungen nicht überstürzt, denke sorgfältig nach",
+                "tip4": "Nutze den Fortschritts-Tracker, um freigeschaltete Enden zu dokumentieren"
             },
             "unlockStrategy": {
                 "title": "Freischaltstrategie",
-                "tip1": "Versuche zuerst einfache Enden, um dich mit den Spielmechaniken vertraut zu machen",
-                "tip2": "Spiele mehrmals mit unterschiedlichen Entscheidungskombinationen",
+                "tip1": "Probiere einfache Enden zuerst aus, um dich mit der Spielmechanik vertraut zu machen",
+                "tip2": "Spiele mehrmals und probiere verschiedene Entscheidungs­kombinationen",
                 "tip3": "Achte auf versteckte interaktive Elemente und Easter Eggs",
-                "tip4": "Nutze Nacht-Guides, um Schlüsselpunkte zu verstehen"
+                "tip4": "Sieh dir die Nachtleitfäden an, um die wichtigsten Entscheidungspunkte zu verstehen"
             }
         }
     },
-    "guestCharacters": {
+    "VisitorsPage": {
         "hero": {
             "title": "<span class=\"highlight\">No I'm Not a Human Visitors - Vollständiger Charakterführer</span>",
             "subtitle": "Meistere das psychologische Horror-Erlebnis mit unserer umfassenden <span class=\"highlight-text\">„No I'm Not a Human Visitors“</span> Enzyklopädie",

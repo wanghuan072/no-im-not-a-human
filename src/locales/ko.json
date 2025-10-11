@@ -405,142 +405,244 @@
             }
         }
     },
+    "BlogPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">블로그 - 나는 인간이 아니다</span>",
+                "description": "최신 가이드, 팁 및 '나는 인간이 아니다'에 대한 인사이트를 확인하세요. 전문가 전략과 게임 분석으로 최신 정보를 유지하세요."
+            },
+            "loading": "블로그 게시물 로딩 중...",
+            "error": {
+                "title": "블로그 게시물 로드 실패",
+                "description": "블로그 게시물을 로드할 수 없습니다. 나중에 다시 시도하세요.",
+                "retry": "다시 시도"
+            },
+            "empty": {
+                "title": "사용 가능한 블로그 게시물이 없습니다",
+                "description": "현재 사용 가능한 블로그 게시물이 없습니다. 새로운 콘텐츠는 나중에 확인하세요."
+            },
+            "pagination": {
+                "previous": "이전",
+                "next": "다음",
+                "page": "{total} 페이지 중 {current} 페이지"
+            }
+        },
+        "detail": {
+            "loading": "블로그 게시물 로딩 중...",
+            "error": {
+                "title": "블로그 게시물을 찾을 수 없음",
+                "description": "찾고 있는 블로그 게시물이 존재하지 않거나 이동되었습니다.",
+                "backToBlog": "블로그로 돌아가기"
+            },
+            "breadcrumb": {
+                "home": "홈",
+                "blog": "블로그"
+            },
+            "share": {
+                "title": "이 글 공유하기",
+                "copyLink": "링크 복사"
+            },
+            "related": {
+                "title": "관련 기사"
+            }
+        }
+    },
     "EndingsPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human 엔딩</span>",
-            "description": "심리적 공포 경험에서 가능한 모든 엔딩을 확인하세요. 종합적인 <span class=\"highlight-text\">\"No I'm Not a Human 엔딩\"</span>에서는 이 종말적 악몽 속의 모든 경로, 조건 및 결과를 공개합니다. 완벽한 게임 가이드를 원하시면 <a href=\"/guides\">전략 섹션</a>을 방문하거나 <a href=\"/\">게임 기능</a>을 탐험하세요.",
+            "title": "<span class=\"highlight\">나는 인간이 아니다 엔딩</span>",
+            "description": "심리적 공포 경험에서 가능한 모든 엔딩을 확인하세요. 게임 전반의 선택에 따라 다양한 엔딩이 기다리고 있습니다. <strong>나는 인간이 아니다</strong>에서 엔딩은 일반적으로 특정 요구 사항을 완료하면 도달할 수 있지만, 일부는 더 일찍 발생할 수 있습니다. 우리의 포괄적인 <span class=\"highlight-text\">\"나는 인간이 아니다 엔딩\"</span> 가이드는 엔딩 대화를 다루고 달성 방법을 설명합니다. 전체 게임 가이드는 <a href=\"/guides\">전략 섹션</a>에서 확인하고, <a href=\"/wiki\">게임의 세계와 이야기</a>를 배우거나 <a href=\"/\">게임 기능</a>을 탐색하세요.",
             "stats": {
-                "total": "6",
-                "totalLabel": "총 엔딩 수",
-                "easy": "2",
-                "easyLabel": "쉬운 엔딩",
-                "medium": "2",
-                "mediumLabel": "보통 엔딩",
-                "hard": "2",
-                "hardLabel": "어려운 엔딩"
+                "total": "10",
+                "totalLabel": "총 엔딩"
             }
         },
         "mainEndings": {
             "title": "모든 게임 엔딩",
-            "subtitle": "생존 여정에서 가능한 모든 결과를 탐험하세요. 우리의 \"No I'm Not a Human 엔딩\"으로 <a href=\"/visitors\">방문자 식별</a>과 <a href=\"/guides\">생존 전략</a>을 배우세요.",
-            "bestEnding": {
-                "title": "최고 엔딩",
-                "subtitle": "궁극적 성취",
-                "difficulty": "쉬움",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "확인된 인간 손님만 집에 들이기 - <a href=\"/visitors\">방문자 데이터베이스</a> 확인",
-                "condition2": "어떤 <a href=\"/visitors\">방문자</a>도 입장시키지 않기",
-                "condition3": "5일 동안 완벽한 기록 유지",
-                "condition4": "인간만 있는 상태로 5일차 엔딩 달성",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "지상은 더 이상 안전하지 않은 세상에서, 당신은 완벽한 피난처를 만들었습니다. 모든 창문과 문을 잠그고, 인간 손님들과 상의하여 다시 외출하지 않기로 결정합니다. 악몽이 끝나기를 기도하면서도 희망은 남아 있습니다... 적어도 지금은... 다행히도 당신은 손님을 예리하게 판단했습니다. 단 한 명의 방문자도 이전의 '집' 문턱을 넘지 않았습니다. 현재 상황 속에서도 작은 희망이 존재합니다."
+            "subtitle": "우리의 \"나는 인간이 아니다 엔딩\"으로 생존 여정의 모든 가능한 결과를 탐험하세요. 엔딩은 게임의 컬렉션 섹션에 나타나는 순서대로 나열됩니다. <a href=\"/visitors\">방문자 식별</a>과 <a href=\"/guides\">생존 전략</a>에 대해 배우세요.",
+            "ending1": {
+                "title": "엔딩 1: 파멸의 아이",
+                "subtitle": "어두운 재탄생",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "<a href=\"/visitors\">유혹의 여성</a>이 집에 들어오도록 허용",
+                "condition2": "그녀와 상호작용할 때 항상 가장 친절하고 비대립적인 대화 옵션 선택",
+                "condition3": "그녀가 도착한 후 4일째, 그녀는 피할 수 없는 죽음을 맞이함",
+                "condition4": "침실 커튼과 집을 탐색하여 태아 찾기",
+                "condition5": "다음 날 밤, 아이가 개의 우유를 마시는 것을 관찰",
+                "condition6": "쌍안경을 통해 엔딩 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "안개 속 우유를 가르는 총성이 울리고, 군중 위로 재 냄새 나는 날개가 솟았다.",
+                "note": "이 복잡한 엔딩에 대한 자세한 가이드가 있습니다. 태아는 집 안의 두 위치 중 하나에서 찾을 수 있습니다."
             },
-            "goodEnding": {
-                "title": "좋은 엔딩",
-                "subtitle": "희망적 생존",
-                "difficulty": "쉬움",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "5일차 종료 시 인간 손님만 집에 남기 - <a href=\"/guides\">생존 기술</a> 참고",
-                "condition2": "일부 <a href=\"/visitors\">방문자</a>를 들였더라도 제거",
-                "condition3": "최소 한 명의 인간 손님 유지",
-                "condition4": "엔딩 시 활동 중인 방문자가 없음",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "지상은 더 이상 안전하지 않습니다. 모든 창문과 문을 막고, 손님과 상의한 후 다시 외출하지 않기로 결정합니다. 하루가 끝나기를 기도하며, 언젠가 이 모든 악몽이 끝나길 바라지만, 희망은 여전히 존재합니다... 적어도 지금은..."
+            "ending2": {
+                "title": "엔딩 2: 끝인가?",
+                "subtitle": "침묵으로의 추락",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "월 13일, 14일 창문을 막기 전",
+                "condition2": "캐셔 소녀를 제외하고 집에 인간만 남도록 함",
+                "condition3": "또는 완전히 혼자일 경우 동일한 엔딩 발생",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "지하실은 우주가 되었고, 창문은 벽돌로 막혔다. 목소리는 시계의 똑딱거림과 합쳐졌다. 해는 지지만 고통은 그렇게 쉽게 끝나지 않는다."
             },
-            "badEnding": {
-                "title": "나쁜 엔딩",
-                "subtitle": "숫자에 압도됨",
-                "difficulty": "보통",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "5일차 종료 시 집에 손님이 3명 이상 - <a href=\"/guides\">손님 관리</a> 이해 필요",
-                "condition2": "인간과 방문자 조합 포함 가능",
-                "condition3": "손님이 많으면 혼란과 위험 발생",
-                "condition4": "쉼터가 위험에 처함",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "지상은 더 이상 안전하지 않습니다. 손님과 상의한 후 다시 외출하지 않기로 결정합니다. 하루가 끝나기를 기도하지만, 이 악몽이 끝날지 알 수 없습니다. 사실, 방문자들에 의해 몸이 분해되었습니다."
+            "ending3": {
+                "title": "엔딩 3: 아니, 나는 혼자가 아니다",
+                "subtitle": "괴물과 함께 갇힘",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "월 13일, 14일 창문을 막기 전",
+                "condition2": "최소한 한 명의 <a href=\"/visitors\">방문자</a>를 집에 남겨두기",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "방문자들은 처음부터 여기에 있었다- 어둠 속 따뜻한 숨결, 뒤에서 속삭이는 잔혹한 목소리. 빛이 돌아올지라도 결코 다시 보지 못할 것이다."
             },
-            "massacreEnding": {
-                "title": "학살 엔딩",
-                "subtitle": "폭력은 폭력을 낳는다",
-                "difficulty": "보통",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "하루에 2명 이상 손님 사살",
-                "condition2": "인간과 방문자 모두 포함 가능",
-                "condition3": "과도한 폭력은 즉각적 결과 초래",
-                "condition4": "집에서 너무 위험한 존재로 간주됨",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "당신은 들인 사람들을 위해 많은 일을 했습니다. 하지만 너무 많은 피가 흘렀습니다. 당신은 집에서 위험한 존재로 간주되어 떠나야 합니다. 태양 아래에서 하루도 버티지 못한 채 쫓겨났습니다."
+            "ending4": {
+                "title": "엔딩 4: 죽음이 우리의 죄를 씻어주길!",
+                "subtitle": "컬트 합류",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "<a href=\"/visitors\">죽음 컬트 하수인</a> 전원을 컬트 리더의 두 번째 방문까지 집에 두기",
+                "condition2": "이 기간 동안 개인적으로 그들을 죽이지 않기",
+                "condition3": "밤에 <a href=\"/visitors\">방문자</a>에게 죽임을 당하지 않게 하기",
+                "condition4": "FEMA에게 데려가지 않게 하기",
+                "condition5": "조건을 충족하면 죽음 컬트 리더가 당신에게 합류 기회 제공",
+                "condition6": "합류를 수락하여 엔딩 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "그들은 마지막 침묵을 위해 기도했다. 아마도 그들의 간청은 마침내 들렸을 것이다- 바깥은 조용하다."
             },
-            "intruderEnding": {
-                "title": "침입자 엔딩",
-                "subtitle": "어둠 속의 고독",
-                "difficulty": "어려움",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "침입자 도착 시 혼자 집에 있기 - <a href=\"/guides\">4일차 가이드</a> 참고",
-                "condition2": "셔츠 없는 방문자가 등장해 혼자인지 묻기",
-                "condition3": "거짓말할 손님 없음",
-                "condition4": "즉시 게임 오버",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "마지막 방문자가 도착했을 때 무슨 일이 일어났는지 아무도 모릅니다. 집은 오랫동안 사람이 없었습니다. 당신의 끔찍한 실종 이후, 모두가 이 버려진 집을 피했습니다."
+            "ending5": {
+                "title": "엔딩 5: FEMA에 오신 것을 환영합니다",
+                "subtitle": "정부 서비스",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "TV에 FEMA 전화번호가 표시되면 게임 중 3번 FEMA에 전화",
+                "condition2": "FEMA 통지를 받으면 손님 3명에게 전달",
+                "condition3": "FEMA 에이전트와 대화할 때 항상 가장 협조적인 옵션 선택",
+                "condition4": "처음 접근 시 짐을 싸야 하는지 묻고, 옵션이 주어지면 방호복 요청",
+                "condition5": "그들의 동기나 의도를 의심하지 않기",
+                "condition6": "결국 밤에 일어나 창문을 확인할 수 없음",
+                "condition7": "쌍안경을 통해 보면, 에이전트가 당신의 주도권을 인정하고 FEMA 직업 제공",
+                "condition8": "제안을 수락하여 엔딩 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "사이렌 속에서 당신을 데려갔다, 모든 기억을 뒤에 남긴 채. 돌아가서 포스터만 가져올 수 있다면 좋겠지만."
             },
-            "speedrunEnding": {
-                "title": "스피드런 엔딩",
-                "subtitle": "너무 빠르게 살아버린 삶",
-                "difficulty": "어려움",
-                "conditionsTitle": "획득 조건:",
-                "condition1": "조사 없이 손님과 빨리 대화",
-                "condition2": "5일차로 가능한 빨리 진행",
-                "condition3": "대화를 피하고, 에너지 소모 위해 맥주 마시고, 즉시 잠자기",
-                "condition4": "혼자가 아닌 상태 유지 (최소 한 명 손님)",
-                "descriptionTitle": "엔딩 설명:",
-                "description": "지상은 더 이상 안전하지 않습니다. 모든 창문과 문을 막고, 손님과 상의한 후 외출하지 않기로 결정합니다. 하지만 손님들이 이상하게 바라보기 시작합니다. 악몽을 가능한 한 빨리 지나가려 했던 당신의 삶은 너무 빠르게 지나갔습니다. 끊임없이 서두르며 외부의 공포에서 자신을 추상화했지만, 그게 가치가 있었을까요? 아마도. 가장 중요한 것은 삶을 즐기고, 그 안에서 아름다움을 발견하는 것입니다."
+            "ending6": {
+                "title": "엔딩 6: 그래, 나는 혼자다",
+                "subtitle": "치명적인 정직",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "침입자가 집에 들어오도록 혼자라고 말하기",
+                "condition2": "또는, 그가 노크할 때 집에 아무도 없음",
+                "condition3": "또는 9일 이후 집에 두 명 이상의 <a href=\"/visitors\">방문자</a> 또는 인간이 없으면 동일한 엔딩 발생",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "그의 그림자가 문지방을 넘어가는 순간, 집은 침묵에 잠겼다. 이제 남은 것은 속삭임뿐이다.",
+                "note": "이 엔딩은 플레이어가 자주 겪는 초기 엔딩 중 하나입니다. 최소 한 명의 인간 손님을 유지하여 피하세요."
+            },
+            "ending7": {
+                "title": "엔딩 7: 그래, 나는 살인자다",
+                "subtitle": "편집증에 사로잡힘",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "총으로 많은 인간을 죽이기",
+                "condition2": "가장 쉬운 방법은 컬트 그룹 제거",
+                "condition3": "충분히 제거하면 <a href=\"/visitors\">예언자 남자</a>가 방문",
+                "condition4": "그는 당신의 운명이 불가피하다고 알림",
+                "condition5": "그 방문 후 엔딩 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "만난 모든 사람이 적처럼 보였다. 두려움이 눈을 멀게 했고, 다른 사람들은 단지 당신이 이미 시작한 일을 마쳤을 뿐이다."
+            },
+            "ending8": {
+                "title": "엔딩 8: 버섯 혹은 파멸",
+                "subtitle": "버섯 나라 여행",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "4일째 밤, <a href=\"/visitors\">고양이 여자</a>를 집에 허용 - 지하실 접근 가능",
+                "condition2": "<a href=\"/visitors\">버섯 먹는 사람</a>가 방문, 웃음의 책 페이지 제공",
+                "condition3": "지하실에서 자라는 버섯 선택",
+                "condition4": "버섯을 냉장고에 넣고 섭취",
+                "condition5": "다음 날, Hall 방 선반에 사과 등장, Toto 장난감 옆",
+                "condition6": "사과와 상호작용하여 자동 섭취",
+                "condition7": "3일째, 침실 침대 위 시계 등장",
+                "condition8": "시계를 클릭하여 자정으로 설정",
+                "condition9": "버섯 먹는 사람이 돌아와 진행 확인",
+                "condition10": "다음 방문 시, 버섯 나라 여행 동행 제안",
+                "condition11": "제안을 수락하여 엔딩 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "버섯이 땅에서 솟아 올랐고, 새로운 도시가 만들어졌다. 서둘렀지만 그들의 세계 문은 이미 닫혀 있었다.",
+                "note": "여러 단계가 필요한 복잡한 엔딩 중 하나입니다. 각 요구 사항을 주의 깊게 기록하세요."
+            },
+            "ending9": {
+                "title": "엔딩 9: 피할 수 없는 것을 받아들여라",
+                "subtitle": "심연 너머",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "게임 내 <a href=\"/visitors\">예언자 남자</a>의 모든 퀘스트 완료",
+                "condition2": "고양이 여자와 그녀의 고양이를 들인 후, 5일째 밤 재방문",
+                "condition3": "2일 동안 누구도 테스트하지 말라고 지시",
+                "condition4": "6일, 7일 자신과 타인 체크 금지",
+                "condition5": "다시 나타나 지하실에서 파라고 지시",
+                "condition6": "3번 파기 (3일 동안 혹은 에너지 회복 아이템 사용 후 한 번에)",
+                "condition7": "집 밑에 숨겨진 터널 입구 발견",
+                "condition8": "안에서 광부가 구멍 근처 경고",
+                "condition9": "예언자 남자가 곧 재방문, 점프를 권함",
+                "condition10": "세 번째 방문 다음 날, 구멍으로 이어지는 새 터널 경로 개방",
+                "condition11": "구멍으로 점프하여 최종 상호 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "무거운 발걸음 한 번에, 모든 두려움이 무게를 잃었다. 시간은 사라지고, 차가운 편안함만 남았다.",
+                "note": "예언자 남자의 지시를 주의 깊게 따르고 여러 날에 걸친 진행이 필요합니다."
+            },
+            "ending10": {
+                "title": "엔딩 10: 자경단의 분노",
+                "subtitle": "검사 실패",
+                "conditionsTitle": "달성 조건:",
+                "condition1": "자경단이 두 번째로 집을 지나가면 방문자 소속 검사 요구",
+                "condition2": "10일 또는 12일 밤 검사 중 하나 실패해야 엔딩 해제",
+                "condition3": "어떤 신체 부위를 보여줄지 선택: 치아, 손, 눈, 겨드랑이, 귀",
+                "condition4": "또는 오라카메라 사진 보여주기 가능",
+                "condition5": "잘못된 선택 시 자경단이 총을 겨눔",
+                "condition6": "즉시 엔딩 컷신 트리거",
+                "descriptionTitle": "엔딩 대사:",
+                "description": "하나의 시험이 끝나고, 또 다른 시험이 시작됐다. 이제 군중의 눈에는 당신이 두려움의 대상이 되었다.",
+                "note": "의도적으로 테스트를 실패하는 방법은 자세한 가이드를 참조하세요."
             }
         },
         "strategyGuide": {
-            "title": "각 엔딩 달성 방법",
-            "subtitle": "우리의 \"No I'm Not a Human 엔딩\"과 함께 모든 엔딩을 달성하는 전략과 팁. 먼저 <a href=\"/guides\">핵심 게임 플레이</a>를 숙달하세요.",
-            "bestEndingStrategy": {
-                "title": "최고 엔딩 달성 전략",
-                "point1Title": "완벽한 손님 선택:",
-                "point1Desc": "'항상 인간' 캐릭터만 허용: 키 큰 남자, 이웃 딸, 불탄 남자, 애도하는 미망인. 안전한 캐릭터는 <a href=\"/visitors\">방문자 데이터베이스</a> 확인.",
-                "point2Title": "철저한 조사:",
-                "point2Desc": "알 수 없는 손님을 들이기 전, 항상 4가지 방문자 특징 확인. 에너지를 효율적으로 사용하여 철저히 조사.",
-                "point3Title": "무관용 정책:",
-                "point3Desc": "확인된 방문자 특징이 하나라도 발견되면 즉시 입장 거부. 최고 엔딩을 위해 안전을 우선."
+            "title": "일반 엔딩 전략 가이드",
+            "subtitle": "\"나는 인간이 아니다\"에서 다양한 엔딩을 달성하는 방법 이해. 각 엔딩은 고유한 요구 사항이 있음. 먼저 <a href=\"/guides\">핵심 게임플레이</a>를 숙달하세요.",
+            "questBasedEndings": {
+                "title": "퀘스트 기반 엔딩",
+                "point1Title": "특수 캐릭터 따라가기:",
+                "point1Desc": "일부 엔딩은 예언자 남자, 버섯 먹는 사람, 죽음 컬트 리더 등 특정 캐릭터의 퀘스트 라인 완료 필요. 대화와 요청에 주의하세요. 자세한 정보는 <a href=\"/visitors\">방문자 데이터베이스</a> 참조.",
+                "point2Title": "다단계 과정:",
+                "point2Desc": "'버섯 혹은 파멸', '피할 수 없는 것을 받아들여라'와 같은 복잡한 엔딩은 여러 날에 걸쳐 여러 단계를 완료해야 함. 진행 상황 기록 필수.",
+                "point3Title": "아이템 상호작용:",
+                "point3Desc": "특정 엔딩은 집의 특정 아이템이나 위치(지하실, 침실, 커튼 등)와 상호작용 필요. 지시 시 철저히 탐색."
             },
-            "goodEndingStrategy": {
-                "title": "좋은 엔딩 전략",
-                "point1Title": "신중한 방문자 관리:",
-                "point1Desc": "게임 중 일부 <a href=\"/visitors\">방문자</a>를 들일 수 있지만, 5일차 종료 전에 제거. 인간만 남기도록 집중.",
-                "point2Title": "전략적 제거:",
-                "point2Desc": "손님이 <a href=\"/visitors\">방문자</a>임이 확인되면 즉시 제거. 하루에 2명 이상 제거하지 않도록 주의하여 학살 엔딩 방지."
+            "choiceBasedEndings": {
+                "title": "선택 기반 엔딩",
+                "point1Title": "손님 관리:",
+                "point1Desc": "특정 날 집의 구성에 따라 여러 엔딩이 결정. 누구를 들이고 상태 확인 - 식별은 <a href=\"/visitors\">방문자 데이터베이스</a> 참고.",
+                "point2Title": "대화 선택:",
+                "point2Desc": "FEMA 에이전트, 자경단, 침입자 등 캐릭터와의 대화 응답이 엔딩에 직접 영향. 선택 전 결과 고려.",
+                "point3Title": "행동 트리거:",
+                "point3Desc": "일부 엔딩은 플레이 스타일 기반 - 과도한 폭력, 일수 빨리 진행, 특정 특성 보여주기 등."
             },
-            "endingsToAvoid": {
-                "title": "피해야 할 엔딩 (의도적이 아닌 경우)",
-                "badEnding": "나쁜 엔딩",
-                "badEndingDesc": "5일차에 총 손님 3명 이상 방지. <a href=\"/guides\">손님 관리</a> 전략 학습.",
-                "massacreEnding": "학살 엔딩",
-                "massacreEndingDesc": "하루에 2명 이상 살해 금지. <a href=\"/guides\">제거 전략</a> 참고.",
-                "intruderEnding": "침입자 엔딩",
-                "intruderEndingDesc": "4일차 침입자 이벤트 대비 최소 한 명의 손님 유지."
+            "timingTips": {
+                "title": "중요 타이밍 참고",
+                "point1Title": "날짜별 조건:",
+                "point1Desc": "여러 엔딩은 특정 날(13일, 14일) 또는 특정 밤(4일, 5일, 9일, 10일, 12일) 집 상태에 따라 결정. 계획적으로 진행.",
+                "point2Title": "다중 플레이:",
+                "point2Desc": "한 번의 플레이로 모든 엔딩 달성 불가. 각 게임은 1~2개의 엔딩 조건에 집중.",
+                "point3Title": "저장 관리:",
+                "point3Desc": "게임에 저장 제한이 있을 수 있지만, 엔딩 트리거를 이해하면 컬렉션 완료를 위한 경로 계획 가능."
             }
         },
         "tips": {
-            "title": "엔딩 잠금 해제 팁",
-            "subtitle": "우리의 종합적인 \"No I'm Not a Human 엔딩\"으로 생존 기술 마스터. 먼저 <a href=\"/guides\">초보자 가이드</a> 참고.",
+            "title": "엔딩 해제 팁",
+            "subtitle": "포괄적인 \"나는 인간이 아니다 엔딩\"으로 생존 기술 마스터. 게임 초보자는 <a href=\"/\">게임 개요</a>와 <a href=\"/guides\">초보자 가이드</a>부터 시작.",
             "generalAdvice": {
                 "title": "일반 조언",
-                "tip1": "각 방문자의 특징과 행동을 주의 깊게 관찰",
-                "tip2": "중요한 대화와 단서 기록",
-                "tip3": "성급하게 선택하지 말고 신중하게 판단",
-                "tip4": "진행 상황 기록기를 사용하여 잠금 해제된 엔딩 기록"
+                "tip1": "각 방문자의 특성과 행동을 주의 깊게 관찰",
+                "tip2": "중요 대화와 단서 기록",
+                "tip3": "선택을 서두르지 않고 신중히 결정",
+                "tip4": "진행 추적기를 사용하여 달성한 엔딩 기록"
             },
             "unlockStrategy": {
-                "title": "잠금 해제 전략",
-                "tip1": "먼저 쉬운 엔딩을 시도하여 게임 메커니즘 익히기",
+                "title": "해제 전략",
+                "tip1": "게임 메커니즘 익히기 위해 쉬운 엔딩 먼저 시도",
                 "tip2": "다양한 선택 조합으로 여러 번 플레이",
-                "tip3": "숨겨진 인터랙티브 요소와 이스터 에그 주의",
-                "tip4": "주요 선택 포인트 이해를 위해 야간 가이드 참고"
+                "tip3": "숨겨진 상호작용 요소와 이스터 에그 주목",
+                "tip4": "주요 선택 지점을 이해하려면 밤 가이드 참고"
             }
         }
     },

@@ -27,6 +27,9 @@
                             <a href="/visitors" class="nav-link">{{ $t('nav.visitors') }}</a>
                         </li>
                         <li class="nav-item">
+                            <a href="/blog" class="nav-link">{{ $t('nav.blog') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/download" class="nav-link">{{ $t('nav.download') }}</a>
                         </li>
                     </ul>
@@ -52,7 +55,8 @@
 
                 <!-- 汉堡菜单按钮 -->
                 <button class="mobile-menu-btn" @click="toggleMobileMenu" :class="{ active: isMobileMenuOpen }"
-                    :aria-label="isMobileMenuOpen ? $t('nav.closeMenu') : $t('nav.openMenu')" :aria-expanded="isMobileMenuOpen">
+                    :aria-label="isMobileMenuOpen ? $t('nav.closeMenu') : $t('nav.openMenu')"
+                    :aria-expanded="isMobileMenuOpen">
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
@@ -76,6 +80,9 @@
                         </li>
                         <li class="nav-item">
                             <a href="/visitors" class="nav-link" @click="closeMobileMenu">{{ $t('nav.visitors') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/blog" class="nav-link" @click="closeMobileMenu">{{ $t('nav.blog') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="/download" class="nav-link" @click="closeMobileMenu">{{ $t('nav.download') }}</a>
@@ -607,6 +614,7 @@ const switchLanguage = (lang) => {
 }
 
 @media (max-width: 768px) {
+
     /* 隐藏桌面端语言切换器 */
     .language-switcher {
         display: none;

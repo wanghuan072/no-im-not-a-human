@@ -405,142 +405,244 @@
             }
         }
     },
+    "BlogPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">Blog - Não, Eu Não Sou Humano</span>",
+                "description": "Leia os últimos guias, dicas e insights sobre Não, Eu Não Sou Humano. Mantenha-se atualizado com estratégias de especialistas e análises do jogo."
+            },
+            "loading": "Carregando postagens do blog...",
+            "error": {
+                "title": "Falha ao Carregar Postagens do Blog",
+                "description": "Não conseguimos carregar as postagens do blog. Por favor, tente novamente mais tarde.",
+                "retry": "Tentar Novamente"
+            },
+            "empty": {
+                "title": "Nenhuma Postagem Disponível",
+                "description": "Atualmente não há postagens de blog disponíveis. Verifique novamente mais tarde para novos conteúdos."
+            },
+            "pagination": {
+                "previous": "Anterior",
+                "next": "Próximo",
+                "page": "Página {current} de {total}"
+            }
+        },
+        "detail": {
+            "loading": "Carregando postagem do blog...",
+            "error": {
+                "title": "Postagem do Blog Não Encontrada",
+                "description": "A postagem do blog que você procura não existe ou foi movida.",
+                "backToBlog": "Voltar ao Blog"
+            },
+            "breadcrumb": {
+                "home": "Início",
+                "blog": "Blog"
+            },
+            "share": {
+                "title": "Compartilhar este artigo",
+                "copyLink": "Copiar Link"
+            },
+            "related": {
+                "title": "Artigos Relacionados"
+            }
+        }
+    },
     "EndingsPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human Finais</span>",
-            "description": "Descubra todos os finais possíveis nesta experiência de horror psicológico. Nosso abrangente <span class=\"highlight-text\">\"No I'm Not a Human Finais\"</span> revela todos os caminhos, condições e consequências neste pesadelo apocalíptico. Para guias completos do jogo, visite nossa <a href=\"/guides\">seção de estratégias</a> ou explore nossos <a href=\"/\">recursos do jogo</a>.",
+            "title": "<span class=\"highlight\">Finais de Não, Eu Não Sou Humano</span>",
+            "description": "Descubra todos os finais possíveis na experiência de terror psicológico. Vários finais aguardam com base em suas escolhas ao longo do jogo. Em <strong>Não, Eu Não Sou Humano</strong>, os finais geralmente são alcançados após cumprir requisitos específicos, embora alguns possam ocorrer mais cedo. Nosso guia abrangente <span class=\"highlight-text\">\"Finais de Não, Eu Não Sou Humano\"</span> cobre os diálogos dos finais e explica como alcançá-los. Para guias completos do jogo, visite nossa <a href=\"/guides\">seção de estratégias</a>, conheça o <a href=\"/wiki\">mundo e a história do jogo</a> ou explore nossos <a href=\"/\">recursos do jogo</a>.",
             "stats": {
-                "total": "6",
-                "totalLabel": "Finais Totais",
-                "easy": "2",
-                "easyLabel": "Finais Fáceis",
-                "medium": "2",
-                "mediumLabel": "Finais Médios",
-                "hard": "2",
-                "hardLabel": "Finais Difíceis"
+                "total": "10",
+                "totalLabel": "Finais Totais"
             }
         },
         "mainEndings": {
             "title": "Todos os Finais do Jogo",
-            "subtitle": "Explore todos os desfechos possíveis em sua jornada de sobrevivência com nosso \"No I'm Not a Human Finais\". Aprenda sobre <a href=\"/visitors\">identificação de visitantes</a> e <a href=\"/guides\">estratégias de sobrevivência</a>.",
-            "bestEnding": {
-                "title": "Melhor Final",
-                "subtitle": "A Conquista Suprema",
-                "difficulty": "Fácil",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Permitir apenas que convidados humanos confirmados entrem em sua casa - consulte nosso <a href=\"/visitors\">banco de dados de visitantes</a>",
-                "condition2": "Certifique-se de que nenhum <a href=\"/visitors\">Visitante</a> seja admitido",
-                "condition3": "Mantenha esse registro perfeito durante todos os 5 dias",
-                "condition4": "Chegue ao final do Dia 5 com apenas humanos presentes",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Em um mundo onde a superfície não é mais segura, você criou o santuário perfeito. Fecha todas as janelas e portas, consultando seus convidados humanos para nunca mais sair de casa. Enquanto reza para que este pesadelo termine, a esperança ainda existe... pelo menos por enquanto... Felizmente, você teve um olhar atento para os convidados. Nenhum Visitante cruzou o limiar do que antes era chamado de lar doce lar. Pelo menos há uma gota de mel no barril de piche atual de eventos."
+            "subtitle": "Explore todos os desfechos possíveis em sua jornada de sobrevivência com nossos \"Finais de Não, Eu Não Sou Humano\". Os finais estão listados na ordem em que aparecem na seção Coleção do jogo. Aprenda sobre <a href=\"/visitors\">identificação de visitantes</a> e <a href=\"/guides\">estratégias de sobrevivência</a>.",
+            "ending1": {
+                "title": "Final 1: A Criança da Perdição",
+                "subtitle": "Um Renascimento Sombrio",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Permitir que a <a href=\"/visitors\">Mulher Sedutora</a> entre em sua casa",
+                "condition2": "Sempre escolha as opções de diálogo mais gentis e não confrontacionais ao interagir com ela",
+                "condition3": "No quarto dia após sua chegada, ela encontrará uma morte inevitável",
+                "condition4": "Interaja com as cortinas do quarto e explore a casa para localizar o Feto",
+                "condition5": "Na noite seguinte, observe a criança bebendo leite de cachorro",
+                "condition6": "Olhe pelo olho mágico para acionar a cena final",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Um tiro ecoou pelo leite da névoa, e acima da multidão ergueram-se asas que cheiravam a cinzas.",
+                "note": "Um <a href=\"/blog/ending-1-child-of-doom\">guia mais detalhado</a> está disponível para este final complexo. O Feto pode ser encontrado em dois locais diferentes dentro da casa."
             },
-            "goodEnding": {
-                "title": "Bom Final",
-                "subtitle": "Sobrevivência Esperançosa",
-                "difficulty": "Fácil",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Finalize o Dia 5 com apenas convidados humanos em sua casa - aprenda <a href=\"/guides\">técnicas de sobrevivência</a>",
-                "condition2": "Você pode ter admitido alguns <a href=\"/visitors\">Visitantes</a>, mas eliminou-os",
-                "condition3": "Pelo menos um convidado humano deve permanecer",
-                "condition4": "Nenhum Visitante ativo presente no final",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Viver na superfície da Terra não é mais seguro. Você fecha todas as janelas e bloqueia as portas. Após consultar seus convidados, decide nunca mais entrar no mundo exterior. Reza desesperadamente para que um dia tudo isso termine. Se este pesadelo realmente acabar. Mas a esperança ainda existe... pelo menos por enquanto..."
+            "ending2": {
+                "title": "Final 2: O Fim?",
+                "subtitle": "Queda no Silêncio",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "No 13º dia do mês, antes de fechar as janelas no 14º dia",
+                "condition2": "Certifique-se de que apenas humanos (além da Caixa) permaneçam dentro da casa",
+                "condition3": "Alternativamente, se você estiver completamente sozinho, o mesmo final ocorrerá",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "O porão tornou-se um universo - janelas fechadas com tijolos, vozes se misturaram ao tic-tac do relógio. O sol se põe... mas o tormento não termina tão suavemente."
             },
-            "badEnding": {
-                "title": "Mau Final",
-                "subtitle": "Sobrecarregado pelo Número",
-                "difficulty": "Médio",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Ter 3 ou mais convidados em sua casa ao final do Dia 5 - entenda <a href=\"/guides\">gestão de convidados</a>",
-                "condition2": "Inclui qualquer combinação de humanos e Visitantes",
-                "condition3": "Muitas pessoas criam caos e perigo",
-                "condition4": "Seu abrigo fica comprometido",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Viver na superfície da Terra não é mais seguro. Após consultar seus convidados, decide nunca mais entrar no mundo exterior. Reza desesperadamente para que um dia tudo isso termine. Se este pesadelo realmente acabar. Ou talvez seja apenas um sonho relativamente otimista que você está tendo. Na verdade, seu corpo foi desmembrado pelos visitantes."
+            "ending3": {
+                "title": "Final 3: Não, Eu Não Estou Sozinho",
+                "subtitle": "Preso com Monstros",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "No 13º dia do mês, antes de fechar as janelas no 14º dia",
+                "condition2": "Mantenha pelo menos um <a href=\"/visitors\">Visitante</a> dentro da casa",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Os Visitantes estiveram aqui o tempo todo - uma respiração quente no escuro, um sussurro cruel atrás de você. Você nunca verá a luz novamente, se ela algum dia retornar."
             },
-            "massacreEnding": {
-                "title": "Final Massacre",
-                "subtitle": "Violência gera Violência",
-                "difficulty": "Médio",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Atire e mate 2 ou mais convidados em um único dia",
-                "condition2": "Isso pode incluir tanto humanos quanto Visitantes",
-                "condition3": "Violência excessiva desencadeia consequência imediata",
-                "condition4": "A casa considera você muito perigoso",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Você fez muito por aqueles que permitiu entrar. Mas sangue demais foi derramado. Você é perigoso demais para esta casa e deve partir. Foi expulso de sua própria casa por pessoas que temem você. Você não sobreviveu um dia, queimado pelo sol escaldante lá fora."
+            "ending4": {
+                "title": "Final 4: Que a Morte Nos Limpe de Nossos Pecados!",
+                "subtitle": "Juntando-se ao Culto",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Mantenha todos os <a href=\"/visitors\">Servos do Culto da Morte</a> dentro da casa até que o Líder do Culto da Morte faça sua segunda visita",
+                "condition2": "Durante esse tempo, não os mate pessoalmente",
+                "condition3": "Não permita que sejam mortos por <a href=\"/visitors\">Visitantes</a> durante a noite",
+                "condition4": "Não deixe que sejam levados pelo FEMA",
+                "condition5": "Se essas condições forem cumpridas, o Líder do Culto da Morte oferecerá a chance de se juntar a eles",
+                "condition6": "Aceite a oferta para se tornar um dos adoradores da morte e acionar o final",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Eles rezaram pelo silêncio final. Talvez sua súplica tenha sido finalmente ouvida - está silencioso lá fora."
             },
-            "intruderEnding": {
-                "title": "Final do Intruso",
-                "subtitle": "Sozinho na Escuridão",
-                "difficulty": "Difícil",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Esteja sozinho em sua casa quando o Intruso chegar - evite isso com nosso <a href=\"/guides\">guia da Noite 4</a>",
-                "condition2": "O visitante sem camisa aparece e pergunta se você está sozinho",
-                "condition3": "Não tenha convidados presentes para mentir sobre",
-                "condition4": "Resulta em game over imediato",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Ninguém sabe o que aconteceu quando o último visitante chegou. A casa permaneceu desabitada por muito tempo. Após seu desaparecimento terrível, todos evitaram esta casa abandonada."
+            "ending5": {
+                "title": "Final 5: Bem-vindo ao FEMA",
+                "subtitle": "Serviço Governamental",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Ligue para o FEMA 3 vezes durante a partida, começando quando o número do FEMA for exibido na televisão",
+                "condition2": "Após receber os avisos do FEMA, entregue 3 deles a qualquer um dos Visitantes",
+                "condition3": "Sempre escolha as opções mais cooperativas ao falar com o Agente do FEMA",
+                "condition4": "Pergunte se deve arrumar as malas quando abordado pela primeira vez e peça sobre traje de proteção quando houver opção",
+                "condition5": "Não questione seus motivos ou intenções",
+                "condition6": "Eventualmente, você acordará à noite, incapaz de verificar as janelas",
+                "condition7": "Olhe pelo olho mágico - o agente dirá que você mostrou iniciativa e oferecerá um emprego no FEMA",
+                "condition8": "Aceite a oferta para acionar a cena final",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Eles o levaram sob sirenes, deixando todas as suas memórias para trás. Se ao menos você pudesse voltar, só para pegar o pôster com você."
             },
-            "speedrunEnding": {
-                "title": "Final Speedrun",
-                "subtitle": "Vida Vivida Rápido Demais",
-                "difficulty": "Difícil",
-                "conditionsTitle": "Condições para Atingir:",
-                "condition1": "Converse rapidamente com os convidados na porta sem investigar",
-                "condition2": "Acelere até o Dia 5 o mais rápido possível",
-                "condition3": "Evite conversas, beba cerveja para consumir energia, durma imediatamente",
-                "condition4": "Certifique-se de não estar sozinho (tenha pelo menos um convidado)",
-                "descriptionTitle": "Descrição do Final:",
-                "description": "Viver na superfície da Terra não é mais seguro. Você fecha todas as janelas e bloqueia as portas. Após consultar seus convidados, decide nunca mais entrar no mundo exterior. No entanto, eles começam a olhar para você de forma estranha. Você viveu rápido demais, tentando passar por este pesadelo o mais rápido possível. Constantemente correndo, abstraindo-se dos horrores do mundo exterior, valeu a pena? Talvez. O mais importante é não esquecer de viver, encontrar beleza na vida e aproveitá-la."
+            "ending6": {
+                "title": "Final 6: Sim, Estou Sozinho",
+                "subtitle": "Honestidade Fatal",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Deixe o Intruso entrar dizendo que você está sozinho",
+                "condition2": "Alternativamente, não tenha ninguém na casa quando ele bater à porta",
+                "condition3": "Ou tenha dois ou mais <a href=\"/visitors\">Visitantes</a> ou nenhum humano na casa após o 9º dia quando ele bater",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "No momento em que sua sombra cruzou o limiar, a casa ficou em silêncio. Agora, tudo o que resta de você são os sussurros.",
+                "note": "Este final é um dos primeiros mais comuns que os jogadores encontram. Sempre mantenha pelo menos um convidado humano para evitá-lo."
+            },
+            "ending7": {
+                "title": "Final 7: Sim, Sou um Assassino",
+                "subtitle": "Consumido pela Paranoia",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Mate um grande número de humanos atirando neles com a arma",
+                "condition2": "A maneira mais fácil é eliminar um grupo de cultistas",
+                "condition3": "Depois que o suficiente for eliminado, o <a href=\"/visitors\">Homem Profético</a> aparecerá em sua porta",
+                "condition4": "Ele anunciará que seu destino é inevitável",
+                "condition5": "Após sua visita, a cena final será acionada",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Todos que você encontrou pareciam inimigos. O medo cegou você, e os outros apenas terminaram o que você já havia começado."
+            },
+            "ending8": {
+                "title": "Final 8: Cogumelo ou Perdição",
+                "subtitle": "Viagem à Terra dos Cogumelos",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "A <a href=\"/visitors\">Senhora Gata</a> deve ser permitida na casa na 4ª Noite - isso desbloqueia acesso ao porão",
+                "condition2": "O <a href=\"/visitors\">Comedor de Cogumelos</a> fará sua primeira visita, dando uma página do Livro dos Sorrisos com pistas",
+                "condition3": "Escolha o cogumelo que cresce no porão",
+                "condition4": "Coloque o cogumelo na geladeira e coma-o",
+                "condition5": "No dia seguinte, uma maçã aparecerá na prateleira da sala, próximo ao seu brinquedo de infância Toto",
+                "condition6": "Interaja com a maçã para comê-la automaticamente",
+                "condition7": "No terceiro dia, um relógio aparecerá acima da cama no quarto",
+                "condition8": "Clique no relógio para ajustar a hora para meia-noite",
+                "condition9": "O Comedor de Cogumelos retornará para confirmar que você está no caminho certo",
+                "condition10": "Na visita seguinte, ele o convidará a acompanhá-lo em uma viagem à Terra dos Cogumelos",
+                "condition11": "Aceite a oferta para acionar a cena final",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Cogumelos surgiram do solo, construindo novas cidades estrangeiras. Você se apressou, mas as portas para o mundo deles já estavam fechadas.",
+                "note": "Este é um dos finais mais complexos com múltiplas etapas. Acompanhe cuidadosamente cada requisito."
+            },
+            "ending9": {
+                "title": "Final 9: Abrace o Inevitável",
+                "subtitle": "Além do Abismo",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Complete todas as missões do <a href=\"/visitors\">Homem Profético</a> ao longo do jogo",
+                "condition2": "Após permitir a entrada da Senhora Gata e seu gato, ele retorna na 5ª noite",
+                "condition3": "Ele instrui para não testar ninguém por dois dias",
+                "condition4": "Abstenha-se de se verificar e verificar outros nos dias 6 e 7",
+                "condition5": "Ele reaparecerá e instruirá a cavar no porão",
+                "condition6": "Cave três vezes (em três dias diferentes ou de uma vez usando itens de energia)",
+                "condition7": "Uma entrada secreta para um túnel sob a casa será revelada",
+                "condition8": "Dentro, um Mineiro o advertirá sobre um buraco",
+                "condition9": "O Homem Profético reaparecerá, incentivando você a pular no buraco",
+                "condition10": "No dia seguinte à sua terceira visita, um novo caminho do túnel se abre até o buraco",
+                "condition11": "Pule no buraco para acionar a cutscene final interativa",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Um passo pesado através da linha, e tudo que você temia perde seu peso. O tempo desapareceu, deixando apenas uma frieza que parece conforto.",
+                "note": "Este final exige atenção cuidadosa às instruções do Homem Profético e vários dias de compromisso."
+            },
+            "ending10": {
+                "title": "Final 10: Fúria do Vigilante",
+                "subtitle": "Inspeção Falha",
+                "conditionsTitle": "Requisitos para Alcançar:",
+                "condition1": "Quando o Vigilante passar pela sua casa pela segunda vez, ele exigirá verificar sinais de afiliação de <a href=\"/visitors\">Visitantes</a>",
+                "condition2": "Para desbloquear este final, você deve falhar em um dos testes dele durante a 10ª ou 12ª noite",
+                "condition3": "Você deve selecionar qual parte do corpo mostrar: dentes, mãos, olhos, axilas ou ouvidos",
+                "condition4": "Alternativamente, você pode mostrar uma foto de auracâmera",
+                "condition5": "Escolher a opção errada fará o Vigilante apontar sua arma para você",
+                "condition6": "Isso aciona imediatamente a cutscene do final",
+                "descriptionTitle": "Diálogo do Final:",
+                "description": "Um teste terminou, apenas para outro começar. Agora, aos olhos da multidão, você é aquele a temer.",
+                "note": "Consulte o guia detalhado para informações específicas sobre como falhar intencionalmente no teste."
             }
         },
         "strategyGuide": {
-            "title": "Como Atingir Cada Final",
-            "subtitle": "Estratégias detalhadas e dicas para desbloquear todos os finais com nosso \"No I'm Not a Human Finais\". Domine o <a href=\"/guides\">jogo principal</a> primeiro.",
-            "bestEndingStrategy": {
-                "title": "Como Atingir o Melhor Final",
-                "point1Title": "Seleção Perfeita de Convidados:",
-                "point1Desc": "Admitir apenas os personagens 'Sempre Humanos': Homem Alto, Filha do Vizinho, Homem Queimado e Viúva em Luto. Consulte nosso <a href=\"/visitors\">banco de dados de visitantes</a> para personagens seguros.",
-                "point2Title": "Investigação Minuciosa:",
-                "point2Desc": "Sempre verifique os quatro traços de Visitante antes de admitir convidados desconhecidos. Use energia com sabedoria para investigar a fundo.",
-                "point3Title": "Política de Tolerância Zero:",
-                "point3Desc": "Se encontrar mesmo um traço confirmado de Visitante, recuse a entrada imediatamente. Melhor prevenir do que remediar para o Melhor Final."
+            "title": "Guia Geral de Estratégia de Finais",
+            "subtitle": "Entendendo como desbloquear diferentes finais em \"Não, Eu Não Sou Humano\". Cada final tem requisitos únicos. Domine o <a href=\"/guides\">jogo básico</a> primeiro.",
+            "questBasedEndings": {
+                "title": "Finais Baseados em Missões",
+                "point1Title": "Siga Personagens Especiais:",
+                "point1Desc": "Alguns finais exigem completar linhas de missão com personagens específicos como Homem Profético, Comedor de Cogumelos ou Líder do Culto da Morte. Preste atenção nos diálogos e pedidos deles. Saiba mais sobre esses personagens em nosso <a href=\"/visitors\">banco de visitantes</a>.",
+                "point2Title": "Processos em Múltiplas Etapas:",
+                "point2Desc": "Finais complexos como 'Cogumelo ou Perdição' e 'Abrace o Inevitável' exigem completar múltiplas etapas ao longo de vários dias. Anote seu progresso.",
+                "point3Title": "Interações com Itens:",
+                "point3Desc": "Certos finais envolvem interagir com itens ou locais específicos da casa (porão, quarto, cortinas, etc.). Explore minuciosamente quando solicitado."
             },
-            "goodEndingStrategy": {
-                "title": "Estratégia para o Bom Final",
-                "point1Title": "Gestão Cuidadosa de Visitantes:",
-                "point1Desc": "Você pode admitir alguns <a href=\"/visitors\">Visitantes</a> durante o jogo, mas elimine-os antes do final do Dia 5. Foque em terminar apenas com humanos.",
-                "point2Title": "Eliminações Estratégicas:",
-                "point2Desc": "Quando confirmar que um convidado é um <a href=\"/visitors\">Visitante</a>, elimine-o imediatamente, mas evite matar mais de um por dia para prevenir o Final Massacre."
+            "choiceBasedEndings": {
+                "title": "Finais Baseados em Escolhas",
+                "point1Title": "Gestão de Convidados:",
+                "point1Desc": "A composição da sua casa em dias específicos determina vários finais. Acompanhe quem você permite entrar e seu status - consulte nosso <a href=\"/visitors\">banco de visitantes</a> para identificação.",
+                "point2Title": "Opções de Diálogo:",
+                "point2Desc": "Suas respostas a personagens como agentes do FEMA, Vigilante e Intruso impactam diretamente quais finais você pode alcançar. Considere as consequências antes de responder.",
+                "point3Title": "Gatilhos Comportamentais:",
+                "point3Desc": "Alguns finais são acionados com base no seu estilo de jogo - ser excessivamente violento, correr pelos dias ou mostrar características específicas para inspetores."
             },
-            "endingsToAvoid": {
-                "title": "Finais a Evitar (a menos que seja intencional)",
-                "badEnding": "Mau Final",
-                "badEndingDesc": "Evite ter 3+ convidados no Dia 5. Aprenda estratégias de <a href=\"/guides\">gestão de convidados</a>.",
-                "massacreEnding": "Final Massacre",
-                "massacreEndingDesc": "Nunca mate 2+ convidados em um dia. Siga nossas estratégias de <a href=\"/guides\">eliminação</a>.",
-                "intruderEnding": "Final do Intruso",
-                "intruderEndingDesc": "Sempre mantenha pelo menos um convidado para o encontro com o Intruso na Noite 4."
+            "timingTips": {
+                "title": "Notas Importantes de Timing",
+                "point1Title": "Requisitos Específicos de Dia:",
+                "point1Desc": "Vários finais dependem do estado da sua casa em dias específicos (13º, 14º) ou após noites específicas (4ª, 5ª, 9ª, 10ª, 12ª). Planeje-se.",
+                "point2Title": "Múltiplas Jogadas:",
+                "point2Desc": "Você não pode alcançar todos os finais em uma única jogada. Cada partida deve se concentrar nos requisitos de 1-2 finais específicos.",
+                "point3Title": "Gestão de Saves:",
+                "point3Desc": "Embora o jogo possa ter saves limitados, entender os gatilhos de finais ajuda a planejar rotas de forma eficiente para completar a coleção."
             }
         },
         "tips": {
             "title": "Dicas para Desbloquear Finais",
-            "subtitle": "Domine a arte da sobrevivência com nosso abrangente \"No I'm Not a Human Finais\". Comece com nosso <a href=\"/guides\">guia para iniciantes</a>.",
+            "subtitle": "Domine a arte da sobrevivência com nossos abrangentes \"Finais de Não, Eu Não Sou Humano\". Se você é novo no jogo, comece com nossa <a href=\"/\">visão geral do jogo</a> e <a href=\"/guides\">guia para iniciantes</a>.",
             "generalAdvice": {
                 "title": "Conselhos Gerais",
                 "tip1": "Observe cuidadosamente as características e comportamentos de cada visitante",
                 "tip2": "Registre diálogos e pistas importantes",
-                "tip3": "Não tome decisões precipitadas, pense com cuidado",
-                "tip4": "Use o rastreador de progresso para registrar os finais desbloqueados"
+                "tip3": "Não tenha pressa ao tomar decisões, pense cuidadosamente",
+                "tip4": "Use o rastreador de progresso para registrar finais desbloqueados"
             },
             "unlockStrategy": {
                 "title": "Estratégia de Desbloqueio",
-                "tip1": "Tente primeiro os finais fáceis para se familiarizar com a mecânica do jogo",
+                "tip1": "Tente primeiros os finais fáceis para se familiarizar com a mecânica do jogo",
                 "tip2": "Jogue várias vezes tentando combinações diferentes de escolhas",
-                "tip3": "Preste atenção a elementos interativos ocultos e easter eggs",
-                "tip4": "Consulte os guias noturnos para entender os pontos-chave de escolha"
+                "tip3": "Preste atenção a elementos interativos escondidos e easter eggs",
+                "tip4": "Consulte guias noturnos para entender pontos-chave de escolha"
             }
         }
     },

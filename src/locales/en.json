@@ -54,6 +54,11 @@
       "title": "Copyright Statement - No I'm Not a Human Guide",
       "description": "Copyright and intellectual property information for No I'm Not a Human Guide. Learn about content ownership, fair use policy, and usage guidelines.",
       "keywords": "copyright, intellectual property, fair use, DMCA, content rights"
+    },
+    "blog-list": {
+      "title": "Blog - No I'm Not a Human Guides & Tips | iamnotahuman.org",
+      "description": "Read the latest blog posts about No I'm Not a Human. Get expert guides, tips, strategies, and insights to master the psychological horror experience.",
+      "keywords": "No I'm not a Human blog, game guides, horror game tips, strategy guides, iamnotahuman.org"
     }
   },
   "nav": {
@@ -63,6 +68,7 @@
     "wiki": "Wiki",
     "visitors": "Visitors",
     "download": "Download",
+    "blog": "Blog",
     "openMenu": "Open Menu",
     "closeMenu": "Close Menu"
   },
@@ -405,129 +411,231 @@
       }
     }
   },
+  "BlogPage": {
+    "list": {
+      "hero": {
+        "title": "<span class=\"highlight\">Blog - No I'm Not a Human</span>",
+        "description": "Read the latest guides, tips, and insights about No I'm Not a Human. Stay updated with expert strategies and game analysis."
+      },
+      "loading": "Loading blog posts...",
+      "error": {
+        "title": "Failed to Load Blog Posts",
+        "description": "We couldn't load the blog posts. Please try again later.",
+        "retry": "Try Again"
+      },
+      "empty": {
+        "title": "No Blog Posts Available",
+        "description": "There are currently no blog posts available. Check back later for new content."
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page {current} of {total}"
+      }
+    },
+    "detail": {
+      "loading": "Loading blog post...",
+      "error": {
+        "title": "Blog Post Not Found",
+        "description": "The blog post you're looking for doesn't exist or has been moved.",
+        "backToBlog": "Back to Blog"
+      },
+      "breadcrumb": {
+        "home": "Home",
+        "blog": "Blog"
+      },
+      "share": {
+        "title": "Share this article",
+        "copyLink": "Copy Link"
+      },
+      "related": {
+        "title": "Related Articles"
+      }
+    }
+  },
   "EndingsPage": {
     "hero": {
       "title": "<span class=\"highlight\">No I'm Not a Human Endings</span>",
-      "description": "Discover all possible endings in the psychological horror experience. Our comprehensive <span class=\"highlight-text\">\"No I'm Not a Human Endings\"</span> reveals every path, condition, and consequence in this apocalyptic nightmare. For complete game guides, visit our <a href=\"/guides\">strategy section</a> or explore our <a href=\"/\">game features</a>.",
+      "description": "Discover all possible endings in the psychological horror experience. Multiple endings await based on your choices throughout the game. In <strong>No, I'm not a Human</strong>, endings are typically reached after completing specific requirements, though some can occur earlier. Our comprehensive <span class=\"highlight-text\">\"No I'm Not a Human Endings\"</span> guide covers the ending dialogue and explains how to achieve them. For complete game guides, visit our <a href=\"/guides\">strategy section</a>, learn about the <a href=\"/wiki\">game's world and story</a>, or explore our <a href=\"/\">game features</a>.",
       "stats": {
-        "total": "6",
-        "totalLabel": "Total Endings",
-        "easy": "2",
-        "easyLabel": "Easy Endings",
-        "medium": "2",
-        "mediumLabel": "Medium Endings",
-        "hard": "2",
-        "hardLabel": "Hard Endings"
+        "total": "10",
+        "totalLabel": "Total Endings"
       }
     },
     "mainEndings": {
       "title": "All Game Endings",
-      "subtitle": "Explore every possible outcome in your survival journey with our \"No I'm Not a Human Endings\". Learn about <a href=\"/visitors\">visitor identification</a> and <a href=\"/guides\">survival strategies</a>.",
-      "bestEnding": {
-        "title": "Best Ending",
-        "subtitle": "The Ultimate Achievement",
-        "difficulty": "Easy",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "Only allow confirmed human guests into your house - check our <a href=\"/visitors\">visitor database</a>",
-        "condition2": "Ensure no <a href=\"/visitors\">Visitors</a> are ever admitted",
-        "condition3": "Maintain this perfect record through all 5 days",
-        "condition4": "Reach Day 5 ending with only humans present",
-        "descriptionTitle": "Ending Description:",
-        "description": "In a world where the surface is no longer safe, you've created the perfect sanctuary. You seal all windows and doors, consulting with your human guests about never venturing outside again. While you pray for this nightmare to end, hope still exists... at least for now... Fortunately, you had a keen eye for guests. Not a single Visitor crossed the threshold of what was once called home sweet home. At least there's a drop of honey in the current tar barrel of events."
+      "subtitle": "Explore every possible outcome in your survival journey with our \"No I'm Not a Human Endings\". The endings are listed in the order they appear in the game's Collection section. Learn about <a href=\"/visitors\">visitor identification</a> and <a href=\"/guides\">survival strategies</a>.",
+      "ending1": {
+        "title": "Ending 1: The Child of Doom",
+        "subtitle": "A Dark Rebirth",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Allow the <a href=\"/visitors\">Seductive Woman</a> to enter your house",
+        "condition2": "Always choose the kindest and most non-confrontational dialogue options when interacting with her",
+        "condition3": "On the fourth day after her arrival, she will meet an inevitable death",
+        "condition4": "Interact with the curtains in the bedroom and search the house to locate the Fetus",
+        "condition5": "The following night, observe the child drinking a dog's milk",
+        "condition6": "Look through the peephole to trigger the ending cutscene",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "A shot thundered through the milk of the fog, and above the crowd rose wings that reeked of ash.",
+        "note": "A more <a href=\"/blog/ending-1-child-of-doom\">detailed guide</a> is available for this complex ending. The Fetus can be found in two different spots inside the house."
       },
-      "goodEnding": {
-        "title": "Good Ending",
-        "subtitle": "Hopeful Survival",
-        "difficulty": "Easy",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "End Day 5 with only human guests in your house - learn <a href=\"/guides\">survival techniques</a>",
-        "condition2": "You may have admitted some <a href=\"/visitors\">Visitors</a> but eliminated them",
-        "condition3": "At least one human guest must remain",
-        "condition4": "No active Visitors present at the end",
-        "descriptionTitle": "Ending Description:",
-        "description": "Living on Earth's surface is no longer safe. You seal all windows and block the doors. After consulting with your guests, you decide never to enter the outside world again. You pray helplessly that one day this will all end. If this nightmare really ends. But hope still exists... at least for now..."
+      "ending2": {
+        "title": "Ending 2: The End?",
+        "subtitle": "Descent into Silence",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "On the 13th day of the month, before boarding up the windows on day 14th",
+        "condition2": "Ensure that only humans (besides Cashier Girl) remain inside the house",
+        "condition3": "Alternatively, if you are completely alone, the same ending will occur",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "The basement became a universe-windows bricked shut, voices merged with the ticking clock. The sun fades...but torment does not end so gently."
       },
-      "badEnding": {
-        "title": "Bad Ending",
-        "subtitle": "Overwhelmed by Numbers",
-        "difficulty": "Medium",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "Have 3 or more guests in your house at the end of Day 5 - understand <a href=\"/guides\">guest management</a>",
-        "condition2": "This includes any combination of humans and Visitors",
-        "condition3": "Too many people creates chaos and danger",
-        "condition4": "Your shelter becomes compromised",
-        "descriptionTitle": "Ending Description:",
-        "description": "Living on Earth's surface is no longer safe. After consulting with your guests, you decide never to enter the outside world again. You pray helplessly that one day this will all end. If this nightmare really ends. Or maybe this is just a relatively optimistic dream you're having. In fact, your body was dismembered by the visitors."
+      "ending3": {
+        "title": "Ending 3: No, I'm Not Alone",
+        "subtitle": "Trapped with Monsters",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "On the 13th day of the month, before boarding up the windows on day 14th",
+        "condition2": "Keep at least one <a href=\"/visitors\">Visitor</a> inside the house",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "The Visitors were here all along-a warm breath in the dark, a cruel whisper at your back. You will never see the light again, should it ever return."
       },
-      "massacreEnding": {
-        "title": "Massacre Ending",
-        "subtitle": "Violence Begets Violence",
-        "difficulty": "Medium",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "Shoot and kill 2 or more guests in a single day",
-        "condition2": "This can include both humans and Visitors",
-        "condition3": "Excessive violence triggers immediate consequence",
-        "condition4": "The house considers you too dangerous",
-        "descriptionTitle": "Ending Description:",
-        "description": "You did a lot for those you allowed in. But too much blood was spilled. You're too dangerous for this house and must leave. You were driven from your own home by people who fear you. You didn't survive a day, burned by the scorching sun outside."
+      "ending4": {
+        "title": "Ending 4: May Death Cleanse us of Our Sins!",
+        "subtitle": "Joining the Cult",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Keep all the <a href=\"/visitors\">Death Cult Peons</a> inside the house until the Death Cult Leader makes their second visit",
+        "condition2": "During this time, do not kill them personally",
+        "condition3": "Do not allow them to be killed by <a href=\"/visitors\">Visitors</a> during the night",
+        "condition4": "Do not let them be taken away by FEMA",
+        "condition5": "If these conditions are fulfilled, the Death Cult Leader will offer you the chance to join their ranks",
+        "condition6": "Accept the offer to become one of the worshippers of death and trigger the ending",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "They prayed for the final silence. Perhaps their plea was finally heard- it's quiet out there."
       },
-      "intruderEnding": {
-        "title": "Intruder Ending",
-        "subtitle": "Alone in the Dark",
-        "difficulty": "Hard",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "Be alone in your house when the Intruder arrives - avoid this with our <a href=\"/guides\">Night 4 guide</a>",
-        "condition2": "The shirtless visitor appears and asks if you're alone",
-        "condition3": "Have no guests present to lie about",
-        "condition4": "Results in immediate game over",
-        "descriptionTitle": "Ending Description:",
-        "description": "No one knows what happened when the last visitor arrived. The house remained uninhabited for a long time. After your terrible disappearance, everyone avoided this abandoned house."
+      "ending5": {
+        "title": "Ending 5: Welcome to FEMA",
+        "subtitle": "Government Service",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Call FEMA 3 times through the run, starting from when the FEMA phone number is displayed on Television",
+        "condition2": "Once you have FEMA notices, hand 3 of them to any of the Guests",
+        "condition3": "Always choose the most compliant options when talking to the FEMA Agent",
+        "condition4": "Ask if you should pack when first approached and ask about getting a hazmat suit when given the option",
+        "condition5": "Do not question their motives or intentions",
+        "condition6": "Eventually, you'll wake up at night, unable to check the windows",
+        "condition7": "Look through the peephole - the agent will say you've shown initiative and offer you a job with FEMA",
+        "condition8": "Accept the offer to trigger the ending cutscene",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "They carried you away under sirens, leaving all your memories behind. If only you could return, just to take the poster with you."
       },
-      "speedrunEnding": {
-        "title": "Speedrun Ending",
-        "subtitle": "Life Lived Too Fast",
-        "difficulty": "Hard",
-        "conditionsTitle": "Conditions to Achieve:",
-        "condition1": "Quickly talk to guests at the door without investigation",
-        "condition2": "Rush to Day 5 as fast as possible",
-        "condition3": "Avoid conversations, drink beer to consume energy, sleep immediately",
-        "condition4": "Ensure you're not alone (have at least one guest)",
-        "descriptionTitle": "Ending Description:",
-        "description": "Living on Earth's surface is no longer safe. You seal all windows and block the doors. After consulting with your guests, you decide never to enter the outside world again. However, they start looking at you strangely. You lived too fast, trying to get through this nightmare as quickly as possible. Constantly rushing, abstracting yourself from the horrors of the outside world, was it worth it? Maybe. Most importantly, don't forget to live, find beauty in life and enjoy it."
+      "ending6": {
+        "title": "Ending 6: Yes, I'm Alone",
+        "subtitle": "Fatal Honesty",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Let the Intruder enter by telling him that you are alone in the house",
+        "condition2": "Alternatively, have no one in your house when he knocks at your door",
+        "condition3": "Or have two or more <a href=\"/visitors\">Visitors</a> or no humans in the house after the 9th day when he knocks",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "The moment his shadow crossed the threshold, the house fell silent. Now all the remains of you are the whispers.",
+        "note": "This ending is one of the most common early endings players encounter. Always keep at least one human guest to avoid it."
+      },
+      "ending7": {
+        "title": "Ending 7: Yes, I'm a Murderer",
+        "subtitle": "Consumed by Paranoia",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Kill a large number of humans by shooting them with the gun",
+        "condition2": "The easiest way is to eliminate a group of cultists",
+        "condition3": "Once enough have been eliminated, <a href=\"/visitors\">Prophetic Man</a> will appear at your door",
+        "condition4": "He will announce that your fate is inevitable",
+        "condition5": "After his visit, the ending cutscene will be triggered",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "Everyone you met seemed an enemy. Fear blinded you, and others merely finished what you had already begun."
+      },
+      "ending8": {
+        "title": "Ending 8: Shroom or Doom",
+        "subtitle": "Journey to Mushroom Land",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "The <a href=\"/visitors\">Cat Lady</a> must be allowed into the house when she knocks on the 4th Night - this unlocks access to the Basement",
+        "condition2": "The <a href=\"/visitors\">Mushroom Eater</a> will pay his first visit, giving you a page from the Book of Smiles with clues",
+        "condition3": "Pick the mushroom that grows in the basement",
+        "condition4": "Place the mushroom in the fridge and eat it",
+        "condition5": "The following day, an apple will appear on the shelf in the Hall room, next to your childhood toy Toto",
+        "condition6": "Interact with the apple to automatically eat it",
+        "condition7": "On the third day, a clock will appear above the bed in the bedroom",
+        "condition8": "Click on the clock to set the time to midnight",
+        "condition9": "The Mushroom Eater will return to confirm you're on the right track",
+        "condition10": "On his following visit, he will invite you to accompany him on a journey to Mushroom Land",
+        "condition11": "Accept his offer to trigger the ending cutscene",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "Mushrooms rose from the soil, building foreign cities anew. You hurried, but the doors to their world were already closed.",
+        "note": "This is one of the most complex endings with multiple steps. Keep track of each requirement carefully."
+      },
+      "ending9": {
+        "title": "Ending 9: Embrace The Inevitable",
+        "subtitle": "Beyond the Abyss",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "Complete all of the <a href=\"/visitors\">Prophetic Man's</a> quests throughout the game",
+        "condition2": "After letting the Cat Lady and her cat in, he returns on the 5th night",
+        "condition3": "He instructs you not to test anyone for two days",
+        "condition4": "Refrain from checking both yourself and others on the 6th and 7th days",
+        "condition5": "He will reappear and instruct you to dig in your basement",
+        "condition6": "Dig three times (either across three different days or at once with energy-restoring items)",
+        "condition7": "A hidden entrance to a tunnel beneath your house will be revealed",
+        "condition8": "Inside, a Miner will warn you away from a hole",
+        "condition9": "The Prophetic Man will soon reappear, urging you to jump in",
+        "condition10": "The day after his third visit, a new tunnel path opens to the hole",
+        "condition11": "Jump into the hole to trigger the final interactable cutscene",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "One heavy step across the line, and everything you feared loses its weight. Time has vanished, leaving only a coldness that feels like comfort.",
+        "note": "This ending requires careful attention to the Prophetic Man's instructions and multiple days of commitment."
+      },
+      "ending10": {
+        "title": "Ending 10: Wrath of the Vigilante",
+        "subtitle": "Failed Inspection",
+        "conditionsTitle": "Requirements to Achieve:",
+        "condition1": "When the Vigilante passes by your house for the second time, he will demand to check for signs of <a href=\"/visitors\">Visitor</a> affiliation",
+        "condition2": "To unlock this ending, you must fail one of his tests during the 10th or 12th night",
+        "condition3": "You must select which part of the body to show him: teeth, hands, eyes, armpits, or ears",
+        "condition4": "Alternatively, you can show an auracamera photo",
+        "condition5": "Choosing the wrong option will cause the Vigilante to point his gun at you",
+        "condition6": "This triggers the ending cutscene immediately",
+        "descriptionTitle": "Ending Dialogue:",
+        "description": "One trial ended, only for another to begin. Now, in the eyes of the crowd, you are the one to be feared.",
+        "note": "Check the detailed guide for specific information on how to intentionally fail his test."
       }
     },
     "strategyGuide": {
-      "title": "How to Achieve Each Ending",
-      "subtitle": "Detailed strategies and tips for unlocking every ending with our \"No I'm Not a Human Endings\". Master the <a href=\"/guides\">core gameplay</a> first.",
-      "bestEndingStrategy": {
-        "title": "Achieving the Best Ending",
-        "point1Title": "Perfect Guest Selection:",
-        "point1Desc": "Only admit the 'Always Human' characters: Tall Man, Neighbor's Daughter, Burned Man, and Mourning Widow. Check our <a href=\"/visitors\">visitor database</a> for safe characters.",
-        "point2Title": "Thorough Investigation:",
-        "point2Desc": "Always check for the four Visitor traits before admitting any unknown guests. Use energy wisely to investigate thoroughly.",
-        "point3Title": "Zero Tolerance Policy:",
-        "point3Desc": "If you find even one confirmed Visitor trait, refuse entry immediately. Better safe than sorry for the Best Ending."
+      "title": "General Ending Strategy Guide",
+      "subtitle": "Understanding how to unlock different endings in \"No I'm Not a Human\". Each ending has unique requirements. Master the <a href=\"/guides\">core gameplay</a> first.",
+      "questBasedEndings": {
+        "title": "Quest-Based Endings",
+        "point1Title": "Follow Special Characters:",
+        "point1Desc": "Some endings require completing quest lines with specific characters like the Prophetic Man, Mushroom Eater, or Death Cult Leader. Pay close attention to their dialogue and requests. Learn more about these characters in our <a href=\"/visitors\">visitor database</a>.",
+        "point2Title": "Multi-Step Processes:",
+        "point2Desc": "Complex endings like 'Shroom or Doom' and 'Embrace The Inevitable' require completing multiple steps across several days. Keep notes of your progress.",
+        "point3Title": "Item Interactions:",
+        "point3Desc": "Certain endings involve interacting with specific items or locations in your house (basement, bedroom, curtains, etc.). Explore thoroughly when prompted."
       },
-      "goodEndingStrategy": {
-        "title": "Good Ending Strategy",
-        "point1Title": "Careful Visitor Management:",
-        "point1Desc": "You can admit some <a href=\"/visitors\">Visitors</a> during the game, but eliminate them before Day 5 ends. Focus on ending with only humans.",
-        "point2Title": "Strategic Eliminations:",
-        "point2Desc": "When you confirm a guest is a <a href=\"/visitors\">Visitor</a>, eliminate them immediately but avoid killing more than one per day to prevent Massacre Ending."
+      "choiceBasedEndings": {
+        "title": "Choice-Based Endings",
+        "point1Title": "Guest Management:",
+        "point1Desc": "The composition of your household on specific days determines several endings. Track who you allow in and their status - check our <a href=\"/visitors\">visitor database</a> for identification.",
+        "point2Title": "Dialogue Options:",
+        "point2Desc": "Your responses to characters like FEMA agents, the Vigilante, and the Intruder directly impact which endings you can achieve. Consider the consequences before answering.",
+        "point3Title": "Behavioral Triggers:",
+        "point3Desc": "Some endings trigger based on your playstyle - being overly violent, rushing through days, or showing specific characteristics to inspectors."
       },
-      "endingsToAvoid": {
-        "title": "Endings to Avoid (Unless Intentional)",
-        "badEnding": "Bad Ending",
-        "badEndingDesc": "Avoid having 3+ total guests on Day 5. Learn <a href=\"/guides\">guest management</a> strategies.",
-        "massacreEnding": "Massacre Ending",
-        "massacreEndingDesc": "Never kill 2+ guests in one day. Follow our <a href=\"/guides\">elimination strategies</a>.",
-        "intruderEnding": "Intruder Ending",
-        "intruderEndingDesc": "Always keep at least one guest for the Night 4 Intruder encounter."
+      "timingTips": {
+        "title": "Important Timing Notes",
+        "point1Title": "Day-Specific Requirements:",
+        "point1Desc": "Several endings depend on your house state on specific days (13th, 14th) or after specific nights (4th, 5th, 9th, 10th, 12th). Plan accordingly.",
+        "point2Title": "Multiple Playthroughs:",
+        "point2Desc": "You cannot achieve all endings in a single playthrough. Each run should focus on requirements for 1-2 specific endings.",
+        "point3Title": "Save Management:",
+        "point3Desc": "While the game may have limited saves, understanding ending triggers helps you plan routes efficiently for collection completion."
       }
     },
     "tips": {
       "title": "Ending Unlock Tips",
-      "subtitle": "Master the art of survival with our comprehensive \"No I'm Not a Human Endings\". Start with our <a href=\"/guides\">beginner guide</a>.",
+      "subtitle": "Master the art of survival with our comprehensive \"No I'm Not a Human Endings\". If you're new to the game, start with our <a href=\"/\">game overview</a> and <a href=\"/guides\">beginner guide</a>.",
       "generalAdvice": {
         "title": "General Advice",
         "tip1": "Carefully observe each visitor's characteristics and behavior",
