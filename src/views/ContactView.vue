@@ -6,7 +6,7 @@
         <section class="section hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title" v-html="$t('ContactPage.hero.title', {}, { raw: true })"></h1>
+                    <h1 class="hero-title" v-html="$t('ContactPage.hero.title')"></h1>
                     <p class="hero-subtitle">{{ $t('ContactPage.hero.subtitle') }}</p>
                 </div>
             </div>
@@ -21,23 +21,23 @@
                         <p>{{ $t('ContactPage.getInTouch.content') }}</p>
 
                         <h2>{{ $t('ContactPage.contactInfo.title') }}</h2>
-                        <p v-html="$t('ContactPage.contactInfo.email', {}, { raw: true })"></p>
+                        <p v-html="$t('ContactPage.contactInfo.email')"></p>
                         <p>{{ $t('ContactPage.contactInfo.response') }}</p>
 
                         <h2>{{ $t('ContactPage.responseTime.title') }}</h2>
                         <ul>
-                            <li v-html="$t('ContactPage.responseTime.weekday', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.responseTime.weekend', {}, { raw: true })"></li>
+                            <li v-html="$t('ContactPage.responseTime.weekday')"></li>
+                            <li v-html="$t('ContactPage.responseTime.weekend')"></li>
                         </ul>
 
                         <h2>{{ $t('ContactPage.whatWeHelp.title') }}</h2>
                         <ul>
-                            <li v-html="$t('ContactPage.whatWeHelp.item1', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.whatWeHelp.item2', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.whatWeHelp.item3', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.whatWeHelp.item4', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.whatWeHelp.item5', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.whatWeHelp.item6', {}, { raw: true })"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item1')"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item2')"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item3')"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item4')"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item5')"></li>
+                            <li v-html="$t('ContactPage.whatWeHelp.item6')"></li>
                         </ul>
 
                         <h2>{{ $t('ContactPage.beforeContact.title') }}</h2>
@@ -51,10 +51,10 @@
 
                         <h2>{{ $t('ContactPage.faq.title') }}</h2>
                         <ul>
-                            <li v-html="$t('ContactPage.faq.q1', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.faq.q2', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.faq.q3', {}, { raw: true })"></li>
-                            <li v-html="$t('ContactPage.faq.q4', {}, { raw: true })"></li>
+                            <li v-html="$t('ContactPage.faq.q1')"></li>
+                            <li v-html="$t('ContactPage.faq.q2')"></li>
+                            <li v-html="$t('ContactPage.faq.q3')"></li>
+                            <li v-html="$t('ContactPage.faq.q4')"></li>
                         </ul>
 
                         <h2>{{ $t('ContactPage.businessHours.title') }}</h2>

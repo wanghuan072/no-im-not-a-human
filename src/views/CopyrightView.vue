@@ -6,7 +6,7 @@
         <section class="section hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title" v-html="$t('CopyrightPage.hero.title', {}, { raw: true })"></h1>
+                    <h1 class="hero-title" v-html="$t('CopyrightPage.hero.title')"></h1>
                     <p class="hero-subtitle">{{ $t('CopyrightPage.hero.subtitle') }}</p>
                 </div>
             </div>
@@ -18,29 +18,29 @@
                 <div class="content-wrapper">
                     <div class="copyright-content">
                         <h2>{{ $t('CopyrightPage.statement.title') }}</h2>
-                        <p v-html="$t('CopyrightPage.statement.content', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.statement.content')"></p>
 
                         <h2>{{ $t('CopyrightPage.whatWeOwn.title') }}</h2>
                         <ul>
-                            <li v-html="$t('CopyrightPage.whatWeOwn.item1', {}, { raw: true })"></li>
-                            <li v-html="$t('CopyrightPage.whatWeOwn.item2', {}, { raw: true })"></li>
-                            <li v-html="$t('CopyrightPage.whatWeOwn.item3', {}, { raw: true })"></li>
-                            <li v-html="$t('CopyrightPage.whatWeOwn.item4', {}, { raw: true })"></li>
+                            <li v-html="$t('CopyrightPage.whatWeOwn.item1')"></li>
+                            <li v-html="$t('CopyrightPage.whatWeOwn.item2')"></li>
+                            <li v-html="$t('CopyrightPage.whatWeOwn.item3')"></li>
+                            <li v-html="$t('CopyrightPage.whatWeOwn.item4')"></li>
                         </ul>
 
                         <h2>{{ $t('CopyrightPage.thirdParty.title') }}</h2>
-                        <p v-html="$t('CopyrightPage.thirdParty.content', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.thirdParty.content')"></p>
 
                         <h2>{{ $t('CopyrightPage.fairUse.title') }}</h2>
                         <p>{{ $t('CopyrightPage.fairUse.intro') }}</p>
-                        <p v-html="$t('CopyrightPage.fairUse.allowedTitle', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.fairUse.allowedTitle')"></p>
                         <ul>
                             <li>{{ $t('CopyrightPage.fairUse.allowed1') }}</li>
                             <li>{{ $t('CopyrightPage.fairUse.allowed2') }}</li>
                             <li>{{ $t('CopyrightPage.fairUse.allowed3') }}</li>
                             <li>{{ $t('CopyrightPage.fairUse.allowed4') }}</li>
                         </ul>
-                        <p v-html="$t('CopyrightPage.fairUse.restrictedTitle', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.fairUse.restrictedTitle')"></p>
                         <ul>
                             <li>{{ $t('CopyrightPage.fairUse.restricted1') }}</li>
                             <li>{{ $t('CopyrightPage.fairUse.restricted2') }}</li>
@@ -50,7 +50,7 @@
 
                         <h2>{{ $t('CopyrightPage.dmca.title') }}</h2>
                         <p>{{ $t('CopyrightPage.dmca.intro') }}</p>
-                        <p v-html="$t('CopyrightPage.dmca.requirementsTitle', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.dmca.requirementsTitle')"></p>
                         <ul>
                             <li>{{ $t('CopyrightPage.dmca.req1') }}</li>
                             <li>{{ $t('CopyrightPage.dmca.req2') }}</li>
@@ -62,7 +62,7 @@
 
                         <h2>{{ $t('CopyrightPage.license.title') }}</h2>
                         <p>{{ $t('CopyrightPage.license.intro') }}</p>
-                        <p v-html="$t('CopyrightPage.license.requirementsTitle', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.license.requirementsTitle')"></p>
                         <ul>
                             <li>{{ $t('CopyrightPage.license.req1') }}</li>
                             <li>{{ $t('CopyrightPage.license.req2') }}</li>
@@ -71,7 +71,7 @@
                         </ul>
 
                         <h2>{{ $t('CopyrightPage.contact.title') }}</h2>
-                        <p v-html="$t('CopyrightPage.contact.email', {}, { raw: true })"></p>
+                        <p v-html="$t('CopyrightPage.contact.email')"></p>
 
                         <h2>{{ $t('CopyrightPage.updates.title') }}</h2>
                         <p>{{ $t('CopyrightPage.updates.content1') }}</p>
