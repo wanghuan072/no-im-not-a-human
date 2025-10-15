@@ -43,6 +43,11 @@
             </div>
         </section>
 
+        <!-- 移动横幅广告位1 -->
+        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+            <ins class="eas6a97888e10" data-zoneid="5750516"></ins>
+        </aside>
+
         <!-- Video Section -->
         <section class="section video">
             <div class="container">
@@ -63,9 +68,23 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen class="video-iframe"></iframe>
                     </div>
+
+                    <!-- 首页横幅广告位1 -->
+                    <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="!isMobile">
+                        <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
+                    </aside>
                 </div>
             </div>
         </section>
+
+        <!-- PC底部粘性横幅广告位1 -->
+        <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
+
+        <!-- PC粘性左侧横幅广告位1 -->
+        <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
+
+        <!-- PC粘性右侧横幅广告1 -->
+        <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
 
         <!-- About Section -->
         <section class="section about">
@@ -139,6 +158,10 @@
                             <p v-html="$t('HomePage.why.card4.description', {}, { raw: true })"></p>
                         </div>
                     </div>
+                    <!-- 原生广告位 -->
+                    <aside style="width: 100%; padding: 20px 0; text-align: center;">
+                        <ins class="eas6a97888e20" data-zoneid="5750512"></ins>
+                    </aside>
                 </div>
             </div>
         </section>
@@ -179,6 +202,11 @@
             </div>
         </section>
 
+        <!-- 移动横幅广告位2 -->
+        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+            <ins class="eas6a97888e10" data-zoneid="5750518"></ins>
+        </aside>
+
         <!-- FAQ Section -->
         <section class="section faq">
             <div class="container">
@@ -217,6 +245,11 @@
             </div>
         </section>
 
+        <!-- 移动横幅广告位2 -->
+        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+            <ins class="eas6a97888e10" data-zoneid="5750520"></ins>
+        </aside>
+
         <!-- CTA Section -->
         <section class="section cta">
             <div class="container">
@@ -237,10 +270,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
+
+import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+const { isMobile } = useDeviceDetection()
 
 // 视频相关状态
 const videoPlaying = ref(false)
@@ -249,6 +285,25 @@ const videoPlaying = ref(false)
 const playVideo = () => {
     videoPlaying.value = true
 }
+
+// 广告联盟
+const adProvider = () => {
+    const script = document.createElement('script')
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.async = true
+    script.type = 'application/javascript'
+    document.head.appendChild(script)
+
+    script.onload = () => {
+        if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} })
+        }
+    }
+}
+
+onMounted(() => {
+    adProvider()
+})
 </script>
 
 <style scoped>
