@@ -6,7 +6,7 @@
         <section class="section hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title" v-html="$t('AboutPage.hero.title')"></h1>
+                    <h1 class="hero-title" v-html="$t('AboutPage.hero.title', {}, { raw: true })"></h1>
                     <p class="hero-subtitle">{{ $t('AboutPage.hero.subtitle') }}</p>
                 </div>
             </div>
@@ -25,12 +25,12 @@
 
                         <h2>{{ $t('AboutPage.whatWeOffer.title') }}</h2>
                         <ul>
-                            <li v-html="$t('AboutPage.whatWeOffer.item1')"></li>
-                            <li v-html="$t('AboutPage.whatWeOffer.item2')"></li>
-                            <li v-html="$t('AboutPage.whatWeOffer.item3')"></li>
-                            <li v-html="$t('AboutPage.whatWeOffer.item4')"></li>
-                            <li v-html="$t('AboutPage.whatWeOffer.item5')"></li>
-                            <li v-html="$t('AboutPage.whatWeOffer.item6')"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item1', {}, { raw: true })"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item2', {}, { raw: true })"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item3', {}, { raw: true })"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item4', {}, { raw: true })"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item5', {}, { raw: true })"></li>
+                            <li v-html="$t('AboutPage.whatWeOffer.item6', {}, { raw: true })"></li>
                         </ul>
 
                         <h2>{{ $t('AboutPage.commitment.title') }}</h2>
@@ -46,7 +46,9 @@
                         <p>{{ $t('AboutPage.regularUpdates.content') }}</p>
 
                         <h2>{{ $t('AboutPage.contactUs.title') }}</h2>
-                        <p v-html="$t('AboutPage.contactUs.content')"></p>
+                        <p>{{ $t('AboutPage.contactUs.content') }} <a
+                                href="mailto:wyong@iamnotahuman.org">wyong@iamnotahuman.org</a> {{
+                                    $t('AboutPage.contactUs.content2') }}</p>
 
                         <h2>{{ $t('AboutPage.joinCommunity.title') }}</h2>
                         <p>{{ $t('AboutPage.joinCommunity.content') }}</p>

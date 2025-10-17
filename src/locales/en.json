@@ -1242,7 +1242,8 @@
     },
     "contactUs": {
       "title": "Contact Us",
-      "content": "Have questions, suggestions, or feedback? We'd love to hear from you! You can reach us at <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a> and we'll get back to you as soon as possible."
+      "content": "Have questions, suggestions, or feedback? We'd love to hear from you! You can reach us at",
+      "content2": "and we'll get back to you as soon as possible."
     },
     "joinCommunity": {
       "title": "Join Our Community",
@@ -1260,7 +1261,7 @@
     },
     "contactInfo": {
       "title": "Contact Information",
-      "email": "<strong>Email:</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
+      "emailPrefix": "<strong>Email:</strong>",
       "response": "We typically respond within 24 hours."
     },
     "responseTime": {
@@ -1362,7 +1363,7 @@
     },
     "contact": {
       "title": "Contact Information",
-      "email": "Email: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
+      "emailPrefix": "Email:"
     },
     "updates": {
       "title": "Updates to Copyright Notice",

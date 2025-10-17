@@ -1237,7 +1237,8 @@
         },
         "contactUs": {
             "title": "お問い合わせ",
-            "content": "ご質問やご提案、フィードバックがありましたら、お気軽にご連絡ください！ <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a> までご連絡いただければ、できるだけ早く返信いたします。"
+            "content": "ご質問やご提案、フィードバックがありましたら、お気軽にご連絡ください！",
+            "content2": "までご連絡いただければ、できるだけ早く返信いたします。"
         },
         "joinCommunity": {
             "title": "コミュニティに参加する",
@@ -1255,7 +1256,7 @@
         },
         "contactInfo": {
             "title": "連絡先情報",
-            "email": "<strong>メール:</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
+            "emailPrefix": "<strong>メール:</strong>",
             "response": "通常24時間以内に返信します。"
         },
         "responseTime": {
@@ -1357,7 +1358,7 @@
         },
         "contact": {
             "title": "連絡先情報",
-            "email": "Email: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
+            "emailPrefix": "Email:"
         },
         "updates": {
             "title": "著作権通知の更新",

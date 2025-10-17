@@ -19,7 +19,7 @@
                             <span>{{ $t('HomePage.hero.banner.announcement') }}</span>
                         </div>
                     </div>
-                    <h1 class="hero-title" v-html="$t('HomePage.hero.title')"></h1>
+                    <h1 class="hero-title" v-html="$t('HomePage.hero.title', {}, { raw: true })"></h1>
                     <div class="hero-description">
                         <p v-html="$t('HomePage.hero.description', {}, { raw: true })"></p>
                     </div>

@@ -1236,7 +1236,8 @@
         },
         "contactUs": {
             "title": "Связаться с нами",
-            "content": "Есть вопросы, предложения или отзывы? Мы будем рады услышать вас! Вы можете связаться с нами по адресу <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>, и мы ответим вам как можно скорее."
+            "content": "Есть вопросы, предложения или отзывы? Мы будем рады услышать вас! Вы можете связаться с нами по адресу",
+            "content2": ", и мы ответим вам как можно скорее."
         },
         "joinCommunity": {
             "title": "Присоединяйтесь к нашему сообществу",
@@ -1254,7 +1255,7 @@
         },
         "contactInfo": {
             "title": "Контактная информация",
-            "email": "<strong>Email:</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
+            "emailPrefix": "<strong>Email:</strong>",
             "response": "Обычно мы отвечаем в течение 24 часов."
         },
         "responseTime": {
@@ -1356,7 +1357,7 @@
         },
         "contact": {
             "title": "Контактная информация",
-            "email": "Email: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
+            "emailPrefix": "Email:"
         },
         "updates": {
             "title": "Обновления уведомления об авторских правах",

@@ -42,7 +42,7 @@ const getInitialLocale = () => {
 
 // 创建i18n实例
 const i18n = createI18n({
-    legacy: true,
+    legacy: false,
     locale: getInitialLocale(),
     fallbackLocale: 'en',
     messages: {
@@ -56,8 +56,10 @@ const i18n = createI18n({
         es, // 西班牙语
         pt // 葡萄牙语
     },
-    silentTranslationWarn: true,
-    silentFallbackWarn: true
+    warnHtmlMessage: false,
+    allowComposition: true,
+    missingWarn: false,
+    fallbackWarn: false
 })
 
 // 导出i18n实例
@@ -66,14 +68,14 @@ export default i18n
 // 导出语言切换函数
 export const switchLocale = (locale) => {
     if (supportedLanguages.includes(locale)) {
-        i18n.global.locale = locale
+        i18n.global.locale.value = locale
         localStorage.setItem('language', locale)
     }
 }
 
 // 导出当前语言
 export const getCurrentLocale = () => {
-    return i18n.global.locale
+    return i18n.global.locale.value
 }
 
 // 导出支持的语言列表
