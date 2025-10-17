@@ -1237,7 +1237,7 @@
         },
         "contactUs": {
             "title": "Kontakt",
-            "content": "Hast du Fragen, Vorschläge oder Feedback? Wir würden uns freuen, von dir zu hören! Du kannst uns unter <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a> erreichen, und wir antworten so schnell wie möglich."
+            "content": "Hast du Fragen, Vorschläge oder Feedback? Wir würden uns freuen, von dir zu hören! Du kannst uns unter <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a> erreichen, und wir antworten so schnell wie möglich."
         },
         "joinCommunity": {
             "title": "Werde Teil unserer Community",
@@ -1255,7 +1255,7 @@
         },
         "contactInfo": {
             "title": "Kontaktinformationen",
-            "email": "<strong>Email:</strong> <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a>",
+            "email": "<strong>Email:</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
             "response": "Wir antworten in der Regel innerhalb von 24 Stunden."
         },
         "responseTime": {
@@ -1357,7 +1357,7 @@
         },
         "contact": {
             "title": "Kontaktinformationen",
-            "email": "Email: <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a>"
+            "email": "Email: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
         },
         "updates": {
             "title": "Aktualisierungen des Urheberrechtshinweises",

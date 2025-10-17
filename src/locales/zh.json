@@ -1236,7 +1236,7 @@
         },
         "contactUs": {
             "title": "联系我们",
-            "content": "有问题、建议或反馈？我们很乐意聆听！您可以通过 <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a> 联系我们，我们会尽快回复。"
+            "content": "有问题、建议或反馈？我们很乐意聆听！您可以通过 <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a> 联系我们，我们会尽快回复。"
         },
         "joinCommunity": {
             "title": "加入我们的社区",
@@ -1254,7 +1254,7 @@
         },
         "contactInfo": {
             "title": "联系信息",
-            "email": "<strong>邮箱：</strong> <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a>",
+            "email": "<strong>邮箱：</strong> <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>",
             "response": "通常在 24 小时内回复。"
         },
         "responseTime": {
@@ -1356,7 +1356,7 @@
         },
         "contact": {
             "title": "联系方式",
-            "email": "邮箱: <a href=\"mailto:wyong{'@'}iamnotahuman.org\">wyong{'@'}iamnotahuman.org</a>"
+            "email": "邮箱: <a href=\"mailto:wyong@iamnotahuman.org\">wyong@iamnotahuman.org</a>"
         },
         "updates": {
             "title": "版权声明更新",
