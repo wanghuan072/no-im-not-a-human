@@ -57,7 +57,9 @@ const i18n = createI18n({
         pt // 葡萄牙语
     },
     warnHtmlMessage: false,
-    allowComposition: true
+    allowComposition: true,
+    missingWarn: false,
+    fallbackWarn: false
 })
 
 // 导出i18n实例
