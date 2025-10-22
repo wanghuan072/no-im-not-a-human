@@ -41,6 +41,10 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
+  <!-- 预连接关键资源 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <!-- 字体优化 - 预加载字体文件并优化度量 -->
   <!-- 暂时注释网络字体，测试本地字体性能 -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -185,6 +189,26 @@
     .hero-title, .hero-description, .hero-banner, .hero-buttons, .hero-footer, .hero-wrapper, .container {
       contain: layout style;
       will-change: transform;
+    }
+    
+    /* 首屏关键元素优化 - 减少重排 */
+    .hero-title {
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    
+    .hero-description {
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   </style>
 </head>

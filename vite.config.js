@@ -21,24 +21,32 @@ export default defineConfig({
     // 优化构建配置以减少包大小
     rollupOptions: {
       output: {
-        // 简化的代码分割策略 - 避免循环依赖
+        // 优化的代码分割策略 - 减少主包大小
         manualChunks: (id) => {
-          // 第三方库 - 保持简单分组
+          // 第三方库 - 分离Vue和其他库
           if (id.includes('node_modules')) {
             if (id.includes('vue')) return 'vue-vendor'
+            if (id.includes('vue-router')) return 'router-vendor'
+            if (id.includes('vue-i18n')) return 'i18n-vendor'
+            if (id.includes('pinia')) return 'pinia-vendor'
             return 'vendor'
           }
           
-          // 页面组件 - 避免过度分割
+          // 页面组件 - 首页单独分组，其他页面按功能分组
           if (id.includes('/views/')) {
             const viewName = id.split('/views/')[1].split('.vue')[0]
-            // 首页单独分组
             if (viewName === 'HomeView') return 'home'
-            // 其他页面合并
+            if (viewName.includes('Guide')) return 'guides'
+            if (viewName.includes('Blog')) return 'blog'
             return 'pages'
           }
           
-          // 组件和工具 - 合并到主包避免循环依赖
+          // 工具和组件 - 分离到独立chunk
+          if (id.includes('/utils/')) return 'utils'
+          if (id.includes('/components/')) return 'components'
+          if (id.includes('/seo/')) return 'seo'
+          
+          // 主包只保留核心逻辑
           return undefined
         },
         // 优化CSS输出
@@ -75,38 +83,6 @@ export default defineConfig({
         plugins: [
           // 这里可以添加PurgeCSS插件来移除未使用的CSS
         ]
-      }
-    },
-    // 优化JavaScript输出
-    rollupOptions: {
-      output: {
-        // 简化的代码分割策略 - 避免循环依赖
-        manualChunks: (id) => {
-          // 第三方库 - 保持简单分组
-          if (id.includes('node_modules')) {
-            if (id.includes('vue')) return 'vue-vendor'
-            return 'vendor'
-          }
-          
-          // 页面组件 - 避免过度分割
-          if (id.includes('/views/')) {
-            const viewName = id.split('/views/')[1].split('.vue')[0]
-            // 首页单独分组
-            if (viewName === 'HomeView') return 'home'
-            // 其他页面合并
-            return 'pages'
-          }
-          
-          // 组件和工具 - 合并到主包避免循环依赖
-          return undefined
-        },
-        // 优化CSS输出
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name && assetInfo.name.endsWith('.css')) {
-            return 'assets/[name]-[hash][extname]'
-          }
-          return 'assets/[name]-[hash][extname]'
-        }
       }
     },
   },
