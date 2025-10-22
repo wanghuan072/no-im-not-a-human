@@ -50,6 +50,14 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
+  <!-- 异步加载非关键CSS -->
+  <link rel="preload" href="/assets/AppFooter-B1KQm_60.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/assets/HomeView-204b2cyc.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/AppFooter-B1KQm_60.css">
+    <link rel="stylesheet" href="/assets/HomeView-204b2cyc.css">
+  </noscript>
+  
   <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
   <style>
     /* 关键首屏样式 */
@@ -209,18 +217,137 @@
     }
   </style>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP"></script>
+  <!-- 延迟加载Google Analytics和AdSense -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-VTL722V3EP');
+    // 延迟加载Google Analytics
+    function loadGoogleAnalytics() {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
+      document.head.appendChild(script);
+      
+      script.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-VTL722V3EP');
+      };
+    }
+    
+    // 延迟加载Google AdSense
+    function loadGoogleAdSense() {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
+      script.crossOrigin = 'anonymous';
+      document.head.appendChild(script);
+    }
+    
+    // 在页面完全加载后执行
+    window.addEventListener('load', () => {
+      loadGoogleAnalytics();
+      loadGoogleAdSense();
+    });
+    
+    // 基于CloverLeaf策略的并行化资源加载
+    function parallelResourceLoading() {
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          // 并行处理多个元素
+          const promises = entries.map(entry => {
+            if (entry.isIntersecting) {
+              const element = entry.target;
+              if (element.dataset.lazyLoad) {
+                return loadResourceAsync(element);
+              }
+            }
+            return Promise.resolve();
+          });
+          
+          // 并行执行所有加载任务
+          Promise.all(promises).then(() => {
+            console.log('Parallel loading completed');
+          });
+        }, {
+          rootMargin: '50px', // 提前50px开始加载
+          threshold: 0.1
+        });
+        
+        // 观察所有需要延迟加载的元素
+        document.querySelectorAll('[data-lazy-load]').forEach(el => {
+          observer.observe(el);
+        });
+      }
+    }
+    
+    // 异步资源加载函数
+    async function loadResourceAsync(element) {
+      const resourceType = element.dataset.lazyLoad;
+      const resourceUrl = element.dataset.src;
+      
+      if (resourceType === 'image') {
+        return new Promise((resolve) => {
+          const img = new Image();
+          img.onload = () => {
+            element.src = resourceUrl;
+            element.classList.add('loaded');
+            resolve();
+          };
+          img.src = resourceUrl;
+        });
+      }
+      
+      if (resourceType === 'script') {
+        return new Promise((resolve) => {
+          const script = document.createElement('script');
+          script.src = resourceUrl;
+          script.onload = resolve;
+          document.head.appendChild(script);
+        });
+      }
+    }
+    
+    // 基于CloverLeaf数据局部性优化的资源预取
+    function optimizeDataLocality() {
+      // 预取关键资源，提高缓存命中率
+      const criticalResources = [
+        '/images/1.webp',
+        '/images/about-img.webp',
+        '/images/logo.webp'
+      ];
+      
+      criticalResources.forEach(resource => {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = resource;
+        document.head.appendChild(link);
+      });
+      
+      // 使用requestIdleCallback在浏览器空闲时预加载非关键资源
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+          const nonCriticalResources = [
+            '/images/2.webp',
+            '/images/3.webp',
+            '/images/4.webp'
+          ];
+          
+          nonCriticalResources.forEach(resource => {
+            const link = document.createElement('link');
+            link.rel = 'prefetch';
+            link.href = resource;
+            document.head.appendChild(link);
+          });
+        });
+      }
+    }
+    
+    // 在DOM加载完成后初始化优化
+    document.addEventListener('DOMContentLoaded', () => {
+      parallelResourceLoading();
+      optimizeDataLocality();
+    });
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017"
-    crossorigin="anonymous"></script>
 
   <!-- 广告联盟 -->
   <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
@@ -247,17 +374,15 @@
     // 在页面完全加载后执行
     window.addEventListener('load', loadAdScript);
     
-    // 注册Service Worker进行缓存优化
+    // 立即注册Service Worker进行缓存优化
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => {
-            console.log('SW registered: ', registration);
-          })
-          .catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-          });
-      });
+      navigator.serviceWorker.register('/sw.js')
+        .then(registration => {
+          console.log('SW registered: ', registration);
+        })
+        .catch(registrationError => {
+          console.log('SW registration failed: ', registrationError);
+        });
     }
   </script>
   
