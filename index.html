@@ -68,6 +68,11 @@
     .hero-banner, .hero-description, .hero-buttons {
       font-family: 'Creepster', 'Creepster-Fallback', cursive;
     }
+    
+    /* 为所有可能偏移的元素添加字体优化 */
+    .hero-footer, .hero-wrapper, .container {
+      font-family: 'Creepster', 'Creepster-Fallback', cursive;
+    }
   </style>
   
   <!-- 关键CSS内联 - 避免阻塞渲染 -->
@@ -145,6 +150,20 @@
     .section {
       contain: layout style;
       will-change: transform;
+    }
+    
+    /* 为hero-footer添加contain，避免布局偏移 */
+    .hero-footer {
+      contain: layout style paint;
+      will-change: transform;
+      contain-intrinsic-size: 800px 100px;
+    }
+    
+    /* 为container添加contain，避免布局偏移 */
+    .container {
+      contain: layout style;
+      will-change: transform;
+      contain-intrinsic-size: 1200px 800px;
     }
   </style>
 </head>
