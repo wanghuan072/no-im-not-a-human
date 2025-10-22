@@ -21,14 +21,32 @@ export default defineConfig({
     // 优化构建配置以减少包大小
     rollupOptions: {
       output: {
-        // 手动分包以减少主包大小
-        manualChunks: {
-          // 将Vue相关库分离
-          'vue-vendor': ['vue', 'vue-router', 'vue-i18n'],
-          // 将Pinia状态管理分离
-          'pinia': ['pinia'],
-          // 将工具库分离
-          'utils': ['@/utils/blogUtils.js', '@/utils/localizeLinks.js', '@/utils/useDeviceDetection.js']
+        // 更精细的代码分割
+        manualChunks: (id) => {
+          // Vue核心库
+          if (id.includes('vue') && !id.includes('node_modules')) {
+            return 'vue-core'
+          }
+          // 第三方库
+          if (id.includes('node_modules')) {
+            if (id.includes('vue-router')) return 'vue-router'
+            if (id.includes('vue-i18n')) return 'vue-i18n'
+            if (id.includes('pinia')) return 'pinia'
+            return 'vendor'
+          }
+          // 页面组件
+          if (id.includes('/views/')) {
+            const viewName = id.split('/views/')[1].split('.vue')[0]
+            return `view-${viewName.toLowerCase()}`
+          }
+          // 工具库
+          if (id.includes('/utils/')) {
+            return 'utils'
+          }
+          // SEO相关
+          if (id.includes('/seo/')) {
+            return 'seo'
+          }
         }
       }
     },
@@ -36,13 +54,17 @@ export default defineConfig({
     minify: 'terser',
     terserOptions: {
       compress: {
-        // 移除console.log（生产环境）
         drop_console: true,
         drop_debugger: true,
+        pure_funcs: ['console.log', 'console.info'],
       },
     },
     // 设置chunk大小警告限制
-    chunkSizeWarningLimit: 1000,
+    chunkSizeWarningLimit: 500,
+    // 启用CSS代码分割
+    cssCodeSplit: true,
+    // 启用sourcemap（开发环境）
+    sourcemap: false,
   },
   // 开发服务器优化
   server: {

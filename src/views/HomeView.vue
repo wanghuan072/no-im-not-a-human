@@ -314,54 +314,67 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+import { 
+  raf, 
+  batchDOMOperations, 
+  setupLazyLoading, 
+  preloadCriticalResources,
+  PerformanceMonitor 
+} from '@/utils/performance.js'
+
 const { isMobile } = useDeviceDetection()
 
 // 视频相关状态
 const videoPlaying = ref(false)
+const performanceMonitor = new PerformanceMonitor()
 
 // 播放视频方法
 const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 暂时移除广告联盟以优化性能
-// const adProvider = () => {
-//     const script = document.createElement('script')
-//     script.src = 'https://a.magsrv.com/ad-provider.js'
-//     script.async = true
-//     script.type = 'application/javascript'
-//     document.head.appendChild(script)
-
-//     script.onload = () => {
-//         if (window.AdProvider) {
-//             window.AdProvider.push({ "serve": {} })
-//         }
-//     }
-// }
-
-// 优化DOM操作，减少强制同步布局
-onMounted(() => {
-    // 使用requestAnimationFrame延迟DOM操作
-    requestAnimationFrame(() => {
-        // 批量DOM操作，避免频繁重排
-        const elements = document.querySelectorAll('.hero-title, .hero-description')
-        elements.forEach(el => {
-            // 避免在循环中查询几何属性
-            el.style.willChange = 'transform'
+// 性能优化的组件挂载
+onMounted(async () => {
+    performanceMonitor.mark('home-mount-start')
+    
+    // 预加载关键资源
+    preloadCriticalResources([
+        '/images/1.webp',
+        '/images/about-img.webp',
+        '/images/logo.webp'
+    ])
+    
+    // 使用RAF优化DOM操作
+    await raf(() => {
+        // 批量处理DOM操作
+        batchDOMOperations(() => {
+            const elements = document.querySelectorAll('.hero-title, .hero-description')
+            elements.forEach(el => {
+                el.style.willChange = 'transform'
+                el.style.contentVisibility = 'auto'
+            })
         })
     })
     
-    // 延迟非关键操作
-    setTimeout(() => {
-        // 非关键初始化操作
-        console.log('HomeView mounted')
-    }, 100)
+    // 设置图片懒加载
+    setupLazyLoading('img[data-src]')
+    
+    performanceMonitor.mark('home-mount-end')
+    performanceMonitor.measure('home-mount-time', 'home-mount-start', 'home-mount-end')
+    
+    console.log('HomeView performance metrics:', performanceMonitor.getMetrics())
+})
+
+// 组件卸载时清理
+onUnmounted(() => {
+    // 清理事件监听器等
+    console.log('HomeView unmounted')
 })
 </script>
 
