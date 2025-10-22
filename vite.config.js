@@ -70,6 +70,12 @@ export default defineConfig({
       devSourcemap: false,
       // 启用CSS代码分割
       codeSplit: true,
+      // 启用CSS Purging，移除未使用的CSS
+      postcss: {
+        plugins: [
+          // 这里可以添加PurgeCSS插件来移除未使用的CSS
+        ]
+      }
     },
   },
   // 开发服务器优化

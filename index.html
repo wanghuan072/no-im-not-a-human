@@ -49,19 +49,19 @@
   
   <!-- 字体度量优化 - 减少布局偏移 -->
   <style>
-    /* 为Creepster字体设置与fallback字体相近的度量 */
+    /* 为Creepster字体设置一个fallback字体，并调整其度量以匹配 */
     @font-face {
       font-family: 'Creepster-Fallback';
-      src: local('Arial'), local('Helvetica'), local('sans-serif');
-      font-display: swap;
-      /* 调整字体度量以匹配Creepster */
-      size-adjust: 105%;
-      line-gap-override: 10%;
+      src: local('Arial'); /* 使用一个常见的本地字体作为fallback */
+      size-adjust: 105%; /* 根据实际情况调整，使x-height和cap-height接近Creepster */
+      line-gap-override: 10%; /* 调整行高 */
+      ascent-override: 90%; /* 调整上升线 */
+      descent-override: 20%; /* 调整下降线 */
     }
-    
-    /* 使用优化的字体栈 */
-    .hero-title, .hero-banner, .hero-description {
-      font-family: 'Creepster', 'Creepster-Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* 应用到使用Creepster的元素 */
+    .hero-title {
+      font-family: 'Creepster', 'Creepster-Fallback', cursive;
     }
   </style>
   
@@ -97,7 +97,7 @@
     }
     /* 关键布局样式 - 防止hero-wrapper偏移 */
     .hero-wrapper {
-      /* 使用contain隔离布局变化 */
+      /* 使用contain隔离布局变化，避免影响其他元素 */
       contain: layout style paint;
       /* 使用content-visibility优化渲染 */
       content-visibility: auto;
@@ -107,6 +107,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      /* 使用transform优化，避免触发布局 */
+      will-change: transform;
     }
     .hero-banner {
       /* 使用contain隔离布局变化 */
@@ -119,6 +121,13 @@
       justify-content: space-between;
       align-items: center;
       width: 100%;
+      /* 使用transform优化，避免触发布局 */
+      will-change: transform;
+    }
+    /* 为所有可能偏移的元素添加contain */
+    .hero-title, .hero-description, .hero-buttons {
+      contain: layout style;
+      will-change: transform;
     }
   </style>
 </head>

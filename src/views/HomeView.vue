@@ -336,21 +336,29 @@ const playVideo = () => {
 onMounted(() => {
     // 使用RAF批量处理DOM操作，避免强制重排
     requestAnimationFrame(() => {
-        // 批量读取DOM属性
-        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner')
+        // 批量读取DOM属性 - 避免在样式修改后立即读取
+        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner, .hero-wrapper')
         const elementData = Array.from(heroElements).map(el => ({
             element: el,
             currentStyle: window.getComputedStyle(el),
             currentRect: el.getBoundingClientRect()
         }))
         
-        // 批量写入DOM属性
+        // 批量写入DOM属性 - 使用contain隔离布局变化
         requestAnimationFrame(() => {
             elementData.forEach(({ element }) => {
-                // 使用transform和opacity进行优化，避免触发布局
-                element.style.willChange = 'transform, opacity'
-                element.style.contentVisibility = 'auto'
+                // 使用contain隔离布局变化，避免影响其他元素
                 element.style.contain = 'layout style paint'
+                element.style.contentVisibility = 'auto'
+                element.style.willChange = 'transform, opacity'
+                
+                // 为动态内容预留空间，避免布局偏移
+                if (element.classList.contains('hero-wrapper')) {
+                    element.style.containIntrinsicSize = '1200px 600px'
+                }
+                if (element.classList.contains('hero-banner')) {
+                    element.style.containIntrinsicSize = '800px 60px'
+                }
             })
         })
     })
