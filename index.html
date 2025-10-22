@@ -227,31 +227,84 @@
   <!-- 广告联盟 -->
   <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP"></script>
+  <!-- 基于Cloverpit策略的延迟加载 -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-VTL722V3EP');
+    // 基于Cloverpit的智能延迟加载策略
+    function loadThirdPartyScripts() {
+      // 使用IntersectionObserver检测用户交互
+      let userInteracted = false;
+      let scriptsLoaded = false;
+      
+      // 检测用户交互
+      const interactionEvents = ['click', 'scroll', 'touchstart', 'keydown'];
+      interactionEvents.forEach(event => {
+        document.addEventListener(event, () => {
+          userInteracted = true;
+          if (!scriptsLoaded) {
+            loadScripts();
+          }
+        }, { once: true });
+      });
+      
+      // 延迟加载脚本
+      function loadScripts() {
+        if (scriptsLoaded) return;
+        scriptsLoaded = true;
+        
+        // 加载Google Analytics
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
+        document.head.appendChild(gtagScript);
+        
+        gtagScript.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-VTL722V3EP');
+        };
+        
+        // 延迟加载Google AdSense
+        setTimeout(() => {
+          const adsScript = document.createElement('script');
+          adsScript.async = true;
+          adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
+          adsScript.crossOrigin = 'anonymous';
+          document.head.appendChild(adsScript);
+        }, 1000);
+        
+        // 延迟加载广告提供商脚本
+        setTimeout(() => {
+          const adProviderScript = document.createElement('script');
+          adProviderScript.async = true;
+          adProviderScript.src = 'https://a.pemsrv.com/ad-provider.js';
+          document.head.appendChild(adProviderScript);
+          
+          adProviderScript.onload = function() {
+            if (window.AdProvider) {
+              window.AdProvider.push({ "serve": {} });
+            }
+          };
+        }, 2000);
+      }
+      
+      // 备用延迟加载（如果用户没有交互）
+      setTimeout(() => {
+        if (!userInteracted && !scriptsLoaded) {
+          loadScripts();
+        }
+      }, 15000);
+    }
+    
+    // 页面加载完成后初始化
+    window.addEventListener('load', loadThirdPartyScripts);
   </script>
 
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017"
-    crossorigin="anonymous"></script>
-
-  <!-- 广告联盟 -->
-  <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
-
   <!-- PC全插广告位 -->
-  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
   <!-- 移动全插广告 -->
-  <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
 </head>
 

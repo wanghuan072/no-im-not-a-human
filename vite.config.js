@@ -45,7 +45,15 @@ export default defineConfig({
           if (id.includes('router')) {
             return 'router-vendor';
           }
-          // SEO模块不分离，与主应用一起加载
+          // 将SEO相关分离
+          if (id.includes('seo')) {
+            return 'seo-vendor';
+          }
+          // 将组件分离
+          if (id.includes('components')) {
+            return 'components-vendor';
+          }
+          // 主应用代码最小化
         }
       }
     },

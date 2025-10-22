@@ -294,8 +294,13 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 广告联盟 - 确保广告正常显示
-const adProvider = () => {
+// 基于Cloverpit策略的智能广告加载
+const loadAdScripts = () => {
+    // 检查是否已经加载
+    if (document.querySelector('script[src*="ad-provider.js"]')) {
+        return
+    }
+    
     const script = document.createElement('script')
     script.src = 'https://a.magsrv.com/ad-provider.js'
     script.async = true
@@ -310,8 +315,15 @@ const adProvider = () => {
 }
 
 onMounted(() => {
-    // 延迟加载广告，避免阻塞关键渲染
-    setTimeout(adProvider, 1000)
+    // 使用requestIdleCallback在浏览器空闲时加载
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+            loadAdScripts()
+        }, { timeout: 5000 })
+    } else {
+        // 降级到setTimeout
+        setTimeout(loadAdScripts, 2000)
+    }
 })
 </script>
 
