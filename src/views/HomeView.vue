@@ -294,7 +294,7 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 广告联盟
+// 广告联盟 - 确保广告正常显示
 const adProvider = () => {
     const script = document.createElement('script')
     script.src = 'https://a.magsrv.com/ad-provider.js'
@@ -311,7 +311,7 @@ const adProvider = () => {
 
 onMounted(() => {
     // 延迟加载广告，避免阻塞关键渲染
-    setTimeout(adProvider, 2000)
+    setTimeout(adProvider, 1000)
 })
 </script>
 

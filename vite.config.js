@@ -41,6 +41,10 @@ export default defineConfig({
           if (id.includes('locales') || id.includes('.json')) {
             return 'locales-vendor';
           }
+          // 将路由相关分离
+          if (id.includes('router')) {
+            return 'router-vendor';
+          }
           // SEO模块不分离，与主应用一起加载
         }
       }
