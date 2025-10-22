@@ -63,6 +63,11 @@
     .hero-title {
       font-family: 'Creepster', 'Creepster-Fallback', cursive;
     }
+    
+    /* 为所有可能使用字体的元素添加字体优化 */
+    .hero-banner, .hero-description, .hero-buttons {
+      font-family: 'Creepster', 'Creepster-Fallback', cursive;
+    }
   </style>
   
   <!-- 关键CSS内联 - 避免阻塞渲染 -->
@@ -126,6 +131,18 @@
     }
     /* 为所有可能偏移的元素添加contain */
     .hero-title, .hero-description, .hero-buttons {
+      contain: layout style;
+      will-change: transform;
+    }
+    
+    /* 为视频容器添加contain，避免布局偏移 */
+    .video-container {
+      contain: layout style paint;
+      will-change: transform;
+    }
+    
+    /* 为所有section添加contain，隔离布局变化 */
+    .section {
       contain: layout style;
       will-change: transform;
     }

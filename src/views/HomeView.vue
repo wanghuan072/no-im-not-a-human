@@ -337,7 +337,7 @@ onMounted(() => {
     // 使用RAF批量处理DOM操作，避免强制重排
     requestAnimationFrame(() => {
         // 批量读取DOM属性 - 避免在样式修改后立即读取
-        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner, .hero-wrapper')
+        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner, .hero-wrapper, .hero-buttons')
         const elementData = Array.from(heroElements).map(el => ({
             element: el,
             currentStyle: window.getComputedStyle(el),
@@ -358,6 +358,9 @@ onMounted(() => {
                 }
                 if (element.classList.contains('hero-banner')) {
                     element.style.containIntrinsicSize = '800px 60px'
+                }
+                if (element.classList.contains('hero-buttons')) {
+                    element.style.containIntrinsicSize = '600px 80px'
                 }
             })
         })
