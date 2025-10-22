@@ -74,6 +74,9 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       caches.open(AD_CACHE_NAME).then(cache => {
         return cache.match(event.request).then(response => {
+          // 记录性能指标
+          logPerformanceMetrics(event.request, response, !!response);
+          
           // 立即返回缓存，同时在后台更新
           if (response) {
             fetch(event.request).then(fetchResponse => {
@@ -91,6 +94,7 @@ self.addEventListener('fetch', event => {
             if (fetchResponse.status === 200) {
               cache.put(event.request, fetchResponse.clone());
             }
+            logPerformanceMetrics(event.request, fetchResponse, false);
             return fetchResponse;
           });
         });

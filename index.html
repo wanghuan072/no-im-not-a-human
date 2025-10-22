@@ -42,6 +42,14 @@
   <link rel="alternate" hreflang="en" href="https://iamnotahuman.org/">
   <link rel="alternate" hreflang="x-default" href="https://iamnotahuman.org/">
 
+  <!-- 预连接优化 - 减少连接建立延迟 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="https://a.pemsrv.com">
+  <link rel="dns-prefetch" href="https://a.magsrv.com">
+  
   <!-- 字体预加载优化 -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"></noscript>
@@ -50,12 +58,12 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 异步加载非关键CSS -->
+  <!-- 异步加载非关键CSS - 避免阻塞关键渲染路径 -->
   <link rel="preload" href="/assets/AppFooter-B1KQm_60.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/assets/HomeView-204b2cyc.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/assets/HomeView-D-t7nWER.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="/assets/AppFooter-B1KQm_60.css">
-    <link rel="stylesheet" href="/assets/HomeView-204b2cyc.css">
+    <link rel="stylesheet" href="/assets/HomeView-D-t7nWER.css">
   </noscript>
   
   <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
@@ -219,23 +227,32 @@
 
   <!-- 延迟加载Google Analytics和AdSense -->
   <script>
-    // 延迟加载Google Analytics
+    // 优化第三方脚本加载 - 减少未使用JavaScript
     function loadGoogleAnalytics() {
+      // 检查是否已经加载
+      if (document.querySelector('script[src*="googletagmanager.com"]')) {
+        return;
+      }
+      
       const script = document.createElement('script');
       script.async = true;
       script.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
-      document.head.appendChild(script);
-      
       script.onload = function() {
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-VTL722V3EP');
       };
+      document.head.appendChild(script);
     }
     
-    // 延迟加载Google AdSense
+    // 延迟加载Google AdSense - 仅在需要时加载
     function loadGoogleAdSense() {
+      // 检查是否已经加载
+      if (document.querySelector('script[src*="adsbygoogle.js"]')) {
+        return;
+      }
+      
       const script = document.createElement('script');
       script.async = true;
       script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
@@ -342,10 +359,26 @@
       }
     }
     
+    // 性能监控 - 避免强制重排
+    function monitorPerformance() {
+      if ('PerformanceObserver' in window) {
+        const observer = new PerformanceObserver((list) => {
+          list.getEntries().forEach((entry) => {
+            if (entry.entryType === 'layout-shift' && entry.value > 0.1) {
+              console.warn('Layout shift detected:', entry);
+            }
+          });
+        });
+        
+        observer.observe({ entryTypes: ['layout-shift'] });
+      }
+    }
+    
     // 在DOM加载完成后初始化优化
     document.addEventListener('DOMContentLoaded', () => {
       parallelResourceLoading();
       optimizeDataLocality();
+      monitorPerformance();
     });
   </script>
 
