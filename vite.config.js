@@ -113,6 +113,14 @@ export default defineConfig({
         }
       }
     },
+    // 优化CSS代码分割，减少首屏阻塞
+    cssCodeSplit: true,
+    // 启用CSS压缩
+    css: {
+      minify: true,
+      devSourcemap: false,
+      codeSplit: true
+    },
   },
   // 开发服务器优化
   server: {

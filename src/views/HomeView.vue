@@ -332,20 +332,9 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 优化的组件挂载 - 避免强制重排
+// 简化的组件挂载 - 避免过度优化
 onMounted(() => {
-    // 简化DOM操作，减少强制重排
-    requestAnimationFrame(() => {
-        // 只对必要的元素应用contain，避免过度优化
-        const criticalElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner')
-        
-        criticalElements.forEach(element => {
-            // 使用contain隔离布局变化，避免影响其他元素
-            element.style.contain = 'layout style'
-            element.style.willChange = 'transform'
-        })
-    })
-    
+    // 移除复杂的DOM操作，让CSS自然处理布局
     console.log('HomeView mounted')
 })
 
