@@ -50,14 +50,11 @@ export default defineConfig({
         }
       }
     },
-    // 启用代码压缩
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-        pure_funcs: ['console.log', 'console.info'],
-      },
+    // 使用 Vite 默认压缩器（esbuild）
+    minify: 'esbuild',
+    // esbuild 压缩选项
+    esbuild: {
+      drop: ['console', 'debugger'],
     },
     // 设置chunk大小警告限制
     chunkSizeWarningLimit: 500,
