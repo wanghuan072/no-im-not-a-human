@@ -55,6 +55,10 @@ export default defineConfig({
     // esbuild 压缩选项
     esbuild: {
       drop: ['console', 'debugger'],
+      // 启用更激进的压缩
+      minifyIdentifiers: true,
+      minifySyntax: true,
+      minifyWhitespace: true,
     },
     // 设置chunk大小警告限制
     chunkSizeWarningLimit: 500,

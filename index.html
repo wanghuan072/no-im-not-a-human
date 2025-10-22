@@ -41,6 +41,10 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
+  <!-- 预加载关键CSS，减少阻塞时间 -->
+  <link rel="preload" href="/src/assets/css/public.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/src/assets/css/public.css"></noscript>
+  
   <!-- 字体优化 - 预加载字体文件并优化度量 -->
   <!-- 暂时注释网络字体，测试本地字体性能 -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -193,6 +197,7 @@
   <div id="app">
     <div class="loading">Loading...</div>
   </div>
-  <script type="module" src="/src/main.js"></script>
+  <!-- 延迟加载非关键JavaScript -->
+  <script type="module" src="/src/main.js" defer></script>
 </body>
 </html>
