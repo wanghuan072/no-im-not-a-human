@@ -41,11 +41,29 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 字体优化 - 预加载字体文件避免阻塞 -->
+  <!-- 字体优化 - 预加载字体文件并优化度量 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.gstatic.com/s/creepster/v13/AlZy_zVUqJt4Uh9leBHMlhBNbQJQ2pJ4.ttf" as="font" type="font/ttf" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  
+  <!-- 字体度量优化 - 减少布局偏移 -->
+  <style>
+    /* 为Creepster字体设置与fallback字体相近的度量 */
+    @font-face {
+      font-family: 'Creepster-Fallback';
+      src: local('Arial'), local('Helvetica'), local('sans-serif');
+      font-display: swap;
+      /* 调整字体度量以匹配Creepster */
+      size-adjust: 105%;
+      line-gap-override: 10%;
+    }
+    
+    /* 使用优化的字体栈 */
+    .hero-title, .hero-banner, .hero-description {
+      font-family: 'Creepster', 'Creepster-Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+  </style>
   
   <!-- 关键CSS内联 - 避免阻塞渲染 -->
   <style>
@@ -79,15 +97,28 @@
     }
     /* 关键布局样式 - 防止hero-wrapper偏移 */
     .hero-wrapper {
-      min-height: 400px;
+      /* 使用contain隔离布局变化 */
+      contain: layout style paint;
+      /* 使用content-visibility优化渲染 */
+      content-visibility: auto;
+      /* 预估尺寸，避免布局偏移 */
+      contain-intrinsic-size: 1200px 600px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
     .hero-banner {
-      min-height: 40px;
+      /* 使用contain隔离布局变化 */
+      contain: layout style;
+      /* 预估尺寸，避免布局偏移 */
+      contain-intrinsic-size: 800px 60px;
       margin-bottom: 20px;
+      /* 使用flex布局保持稳定 */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
     }
   </style>
 </head>

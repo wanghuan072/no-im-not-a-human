@@ -40,6 +40,13 @@ export default defineConfig({
           
           // 组件和工具 - 合并到主包避免循环依赖
           return undefined
+        },
+        // 优化CSS输出
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name && assetInfo.name.endsWith('.css')) {
+            return 'assets/[name]-[hash][extname]'
+          }
+          return 'assets/[name]-[hash][extname]'
         }
       }
     },
@@ -61,6 +68,8 @@ export default defineConfig({
       minify: true,
       // 启用CSS Tree-shaking
       devSourcemap: false,
+      // 启用CSS代码分割
+      codeSplit: true,
     },
   },
   // 开发服务器优化

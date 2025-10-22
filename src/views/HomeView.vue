@@ -332,15 +332,26 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 简化的组件挂载 - 避免循环依赖
+// 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-    // 使用RAF优化DOM操作
+    // 使用RAF批量处理DOM操作，避免强制重排
     requestAnimationFrame(() => {
-        // 批量处理DOM操作
-        const elements = document.querySelectorAll('.hero-title, .hero-description')
-        elements.forEach(el => {
-            el.style.willChange = 'transform'
-            el.style.contentVisibility = 'auto'
+        // 批量读取DOM属性
+        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner')
+        const elementData = Array.from(heroElements).map(el => ({
+            element: el,
+            currentStyle: window.getComputedStyle(el),
+            currentRect: el.getBoundingClientRect()
+        }))
+        
+        // 批量写入DOM属性
+        requestAnimationFrame(() => {
+            elementData.forEach(({ element }) => {
+                // 使用transform和opacity进行优化，避免触发布局
+                element.style.willChange = 'transform, opacity'
+                element.style.contentVisibility = 'auto'
+                element.style.contain = 'layout style paint'
+            })
         })
     })
     
