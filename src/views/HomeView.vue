@@ -294,24 +294,9 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 简化的广告加载
-const adProvider = () => {
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
-    
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
-        }
-    }
-}
-
+// 移除广告脚本，专注于核心性能
 onMounted(() => {
-    // 延迟3秒加载广告，避免阻塞关键渲染
-    setTimeout(adProvider, 3000)
+    // 只保留必要的初始化逻辑
 })
 </script>
 

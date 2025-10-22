@@ -58,12 +58,12 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 异步加载非关键CSS - 避免阻塞关键渲染路径 -->
+  <!-- 异步加载所有非关键CSS -->
   <link rel="preload" href="/assets/AppFooter-B1KQm_60.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/assets/HomeView-D-t7nWER.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/assets/HomeView-BxwY7arb.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="/assets/AppFooter-B1KQm_60.css">
-    <link rel="stylesheet" href="/assets/HomeView-D-t7nWER.css">
+    <link rel="stylesheet" href="/assets/HomeView-BxwY7arb.css">
   </noscript>
   
   <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
@@ -225,69 +225,7 @@
     }
   </style>
 
-  <!-- 简化的第三方脚本加载 -->
-  <script>
-    // 简单的延迟加载策略
-    function loadThirdPartyScripts() {
-      // 延迟加载Google Analytics
-      setTimeout(() => {
-        const gtagScript = document.createElement('script');
-        gtagScript.async = true;
-        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
-        document.head.appendChild(gtagScript);
-        
-        gtagScript.onload = function() {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
-          gtag('js', new Date());
-          gtag('config', 'G-VTL722V3EP');
-        };
-      }, 2000);
-      
-      // 延迟加载Google AdSense
-      setTimeout(() => {
-        const adsScript = document.createElement('script');
-        adsScript.async = true;
-        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
-        adsScript.crossOrigin = 'anonymous';
-        document.head.appendChild(adsScript);
-      }, 3000);
-    }
-    
-    // 页面加载完成后延迟执行
-    window.addEventListener('load', loadThirdPartyScripts);
-  </script>
-
-  <!-- 广告联盟 -->
-  <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
-
-  <!-- 广告脚本延迟加载优化 -->
-  <script>
-    // 延迟加载广告脚本，避免阻塞关键渲染路径
-    function loadAdScript() {
-      if (document.readyState === 'complete') {
-        const script = document.createElement('script');
-        script.src = 'https://a.pemsrv.com/ad-provider.js';
-        script.async = true;
-        script.type = 'application/javascript';
-        document.head.appendChild(script);
-        
-        script.onload = function() {
-          if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} });
-          }
-        };
-      }
-    }
-    
-    // 在页面完全加载后执行
-    window.addEventListener('load', loadAdScript);
-    
-    // 简化Service Worker注册
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js');
-    }
-  </script>
+  <!-- 完全移除第三方脚本，专注于核心性能 -->
   
   <!-- PC全插广告位 -->
   <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
