@@ -52,9 +52,9 @@
         </section>
 
         <!-- 移动横幅广告位1 -->
-        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+        <!-- <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5750516"></ins>
-        </aside>
+        </aside> -->
 
         <!-- Video Section -->
         <section class="section video">
@@ -78,21 +78,21 @@
                     </div>
 
                     <!-- 首页横幅广告位1 -->
-                    <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="!isMobile">
+                    <!-- <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="!isMobile">
                         <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
-                    </aside>
+                    </aside> -->
                 </div>
             </div>
         </section>
 
         <!-- PC底部粘性横幅广告位1 -->
-        <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
+        <!-- <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins> -->
 
         <!-- PC粘性左侧横幅广告位1 -->
-        <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
+        <!-- <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins> -->
 
         <!-- PC粘性右侧横幅广告1 -->
-        <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
+        <!-- <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins> -->
 
         <!-- About Section -->
         <section class="section about">
@@ -167,9 +167,9 @@
                         </div>
                     </div>
                     <!-- 原生广告位 -->
-                    <aside style="width: 100%; padding: 20px 0; text-align: center;">
+                    <!-- <aside style="width: 100%; padding: 20px 0; text-align: center;">
                         <ins class="eas6a97888e20" data-zoneid="5750512"></ins>
-                    </aside>
+                    </aside> -->
                 </div>
             </div>
         </section>
@@ -211,9 +211,9 @@
         </section>
 
         <!-- 移动横幅广告位2 -->
-        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+        <!-- <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5750518"></ins>
-        </aside>
+        </aside> -->
 
         <!-- FAQ Section -->
         <section class="section faq">
@@ -254,9 +254,9 @@
         </section>
 
         <!-- 移动横幅广告位2 -->
-        <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
+        <!-- <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5750520"></ins>
-        </aside>
+        </aside> -->
 
         <!-- CTA Section -->
         <section class="section cta">
