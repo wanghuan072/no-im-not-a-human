@@ -11,7 +11,9 @@
                  fetchpriority="high"
                  loading="eager"
                  width="1920" 
-                 height="1080">
+                 height="1080"
+                 decoding="sync"
+                 style="content-visibility: auto;">
             <div class="container">
                 <div class="hero-wrapper">
                     <!-- Hot Recommendation Banner -->
@@ -51,10 +53,12 @@
             </div>
         </section>
 
-        <!-- 移动横幅广告位1 -->
+        <!-- 暂时移除移动横幅广告位以优化性能 -->
+        <!-- 
         <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5750516"></ins>
         </aside>
+        -->
 
         <!-- Video Section -->
         <section class="section video">
@@ -63,10 +67,15 @@
                     <h2 class="home-title">{{ $t('HomePage.video.title') }}</h2>
                     <div class="video-container">
                         <div class="video-overlay" v-if="!videoPlaying" @click="playVideo">
-                            <div class="video-poster">
-                                <img src="/images/video-bg.webp" alt="No I'm not a Human Video Poster" />
-                                <div class="video-mask"></div>
-                            </div>
+                        <div class="video-poster">
+                            <img src="/images/video-bg.webp" 
+                                 alt="No I'm not a Human Video Poster" 
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="800" 
+                                 height="450" />
+                            <div class="video-mask"></div>
+                        </div>
                             <div class="play-text-button" @click.stop="playVideo">
                                 <span class="play-text-icon">{{ $t('HomePage.video.playButton') }}</span>
                                 <span class="play-text-label">{{ $t('HomePage.video.playLabel') }}</span>
@@ -77,22 +86,22 @@
                             allowfullscreen class="video-iframe"></iframe>
                     </div>
 
-                    <!-- 首页横幅广告位1 -->
+                    <!-- 暂时移除首页横幅广告位以优化性能 -->
+                    <!-- 
                     <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="!isMobile">
                         <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
                     </aside>
+                    -->
                 </div>
             </div>
         </section>
 
-        <!-- PC底部粘性横幅广告位1 -->
+        <!-- 暂时移除PC广告位以优化性能 -->
+        <!-- 
         <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
-
-        <!-- PC粘性左侧横幅广告位1 -->
         <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
-
-        <!-- PC粘性右侧横幅广告1 -->
         <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
+        -->
 
         <!-- About Section -->
         <section class="section about">
@@ -108,7 +117,12 @@
                         </div>
                         <div class="about-image">
                             <div class="game-image">
-                                <img src="/images/about-img.webp" alt="No I'm not a Human Game Screenshot" />
+                                <img src="/images/about-img.webp" 
+                                     alt="No I'm not a Human Game Screenshot" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="600" 
+                                     height="400" />
                             </div>
                         </div>
                     </div>
@@ -139,37 +153,59 @@
                     <div class="why-grid">
                         <div class="why-card">
                             <div class="why-image">
-                                <img src="/images/why-01.webp" alt="No I'm not a Human Game Screenshot" />
+                                <img src="/images/why-01.webp" 
+                                     alt="No I'm not a Human Game Screenshot" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="300" 
+                                     height="200" />
                             </div>
                             <h3 v-html="$t('HomePage.why.card1.title', {}, { raw: true })"></h3>
                             <p>{{ $t('HomePage.why.card1.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
-                                <img src="/images/why-02.webp" alt="No I'm not a Human Game Screenshot" />
+                                <img src="/images/why-02.webp" 
+                                     alt="No I'm not a Human Game Screenshot" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="300" 
+                                     height="200" />
                             </div>
                             <h3 v-html="$t('HomePage.why.card2.title', {}, { raw: true })"></h3>
                             <p>{{ $t('HomePage.why.card2.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
-                                <img src="/images/why-03.webp" alt="No I'm not a Human Game Screenshot" />
+                                <img src="/images/why-03.webp" 
+                                     alt="No I'm not a Human Game Screenshot" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="300" 
+                                     height="200" />
                             </div>
                             <h3 v-html="$t('HomePage.why.card3.title', {}, { raw: true })"></h3>
                             <p>{{ $t('HomePage.why.card3.description') }}</p>
                         </div>
                         <div class="why-card">
                             <div class="why-image">
-                                <img src="/images/why-04.webp" alt="No I'm not a Human Game Screenshot" />
+                                <img src="/images/why-04.webp" 
+                                     alt="No I'm not a Human Game Screenshot" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="300" 
+                                     height="200" />
                             </div>
                             <h3 v-html="$t('HomePage.why.card4.title', {}, { raw: true })"></h3>
                             <p v-html="$t('HomePage.why.card4.description', {}, { raw: true })"></p>
                         </div>
                     </div>
-                    <!-- 原生广告位 -->
+                    <!-- 暂时移除原生广告位以优化性能 -->
+                    <!-- 
                     <aside style="width: 100%; padding: 20px 0; text-align: center;">
                         <ins class="eas6a97888e20" data-zoneid="5750512"></ins>
                     </aside>
+                    -->
                 </div>
             </div>
         </section>
@@ -294,23 +330,38 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 广告联盟
-const adProvider = () => {
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
+// 暂时移除广告联盟以优化性能
+// const adProvider = () => {
+//     const script = document.createElement('script')
+//     script.src = 'https://a.magsrv.com/ad-provider.js'
+//     script.async = true
+//     script.type = 'application/javascript'
+//     document.head.appendChild(script)
 
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
-        }
-    }
-}
+//     script.onload = () => {
+//         if (window.AdProvider) {
+//             window.AdProvider.push({ "serve": {} })
+//         }
+//     }
+// }
 
+// 优化DOM操作，减少强制同步布局
 onMounted(() => {
-    adProvider()
+    // 使用requestAnimationFrame延迟DOM操作
+    requestAnimationFrame(() => {
+        // 批量DOM操作，避免频繁重排
+        const elements = document.querySelectorAll('.hero-title, .hero-description')
+        elements.forEach(el => {
+            // 避免在循环中查询几何属性
+            el.style.willChange = 'transform'
+        })
+    })
+    
+    // 延迟非关键操作
+    setTimeout(() => {
+        // 非关键初始化操作
+        console.log('HomeView mounted')
+    }, 100)
 })
 </script>
 

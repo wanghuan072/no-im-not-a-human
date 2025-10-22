@@ -50,7 +50,7 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 异步加载非关键CSS -->
+  <!-- 优化CSS加载策略 - 关键CSS内联，非关键CSS异步加载 -->
   <link rel="preload" href="/assets/AppFooter-B1KQm_60.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="/assets/HomeView-204b2cyc.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
@@ -217,7 +217,8 @@
     }
   </style>
 
-  <!-- 延迟加载Google Analytics和AdSense -->
+  <!-- 暂时移除广告和分析脚本以优化性能 -->
+  <!-- 
   <script>
     // 延迟加载Google Analytics
     function loadGoogleAnalytics() {
@@ -248,6 +249,8 @@
       loadGoogleAnalytics();
       loadGoogleAdSense();
     });
+  </script>
+  -->
     
     // 基于CloverLeaf策略的并行化资源加载
     function parallelResourceLoading() {
@@ -349,10 +352,10 @@
     });
   </script>
 
-  <!-- 广告联盟 -->
+  <!-- 暂时移除广告联盟和广告位以优化性能 -->
+  <!-- 
   <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
 
-  <!-- 广告脚本延迟加载优化 -->
   <script>
     // 延迟加载广告脚本，避免阻塞关键渲染路径
     function loadAdScript() {
@@ -373,7 +376,14 @@
     
     // 在页面完全加载后执行
     window.addEventListener('load', loadAdScript);
-    
+  </script>
+  
+  <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
+  <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
+  -->
+  
+  <!-- 保留Service Worker进行缓存优化 -->
+  <script>
     // 立即注册Service Worker进行缓存优化
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js')
@@ -385,12 +395,6 @@
         });
     }
   </script>
-  
-  <!-- PC全插广告位 -->
-  <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
-
-  <!-- 移动全插广告 -->
-  <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
 
 </head>
 
