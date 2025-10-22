@@ -90,10 +90,15 @@ router.beforeEach(async (to, from, next) => {
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
-    // 导入i18n实例并设置语言
-    const { default: i18n } = await import('@/i18n')
+    // 导入i18n实例并动态加载语言
+    const { default: i18n, loadLocale } = await import('@/i18n')
 
-    // 强制设置语言
+    // 如果语言不是英文，先加载语言文件
+    if (detectedLanguage !== 'en') {
+      await loadLocale(detectedLanguage)
+    }
+
+    // 设置语言
     i18n.global.locale.value = detectedLanguage
     localStorage.setItem('language', detectedLanguage)
 
@@ -110,20 +115,18 @@ router.beforeEach(async (to, from, next) => {
   }
 })
 
-// 设置页面SEO的函数
+// 设置页面SEO的函数 - 简化版本，只使用英文SEO数据
 async function setPageSEO(route, language) {
-  // 动态加载语言数据
-  const localeData = await loadLocale(language)
+  // 获取页面SEO配置
+  const seoKey = getSEOKey(route.path, language)
   
-  if (localeData) {
-    // 获取页面SEO配置
-    const seoKey = getSEOKey(route.path, language)
-    const seoData = localeData?.seo?.[seoKey]
+  // 只使用英文SEO数据，避免加载所有语言文件
+  const localeData = localeDataMap['en']
+  const seoData = localeData?.seo?.[seoKey]
 
-    if (seoData && typeof document !== 'undefined') {
-      const { setSEO } = await import('@/seo')
-      setSEO(seoData, route.path, seoKey)
-    }
+  if (seoData && typeof document !== 'undefined') {
+    const { setSEO } = await import('@/seo')
+    setSEO(seoData, route.path, seoKey, language)
   }
 }
 

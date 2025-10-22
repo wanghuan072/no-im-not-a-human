@@ -175,8 +175,8 @@ const getLanguageDisplayName = (lang) => {
     return languageNames[lang] || lang.toUpperCase()
 }
 
-// 语言切换功能
-const switchLanguage = (lang) => {
+// 语言切换功能 - 使用路由跳转而不是页面刷新
+const switchLanguage = async (lang) => {
     // 关闭下拉菜单
     isLanguageDropdownOpen.value = false
     isMobileLanguageDropdownOpen.value = false
@@ -203,8 +203,8 @@ const switchLanguage = (lang) => {
         targetPath = basePath === '/' ? `/${lang}` : `/${lang}${basePath}`
     }
 
-    // 使用window.location进行页面跳转
-    window.location.href = targetPath
+    // 使用路由跳转，让路由守卫处理语言切换
+    await router.push(targetPath)
 }
 </script>
 

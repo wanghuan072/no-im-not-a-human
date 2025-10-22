@@ -21,32 +21,22 @@ export default defineConfig({
     // 优化构建配置以减少包大小
     rollupOptions: {
       output: {
-        // 优化的代码分割策略 - 进一步减少主包大小
+        // 简化的代码分割策略 - 避免循环依赖
         manualChunks: (id) => {
-          // 第三方库 - 分离主要依赖
+          // 第三方库 - 只分离Vue相关
           if (id.includes('node_modules')) {
             if (id.includes('vue')) return 'vue-vendor'
-            if (id.includes('vue-router')) return 'router-vendor'
-            if (id.includes('vue-i18n')) return 'i18n-vendor'
-            if (id.includes('pinia')) return 'pinia-vendor'
             return 'vendor'
           }
           
-          // 页面组件 - 按功能分组
+          // 页面组件 - 只分离首页
           if (id.includes('/views/')) {
             const viewName = id.split('/views/')[1].split('.vue')[0]
             if (viewName === 'HomeView') return 'home'
-            if (viewName.includes('Guide')) return 'guides'
-            if (viewName.includes('Blog')) return 'blog'
             return 'pages'
           }
           
-          // 工具和组件 - 分离到独立chunk
-          if (id.includes('/utils/')) return 'utils'
-          if (id.includes('/components/')) return 'components'
-          if (id.includes('/seo/')) return 'seo'
-          
-          // 主包只保留核心逻辑
+          // 其他保持在一起，避免循环依赖
           return undefined
         },
         // 优化CSS输出
