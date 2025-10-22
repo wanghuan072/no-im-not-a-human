@@ -29,10 +29,6 @@ export default defineConfig({
           if (id.includes('vue-i18n')) {
             return 'i18n-vendor';
           }
-          // 将SEO相关分离
-          if (id.includes('seo')) {
-            return 'seo-vendor';
-          }
           // 将工具函数分离
           if (id.includes('utils')) {
             return 'utils-vendor';
@@ -45,6 +41,7 @@ export default defineConfig({
           if (id.includes('locales') || id.includes('.json')) {
             return 'locales-vendor';
           }
+          // SEO模块不分离，与主应用一起加载
         }
       }
     },
