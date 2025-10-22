@@ -294,36 +294,39 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 基于Cloverpit策略的智能广告加载
-const loadAdScripts = () => {
-    // 检查是否已经加载
-    if (document.querySelector('script[src*="ad-provider.js"]')) {
-        return
+// 基于Cloverpit的计算密度优化
+const memoizedCalculations = new Map();
+
+// 缓存计算结果，避免重复计算
+const getCachedResult = (key, calculation) => {
+    if (memoizedCalculations.has(key)) {
+        return memoizedCalculations.get(key);
     }
-    
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
-    
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
-        }
-    }
-}
+    const result = calculation();
+    memoizedCalculations.set(key, result);
+    return result;
+};
+
+// 批量DOM操作，减少重排
+const batchDOMUpdates = (updates) => {
+    requestAnimationFrame(() => {
+        updates.forEach(update => update());
+    });
+};
 
 onMounted(() => {
-    // 使用requestIdleCallback在浏览器空闲时加载
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-            loadAdScripts()
-        }, { timeout: 5000 })
-    } else {
-        // 降级到setTimeout
-        setTimeout(loadAdScripts, 2000)
-    }
+    // 使用Cloverpit策略：批量初始化
+    const initTasks = [
+        () => console.log('HomeView mounted'),
+        () => {
+            // 预计算常用值
+            const viewportHeight = window.innerHeight;
+            const viewportWidth = window.innerWidth;
+            memoizedCalculations.set('viewport', { height: viewportHeight, width: viewportWidth });
+        }
+    ];
+    
+    batchDOMUpdates(initTasks);
 })
 </script>
 

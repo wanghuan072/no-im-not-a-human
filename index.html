@@ -66,15 +66,8 @@
     <link rel="stylesheet" href="/assets/HomeView-CPHvzm9N.css">
   </noscript>
   
-  <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
+  <!-- 基础样式 -->
   <style>
-    /* 关键首屏样式 */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
       line-height: 1.6;
@@ -84,221 +77,93 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    
-    .section {
-      position: relative;
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 80px 0;
-    }
-    
-    .section.hero {
-      height: 100vh;
-      padding: 70px 0 0 0;
-    }
-    
-    .hero-bg-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-      z-index: 1;
-    }
-    
-    .hero-wrapper {
-      color: #fff;
-      background: rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(8px);
-      border-radius: 15px;
-      padding: 40px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      text-align: center;
-      position: relative;
-      z-index: 3;
-    }
-    
-    .hero-title {
-      font-size: 64px;
-      font-weight: bold;
-      margin-bottom: 24px;
-      color: white;
-      text-align: center;
-      position: relative;
-      z-index: 3;
-      line-height: 1.2;
-    }
-    
-    .hero-title .highlight {
-      font-family: 'Creepster', cursive;
-      color: #00ff88;
-      text-shadow: 0 0 10px #00ff88;
-      font-weight: normal;
-    }
-    
-    .hero-description {
-      margin-bottom: 40px;
-      text-align: center;
-      position: relative;
-      z-index: 3;
-    }
-    
-    .hero-description p {
-      font-size: 18px;
-      line-height: 1.7;
-      color: #d1d5db;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .hero-buttons {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      position: relative;
-      z-index: 3;
-      margin-bottom: 40px;
-    }
-    
-    .btn {
-      padding: 16px 32px;
-      border: none;
-      border-radius: 5px;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-    }
-    
-    .btn-primary {
-      background: #00ff41;
-      color: #000;
-      box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
-    }
-    
-    .btn-secondary {
-      background: transparent;
-      color: #fff;
-      border: 2px solid #fff;
-    }
-    
-    /* 响应式设计 */
-    @media (max-width: 768px) {
-      .hero-title {
-        font-size: 24px;
-        margin-bottom: 10px;
-      }
-      
-      .hero-description p {
-        font-size: 14px;
-        line-height: 1.5;
-      }
-      
-      .hero-buttons {
-        gap: 10px;
-        margin-bottom: 10px;
-      }
-      
-      .btn {
-        padding: 10px 20px;
-        font-size: 12px;
-      }
-    }
   </style>
+
+  <!-- 基于Cloverpit的智能资源管理 -->
+  <script>
+    // Cloverpit策略：算术强度优化
+    class ResourceManager {
+      constructor() {
+        this.cache = new Map();
+        this.pending = new Set();
+      }
+      
+      // 批量预取关键资源
+      async prefetchCriticalResources() {
+        const criticalResources = [
+          '/images/1.webp',
+          '/images/about-img.webp',
+          '/assets/HomeView-DwjkBgIr.css'
+        ];
+        
+        // 并行加载，最大化带宽利用率
+        const promises = criticalResources.map(resource => 
+          this.loadResource(resource)
+        );
+        
+        await Promise.all(promises);
+      }
+      
+      // 智能资源加载
+      async loadResource(url) {
+        if (this.cache.has(url)) {
+          return this.cache.get(url);
+        }
+        
+        if (this.pending.has(url)) {
+          return new Promise(resolve => {
+            const checkCache = () => {
+              if (this.cache.has(url)) {
+                resolve(this.cache.get(url));
+              } else {
+                setTimeout(checkCache, 10);
+              }
+            };
+            checkCache();
+          });
+        }
+        
+        this.pending.add(url);
+        
+        try {
+          const response = await fetch(url);
+          const data = await response.blob();
+          this.cache.set(url, data);
+          return data;
+        } finally {
+          this.pending.delete(url);
+        }
+      }
+    }
+    
+    // 初始化资源管理器
+    const resourceManager = new ResourceManager();
+    
+    // 页面加载完成后预取关键资源
+    window.addEventListener('load', () => {
+      resourceManager.prefetchCriticalResources();
+    });
+  </script>
 
   <!-- 广告联盟 -->
   <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
 
-  <!-- 基于Cloverpit策略的延迟加载 -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP"></script>
   <script>
-    // 基于Cloverpit的智能延迟加载策略
-    function loadThirdPartyScripts() {
-      // 使用IntersectionObserver检测用户交互
-      let userInteracted = false;
-      let scriptsLoaded = false;
-      
-      // 检测用户交互
-      const interactionEvents = ['click', 'scroll', 'touchstart', 'keydown'];
-      interactionEvents.forEach(event => {
-        document.addEventListener(event, () => {
-          userInteracted = true;
-          if (!scriptsLoaded) {
-            loadScripts();
-          }
-        }, { once: true });
-      });
-      
-      // 延迟加载脚本
-      function loadScripts() {
-        if (scriptsLoaded) return;
-        scriptsLoaded = true;
-        
-        // 加载Google Analytics
-        const gtagScript = document.createElement('script');
-        gtagScript.async = true;
-        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
-        document.head.appendChild(gtagScript);
-        
-        gtagScript.onload = function() {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
-          gtag('js', new Date());
-          gtag('config', 'G-VTL722V3EP');
-        };
-        
-        // 延迟加载Google AdSense
-        setTimeout(() => {
-          const adsScript = document.createElement('script');
-          adsScript.async = true;
-          adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
-          adsScript.crossOrigin = 'anonymous';
-          document.head.appendChild(adsScript);
-        }, 1000);
-        
-        // 延迟加载广告提供商脚本
-        setTimeout(() => {
-          const adProviderScript = document.createElement('script');
-          adProviderScript.async = true;
-          adProviderScript.src = 'https://a.pemsrv.com/ad-provider.js';
-          document.head.appendChild(adProviderScript);
-          
-          adProviderScript.onload = function() {
-            if (window.AdProvider) {
-              window.AdProvider.push({ "serve": {} });
-            }
-          };
-        }, 2000);
-      }
-      
-      // 备用延迟加载（如果用户没有交互）
-      setTimeout(() => {
-        if (!userInteracted && !scriptsLoaded) {
-          loadScripts();
-        }
-      }, 15000);
-    }
-    
-    // 页面加载完成后初始化
-    window.addEventListener('load', loadThirdPartyScripts);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-VTL722V3EP');
   </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017"
+    crossorigin="anonymous"></script>
+
+  <!-- 广告提供商脚本 -->
+  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
+  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
   <!-- PC全插广告位 -->
   <ins class="eas6a97888e35" data-zoneid="5750510"></ins>

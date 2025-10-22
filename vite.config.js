@@ -20,43 +20,26 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: (id) => {
+        manualChunks: {
           // 将Vue相关库分离
-          if (id.includes('vue') || id.includes('vue-router') || id.includes('pinia')) {
-            return 'vue-vendor';
-          }
+          'vue-vendor': ['vue', 'vue-router', 'pinia'],
           // 将i18n相关分离
-          if (id.includes('vue-i18n')) {
-            return 'i18n-vendor';
-          }
-          // 将工具函数分离
-          if (id.includes('utils')) {
-            return 'utils-vendor';
-          }
-          // 将博客相关分离
-          if (id.includes('blog')) {
-            return 'blog-vendor';
-          }
-          // 将语言文件分离
-          if (id.includes('locales') || id.includes('.json')) {
-            return 'locales-vendor';
-          }
-          // 将路由相关分离
-          if (id.includes('router')) {
-            return 'router-vendor';
-          }
-          // SEO模块不分离，与主应用一起加载，避免初始化顺序问题
-          // 将组件分离
-          if (id.includes('components')) {
-            return 'components-vendor';
-          }
-          // 主应用代码最小化
+          'i18n-vendor': ['vue-i18n']
         }
       }
     },
     // 启用代码压缩
     minify: 'esbuild',
     // 设置chunk大小警告限制
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 1000,
+    // Cloverpit策略：并行构建
+    target: 'esnext',
+    cssCodeSplit: true,
+    sourcemap: false
+  },
+  // Cloverpit策略：并行处理
+  esbuild: {
+    target: 'esnext',
+    format: 'esm'
   }
 })
