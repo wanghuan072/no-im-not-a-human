@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { useSEO } from '@/seo'
 
 // 导入所有语言文件用于SEO
 import enLocale from '@/locales/en.json'

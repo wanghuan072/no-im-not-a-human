@@ -186,6 +186,7 @@ export function setSEO(seoData, currentPath, pageName = 'home') {
 
 // SEO composable（供组件内使用）
 export function useSEO(seoDataCallback) {
+    // 延迟导入Vue composables，避免初始化顺序问题
     const route = useRoute()
     const { locale } = useI18n()
 
