@@ -20,23 +20,37 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
+        manualChunks: (id) => {
           // 将Vue相关库分离
-          'vue-vendor': ['vue', 'vue-router', 'pinia'],
+          if (id.includes('vue') || id.includes('vue-router') || id.includes('pinia')) {
+            return 'vue-vendor';
+          }
           // 将i18n相关分离
-          'i18n-vendor': ['vue-i18n'],
-          // 将工具库分离
-          'utils-vendor': ['lodash-es']
+          if (id.includes('vue-i18n')) {
+            return 'i18n-vendor';
+          }
+          // 将SEO相关分离
+          if (id.includes('seo')) {
+            return 'seo-vendor';
+          }
+          // 将工具函数分离
+          if (id.includes('utils')) {
+            return 'utils-vendor';
+          }
+          // 将博客相关分离
+          if (id.includes('blog')) {
+            return 'blog-vendor';
+          }
+          // 将语言文件分离
+          if (id.includes('locales') || id.includes('.json')) {
+            return 'locales-vendor';
+          }
         }
       }
     },
     // 启用代码压缩
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true
-      }
-    }
+    minify: 'esbuild',
+    // 设置chunk大小警告限制
+    chunkSizeWarningLimit: 1000
   }
 })
