@@ -36,7 +36,7 @@
   <!-- Alternate hreflang -->
   <link rel="alternate" hreflang="en" href="https://iamnotahuman.org/">
   <link rel="alternate" hreflang="x-default" href="https://iamnotahuman.org/">
-
+  
   <!-- 关键资源预加载 -->
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
@@ -44,6 +44,10 @@
   <!-- 预连接关键资源 -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- 预加载关键CSS -->
+  <link rel="preload" href="/assets/home-Cp9N4rws.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/home-Cp9N4rws.css"></noscript>
   
   <!-- 字体优化 - 预加载字体文件并优化度量 -->
   <!-- 暂时注释网络字体，测试本地字体性能 -->
@@ -98,9 +102,9 @@
     }
     #app { min-height: 100vh; }
     .loading { 
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 100vh; 
       font-size: 18px;
     }
@@ -113,9 +117,9 @@
       overflow: hidden;
     }
     .video-poster img { 
-      width: 100%; 
-      height: 100%; 
-      object-fit: cover; 
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     /* 关键布局样式 - 防止hero-wrapper偏移 */
     .hero-wrapper {
@@ -196,12 +200,16 @@
       font-size: clamp(2rem, 5vw, 4rem);
       line-height: 1.2;
       margin-bottom: 1rem;
+      /* 使用transform优化，避免触发布局 */
+      will-change: transform;
     }
     
     .hero-description {
       font-size: clamp(1rem, 2.5vw, 1.5rem);
       line-height: 1.6;
       margin-bottom: 2rem;
+      /* 使用transform优化，避免触发布局 */
+      will-change: transform;
     }
     
     .hero-buttons {
@@ -209,6 +217,18 @@
       gap: 1rem;
       flex-wrap: wrap;
       justify-content: center;
+      /* 使用transform优化，避免触发布局 */
+      will-change: transform;
+    }
+    
+    /* 优化首屏渲染 - 减少重绘 */
+    .hero-wrapper {
+      /* 使用contain隔离布局变化 */
+      contain: layout style paint;
+      /* 使用content-visibility优化渲染 */
+      content-visibility: auto;
+      /* 预估尺寸，避免布局偏移 */
+      contain-intrinsic-size: 1200px 600px;
     }
   </style>
 </head>

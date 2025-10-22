@@ -1,28 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useSEO } from '@/seo'
 
-// 导入所有语言文件用于SEO
-import enLocale from '@/locales/en.json'
-import zhLocale from '@/locales/zh.json'
-import jaLocale from '@/locales/ja.json'
-import ruLocale from '@/locales/ru.json'
-import koLocale from '@/locales/ko.json'
-import deLocale from '@/locales/de.json'
-import frLocale from '@/locales/fr.json'
-import esLocale from '@/locales/es.json'
-import ptLocale from '@/locales/pt.json'
+// 按需加载语言文件 - 减少主包大小
+const localeDataMap = {}
 
-// 语言数据映射
-const localeDataMap = {
-  en: enLocale,
-  zh: zhLocale,
-  ja: jaLocale,
-  ru: ruLocale,
-  ko: koLocale,
-  de: deLocale,
-  fr: frLocale,
-  es: esLocale,
-  pt: ptLocale
+// 动态加载语言文件
+async function loadLocale(lang) {
+  if (!localeDataMap[lang]) {
+    try {
+      const locale = await import(`@/locales/${lang}.json`)
+      localeDataMap[lang] = locale.default
+    } catch (error) {
+      console.warn(`Failed to load locale ${lang}:`, error)
+      // 回退到英文
+      if (lang !== 'en') {
+        const enLocale = await import('@/locales/en.json')
+        localeDataMap[lang] = enLocale.default
+      }
+    }
+  }
+  return localeDataMap[lang]
 }
 
 // 页面配置
@@ -115,16 +112,18 @@ router.beforeEach(async (to, from, next) => {
 
 // 设置页面SEO的函数
 async function setPageSEO(route, language) {
-  // 获取页面SEO配置
-  const seoKey = getSEOKey(route.path, language)
+  // 动态加载语言数据
+  const localeData = await loadLocale(language)
+  
+  if (localeData) {
+    // 获取页面SEO配置
+    const seoKey = getSEOKey(route.path, language)
+    const seoData = localeData?.seo?.[seoKey]
 
-  // 从静态导入的语言文件获取SEO数据
-  const localeData = localeDataMap[language]
-  const seoData = localeData?.seo?.[seoKey]
-
-  if (seoData && typeof document !== 'undefined') {
-    const { setSEO } = await import('@/seo')
-    setSEO(seoData, route.path, seoKey)
+    if (seoData && typeof document !== 'undefined') {
+      const { setSEO } = await import('@/seo')
+      setSEO(seoData, route.path, seoKey)
+    }
   }
 }
 
