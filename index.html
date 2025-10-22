@@ -225,161 +225,37 @@
     }
   </style>
 
-  <!-- 延迟加载Google Analytics和AdSense -->
+  <!-- 简化的第三方脚本加载 -->
   <script>
-    // 优化第三方脚本加载 - 减少未使用JavaScript
-    function loadGoogleAnalytics() {
-      // 检查是否已经加载
-      if (document.querySelector('script[src*="googletagmanager.com"]')) {
-        return;
-      }
-      
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
-      script.onload = function() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-VTL722V3EP');
-      };
-      document.head.appendChild(script);
-    }
-    
-    // 延迟加载Google AdSense - 仅在需要时加载
-    function loadGoogleAdSense() {
-      // 检查是否已经加载
-      if (document.querySelector('script[src*="adsbygoogle.js"]')) {
-        return;
-      }
-      
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
-      script.crossOrigin = 'anonymous';
-      document.head.appendChild(script);
-    }
-    
-    // 在页面完全加载后执行
-    window.addEventListener('load', () => {
-      loadGoogleAnalytics();
-      loadGoogleAdSense();
-    });
-    
-    // 基于CloverLeaf策略的并行化资源加载
-    function parallelResourceLoading() {
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((entries) => {
-          // 并行处理多个元素
-          const promises = entries.map(entry => {
-            if (entry.isIntersecting) {
-              const element = entry.target;
-              if (element.dataset.lazyLoad) {
-                return loadResourceAsync(element);
-              }
-            }
-            return Promise.resolve();
-          });
-          
-          // 并行执行所有加载任务
-          Promise.all(promises).then(() => {
-            console.log('Parallel loading completed');
-          });
-        }, {
-          rootMargin: '50px', // 提前50px开始加载
-          threshold: 0.1
-        });
+    // 简单的延迟加载策略
+    function loadThirdPartyScripts() {
+      // 延迟加载Google Analytics
+      setTimeout(() => {
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
+        document.head.appendChild(gtagScript);
         
-        // 观察所有需要延迟加载的元素
-        document.querySelectorAll('[data-lazy-load]').forEach(el => {
-          observer.observe(el);
-        });
-      }
+        gtagScript.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-VTL722V3EP');
+        };
+      }, 2000);
+      
+      // 延迟加载Google AdSense
+      setTimeout(() => {
+        const adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }, 3000);
     }
     
-    // 异步资源加载函数
-    async function loadResourceAsync(element) {
-      const resourceType = element.dataset.lazyLoad;
-      const resourceUrl = element.dataset.src;
-      
-      if (resourceType === 'image') {
-        return new Promise((resolve) => {
-          const img = new Image();
-          img.onload = () => {
-            element.src = resourceUrl;
-            element.classList.add('loaded');
-            resolve();
-          };
-          img.src = resourceUrl;
-        });
-      }
-      
-      if (resourceType === 'script') {
-        return new Promise((resolve) => {
-          const script = document.createElement('script');
-          script.src = resourceUrl;
-          script.onload = resolve;
-          document.head.appendChild(script);
-        });
-      }
-    }
-    
-    // 基于CloverLeaf数据局部性优化的资源预取
-    function optimizeDataLocality() {
-      // 预取关键资源，提高缓存命中率
-      const criticalResources = [
-        '/images/1.webp',
-        '/images/about-img.webp',
-        '/images/logo.webp'
-      ];
-      
-      criticalResources.forEach(resource => {
-        const link = document.createElement('link');
-        link.rel = 'prefetch';
-        link.href = resource;
-        document.head.appendChild(link);
-      });
-      
-      // 使用requestIdleCallback在浏览器空闲时预加载非关键资源
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-          const nonCriticalResources = [
-            '/images/2.webp',
-            '/images/3.webp',
-            '/images/4.webp'
-          ];
-          
-          nonCriticalResources.forEach(resource => {
-            const link = document.createElement('link');
-            link.rel = 'prefetch';
-            link.href = resource;
-            document.head.appendChild(link);
-          });
-        });
-      }
-    }
-    
-    // 性能监控 - 避免强制重排
-    function monitorPerformance() {
-      if ('PerformanceObserver' in window) {
-        const observer = new PerformanceObserver((list) => {
-          list.getEntries().forEach((entry) => {
-            if (entry.entryType === 'layout-shift' && entry.value > 0.1) {
-              console.warn('Layout shift detected:', entry);
-            }
-          });
-        });
-        
-        observer.observe({ entryTypes: ['layout-shift'] });
-      }
-    }
-    
-    // 在DOM加载完成后初始化优化
-    document.addEventListener('DOMContentLoaded', () => {
-      parallelResourceLoading();
-      optimizeDataLocality();
-      monitorPerformance();
-    });
+    // 页面加载完成后延迟执行
+    window.addEventListener('load', loadThirdPartyScripts);
   </script>
 
   <!-- 广告联盟 -->
@@ -407,15 +283,9 @@
     // 在页面完全加载后执行
     window.addEventListener('load', loadAdScript);
     
-    // 立即注册Service Worker进行缓存优化
+    // 简化Service Worker注册
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .then(registration => {
-          console.log('SW registered: ', registration);
-        })
-        .catch(registrationError => {
-          console.log('SW registration failed: ', registrationError);
-        });
+      navigator.serviceWorker.register('/sw.js');
     }
   </script>
   

@@ -294,33 +294,24 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 优化广告加载 - 避免强制重排
+// 简化的广告加载
 const adProvider = () => {
-    // 检查是否已经加载过广告脚本
-    if (document.querySelector('script[src*="ad-provider.js"]')) {
-        return
-    }
-    
     const script = document.createElement('script')
     script.src = 'https://a.magsrv.com/ad-provider.js'
     script.async = true
     script.type = 'application/javascript'
+    document.head.appendChild(script)
     
-    // 使用requestAnimationFrame避免强制重排
-    requestAnimationFrame(() => {
-        document.head.appendChild(script)
-        
-        script.onload = () => {
-            if (window.AdProvider) {
-                window.AdProvider.push({ "serve": {} })
-            }
+    script.onload = () => {
+        if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} })
         }
-    })
+    }
 }
 
 onMounted(() => {
-    // 延迟执行，避免阻塞关键渲染
-    setTimeout(adProvider, 100)
+    // 延迟3秒加载广告，避免阻塞关键渲染
+    setTimeout(adProvider, 3000)
 })
 </script>
 
