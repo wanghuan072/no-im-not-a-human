@@ -4,6 +4,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
+import { localizeAllLinks, watchLanguageChange } from './utils/localizeLinks.js'
 
 const app = createApp(App)
 
@@ -13,18 +14,14 @@ app.use(i18n)
 
 app.mount('#app')
 
-// 延迟加载非关键功能
-setTimeout(async () => {
-    const { localizeAllLinks, watchLanguageChange } = await import('./utils/localizeLinks.js')
-    
-    // 页面加载完成后处理所有链接
-    document.addEventListener('DOMContentLoaded', () => {
-        localizeAllLinks()
-        watchLanguageChange()
-    })
+// 页面加载完成后处理所有链接
+document.addEventListener('DOMContentLoaded', () => {
+    localizeAllLinks()
+    watchLanguageChange()
+})
 
-    // 路由变化后也处理链接
-    router.afterEach(() => {
-        localizeAllLinks()
-    })
-}, 100)
+// 路由变化后也处理链接
+router.afterEach(() => {
+    // 立即处理链接，不延迟
+    localizeAllLinks()
+})
