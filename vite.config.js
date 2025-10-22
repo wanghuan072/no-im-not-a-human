@@ -84,12 +84,19 @@ export default defineConfig({
     // 优化JavaScript输出
     rollupOptions: {
       output: {
-        // 简化的代码分割策略 - 避免循环依赖
+        // 优化的代码分割策略 - 减少首页包大小
         manualChunks: (id) => {
           // 第三方库 - 保持简单分组
           if (id.includes('node_modules')) {
             if (id.includes('vue')) return 'vue-vendor'
+            if (id.includes('vue-router')) return 'router-vendor'
+            if (id.includes('vue-i18n')) return 'i18n-vendor'
             return 'vendor'
+          }
+          
+          // 语言文件 - 单独分组，避免首页加载
+          if (id.includes('/locales/')) {
+            return 'locales'
           }
           
           // 页面组件 - 避免过度分割
