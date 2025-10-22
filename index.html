@@ -58,12 +58,12 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 异步加载所有非关键CSS -->
+  <!-- 异步加载所有非关键CSS - 避免阻塞关键渲染路径 -->
   <link rel="preload" href="/assets/AppFooter-B1KQm_60.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/assets/HomeView-BxwY7arb.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/assets/HomeView-CPHvzm9N.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="/assets/AppFooter-B1KQm_60.css">
-    <link rel="stylesheet" href="/assets/HomeView-BxwY7arb.css">
+    <link rel="stylesheet" href="/assets/HomeView-CPHvzm9N.css">
   </noscript>
   
   <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
@@ -94,7 +94,6 @@
     
     .section {
       position: relative;
-      background-attachment: fixed;
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -225,13 +224,31 @@
     }
   </style>
 
-  <!-- 完全移除第三方脚本，专注于核心性能 -->
-  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-VTL722V3EP');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017"
+    crossorigin="anonymous"></script>
+
+  <!-- 广告联盟 -->
+  <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
+
   <!-- PC全插广告位 -->
+  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
+  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
   <!-- 移动全插广告 -->
+  <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
+  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
 </head>
 

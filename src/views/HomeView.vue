@@ -294,9 +294,24 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 移除广告脚本，专注于核心性能
+// 广告联盟
+const adProvider = () => {
+    const script = document.createElement('script')
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.async = true
+    script.type = 'application/javascript'
+    document.head.appendChild(script)
+    
+    script.onload = () => {
+        if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} })
+        }
+    }
+}
+
 onMounted(() => {
-    // 只保留必要的初始化逻辑
+    // 延迟加载广告，避免阻塞关键渲染
+    setTimeout(adProvider, 2000)
 })
 </script>
 
