@@ -21,35 +21,25 @@ export default defineConfig({
     // 优化构建配置以减少包大小
     rollupOptions: {
       output: {
-        // 更精细的代码分割 - 避免重复优化
+        // 简化的代码分割策略 - 避免循环依赖
         manualChunks: (id) => {
-          // 第三方库 - 按功能分组
+          // 第三方库 - 保持简单分组
           if (id.includes('node_modules')) {
-            if (id.includes('vue/')) return 'vue-runtime'
-            if (id.includes('vue-router')) return 'vue-router'
-            if (id.includes('vue-i18n')) return 'vue-i18n'
-            if (id.includes('pinia')) return 'pinia'
-            if (id.includes('@vue/')) return 'vue-compiler'
+            if (id.includes('vue')) return 'vue-vendor'
             return 'vendor'
           }
           
-          // 页面组件 - 更精细的分割策略
+          // 页面组件 - 避免过度分割
           if (id.includes('/views/')) {
             const viewName = id.split('/views/')[1].split('.vue')[0]
-            // 首页单独分组（最重要）
+            // 首页单独分组
             if (viewName === 'HomeView') return 'home'
-            // 内容页面按大小分组
-            if (['GuidesView', 'EndingsView'].includes(viewName)) return 'content-heavy'
-            if (['WikiView', 'VisitorsView'].includes(viewName)) return 'content-medium'
-            if (['AboutView', 'ContactView', 'DownloadView'].includes(viewName)) return 'info'
-            if (['BlogListView', 'BlogDetailView'].includes(viewName)) return 'blog'
+            // 其他页面合并
             return 'pages'
           }
           
-          // 工具库和SEO - 保持分离
-          if (id.includes('/utils/')) return 'utils'
-          if (id.includes('/seo/')) return 'seo'
-          if (id.includes('/components/')) return 'components'
+          // 组件和工具 - 合并到主包避免循环依赖
+          return undefined
         }
       }
     },

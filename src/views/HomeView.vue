@@ -321,60 +321,34 @@ import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
-import { 
-  raf, 
-  batchDOMOperations, 
-  setupLazyLoading, 
-  preloadCriticalResources,
-  PerformanceMonitor 
-} from '@/utils/performance.js'
 
 const { isMobile } = useDeviceDetection()
 
 // 视频相关状态
 const videoPlaying = ref(false)
-const performanceMonitor = new PerformanceMonitor()
 
 // 播放视频方法
 const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 性能优化的组件挂载
-onMounted(async () => {
-    performanceMonitor.mark('home-mount-start')
-    
-    // 预加载关键资源
-    preloadCriticalResources([
-        '/images/1.webp',
-        '/images/about-img.webp',
-        '/images/logo.webp'
-    ])
-    
+// 简化的组件挂载 - 避免循环依赖
+onMounted(() => {
     // 使用RAF优化DOM操作
-    await raf(() => {
+    requestAnimationFrame(() => {
         // 批量处理DOM操作
-        batchDOMOperations(() => {
-            const elements = document.querySelectorAll('.hero-title, .hero-description')
-            elements.forEach(el => {
-                el.style.willChange = 'transform'
-                el.style.contentVisibility = 'auto'
-            })
+        const elements = document.querySelectorAll('.hero-title, .hero-description')
+        elements.forEach(el => {
+            el.style.willChange = 'transform'
+            el.style.contentVisibility = 'auto'
         })
     })
     
-    // 设置图片懒加载
-    setupLazyLoading('img[data-src]')
-    
-    performanceMonitor.mark('home-mount-end')
-    performanceMonitor.measure('home-mount-time', 'home-mount-start', 'home-mount-end')
-    
-    console.log('HomeView performance metrics:', performanceMonitor.getMetrics())
+    console.log('HomeView mounted')
 })
 
 // 组件卸载时清理
 onUnmounted(() => {
-    // 清理事件监听器等
     console.log('HomeView unmounted')
 })
 </script>
