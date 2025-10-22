@@ -73,7 +73,8 @@
                                  loading="lazy"
                                  decoding="async"
                                  width="800" 
-                                 height="450" />
+                                 height="450"
+                                 style="width: 100%; height: auto; aspect-ratio: 16/9;" />
                             <div class="video-mask"></div>
                         </div>
                             <div class="play-text-button" @click.stop="playVideo">
