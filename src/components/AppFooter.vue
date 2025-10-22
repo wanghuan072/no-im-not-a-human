@@ -31,6 +31,7 @@
                             </svg>
                             <span class="sr-only">Follow us on Facebook</span>
                         </a>
+                        <a href="https://viesearch.com/">Viesearch - The Human-curated Search Engine</a>
                     </div>
                 </div>
 

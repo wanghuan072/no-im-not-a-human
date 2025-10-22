@@ -42,10 +42,11 @@
   <link rel="preload" href="/images/about-img.webp" as="image">
   
   <!-- 字体优化 - 预加载字体文件并优化度量 -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- 暂时注释网络字体，测试本地字体性能 -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.gstatic.com/s/creepster/v13/AlZy_zVUqJt4Uh9leBHMlhBNbQJQ2pJ4.ttf" as="font" type="font/ttf" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> -->
   
   <!-- 字体度量优化 - 减少布局偏移 -->
   <style>
@@ -59,19 +60,26 @@
       descent-override: 20%; /* 调整下降线 */
     }
 
-    /* 应用到使用Creepster的元素 */
+    /* 暂时注释Creepster字体，使用本地字体堆栈 */
     .hero-title {
-      font-family: 'Creepster', 'Creepster-Fallback', cursive;
+      font-family: 'Creepster-Fallback', cursive, serif;
     }
     
     /* 为所有可能使用字体的元素添加字体优化 */
     .hero-banner, .hero-description, .hero-buttons {
-      font-family: 'Creepster', 'Creepster-Fallback', cursive;
+      font-family: 'Creepster-Fallback', cursive, serif;
     }
     
     /* 为所有可能偏移的元素添加字体优化 */
     .hero-footer, .hero-wrapper, .container {
-      font-family: 'Creepster', 'Creepster-Fallback', cursive;
+      font-family: 'Creepster-Fallback', cursive, serif;
+    }
+    
+    /* 为所有文本元素添加字体优化，避免字体切换导致的布局偏移 */
+    .hero-title, .hero-description, .hero-banner, .hero-buttons, .hero-footer, .hero-wrapper, .container {
+      font-family: 'Creepster-Fallback', cursive, serif;
+      /* 使用font-display: swap确保字体切换时不会导致布局偏移 */
+      font-display: swap;
     }
   </style>
   
@@ -164,6 +172,19 @@
       contain: layout style;
       will-change: transform;
       contain-intrinsic-size: 1200px 800px;
+    }
+    
+    /* 为hero-description添加contain，避免布局偏移 */
+    .hero-description {
+      contain: layout style paint;
+      will-change: transform;
+      contain-intrinsic-size: 800px 200px;
+    }
+    
+    /* 为所有可能偏移的元素添加contain，避免布局偏移 */
+    .hero-title, .hero-description, .hero-banner, .hero-buttons, .hero-footer, .hero-wrapper, .container {
+      contain: layout style;
+      will-change: transform;
     }
   </style>
 </head>

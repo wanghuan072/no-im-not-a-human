@@ -368,6 +368,9 @@ onMounted(() => {
                 if (element.classList.contains('container')) {
                     element.style.containIntrinsicSize = '1200px 800px'
                 }
+                if (element.classList.contains('hero-description')) {
+                    element.style.containIntrinsicSize = '800px 200px'
+                }
             })
         })
     })
@@ -1065,7 +1068,7 @@ onUnmounted(() => {
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    z-index: 1;
+    z-index: 0;
     background-attachment: fixed;
 }
 
