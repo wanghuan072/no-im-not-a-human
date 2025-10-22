@@ -4,6 +4,14 @@
 
         <!-- Hero Section -->
         <section class="section hero">
+            <!-- LCP图片优化 - 使用img标签替代背景图片 -->
+            <img src="/images/1.webp" 
+                 alt="No I'm not a Human Game Background" 
+                 class="hero-bg-image"
+                 fetchpriority="high"
+                 loading="eager"
+                 width="1920" 
+                 height="1080">
             <div class="container">
                 <div class="hero-wrapper">
                     <!-- Hot Recommendation Banner -->
@@ -516,7 +524,7 @@ onMounted(() => {
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .section.about .about-wrapper {
@@ -977,12 +985,21 @@ onMounted(() => {
 }
 
 .section.hero {
-    background-image: url('/images/1.webp');
+    position: relative;
+    overflow: hidden;
+}
+
+/* LCP图片优化样式 */
+.hero-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 1;
     background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    contain: paint;
 }
 
 .section.video {

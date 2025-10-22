@@ -42,6 +42,173 @@
   <link rel="alternate" hreflang="en" href="https://iamnotahuman.org/">
   <link rel="alternate" hreflang="x-default" href="https://iamnotahuman.org/">
 
+  <!-- 字体预加载优化 -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"></noscript>
+  
+  <!-- 关键资源预加载 -->
+  <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="/images/about-img.webp" as="image">
+  
+  <!-- 关键CSS内联 - 减少首屏渲染阻塞 -->
+  <style>
+    /* 关键首屏样式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .section {
+      position: relative;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 0;
+    }
+    
+    .section.hero {
+      height: 100vh;
+      padding: 70px 0 0 0;
+    }
+    
+    .hero-bg-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      z-index: 1;
+    }
+    
+    .hero-wrapper {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+      position: relative;
+      z-index: 3;
+    }
+    
+    .hero-title {
+      font-size: 64px;
+      font-weight: bold;
+      margin-bottom: 24px;
+      color: white;
+      text-align: center;
+      position: relative;
+      z-index: 3;
+      line-height: 1.2;
+    }
+    
+    .hero-title .highlight {
+      font-family: 'Creepster', cursive;
+      color: #00ff88;
+      text-shadow: 0 0 10px #00ff88;
+      font-weight: normal;
+    }
+    
+    .hero-description {
+      margin-bottom: 40px;
+      text-align: center;
+      position: relative;
+      z-index: 3;
+    }
+    
+    .hero-description p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #d1d5db;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      position: relative;
+      z-index: 3;
+      margin-bottom: 40px;
+    }
+    
+    .btn {
+      padding: 16px 32px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: #00ff41;
+      color: #000;
+      box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .hero-description p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .hero-buttons {
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+    }
+  </style>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP"></script>
   <script>
@@ -58,15 +225,47 @@
   <!-- 广告联盟 -->
   <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
 
+  <!-- 广告脚本延迟加载优化 -->
+  <script>
+    // 延迟加载广告脚本，避免阻塞关键渲染路径
+    function loadAdScript() {
+      if (document.readyState === 'complete') {
+        const script = document.createElement('script');
+        script.src = 'https://a.pemsrv.com/ad-provider.js';
+        script.async = true;
+        script.type = 'application/javascript';
+        document.head.appendChild(script);
+        
+        script.onload = function() {
+          if (window.AdProvider) {
+            window.AdProvider.push({ "serve": {} });
+          }
+        };
+      }
+    }
+    
+    // 在页面完全加载后执行
+    window.addEventListener('load', loadAdScript);
+    
+    // 注册Service Worker进行缓存优化
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered: ', registration);
+          })
+          .catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+  
   <!-- PC全插广告位 -->
-  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
   <!-- 移动全插广告 -->
-  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
   <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
 </head>
 
