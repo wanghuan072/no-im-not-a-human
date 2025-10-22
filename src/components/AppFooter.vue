@@ -74,7 +74,7 @@
 
 <script setup>
 // Footer component logic
-// 全局CSS已在main.js中导入
+import '@/assets/css/public.css'
 </script>
 
 <style scoped>

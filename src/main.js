@@ -5,9 +5,6 @@ import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
 
-// 导入全局CSS
-import '@/assets/css/public.css'
-
 // 延迟导入工具函数，避免循环依赖
 const initializeApp = async () => {
   const { localizeAllLinks, watchLanguageChange } = await import('./utils/localizeLinks.js')

@@ -318,7 +318,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
-// 全局CSS已在main.js中导入
+import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 
@@ -332,9 +332,49 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 简化的组件挂载 - 避免过度优化
+// 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-    // 移除复杂的DOM操作，让CSS自然处理布局
+    // 使用RAF批量处理DOM操作，避免强制重排
+    requestAnimationFrame(() => {
+        // 批量读取DOM属性 - 避免在样式修改后立即读取
+        const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner, .hero-wrapper, .hero-buttons, .hero-footer, .container')
+        const elementData = Array.from(heroElements).map(el => ({
+            element: el,
+            currentStyle: window.getComputedStyle(el),
+            currentRect: el.getBoundingClientRect()
+        }))
+        
+        // 批量写入DOM属性 - 使用contain隔离布局变化
+        requestAnimationFrame(() => {
+            elementData.forEach(({ element }) => {
+                // 使用contain隔离布局变化，避免影响其他元素
+                element.style.contain = 'layout style paint'
+                element.style.contentVisibility = 'auto'
+                element.style.willChange = 'transform, opacity'
+                
+                // 为动态内容预留空间，避免布局偏移
+                if (element.classList.contains('hero-wrapper')) {
+                    element.style.containIntrinsicSize = '1200px 600px'
+                }
+                if (element.classList.contains('hero-banner')) {
+                    element.style.containIntrinsicSize = '800px 60px'
+                }
+                if (element.classList.contains('hero-buttons')) {
+                    element.style.containIntrinsicSize = '600px 80px'
+                }
+                if (element.classList.contains('hero-footer')) {
+                    element.style.containIntrinsicSize = '800px 100px'
+                }
+                if (element.classList.contains('container')) {
+                    element.style.containIntrinsicSize = '1200px 800px'
+                }
+                if (element.classList.contains('hero-description')) {
+                    element.style.containIntrinsicSize = '800px 200px'
+                }
+            })
+        })
+    })
+    
     console.log('HomeView mounted')
 })
 

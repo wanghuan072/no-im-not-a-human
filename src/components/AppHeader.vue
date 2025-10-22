@@ -118,7 +118,7 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter, useRoute } from 'vue-router'
-// 全局CSS已在main.js中导入
+import '@/assets/css/public.css'
 
 const { locale } = useI18n()
 const router = useRouter()
