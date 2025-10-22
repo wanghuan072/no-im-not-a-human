@@ -33,13 +33,16 @@ export default defineConfig({
             return 'vendor'
           }
           
-          // 页面组件 - 按路由分组
+          // 页面组件 - 更精细的分割策略
           if (id.includes('/views/')) {
             const viewName = id.split('/views/')[1].split('.vue')[0]
-            // 首页单独分组，其他页面合并
+            // 首页单独分组（最重要）
             if (viewName === 'HomeView') return 'home'
-            if (['GuidesView', 'EndingsView', 'WikiView'].includes(viewName)) return 'content'
-            if (['AboutView', 'ContactView'].includes(viewName)) return 'info'
+            // 内容页面按大小分组
+            if (['GuidesView', 'EndingsView'].includes(viewName)) return 'content-heavy'
+            if (['WikiView', 'VisitorsView'].includes(viewName)) return 'content-medium'
+            if (['AboutView', 'ContactView', 'DownloadView'].includes(viewName)) return 'info'
+            if (['BlogListView', 'BlogDetailView'].includes(viewName)) return 'blog'
             return 'pages'
           }
           

@@ -16,8 +16,8 @@
                  style="content-visibility: auto;">
             <div class="container">
                 <div class="hero-wrapper">
-                    <!-- Hot Recommendation Banner -->
-                    <div class="hero-banner">
+                    <!-- Hot Recommendation Banner - 固定尺寸防止偏移 -->
+                    <div class="hero-banner" style="min-height: 40px; display: flex; justify-content: space-between; align-items: center; width: 100%;">
                         <div class="banner-left">
                             <div class="hot-badge">
                                 <span class="flame-icon">🔥</span>

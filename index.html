@@ -41,9 +41,10 @@
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/about-img.webp" as="image">
   
-  <!-- 字体优化 - 使用font-display: swap避免阻塞 -->
+  <!-- 字体优化 - 预加载字体文件避免阻塞 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/creepster/v13/AlZy_zVUqJt4Uh9leBHMlhBNbQJQ2pJ4.ttf" as="font" type="font/ttf" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
   
   <!-- 关键CSS内联 - 避免阻塞渲染 -->
@@ -75,6 +76,18 @@
       width: 100%; 
       height: 100%; 
       object-fit: cover; 
+    }
+    /* 关键布局样式 - 防止hero-wrapper偏移 */
+    .hero-wrapper {
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-banner {
+      min-height: 40px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
