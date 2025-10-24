@@ -188,3 +188,4 @@ export function optimizeComponent(component) {
 
   return component
 }
+

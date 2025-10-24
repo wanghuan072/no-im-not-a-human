@@ -334,7 +334,7 @@ const switchLanguage = async (lang) => {
     visibility: hidden;
     transform: translateY(-10px);
     transition: all 0.3s ease;
-    z-index: 1001;
+    z-index: 1011101;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
