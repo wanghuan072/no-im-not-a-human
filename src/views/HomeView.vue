@@ -339,7 +339,7 @@ const adProvider = () => {
 
 // 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-    // adProvider()
+    adProvider()
 })
 
 // 组件卸载时清理
