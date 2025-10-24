@@ -322,24 +322,9 @@ const playVideo = () => {
     videoPlaying.value = true
 }
 
-// 广告联盟
-const adProvider = () => {
-    const script = document.createElement('script')
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.async = true
-    script.type = 'application/javascript'
-    document.head.appendChild(script)
-
-    script.onload = () => {
-        if (window.AdProvider) {
-            window.AdProvider.push({ "serve": {} })
-        }
-    }
-}
-
-// 优化的组件挂载 - 避免强制重排
+// 组件挂载
 onMounted(() => {
-    // adProvider()
+    console.log('HomeView mounted')
 })
 
 // 组件卸载时清理
