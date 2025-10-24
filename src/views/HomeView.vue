@@ -52,12 +52,10 @@
             </div>
         </section>
 
-        <!-- 暂时移除移动横幅广告位以优化性能 -->
-        <!-- 
         <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="isMobile">
             <ins class="eas6a97888e10" data-zoneid="5750516"></ins>
         </aside>
-        -->
+       
 
         <!-- Video Section -->
         <section class="section video">
@@ -83,24 +81,19 @@
                         <iframe v-if="videoPlaying" src="https://www.youtube.com/embed/5aSTaVY0J7I" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen class="video-iframe"></iframe>
-                    </div>
-
-                    <!-- 暂时移除首页横幅广告位以优化性能 -->
-                    <!-- 
+                    </div>                    
                     <aside style="width: 100%; padding: 20px 0; text-align: center;" v-if="!isMobile">
                         <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
                     </aside>
-                    -->
+                   
                 </div>
             </div>
         </section>
 
-        <!-- 暂时移除PC广告位以优化性能 -->
-        <!-- 
         <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
         <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
         <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
-        -->
+       
 
         <!-- About Section -->
         <section class="section about">
@@ -199,12 +192,11 @@
                             <p v-html="$t('HomePage.why.card4.description', {}, { raw: true })"></p>
                         </div>
                     </div>
-                    <!-- 暂时移除原生广告位以优化性能 -->
-                    <!-- 
+
                     <aside style="width: 100%; padding: 20px 0; text-align: center;">
                         <ins class="eas6a97888e20" data-zoneid="5750512"></ins>
                     </aside>
-                    -->
+                   
                 </div>
             </div>
         </section>
@@ -332,45 +324,14 @@ const playVideo = () => {
 
 // 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-    // 使用RAF批量处理DOM操作，避免强制重排
-    // requestAnimationFrame(() => {
-    //     // 批量读取DOM属性 - 避免在样式修改后立即读取
-    //     const heroElements = document.querySelectorAll('.hero-title, .hero-description, .hero-banner, .hero-wrapper, .hero-buttons, .hero-footer, .container')
-    //     const elementData = Array.from(heroElements).map(el => ({
-    //         element: el,
-    //         currentStyle: window.getComputedStyle(el),
-    //         currentRect: el.getBoundingClientRect()
-    //     }))
-        
-    //     // 批量写入DOM属性 - 使用contain隔离布局变化
-    //     requestAnimationFrame(() => {
-    //         elementData.forEach(({ element }) => {
-    //             // 使用contain隔离布局变化，避免影响其他元素
-    //             element.style.contain = 'layout style paint'
-    //             element.style.contentVisibility = 'auto'
-    //             element.style.willChange = 'transform, opacity'
-                
-    //             // 为动态内容预留空间，避免布局偏移
-    //             if (element.classList.contains('hero-wrapper')) {
-    //                 element.style.containIntrinsicSize = '1200px 600px'
-    //             }
-    //             if (element.classList.contains('hero-banner')) {
-    //                 element.style.containIntrinsicSize = '800px 60px'
-    //             }
-    //             if (element.classList.contains('hero-buttons')) {
-    //                 element.style.containIntrinsicSize = '600px 80px'
-    //             }
-    //             if (element.classList.contains('hero-footer')) {
-    //                 element.style.containIntrinsicSize = '800px 100px'
-    //             }
-    //             if (element.classList.contains('hero-description')) {
-    //                 element.style.containIntrinsicSize = '800px 200px'
-    //             }
-    //         })
-    //     })
-    // })
-    
-    console.log('HomeView mounted')
+    setTimeout(() => {
+      try {
+        window.AdProvider = window.AdProvider || []
+        window.AdProvider.push({ serve: {} })
+      } catch (e) {
+        console.error('AdProvider push failed:', e)
+      }
+    }, 1000)
 })
 
 // 组件卸载时清理
