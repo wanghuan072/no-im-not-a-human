@@ -4,7 +4,7 @@
 
         <!-- Hero Section -->
         <section class="section hero">
-            <!-- LCP图片优化 - 使用img标签替代背景图片 -->
+            <!-- 背景图片 -->
             <img src="/images/1.webp" 
                  alt="No I'm not a Human Game Background" 
                  class="hero-bg-image"
@@ -12,11 +12,10 @@
                  loading="eager"
                  width="1920" 
                  height="1080"
-                 decoding="sync"
-                 style="content-visibility: auto;">
+                 decoding="sync">
             <div class="container">
                 <div class="hero-wrapper">
-                    <!-- Hot Recommendation Banner - 固定尺寸防止偏移 -->
+                    <!-- Hot Recommendation Banner -->
                     <div class="hero-banner">
                         <div class="banner-left">
                             <div class="hot-badge">
@@ -73,8 +72,7 @@
                                  loading="lazy"
                                  decoding="async"
                                  width="800" 
-                                 height="450"
-                                 style="width: 100%; height: auto; aspect-ratio: 16/9;" />
+                                 height="450" />
                             <div class="video-mask"></div>
                         </div>
                             <div class="play-text-button" @click.stop="playVideo">

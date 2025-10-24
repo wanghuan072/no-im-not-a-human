@@ -1,6 +1,3 @@
-/* 字体引用 */
-/* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
-
 /* 全局样式重置 */
 * {
   margin: 0;
@@ -13,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #fff;
   background: #000;
@@ -67,8 +64,6 @@ code, pre {
 .hero-title .highlight,
 .hero-subtitle .highlight,
 .section-title .highlight {
-  /* 使用本地字体堆栈替代网络字体 */
-  font-family: 'Creepster-Fallback', cursive, serif;
   color: #00ff88;
   text-shadow: 0 0 10px #00ff88;
   font-weight: normal;
