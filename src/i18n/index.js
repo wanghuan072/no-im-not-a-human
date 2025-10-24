@@ -82,3 +82,6 @@ export const getCurrentLocale = () => {
 
 // 导出支持的语言列表
 export { supportedLanguages }
+
+// 导出loadLocale函数
+export { loadLocale }

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useSEO } from '@/seo'
+import i18n from '@/i18n'
 
 // 按需加载语言文件 - 减少主包大小
 const localeDataMap = {}
@@ -90,8 +91,8 @@ router.beforeEach(async (to, from, next) => {
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
-    // 导入i18n实例并动态加载语言
-    const { default: i18n, loadLocale } = await import('@/i18n')
+    // 导入loadLocale函数
+    const { loadLocale } = await import('@/i18n')
 
     // 如果语言不是英文，先加载语言文件
     if (detectedLanguage !== 'en') {
