@@ -83,12 +83,6 @@
       font-family: 'Creepster-Fallback', cursive, serif;
     }
     
-    /* 为所有文本元素添加字体优化，避免字体切换导致的布局偏移 */
-    .hero-title, .hero-description, .hero-banner, .hero-buttons, .hero-footer, .hero-wrapper, .container {
-      font-family: 'Creepster-Fallback', cursive, serif;
-      /* 使用font-display: swap确保字体切换时不会导致布局偏移 */
-      font-display: swap;
-    }
   </style>
   
   <!-- 关键CSS内联 - 避免阻塞渲染 -->
@@ -175,12 +169,6 @@
       contain-intrinsic-size: 800px 100px;
     }
     
-    /* 为container添加contain，避免布局偏移 */
-    .container {
-      contain: layout style;
-      will-change: transform;
-      contain-intrinsic-size: 1200px 800px;
-    }
     
     /* 为hero-description添加contain，避免布局偏移 */
     .hero-description {
@@ -189,11 +177,6 @@
       contain-intrinsic-size: 800px 200px;
     }
     
-    /* 为所有可能偏移的元素添加contain，避免布局偏移 */
-    .hero-title, .hero-description, .hero-banner, .hero-buttons, .hero-footer, .hero-wrapper, .container {
-      contain: layout style;
-      will-change: transform;
-    }
     
     /* 首屏关键元素优化 - 减少重排 */
     .hero-title {
