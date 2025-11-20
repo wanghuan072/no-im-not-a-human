@@ -63,6 +63,7 @@
         "wiki": "百科",
         "visitors": "访客",
         "download": "下载",
+        "blog": "博客",
         "openMenu": "打开菜单",
         "closeMenu": "关闭菜单"
     },
@@ -997,111 +998,111 @@
                 "role": "新闻主播",
                 "desc1": "在电视上出现时，像是在进行快速播报，吐出有意义的评论，并报告男性主播未告知的访客迹象。"
             }
+        }
+    },
+    "DownloadPage": {
+        "hero": {
+            "title": "<span class=\"highlight\">《No I'm Not a Human》- 下载</span>",
+            "subtitle": "下载这款心理恐怖游戏，开启未知的冒险旅程",
+            "description1": "体验令人毛骨悚然的 <strong>《No I'm Not a Human》</strong> 世界——这是一款第一人称心理恐怖视觉小说，将考验你的生存本能并挑战你对现实的认知。",
+            "description2": "立即下载，探索谁值得信任——在这个令人恐惧的游戏中，访客可能并非表面所见。更多游戏信息，请访问我们的 <a href=\"/\">主页</a>。"
         },
-        "DownloadPage": {
-            "hero": {
-                "title": "<span class=\"highlight\">《No I'm Not a Human》- 下载</span>",
-                "subtitle": "下载这款心理恐怖游戏，开启未知的冒险旅程",
-                "description1": "体验令人毛骨悚然的 <strong>《No I'm Not a Human》</strong> 世界——这是一款第一人称心理恐怖视觉小说，将考验你的生存本能并挑战你对现实的认知。",
-                "description2": "立即下载，探索谁值得信任——在这个令人恐惧的游戏中，访客可能并非表面所见。更多游戏信息，请访问我们的 <a href=\"/\">主页</a>。"
+        "requirements": {
+            "title": "《No I'm Not a Human》系统需求",
+            "description": "确认你的电脑配置是否符合游戏要求，以获得最佳游戏体验。通过我们的 <a href=\"/guides\">全面指南</a>了解更多游戏信息。",
+            "minimum": {
+                "title": "最低配置",
+                "os": "Windows 7/8/10/11 (64位)",
+                "processor": "Intel Core i3-2100 / AMD FX-6100",
+                "memory": "4 GB 内存",
+                "graphics": "支持 DirectX 11 的显卡",
+                "directx": "版本 11",
+                "storage": "需要 2 GB 可用空间",
+                "sound": "DirectX 兼容声卡"
             },
-            "requirements": {
-                "title": "《No I'm Not a Human》系统需求",
-                "description": "确认你的电脑配置是否符合游戏要求，以获得最佳游戏体验。通过我们的 <a href=\"/guides\">全面指南</a>了解更多游戏信息。",
-                "minimum": {
-                    "title": "最低配置",
-                    "os": "Windows 7/8/10/11 (64位)",
-                    "processor": "Intel Core i3-2100 / AMD FX-6100",
-                    "memory": "4 GB 内存",
-                    "graphics": "支持 DirectX 11 的显卡",
-                    "directx": "版本 11",
-                    "storage": "需要 2 GB 可用空间",
-                    "sound": "DirectX 兼容声卡"
-                },
-                "recommended": {
-                    "title": "推荐配置",
-                    "os": "Windows 10/11 (64位)",
-                    "processor": "Intel Core i5-4590 / AMD FX-8350",
-                    "memory": "8 GB 内存",
-                    "graphics": "NVIDIA GTX 960 / AMD R9 280",
-                    "directx": "版本 11",
-                    "storage": "需要 4 GB 可用空间",
-                    "sound": "独立声卡（推荐）"
-                },
-                "labels": {
-                    "os": "操作系统：",
-                    "processor": "处理器：",
-                    "memory": "内存：",
-                    "graphics": "显卡：",
-                    "directx": "DirectX：",
-                    "storage": "存储：",
-                    "sound": "声卡："
-                }
+            "recommended": {
+                "title": "推荐配置",
+                "os": "Windows 10/11 (64位)",
+                "processor": "Intel Core i5-4590 / AMD FX-8350",
+                "memory": "8 GB 内存",
+                "graphics": "NVIDIA GTX 960 / AMD R9 280",
+                "directx": "版本 11",
+                "storage": "需要 4 GB 可用空间",
+                "sound": "独立声卡（推荐）"
             },
-            "compatibility": {
-                "title": "平台兼容性",
-                "windows": {
-                    "name": "Windows",
-                    "description": "原生支持，最佳游戏体验平台。查看我们的 <a href=\"/visitors\">角色数据库</a> 获取详细信息。",
-                    "supported": "Windows 7 及以上",
-                    "recommended": "Windows 10/11"
-                },
-                "linux": {
-                    "name": "Linux",
-                    "description": "通过 Proton 兼容层运行，性能良好。探索游戏中的所有 <a href=\"/endings\">可能结局</a>。",
-                    "proton": "7.0 或更高版本",
-                    "distributions": "Ubuntu, Fedora, Arch"
-                },
-                "steamDeck": {
-                    "name": "Steam Deck",
-                    "description": "已验证，支持掌机模式游戏。探索我们的完整 <a href=\"/wiki\">游戏百科</a>。",
-                    "status": "Steam Deck 已验证",
-                    "controls": "触控屏 + 手柄"
-                },
-                "labels": {
-                    "supported": "支持版本：",
-                    "recommended": "推荐版本：",
-                    "proton": "推荐 Proton：",
-                    "distributions": "发行版：",
-                    "status": "状态：",
-                    "controls": "操作方式："
-                }
+            "labels": {
+                "os": "操作系统：",
+                "processor": "处理器：",
+                "memory": "内存：",
+                "graphics": "显卡：",
+                "directx": "DirectX：",
+                "storage": "存储：",
+                "sound": "声卡："
+            }
+        },
+        "compatibility": {
+            "title": "平台兼容性",
+            "windows": {
+                "name": "Windows",
+                "description": "原生支持，最佳游戏体验平台。查看我们的 <a href=\"/visitors\">角色数据库</a> 获取详细信息。",
+                "supported": "Windows 7 及以上",
+                "recommended": "Windows 10/11"
             },
-            "languages": {
-                "title": "语言支持",
-                "description": "游戏支持多语言，适合全球玩家。详细语言信息请访问我们的 <a href=\"/\">主页</a>。",
-                "tableHeaders": {
-                    "language": "语言",
-                    "interface": "界面",
-                    "audio": "完整语音",
-                    "subtitles": "字幕"
-                }
+            "linux": {
+                "name": "Linux",
+                "description": "通过 Proton 兼容层运行，性能良好。探索游戏中的所有 <a href=\"/endings\">可能结局</a>。",
+                "proton": "7.0 或更高版本",
+                "distributions": "Ubuntu, Fedora, Arch"
             },
-            "gameInfo": {
-                "title": "游戏信息",
-                "description": "关于游戏的基本信息。通过我们的 <a href=\"/guides\">攻略指南</a>了解更多玩法机制。",
-                "basicInfo": {
-                    "title": "基本信息",
-                    "name": "寻找伪人 (No I'm Not a Human)",
-                    "genre": "独立, 模拟",
-                    "developer": "Trioskaz - 了解更多 <a href=\"/wiki\">开发历史</a>",
-                    "publisher": "CRITICAL REFLEX",
-                    "series": "CRITICAL REFLEX",
-                    "releaseDate": "2025年9月16日 - 探索 <a href=\"/endings\">故事结局</a>"
-                },
-                "download": {
-                    "title": "立即下载",
-                    "description": "准备好开始生存之旅了吗？在开始前查看我们的 <a href=\"/visitors\">角色指南</a>。",
-                    "steamButton": "在 Steam 上下载"
-                },
-                "labels": {
-                    "name": "名称：",
-                    "genre": "类型：",
-                    "developer": "开发者：",
-                    "publisher": "发行商：",
-                    "series": "系列：",
-                    "releaseDate": "发布日期："
-                }
+            "steamDeck": {
+                "name": "Steam Deck",
+                "description": "已验证，支持掌机模式游戏。探索我们的完整 <a href=\"/wiki\">游戏百科</a>。",
+                "status": "Steam Deck 已验证",
+                "controls": "触控屏 + 手柄"
+            },
+            "labels": {
+                "supported": "支持版本：",
+                "recommended": "推荐版本：",
+                "proton": "推荐 Proton：",
+                "distributions": "发行版：",
+                "status": "状态：",
+                "controls": "操作方式："
+            }
+        },
+        "languages": {
+            "title": "语言支持",
+            "description": "游戏支持多语言，适合全球玩家。详细语言信息请访问我们的 <a href=\"/\">主页</a>。",
+            "tableHeaders": {
+                "language": "语言",
+                "interface": "界面",
+                "audio": "完整语音",
+                "subtitles": "字幕"
+            }
+        },
+        "gameInfo": {
+            "title": "游戏信息",
+            "description": "关于游戏的基本信息。通过我们的 <a href=\"/guides\">攻略指南</a>了解更多玩法机制。",
+            "basicInfo": {
+                "title": "基本信息",
+                "name": "寻找伪人 (No I'm Not a Human)",
+                "genre": "独立, 模拟",
+                "developer": "Trioskaz - 了解更多 <a href=\"/wiki\">开发历史</a>",
+                "publisher": "CRITICAL REFLEX",
+                "series": "CRITICAL REFLEX",
+                "releaseDate": "2025年9月16日 - 探索 <a href=\"/endings\">故事结局</a>"
+            },
+            "download": {
+                "title": "立即下载",
+                "description": "准备好开始生存之旅了吗？在开始前查看我们的 <a href=\"/visitors\">角色指南</a>。",
+                "steamButton": "在 Steam 上下载"
+            },
+            "labels": {
+                "name": "名称：",
+                "genre": "类型：",
+                "developer": "开发者：",
+                "publisher": "发行商：",
+                "series": "系列：",
+                "releaseDate": "发布日期："
             }
         }
     },
