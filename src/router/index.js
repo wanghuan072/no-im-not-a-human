@@ -14,7 +14,9 @@ const pageConfigs = [
   { path: '/privacy-policy', component: 'PrivacyPolicyView', name: 'Privacy' },
   { path: '/terms-of-service', component: 'TermsOfServiceView', name: 'Terms' },
   { path: '/blog', component: 'BlogListView', name: 'BlogList' },
-  { path: '/blog/:slug', component: 'BlogDetailView', name: 'BlogDetail' }
+  { path: '/blog/:slug', component: 'BlogDetailView', name: 'BlogDetail' },
+  { path: '/games', component: 'GamesListView', name: 'GamesList' },
+  { path: '/games/:id', component: 'GameDetailView', name: 'GameDetail' }
 ]
 
 const buildPath = (lang, basePath) => {

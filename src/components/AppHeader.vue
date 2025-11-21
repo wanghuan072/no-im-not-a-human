@@ -30,6 +30,9 @@
               <a :href="localizedHref('/blog')" class="nav-link">{{ $t('nav.blog') }}</a>
             </li>
             <li class="nav-item">
+              <a :href="localizedHref('/games')" class="nav-link">{{ $t('nav.games') }}</a>
+            </li>
+            <li class="nav-item">
               <a :href="localizedHref('/download')" class="nav-link">{{ $t('nav.download') }}</a>
             </li>
           </ul>
@@ -103,6 +106,11 @@
             <li class="nav-item">
               <a :href="localizedHref('/blog')" class="nav-link" @click="closeMobileMenu">{{
                 $t('nav.blog')
+              }}</a>
+            </li>
+            <li class="nav-item">
+              <a :href="localizedHref('/games')" class="nav-link" @click="closeMobileMenu">{{
+                $t('nav.games')
               }}</a>
             </li>
             <li class="nav-item">

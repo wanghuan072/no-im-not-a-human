@@ -13,7 +13,9 @@
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "analyze": "vite-bundle-analyzer dist"
+    "analyze": "vite-bundle-analyzer dist",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "postbuild": "npm run generate:sitemap"
   },
   "dependencies": {
     "pinia": "^3.0.3",

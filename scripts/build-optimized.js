@@ -8,7 +8,7 @@ try {
   console.log('📦 清理之前的构建...')
   execSync('rm -rf dist', { stdio: 'inherit' })
 
-  // 2. 构建项目
+  // 2. 构建项目（会自动触发 postbuild 钩子生成 sitemap）
   console.log('🔨 构建项目...')
   execSync('npm run build', { stdio: 'inherit' })
   

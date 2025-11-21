@@ -54,6 +54,11 @@
             "title": "著作権に関する声明 - No I'm Not a Human ガイド",
             "description": "No I'm Not a Humanガイドの著作権・知的財産に関する情報。コンテンツ所有権、フェアユースポリシー、利用ガイドラインを学ぶ。",
             "keywords": "著作権, 知的財産, フェアユース, DMCA, コンテンツ権利"
+        },
+        "games": {
+            "title": "ゲーム - No I'm Not a Human | iamnotahuman.org",
+            "description": "No I'm Not a Humanに関連する無料オンラインゲームをプレイ。物語アドベンチャー、ホラー体験、インタラクティブストーリーを探索。",
+            "keywords": "No I'm Not a Humanゲーム, 無料ゲーム, オンラインゲーム, ホラーゲーム, 物語ゲーム, インタラクティブフィクション, iamnotahuman.org"
         }
     },
     "nav": {
@@ -64,6 +69,7 @@
         "visitors": "訪問者",
         "download": "ダウンロード",
         "blog": "ブログ",
+        "games": "ゲーム",
         "openMenu": "メニューを開く",
         "closeMenu": "メニューを閉じる"
     },
@@ -87,6 +93,11 @@
             "title": "トレーラーを見る",
             "playButton": "▶",
             "playLabel": "トレーラー再生"
+        },
+        "games": {
+            "title": "おすすめゲーム",
+            "intro": "No I'm Not a Humanに関連する無料オンラインゲームのコレクションを探索。物語アドベンチャー、ホラー体験、インタラクティブストーリーをお楽しみください。",
+            "viewAll": "すべてのゲームを見る"
         },
         "about": {
             "title": "No I'm not a Humanについて",
@@ -446,6 +457,43 @@
             },
             "related": {
                 "title": "関連する記事"
+            }
+        }
+    },
+    "GamesPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">ゲーム - いいえ、私は人間ではありません</span>",
+                "description": "No I'm Not a Humanに関連する無料オンラインゲームをプレイ。物語アドベンチャー、ホラー体験、インタラクティブストーリーを探索。"
+            },
+            "loading": "ゲームを読み込み中...",
+            "playNow": "今すぐプレイ",
+            "error": {
+                "title": "ゲームの読み込みに失敗しました",
+                "description": "ゲームを読み込むことができませんでした。後でもう一度お試しください。",
+                "retry": "再試行"
+            },
+            "empty": {
+                "title": "ゲームがありません",
+                "description": "現在利用可能なゲームはありません。新しいコンテンツを確認するには、後で戻ってきてください。"
+            },
+            "pagination": {
+                "previous": "前へ",
+                "next": "次へ",
+                "page": "ページ {current} / {total}"
+            }
+        },
+        "detail": {
+            "loading": "ゲームを読み込み中...",
+            "playButton": "プレイ",
+            "webFullscreen": "ウェブフルスクリーン",
+            "exitWebFullscreen": "ウェブフルスクリーンを終了",
+            "fullscreen": "フルスクリーン",
+            "comments": "コメント",
+            "error": {
+                "title": "ゲームが見つかりません",
+                "description": "お探しのゲームは存在しないか、移動された可能性があります。",
+                "backToGames": "ゲーム一覧に戻る"
             }
         }
     },

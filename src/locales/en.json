@@ -59,6 +59,11 @@
       "title": "Blog - No I'm Not a Human Guides & Tips | iamnotahuman.org",
       "description": "Read the latest blog posts about No I'm Not a Human. Get expert guides, tips, strategies, and insights to master the psychological horror experience.",
       "keywords": "No I'm not a Human blog, game guides, horror game tips, strategy guides, iamnotahuman.org"
+    },
+    "games": {
+      "title": "Games - No I'm Not a Human | iamnotahuman.org",
+      "description": "Play free online games related to No I'm Not a Human. Explore narrative adventures, horror experiences, and interactive stories.",
+      "keywords": "No I'm not a Human games, free games, online games, horror games, narrative games, interactive fiction, iamnotahuman.org"
     }
   },
   "nav": {
@@ -69,6 +74,7 @@
     "visitors": "Visitors",
     "download": "Download",
     "blog": "Blog",
+    "games": "Games",
     "openMenu": "Open Menu",
     "closeMenu": "Close Menu"
   },
@@ -92,6 +98,11 @@
       "title": "Watch the Trailer",
       "playButton": "▶",
       "playLabel": "Watch Trailer"
+    },
+    "games": {
+      "title": "Featured Games",
+      "intro": "Explore our collection of free online games related to No I'm Not a Human. Experience narrative adventures, horror experiences, and interactive stories.",
+      "viewAll": "View All Games"
     },
     "about": {
       "title": "About No I'm not a Human",
@@ -452,6 +463,43 @@
         "title": "Related Articles"
       }
     }
+  },
+  "GamesPage": {
+    "list": {
+      "hero": {
+        "title": "<span class=\"highlight\">Games - No I'm Not a Human</span>",
+        "description": "Play free online games related to No I'm Not a Human. Explore narrative adventures, horror experiences, and interactive stories."
+      },
+      "loading": "Loading games...",
+      "playNow": "Play Now",
+      "error": {
+        "title": "Failed to Load Games",
+        "description": "We couldn't load the games. Please try again later.",
+        "retry": "Try Again"
+      },
+      "empty": {
+        "title": "No Games Available",
+        "description": "There are currently no games available. Check back later for new content."
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page {current} of {total}"
+      }
+    },
+        "detail": {
+          "loading": "Loading game...",
+          "playButton": "Play",
+          "webFullscreen": "Web Fullscreen",
+          "exitWebFullscreen": "Exit Web Fullscreen",
+          "fullscreen": "Fullscreen",
+          "comments": "Comments",
+          "error": {
+            "title": "Game Not Found",
+            "description": "The game you're looking for doesn't exist or has been moved.",
+            "backToGames": "Back to Games"
+          }
+        }
   },
   "EndingsPage": {
     "hero": {

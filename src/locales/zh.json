@@ -54,6 +54,11 @@
             "title": "版权声明 - No I'm Not a Human指南",
             "description": "《No I'm Not a Human指南》的版权及知识产权信息。了解内容所有权、公平使用政策及使用指南。",
             "keywords": "版权, 知识产权, 公平使用, DMCA, 内容权利"
+        },
+        "games": {
+            "title": "游戏 - No I'm Not a Human | iamnotahuman.org",
+            "description": "免费在线游玩与《No I'm Not a Human》相关的游戏。探索叙事冒险、恐怖体验和互动故事。",
+            "keywords": "No I'm Not a Human游戏, 免费游戏, 在线游戏, 恐怖游戏, 叙事游戏, 互动小说, iamnotahuman.org"
         }
     },
     "nav": {
@@ -64,6 +69,7 @@
         "visitors": "访客",
         "download": "下载",
         "blog": "博客",
+        "games": "游戏",
         "openMenu": "打开菜单",
         "closeMenu": "关闭菜单"
     },
@@ -87,6 +93,11 @@
             "title": "观看预告片",
             "playButton": "▶",
             "playLabel": "观看预告片"
+        },
+        "games": {
+            "title": "精选游戏",
+            "intro": "探索我们与《不，我不是人类》相关的免费在线游戏合集。体验叙事冒险、恐怖体验和互动故事。",
+            "viewAll": "查看所有游戏"
         },
         "about": {
             "title": "关于《No I'm Not a Human》",
@@ -410,7 +421,7 @@
         "list": {
             "hero": {
                 "title": "<span class=\"highlight\">博客 - 不，我不是人类</span>",
-                "description": "阅读关于“不，我不是人类”的最新指南、技巧和见解。随时掌握专家策略和游戏分析。"
+                "description": "阅读关于\"不，我不是人类\"的最新指南、技巧和见解。随时掌握专家策略和游戏分析。"
             },
             "loading": "正在加载博客文章...",
             "error": {
@@ -445,6 +456,43 @@
             },
             "related": {
                 "title": "相关文章"
+            }
+        }
+    },
+    "GamesPage": {
+        "list": {
+            "hero": {
+                "title": "<span class=\"highlight\">游戏 - 不，我不是人类</span>",
+                "description": "免费在线游玩与《不，我不是人类》相关的游戏。探索叙事冒险、恐怖体验和互动故事。"
+            },
+            "loading": "正在加载游戏...",
+            "playNow": "立即游玩",
+            "error": {
+                "title": "游戏加载失败",
+                "description": "我们无法加载游戏，请稍后再试。",
+                "retry": "重试"
+            },
+            "empty": {
+                "title": "暂无游戏",
+                "description": "目前没有可用的游戏，请稍后回来查看新内容。"
+            },
+            "pagination": {
+                "previous": "上一页",
+                "next": "下一页",
+                "page": "第 {current} 页，共 {total} 页"
+            }
+        },
+        "detail": {
+            "loading": "正在加载游戏...",
+            "playButton": "开始游戏",
+            "webFullscreen": "网页全屏",
+            "exitWebFullscreen": "退出网页全屏",
+            "fullscreen": "全屏",
+            "comments": "评论",
+            "error": {
+                "title": "未找到游戏",
+                "description": "您查找的游戏不存在或已被移动。",
+                "backToGames": "返回游戏列表"
             }
         }
     },

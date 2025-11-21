@@ -101,6 +101,45 @@
       </div>
     </section>
 
+    <!-- Games Section -->
+    <section v-if="homeGames.length > 0" class="section games">
+      <div class="container">
+        <div class="games-wrapper">
+          <h2 class="home-title">{{ $t('HomePage.games.title') }}</h2>
+          <p class="games-intro">{{ $t('HomePage.games.intro') }}</p>
+          <div class="home-games-grid">
+            <article
+              v-for="game in homeGames"
+              :key="game.id"
+              class="home-game-card"
+              @click="navigateToGame(game.addressBar)"
+            >
+              <div class="home-game-image">
+                <img
+                  :src="game.imageUrl"
+                  :alt="game.imageAlt"
+                  loading="lazy"
+                  @error="handleImageError"
+                />
+                <div class="home-game-overlay">
+                  <span class="home-play-button">▶ {{ $t('GamesPage.list.playNow') }}</span>
+                </div>
+              </div>
+              <div class="home-game-content">
+                <h3 class="home-game-title">{{ game.title }}</h3>
+                <p class="home-game-description">{{ game.description }}</p>
+              </div>
+            </article>
+          </div>
+          <div class="games-view-all">
+            <a :href="localizedHref('/games')" class="btn btn-secondary">
+              {{ $t('HomePage.games.viewAll') }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
     <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
     <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
@@ -330,22 +369,68 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
+import { useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+import { getGameData } from '@/utils/gameUtils'
 
 const { isMobile } = useDeviceDetection()
+const router = useRouter()
+const { locale } = useI18n()
 
 // 视频相关状态
 const videoPlaying = ref(false)
+
+// 游戏列表
+const homeGames = ref([])
 
 // 播放视频方法
 const playVideo = () => {
   videoPlaying.value = true
 }
+
+// 加载首页游戏
+const loadHomeGames = async () => {
+  try {
+    const games = await getGameData(locale.value)
+    // 筛选 isHome 为 true 的游戏
+    homeGames.value = games.filter(game => game.isHome === true)
+  } catch (error) {
+    console.error('Failed to load home games:', error)
+    homeGames.value = []
+  }
+}
+
+// 导航到游戏详情页
+const navigateToGame = (addressBar) => {
+  const basePath = locale.value === 'en' ? '' : `/${locale.value}`
+  router.push(`${basePath}/games/${addressBar}`)
+}
+
+// 获取本地化链接
+const localizedHref = (path) => {
+  if (locale.value === 'en') return path
+  return path === '/' ? `/${locale.value}` : `/${locale.value}${path}`
+}
+
+// 图片加载错误处理
+const handleImageError = (event) => {
+  event.target.src = '/images/games/game-default.webp'
+}
+
+// 监听语言变化
+watch(
+  locale,
+  () => {
+    loadHomeGames()
+  },
+  { immediate: false }
+)
 
 // 广告联盟
 const adProvider = () => {
@@ -365,6 +450,7 @@ const adProvider = () => {
 // 优化的组件挂载 - 避免强制重排
 onMounted(() => {
   adProvider()
+  loadHomeGames()
 })
 </script>
 
@@ -1058,6 +1144,119 @@ onMounted(() => {
   background-repeat: no-repeat;
 }
 
+/* Games Section */
+.section.games {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+.games-wrapper {
+  text-align: center;
+}
+
+.games-intro {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.home-games-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.home-game-card {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1e1e1e 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.home-game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
+  border-color: #00ff88;
+}
+
+.home-game-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-game-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.home-game-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.home-game-card:hover .home-game-overlay {
+  opacity: 1;
+}
+
+.home-game-card:hover .home-game-image img {
+  transform: scale(1.05);
+}
+
+.home-play-button {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: rgba(0, 255, 136, 0.9);
+  border-radius: 8px;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+}
+
+.home-game-content {
+  padding: 20px;
+}
+
+.home-game-title {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.home-game-description {
+  color: #b8b8b8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.games-view-all {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .section.about {
   background-image: url('/images/3.webp');
   background-attachment: fixed;
@@ -1096,6 +1295,14 @@ onMounted(() => {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* Responsive Design - 1200px */
+@media (max-width: 1200px) {
+  .home-games-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
 }
 
 /* Responsive Design - 1024px */
@@ -1177,6 +1384,11 @@ onMounted(() => {
   }
 
   .guide-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .home-games-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
@@ -1443,6 +1655,27 @@ a:hover {
   .guide-grid {
     grid-template-columns: 1fr;
     gap: 15px;
+  }
+
+  .home-games-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .home-game-image {
+    height: 180px;
+  }
+
+  .home-game-content {
+    padding: 15px;
+  }
+
+  .home-game-title {
+    font-size: 1.1rem;
+  }
+
+  .home-game-description {
+    font-size: 0.85rem;
   }
 
   .guide-card {
