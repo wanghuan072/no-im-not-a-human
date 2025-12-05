@@ -197,12 +197,6 @@
                 "question": "我可以在哪里游玩？",
                 "answer": "《No I'm Not a Human》可在 Windows PC 的 Steam 平台上游玩。未来计划推出主机版本。Steam 上提供试玩版本，可先体验后购买。请查看我们的 <a href=\"/download\">下载页面</a> 了解系统需求及平台兼容性。"
             }
-        },
-        "cta": {
-            "title": "迎接黑夜挑战",
-            "text": "加入成千上万的幸存者，体验这场紧张的心理恐怖冒险。你能活到黎明吗？",
-            "steamButton": "在 Steam 上游玩",
-            "demoButton": "免费试玩"
         }
     },
     "GuidesPage": {

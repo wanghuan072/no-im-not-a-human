@@ -187,12 +187,6 @@
                 "question": "Wo kann man es spielen?",
                 "answer": "No I'm not a Human ist auf Steam für Windows PC verfügbar. Konsolen-Versionen sind geplant. Eine Demo ist auf Steam verfügbar. Siehe unsere <a href=\"/download\">Download-Seite</a> für Systemanforderungen und Kompatibilität."
             }
-        },
-        "cta": {
-            "title": "Stelle dich der Nacht",
-            "text": "Schließe dich tausenden Überlebenden in diesem intensiven psychologischen Horror-Erlebnis an. Kannst du bis zum Morgengrauen überleben?",
-            "steamButton": "Auf Steam spielen",
-            "demoButton": "Kostenlose Demo testen"
         }
     },
     "GuidesPage": {

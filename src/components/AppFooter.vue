@@ -12,7 +12,7 @@
             <a
               href="https://twitter.com/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               class="social-link"
               aria-label="Follow us on Twitter"
             >
@@ -39,7 +39,7 @@
             <a
               href="https://facebook.com/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               class="social-link"
               aria-label="Follow us on Facebook"
             >
@@ -62,7 +62,6 @@
               </svg>
               <span class="sr-only">Follow us on Facebook</span>
             </a>
-            <a href="https://viesearch.com/">Viesearch - The Human-curated Search Engine</a>
           </div>
         </div>
 

@@ -186,12 +186,6 @@
                 "question": "어디서 플레이할 수 있나요?",
                 "answer": "No I'm Not a Human은 Windows PC용 Steam에서 이용 가능하며, 콘솔 버전도 예정되어 있습니다. Steam 데모를 통해 사전 체험 가능. 시스템 요구 사항과 플랫폼 호환성은 <a href=\"/download\">다운로드 페이지</a>에서 확인하세요."
             }
-        },
-        "cta": {
-            "title": "밤을 마주하라",
-            "text": "수천 명의 생존자와 함께 이 강렬한 심리 공포 경험에 참여하세요. 새벽까지 살아남을 수 있을까요?",
-            "steamButton": "Steam에서 플레이",
-            "demoButton": "무료 데모 체험"
         }
     },
     "GuidesPage": {

@@ -197,12 +197,6 @@
                 "question": "どこでプレイできますか？",
                 "answer": "No I'm not a HumanはWindows PC用Steamで利用可能。将来的にコンソール版も予定。デモ版もSteamで試せます。<a href=\"/download\">ダウンロードページ</a>でシステム要件や対応プラットフォームを確認可能。"
             }
-        },
-        "cta": {
-            "title": "夜に立ち向かえ",
-            "text": "この心理ホラー体験に参加しましょう。あなたは夜明けまで生き延びることができるか？",
-            "steamButton": "Steamでプレイ",
-            "demoButton": "無料デモを試す"
         }
     },
     "GuidesPage": {

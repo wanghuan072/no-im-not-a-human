@@ -202,12 +202,6 @@
         "question": "Where can I play it?",
         "answer": "No I'm not a Human is available on Steam for Windows PC. Console versions are planned for future release. A demo is available on Steam for players to try before purchasing. Check our <a href=\"/download\">download page</a> for system requirements and platform compatibility."
       }
-    },
-    "cta": {
-      "title": "Face the Night",
-      "text": "Join thousands of survivors in this intense psychological horror experience. Can you survive until dawn?",
-      "steamButton": "Play on Steam",
-      "demoButton": "Try Free Demo"
     }
   },
   "GuidesPage": {
@@ -487,19 +481,19 @@
         "page": "Page {current} of {total}"
       }
     },
-        "detail": {
-          "loading": "Loading game...",
-          "playButton": "Play",
-          "webFullscreen": "Web Fullscreen",
-          "exitWebFullscreen": "Exit Web Fullscreen",
-          "fullscreen": "Fullscreen",
-          "comments": "Comments",
-          "error": {
-            "title": "Game Not Found",
-            "description": "The game you're looking for doesn't exist or has been moved.",
-            "backToGames": "Back to Games"
-          }
-        }
+    "detail": {
+      "loading": "Loading game...",
+      "playButton": "Play",
+      "webFullscreen": "Web Fullscreen",
+      "exitWebFullscreen": "Exit Web Fullscreen",
+      "fullscreen": "Fullscreen",
+      "comments": "Comments",
+      "error": {
+        "title": "Game Not Found",
+        "description": "The game you're looking for doesn't exist or has been moved.",
+        "backToGames": "Back to Games"
+      }
+    }
   },
   "EndingsPage": {
     "hero": {

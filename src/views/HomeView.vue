@@ -35,15 +35,11 @@
             <p v-html="$t('HomePage.hero.description', {}, { raw: true })"></p>
           </div>
           <div class="hero-buttons">
-            <a
-              href="https://store.steampowered.com/"
-              target="_blank"
-              class="btn btn-primary btn-download"
-            >
+            <a :href="localizedHref('/download')" class="btn btn-primary btn-download">
               <span class="btn-icon">⬇️</span>
               <span>{{ $t('HomePage.hero.buttons.download') }}</span>
             </a>
-            <a href="/guides" class="btn btn-secondary btn-guide">
+            <a :href="localizedHref('/guides')" class="btn btn-secondary btn-guide">
               <span class="btn-icon">📖</span>
               <span>{{ $t('HomePage.hero.buttons.guides') }}</span>
             </a>
@@ -343,27 +339,6 @@
       <ins class="eas6a97888e10" data-zoneid="5750520"></ins>
     </aside>
 
-    <!-- CTA Section -->
-    <section class="section cta">
-      <div class="container">
-        <div class="cta-wrapper">
-          <h2 class="home-title">{{ $t('HomePage.cta.title') }}</h2>
-          <p class="cta-text">{{ $t('HomePage.cta.text') }}</p>
-          <div class="cta-buttons">
-            <a
-              href="https://store.steampowered.com/"
-              target="_blank"
-              class="btn btn-primary btn-large"
-              >{{ $t('HomePage.cta.steamButton') }}</a
-            >
-            <a href="/download" class="btn btn-secondary btn-large">{{
-              $t('HomePage.cta.demoButton')
-            }}</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <AppFooter />
   </div>
 </template>
@@ -399,7 +374,7 @@ const loadHomeGames = async () => {
   try {
     const games = await getGameData(locale.value)
     // 筛选 isHome 为 true 的游戏
-    homeGames.value = games.filter(game => game.isHome === true)
+    homeGames.value = games.filter((game) => game.isHome === true)
   } catch (error) {
     console.error('Failed to load home games:', error)
     homeGames.value = []
@@ -705,17 +680,6 @@ onMounted(() => {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.section.cta .cta-wrapper {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(8px);
-  border-radius: 15px;
-  padding: 40px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-}
-
 /* About Section */
 .about-content {
   display: grid;
@@ -934,20 +898,6 @@ onMounted(() => {
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
-}
-
-/* CTA Section */
-.cta-text {
-  font-size: 19px;
-  margin-bottom: 32px;
-  opacity: 0.9;
-}
-
-.cta-buttons {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 /* Common Styles */
@@ -1289,14 +1239,6 @@ onMounted(() => {
   background-repeat: no-repeat;
 }
 
-.section.cta {
-  background-image: url('/images/6.webp');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 /* Responsive Design - 1200px */
 @media (max-width: 1200px) {
   .home-games-grid {
@@ -1403,10 +1345,6 @@ onMounted(() => {
   }
 
   .section.faq .faq-wrapper {
-    padding: 20px;
-  }
-
-  .section.cta .cta-wrapper {
     padding: 20px;
   }
 
@@ -1581,10 +1519,6 @@ a:hover {
   .section.why .why-wrapper,
   .section.guide .guide-wrapper,
   .section.faq .faq-wrapper,
-  .section.cta .cta-wrapper {
-    padding: 10px;
-  }
-
   .about-text p {
     font-size: 12px;
     line-height: 1.5;
@@ -1699,16 +1633,6 @@ a:hover {
   .faq-answer {
     font-size: 12px;
     line-height: 1.5;
-  }
-
-  .cta-text {
-    font-size: 14px;
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-
-  .cta-buttons {
-    gap: 10px;
   }
 
   .btn {
