@@ -185,9 +185,8 @@ export default {
 
     // 设置SEO
     const setupSEO = async () => {
-      const seoData = await import('@/utils/blogUtils').then((module) =>
-        module.getBlogListSEO(locale.value)
-      )
+      const { getBlogListSEO } = await import('@/utils/blogUtils')
+      const seoData = await getBlogListSEO(locale.value)
       setSEO(seoData)
     }
 

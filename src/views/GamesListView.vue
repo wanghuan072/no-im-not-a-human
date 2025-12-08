@@ -179,7 +179,7 @@ export default {
     // 设置SEO
     const setupSEO = async () => {
       const { getGameListSEO } = await import('@/utils/gameUtils')
-      const seoData = getGameListSEO(locale.value)
+      const seoData = await getGameListSEO(locale.value)
       setSEO(seoData)
     }
 

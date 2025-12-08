@@ -494,8 +494,27 @@
 </template>
 
 <script setup>
+import { onMounted, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
 import AppHeader from '../components/AppHeader.vue'
 import AppFooter from '../components/AppFooter.vue'
+import { setSEO, getSEOFromLocale } from '@/seo'
+
+const { locale } = useI18n()
+
+// 设置SEO
+const setupSEO = async () => {
+  const seoData = await getSEOFromLocale('download', locale.value)
+  setSEO(seoData)
+}
+
+onMounted(() => {
+  setupSEO()
+})
+
+watch(locale, () => {
+  setupSEO()
+})
 </script>
 
 <style scoped>

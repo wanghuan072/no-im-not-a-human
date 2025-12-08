@@ -353,10 +353,17 @@ import '@/assets/css/public.css'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 import { getGameData } from '@/utils/gameUtils'
+import { setSEO, getSEOFromLocale } from '@/seo'
 
 const { isMobile } = useDeviceDetection()
 const router = useRouter()
 const { locale } = useI18n()
+
+// 设置SEO
+const setupSEO = async () => {
+  const seoData = await getSEOFromLocale('home', locale.value)
+  setSEO(seoData)
+}
 
 // 视频相关状态
 const videoPlaying = ref(false)
@@ -403,6 +410,7 @@ watch(
   locale,
   () => {
     loadHomeGames()
+    setupSEO()
   },
   { immediate: false }
 )
@@ -426,6 +434,7 @@ const adProvider = () => {
 onMounted(() => {
   adProvider()
   loadHomeGames()
+  setupSEO()
 })
 </script>
 

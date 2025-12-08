@@ -140,56 +140,28 @@ export function extractGameAddressBar(path) {
  * @param {string} language - 语言代码
  * @returns {Object} SEO数据
  */
-export function getGameListSEO(language = 'en') {
-  const seoData = {
-    en: {
-      title: "Games - No I'm Not a Human | iamnotahuman.org",
-      description: "Play free online games related to No I'm Not a Human. Explore narrative adventures, horror experiences, and interactive stories.",
-      keywords: "No I'm not a Human games, free games, online games, horror games, narrative games, interactive fiction, iamnotahuman.org"
-    },
-    zh: {
-      title: "游戏 - No I'm Not a Human | iamnotahuman.org",
-      description: "免费在线游玩与《No I'm Not a Human》相关的游戏。探索叙事冒险、恐怖体验和互动故事。",
-      keywords: "No I'm Not a Human游戏, 免费游戏, 在线游戏, 恐怖游戏, 叙事游戏, 互动小说, iamnotahuman.org"
-    },
-    ja: {
-      title: "ゲーム - No I'm Not a Human | iamnotahuman.org",
-      description: "No I'm Not a Humanに関連する無料オンラインゲームをプレイ。物語アドベンチャー、ホラー体験、インタラクティブストーリーを探索。",
-      keywords: "No I'm Not a Humanゲーム, 無料ゲーム, オンラインゲーム, ホラーゲーム, 物語ゲーム, インタラクティブフィクション, iamnotahuman.org"
-    },
-    ru: {
-      title: "Игры - No I'm Not a Human | iamnotahuman.org",
-      description: "Играйте в бесплатные онлайн-игры, связанные с No I'm Not a Human. Исследуйте повествовательные приключения, хоррор-опыты и интерактивные истории.",
-      keywords: "игры No I'm Not a Human, бесплатные игры, онлайн игры, хоррор игры, повествовательные игры, интерактивная фантастика, iamnotahuman.org"
-    },
-    ko: {
-      title: "게임 - No I'm Not a Human | iamnotahuman.org",
-      description: "No I'm Not a Human와 관련된 무료 온라인 게임을 플레이하세요. 서사 모험, 공포 경험 및 대화형 스토리를 탐색하세요.",
-      keywords: "No I'm Not a Human 게임, 무료 게임, 온라인 게임, 공포 게임, 서사 게임, 대화형 소설, iamnotahuman.org"
-    },
-    de: {
-      title: "Spiele - No I'm Not a Human | iamnotahuman.org",
-      description: "Spielen Sie kostenlose Online-Spiele im Zusammenhang mit No I'm Not a Human. Erkunden Sie narrative Abenteuer, Horror-Erlebnisse und interaktive Geschichten.",
-      keywords: "No I'm Not a Human Spiele, kostenlose Spiele, Online-Spiele, Horror-Spiele, narrative Spiele, interaktive Fiktion, iamnotahuman.org"
-    },
-    fr: {
-      title: "Jeux - No I'm Not a Human | iamnotahuman.org",
-      description: "Jouez à des jeux en ligne gratuits liés à No I'm Not a Human. Explorez des aventures narratives, des expériences d'horreur et des histoires interactives.",
-      keywords: "jeux No I'm Not a Human, jeux gratuits, jeux en ligne, jeux d'horreur, jeux narratifs, fiction interactive, iamnotahuman.org"
-    },
-    es: {
-      title: "Juegos - No I'm Not a Human | iamnotahuman.org",
-      description: "Juega juegos en línea gratuitos relacionados con No I'm Not a Human. Explora aventuras narrativas, experiencias de terror e historias interactivas.",
-      keywords: "juegos No I'm Not a Human, juegos gratis, juegos en línea, juegos de terror, juegos narrativos, ficción interactiva, iamnotahuman.org"
-    },
-    pt: {
-      title: "Jogos - No I'm Not a Human | iamnotahuman.org",
-      description: "Jogue jogos online gratuitos relacionados a No I'm Not a Human. Explore aventuras narrativas, experiências de terror e histórias interativas.",
-      keywords: "jogos No I'm Not a Human, jogos grátis, jogos online, jogos de terror, jogos narrativos, ficção interativa, iamnotahuman.org"
+export async function getGameListSEO(language = 'en') {
+  try {
+    const locale = await import(`@/locales/${language}.json`)
+    const seoData = locale.default?.seo?.games
+
+    if (seoData) {
+      return {
+        title: seoData.title || "Games - No I'm Not a Human | iamnotahuman.org",
+        description: seoData.description || "Play free online games related to No I'm Not a Human.",
+        keywords: seoData.keywords || "No I'm not a Human games, free games, online games"
+      }
     }
+  } catch (error) {
+    console.error(`Failed to load SEO data for games in language ${language}:`, error)
   }
 
-  return seoData[language] || seoData.en
+  // 降级到默认值
+  return {
+    title: "Games - No I'm Not a Human | iamnotahuman.org",
+    description: "Play free online games related to No I'm Not a Human. Explore narrative adventures, horror experiences, and interactive stories.",
+    keywords: "No I'm not a Human games, free games, online games, horror games, narrative games, interactive fiction, iamnotahuman.org"
+  }
 }
 
 /**

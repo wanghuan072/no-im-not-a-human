@@ -27,4 +27,34 @@ export function setSEO(overrides = {}) {
     ensureMetaTag('og:title', 'property').setAttribute('content', seo.title)
     ensureMetaTag('og:description', 'property').setAttribute('content', seo.description)
     ensureMetaTag('og:image', 'property').setAttribute('content', seo.image || defaultSEO.image)
+
+    // 确保 og:url 也被设置
+    const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://iamnotahuman.org/'
+    ensureMetaTag('og:url', 'property').setAttribute('content', currentUrl)
+}
+
+/**
+ * 从多语言配置中获取SEO数据
+ * @param {string} pageKey - 页面key，如 'home', 'guides', 'endings' 等
+ * @param {string} language - 语言代码，默认为 'en'
+ * @returns {Promise<Object>} SEO数据对象
+ */
+export async function getSEOFromLocale(pageKey, language = 'en') {
+    try {
+        const locale = await import(`@/locales/${language}.json`)
+        const seoData = locale.default?.seo?.[pageKey]
+
+        if (seoData) {
+            return {
+                title: seoData.title || defaultSEO.title,
+                description: seoData.description || defaultSEO.description,
+                keywords: seoData.keywords || defaultSEO.keywords,
+                image: defaultSEO.image
+            }
+        }
+    } catch (error) {
+        console.error(`Failed to load SEO data for ${pageKey} in language ${language}:`, error)
+    }
+
+    return defaultSEO
 }

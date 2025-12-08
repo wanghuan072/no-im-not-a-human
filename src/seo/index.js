@@ -1,1 +1,1 @@
-export { setSEO } from './composables.js'
+export { setSEO, getSEOFromLocale } from './composables.js'

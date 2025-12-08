@@ -140,16 +140,28 @@ export function extractBlogAddressBar(path) {
  * @param {string} language - 语言代码
  * @returns {Object} SEO数据
  */
-export function getBlogListSEO(language = 'en') {
-  const seoData = {
-    en: {
-      title: "Blog - No I'm Not a Human Guides & Tips | iamnotahuman.org",
-      description: "Read the latest blog posts about No I'm Not a Human. Get expert guides, tips, strategies, and insights to master the psychological horror experience.",
-      keywords: "No I'm not a Human blog, game guides, horror game tips, strategy guides, iamnotahuman.org"
+export async function getBlogListSEO(language = 'en') {
+  try {
+    const locale = await import(`@/locales/${language}.json`)
+    const seoData = locale.default?.seo?.['blog-list']
+
+    if (seoData) {
+      return {
+        title: seoData.title || "Blog - No I'm Not a Human Guides & Tips | iamnotahuman.org",
+        description: seoData.description || "Read the latest blog posts about No I'm Not a Human.",
+        keywords: seoData.keywords || "No I'm not a Human blog, game guides, horror game tips"
+      }
     }
+  } catch (error) {
+    console.error(`Failed to load SEO data for blog-list in language ${language}:`, error)
   }
 
-  return seoData[language] || seoData.en
+  // 降级到默认值
+  return {
+    title: "Blog - No I'm Not a Human Guides & Tips | iamnotahuman.org",
+    description: "Read the latest blog posts about No I'm Not a Human. Get expert guides, tips, strategies, and insights to master the psychological horror experience.",
+    keywords: "No I'm not a Human blog, game guides, horror game tips, strategy guides, iamnotahuman.org"
+  }
 }
 
 /**
