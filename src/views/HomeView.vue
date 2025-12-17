@@ -90,10 +90,13 @@
             <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
           </aside>
         </div>
+
+        <!-- Native Banner----PC移动 原生广告 -->
         <div class="ad-wrap" v-if="!isMobile">
           <div ref="bannerAdSlot"></div>
         </div>
 
+        <!-- Native Banner----移动 原生广告 -->
         <div class="ad-wrap" v-if="isMobile">
           <div ref="bannerAdSlotPh1"></div>
         </div>
@@ -290,9 +293,9 @@
         </div>
 
         <!-- Native Banner----移动 原生广告 -->
-        <div class="ad-wrap" v-if="isMobile">
+        <!-- <div class="ad-wrap" v-if="isMobile">
           <div ref="bannerAdSlotPh2"></div>
-        </div>
+        </div> -->
       </div>
     </section>
 
