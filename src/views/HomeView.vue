@@ -181,7 +181,7 @@
         </div>
 
         <!-- Native Banner----PC移动 原生广告 -->
-        <div class="ad-wrap" v-if="!isMobile">
+        <div class="ad-wrap">
           <div id="container-adbedbcd8a3516a8ca3fc9c0a5715e6b"></div>
         </div>
       </div>
@@ -287,6 +287,9 @@
               <p>{{ $t('HomePage.guide.card6.description') }}</p>
             </div>
           </div>
+        </div>
+        <div class="ad-wrap" v-if="isMobile">
+          <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
         </div>
       </div>
     </section>
