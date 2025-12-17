@@ -1666,5 +1666,7 @@ a:hover {
   text-align: center;
   overflow: hidden;
   margin-top: 20px;
+  position: relative;
+  z-index: 2;
 }
 </style>
