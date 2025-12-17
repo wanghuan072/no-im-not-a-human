@@ -57,6 +57,16 @@
     <!-- Video Section -->
     <section class="section video">
       <div class="container">
+        <!-- Native Banner----PC移动 原生广告 -->
+        <div class="ad-wrap" v-if="!isMobile">
+          <div ref="bannerAdSlot"></div>
+        </div>
+
+        <!-- Native Banner----移动 原生广告 -->
+        <div class="ad-wrap" v-if="isMobile">
+          <div ref="bannerAdSlotPh1"></div>
+        </div>
+
         <div class="video-wrapper">
           <h2 class="home-title">{{ $t('HomePage.video.title') }}</h2>
           <div class="video-container">
@@ -89,16 +99,6 @@
           <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="!isMobile">
             <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
           </aside>
-        </div>
-
-        <!-- Native Banner----PC移动 原生广告 -->
-        <div class="ad-wrap" v-if="!isMobile">
-          <div ref="bannerAdSlot"></div>
-        </div>
-
-        <!-- Native Banner----移动 原生广告 -->
-        <div class="ad-wrap" v-if="isMobile">
-          <div ref="bannerAdSlotPh1"></div>
         </div>
       </div>
     </section>
