@@ -288,9 +288,9 @@
             </div>
           </div>
         </div>
-        <!-- <div class="ad-wrap" v-if="isMobile">
+        <div class="ad-wrap" v-if="isMobile">
           <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
-        </div> -->
+        </div>
       </div>
     </section>
 
