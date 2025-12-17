@@ -54,10 +54,6 @@
       </div>
     </section>
 
-    <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="isMobile">
-      <ins class="eas6a97888e10" data-zoneid="5750516"></ins>
-    </aside>
-
     <!-- Video Section -->
     <section class="section video">
       <div class="container">
@@ -93,6 +89,9 @@
           <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="!isMobile">
             <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
           </aside>
+        </div>
+        <div class="ad-wrap">
+          <div ref="bannerAdSlot" class="banner-ad-slot"></div>
         </div>
       </div>
     </section>
@@ -136,10 +135,6 @@
       </div>
     </section>
 
-    <ins class="eas6a97888e17" data-zoneid="5750504" v-if="!isMobile"></ins>
-    <ins class="eas6a97888e17" data-zoneid="5750506" v-if="!isMobile"></ins>
-    <ins class="eas6a97888e17" data-zoneid="5750508" v-if="!isMobile"></ins>
-
     <!-- About Section -->
     <section class="section about">
       <div class="container">
@@ -179,6 +174,11 @@
               <p>{{ $t('HomePage.features.card3.description') }}</p>
             </div>
           </div>
+        </div>
+
+        <!-- Native Banner----PC移动 原生广告 -->
+        <div class="ad-wrap">
+          <div id="container-adbedbcd8a3516a8ca3fc9c0a5715e6b"></div>
         </div>
       </div>
     </section>
@@ -247,10 +247,6 @@
               <p v-html="$t('HomePage.why.card4.description', {}, { raw: true })"></p>
             </div>
           </div>
-
-          <aside style="width: 100%; padding: 20px 0; text-align: center">
-            <ins class="eas6a97888e20" data-zoneid="5750512"></ins>
-          </aside>
         </div>
       </div>
     </section>
@@ -291,11 +287,6 @@
       </div>
     </section>
 
-    <!-- 移动横幅广告位2 -->
-    <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="isMobile">
-      <ins class="eas6a97888e10" data-zoneid="5750518"></ins>
-    </aside>
-
     <!-- FAQ Section -->
     <section class="section faq">
       <div class="container">
@@ -334,11 +325,6 @@
       </div>
     </section>
 
-    <!-- 移动横幅广告位2 -->
-    <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="isMobile">
-      <ins class="eas6a97888e10" data-zoneid="5750520"></ins>
-    </aside>
-
     <AppFooter />
   </div>
 </template>
@@ -358,6 +344,36 @@ import { setSEO, getSEOFromLocale } from '@/seo'
 const { isMobile } = useDeviceDetection()
 const router = useRouter()
 const { locale } = useI18n()
+
+const bannerAdSlot = ref(null)
+
+// 注入横幅广告1
+const injectBannerAd1 = () => {
+  if (!bannerAdSlot.value) return
+  bannerAdSlot.value.innerHTML = ''
+  window.atOptions = {
+    key: '522b073adec0446cd70d13406d93365c',
+    format: 'iframe',
+    height: 90,
+    width: 728,
+    params: {},
+  }
+  const script = document.createElement('script')
+  script.src = 'https://www.highperformanceformat.com/522b073adec0446cd70d13406d93365c/invoke.js'
+  script.async = true
+  bannerAdSlot.value.appendChild(script)
+}
+
+// 注入横幅广告2
+const injectBannerAd2 = () => {
+  const container = document.getElementById('container-adbedbcd8a3516a8ca3fc9c0a5715e6b')
+  if (!container) return
+  const script = document.createElement('script')
+  script.async = true
+  script.setAttribute('data-cfasync', 'false')
+  script.src = 'https://pl28273598.effectivegatecpm.com/adbedbcd8a3516a8ca3fc9c0a5715e6b/invoke.js'
+  document.body.appendChild(script)
+}
 
 // 设置SEO
 const setupSEO = async () => {
@@ -415,24 +431,10 @@ watch(
   { immediate: false }
 )
 
-// 广告联盟
-const adProvider = () => {
-  const script = document.createElement('script')
-  script.src = 'https://a.magsrv.com/ad-provider.js'
-  script.async = true
-  script.type = 'application/javascript'
-  document.head.appendChild(script)
-
-  script.onload = () => {
-    if (window.AdProvider) {
-      window.AdProvider.push({ serve: {} })
-    }
-  }
-}
-
 // 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-  adProvider()
+  injectBannerAd1()
+  injectBannerAd2()
   loadHomeGames()
   setupSEO()
 })
@@ -1657,5 +1659,12 @@ a:hover {
   .btn-icon {
     display: none;
   }
+}
+
+.ad-wrap {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 20px;
 }
 </style>

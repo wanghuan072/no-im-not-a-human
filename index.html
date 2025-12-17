@@ -45,7 +45,6 @@
   <!-- 关键资源预加载 -->
   <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
 
-
   <!-- 延迟加载第三方脚本 -->
   <script>
     window.addEventListener('load', function () {
@@ -56,33 +55,10 @@
         gtagScript.defer = true;
         gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-VTL722V3EP';
         document.head.appendChild(gtagScript);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-VTL722V3EP');
-
-        // 加载Google AdSense
-        const adsenseScript = document.createElement('script');
-        adsenseScript.async = true;
-        adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4872853956312017';
-        adsenseScript.crossOrigin = 'anonymous';
-        document.head.appendChild(adsenseScript);
       }, 3000);
     });
   </script>
 
-  <!-- 广告联盟 -->
-  <meta name="6a97888e-site-verification" content="49e1854012525e87136dd4052db68bb4">
-
-  <!-- 广告位 -->
-  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
-  <ins class="eas6a97888e35" data-zoneid="5750510"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
-
-  <script async type="application/javascript" src="https://a.pemsrv.com/ad-provider.js"></script>
-  <ins class="eas6a97888e33" data-zoneid="5750514"></ins>
-  <script>(AdProvider = window.AdProvider || []).push({ "serve": {} });</script>
 
   <!-- 基础样式 -->
   <style>
@@ -102,8 +78,70 @@
 </head>
 
 <body>
+
+  <!-- Popunder----插屏广告 -->
+  <script type="text/javascript"
+    src="https://pl28273597.effectivegatecpm.com/1c/8f/17/1c8f17b1c579afc70424d25cdbeac5d4.js"></script>
+
+  <!-- 左侧广告 -->
+  <div id="global-left-ad" class="side-ad side-ad-left">
+    <script type="text/javascript">
+      atOptions = {
+        'key': '1db0690bd8e83498525ddb488619224a',
+        'format': 'iframe',
+        'height': 600,
+        'width': 160,
+        'params': {}
+      };
+    </script>
+    <script type="text/javascript"
+      src="https://www.highperformanceformat.com/1db0690bd8e83498525ddb488619224a/invoke.js"></script>
+  </div>
+
+  <!-- 右侧广告 -->
+  <div id="global-right-ad" class="side-ad side-ad-right">
+    <script type="text/javascript">
+      atOptions = {
+        'key': '1db0690bd8e83498525ddb488619224a',
+        'format': 'iframe',
+        'height': 600,
+        'width': 160,
+        'params': {}
+      };
+    </script>
+    <script type="text/javascript"
+      src="https://www.highperformanceformat.com/1db0690bd8e83498525ddb488619224a/invoke.js"></script>
+  </div>
+
+
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
+
+  <style>
+    .side-ad {
+      position: fixed;
+      top: 120px;
+      width: 160px;
+      min-height: 600px;
+      z-index: 10;
+    }
+
+    .side-ad-left {
+      left: 20px;
+    }
+
+    .side-ad-right {
+      right: 20px;
+    }
+
+    /* 移动端隐藏侧边广告 */
+    @media (max-width: 1024px) {
+      .side-ad {
+        display: none;
+      }
+    }
+  </style>
+
 </body>
 
 </html>
