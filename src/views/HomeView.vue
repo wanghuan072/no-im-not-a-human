@@ -91,11 +91,11 @@
           </aside>
         </div>
         <div class="ad-wrap" v-if="!isMobile">
-          <div ref="bannerAdSlot" class="banner-ad-slot"></div>
+          <div ref="bannerAdSlot"></div>
         </div>
 
         <div class="ad-wrap" v-if="isMobile">
-          <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
+          <div ref="bannerAdSlotPh1"></div>
         </div>
       </div>
     </section>
@@ -288,8 +288,10 @@
             </div>
           </div>
         </div>
+
+        <!-- Native Banner----移动 原生广告 -->
         <div class="ad-wrap" v-if="isMobile">
-          <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
+          <div ref="bannerAdSlotPh2"></div>
         </div>
       </div>
     </section>
@@ -354,6 +356,7 @@ const { locale } = useI18n()
 
 const bannerAdSlot = ref(null)
 const bannerAdSlotPh1 = ref(null)
+const bannerAdSlotPh2 = ref(null)
 
 // 注入横幅广告1
 const injectBannerAd1 = () => {
@@ -398,6 +401,23 @@ const injectBannerAd3 = () => {
   script.src = 'https://www.highperformanceformat.com/3a96a8d07dffe15ea7d5a90116b49511/invoke.js'
   script.async = true
   bannerAdSlotPh1.value.appendChild(script)
+}
+
+// 注入横幅广告4
+const injectBannerAd4 = () => {
+  if (!bannerAdSlotPh2.value) return
+  bannerAdSlotPh2.value.innerHTML = ''
+  window.atOptions = {
+    key: '7cb50870386e3060c0d66747385cf1fd',
+    format: 'iframe',
+    height: 50,
+    width: 320,
+    params: {},
+  }
+  const script = document.createElement('script')
+  script.src = 'https://www.highperformanceformat.com/7cb50870386e3060c0d66747385cf1fd/invoke.js'
+  script.async = true
+  bannerAdSlotPh2.value.appendChild(script)
 }
 
 // 设置SEO
@@ -461,6 +481,7 @@ onMounted(() => {
   injectBannerAd1()
   injectBannerAd2()
   injectBannerAd3()
+  injectBannerAd4()
   loadHomeGames()
   setupSEO()
 })
