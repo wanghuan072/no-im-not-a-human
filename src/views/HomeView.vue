@@ -90,11 +90,11 @@
             <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
           </aside>
         </div>
-        <div class="ad-wrap">
+        <div class="ad-wrap" v-if="!isMobile">
           <div ref="bannerAdSlot" class="banner-ad-slot"></div>
         </div>
 
-        <div class="ad-wrap">
+        <div class="ad-wrap" v-if="isMobile">
           <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
         </div>
       </div>
@@ -181,7 +181,7 @@
         </div>
 
         <!-- Native Banner----PC移动 原生广告 -->
-        <div class="ad-wrap">
+        <div class="ad-wrap" v-if="!isMobile">
           <div id="container-adbedbcd8a3516a8ca3fc9c0a5715e6b"></div>
         </div>
       </div>
