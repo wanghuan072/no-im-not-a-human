@@ -93,6 +93,10 @@
         <div class="ad-wrap">
           <div ref="bannerAdSlot" class="banner-ad-slot"></div>
         </div>
+
+        <div class="ad-wrap">
+          <div ref="bannerAdSlotPh1" class="banner-ad-slot"></div>
+        </div>
       </div>
     </section>
 
@@ -346,6 +350,7 @@ const router = useRouter()
 const { locale } = useI18n()
 
 const bannerAdSlot = ref(null)
+const bannerAdSlotPh1 = ref(null)
 
 // 注入横幅广告1
 const injectBannerAd1 = () => {
@@ -373,6 +378,23 @@ const injectBannerAd2 = () => {
   script.setAttribute('data-cfasync', 'false')
   script.src = 'https://pl28273598.effectivegatecpm.com/adbedbcd8a3516a8ca3fc9c0a5715e6b/invoke.js'
   document.body.appendChild(script)
+}
+
+// 注入横幅广告3
+const injectBannerAd3 = () => {
+  if (!bannerAdSlotPh1.value) return
+  bannerAdSlotPh1.value.innerHTML = ''
+  window.atOptions = {
+    key: '3a96a8d07dffe15ea7d5a90116b49511',
+    format: 'iframe',
+    height: 250,
+    width: 300,
+    params: {},
+  }
+  const script = document.createElement('script')
+  script.src = 'https://www.highperformanceformat.com/3a96a8d07dffe15ea7d5a90116b49511/invoke.js'
+  script.async = true
+  bannerAdSlotPh1.value.appendChild(script)
 }
 
 // 设置SEO
@@ -435,6 +457,7 @@ watch(
 onMounted(() => {
   injectBannerAd1()
   injectBannerAd2()
+  injectBannerAd3()
   loadHomeGames()
   setupSEO()
 })
