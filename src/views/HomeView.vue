@@ -57,16 +57,6 @@
     <!-- Video Section -->
     <section class="section video">
       <div class="container">
-        <!-- Native Banner----PC移动 原生广告 -->
-        <div class="ad-wrap" v-if="!isMobile">
-          <div ref="bannerAdSlot"></div>
-        </div>
-
-        <!-- Native Banner----移动 原生广告 -->
-        <div class="ad-wrap" v-if="isMobile">
-          <div ref="bannerAdSlotPh1"></div>
-        </div>
-
         <div class="video-wrapper">
           <h2 class="home-title">{{ $t('HomePage.video.title') }}</h2>
           <div class="video-container">
@@ -96,9 +86,6 @@
               class="video-iframe"
             ></iframe>
           </div>
-          <aside style="width: 100%; padding: 20px 0; text-align: center" v-if="!isMobile">
-            <ins class="eas6a97888e2" data-zoneid="5750502"></ins>
-          </aside>
         </div>
       </div>
     </section>
@@ -181,11 +168,6 @@
               <p>{{ $t('HomePage.features.card3.description') }}</p>
             </div>
           </div>
-        </div>
-
-        <!-- Native Banner----PC移动 原生广告 -->
-        <div class="ad-wrap">
-          <div id="container-adbedbcd8a3516a8ca3fc9c0a5715e6b"></div>
         </div>
       </div>
     </section>
@@ -291,11 +273,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Native Banner----移动 原生广告 -->
-        <!-- <div class="ad-wrap" v-if="isMobile">
-          <div ref="bannerAdSlotPh2"></div>
-        </div> -->
       </div>
     </section>
 
@@ -357,72 +334,6 @@ const { isMobile } = useDeviceDetection()
 const router = useRouter()
 const { locale } = useI18n()
 
-const bannerAdSlot = ref(null)
-const bannerAdSlotPh1 = ref(null)
-const bannerAdSlotPh2 = ref(null)
-
-// 注入横幅广告1
-const injectBannerAd1 = () => {
-  if (!bannerAdSlot.value) return
-  bannerAdSlot.value.innerHTML = ''
-  window.atOptions = {
-    key: '522b073adec0446cd70d13406d93365c',
-    format: 'iframe',
-    height: 90,
-    width: 728,
-    params: {},
-  }
-  const script = document.createElement('script')
-  script.src = 'https://www.highperformanceformat.com/522b073adec0446cd70d13406d93365c/invoke.js'
-  script.async = true
-  bannerAdSlot.value.appendChild(script)
-}
-
-// 注入横幅广告2
-const injectBannerAd2 = () => {
-  const container = document.getElementById('container-adbedbcd8a3516a8ca3fc9c0a5715e6b')
-  if (!container) return
-  const script = document.createElement('script')
-  script.async = true
-  script.setAttribute('data-cfasync', 'false')
-  script.src = 'https://pl28273598.effectivegatecpm.com/adbedbcd8a3516a8ca3fc9c0a5715e6b/invoke.js'
-  document.body.appendChild(script)
-}
-
-// 注入横幅广告3
-const injectBannerAd3 = () => {
-  if (!bannerAdSlotPh1.value) return
-  bannerAdSlotPh1.value.innerHTML = ''
-  window.atOptions = {
-    key: '3a96a8d07dffe15ea7d5a90116b49511',
-    format: 'iframe',
-    height: 250,
-    width: 300,
-    params: {},
-  }
-  const script = document.createElement('script')
-  script.src = 'https://www.highperformanceformat.com/3a96a8d07dffe15ea7d5a90116b49511/invoke.js'
-  script.async = true
-  bannerAdSlotPh1.value.appendChild(script)
-}
-
-// 注入横幅广告4
-const injectBannerAd4 = () => {
-  if (!bannerAdSlotPh2.value) return
-  bannerAdSlotPh2.value.innerHTML = ''
-  window.atOptions = {
-    key: '7cb50870386e3060c0d66747385cf1fd',
-    format: 'iframe',
-    height: 50,
-    width: 320,
-    params: {},
-  }
-  const script = document.createElement('script')
-  script.src = 'https://www.highperformanceformat.com/7cb50870386e3060c0d66747385cf1fd/invoke.js'
-  script.async = true
-  bannerAdSlotPh2.value.appendChild(script)
-}
-
 // 设置SEO
 const setupSEO = async () => {
   const seoData = await getSEOFromLocale('home', locale.value)
@@ -481,10 +392,6 @@ watch(
 
 // 优化的组件挂载 - 避免强制重排
 onMounted(() => {
-  injectBannerAd1()
-  injectBannerAd2()
-  injectBannerAd3()
-  injectBannerAd4()
   loadHomeGames()
   setupSEO()
 })
