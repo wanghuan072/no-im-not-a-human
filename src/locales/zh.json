@@ -196,6 +196,10 @@
             "q6": {
                 "question": "我可以在哪里游玩？",
                 "answer": "《No I'm Not a Human》可在 Windows PC 的 Steam 平台上游玩。未来计划推出主机版本。Steam 上提供试玩版本，可先体验后购买。请查看我们的 <a href=\"/download\">下载页面</a> 了解系统需求及平台兼容性。"
+            },
+            "q7": {
+                "question": "是否有《No I'm Not a Human》Roblox 体验可用？",
+                "answer": "是的！《No I'm Not a Human》Roblox 社区已创作了各种受原游戏启发的粉丝作品。这些《No I'm Not a Human》Roblox 游戏在多人环境中重现了访客识别、生存恐怖和道德决策的核心机制。玩家可以与朋友一起体验心理恐怖主题，同时面临关于信任和生存的相同挑战性选择。了解更多启发这些社区创作的原游戏 <a href=\"/visitors\">角色</a> 和 <a href=\"/wiki\">游戏机制</a>。"
             }
         }
     },
@@ -1044,10 +1048,10 @@
     },
     "DownloadPage": {
         "hero": {
-            "title": "<span class=\"highlight\">《No I'm Not a Human》- 下载</span>",
+            "title": "<span class=\"highlight\">《No I'm Not a Human》- PC下载</span>",
             "subtitle": "下载这款心理恐怖游戏，开启未知的冒险旅程",
-            "description1": "体验令人毛骨悚然的 <strong>《No I'm Not a Human》</strong> 世界——这是一款第一人称心理恐怖视觉小说，将考验你的生存本能并挑战你对现实的认知。",
-            "description2": "立即下载，探索谁值得信任——在这个令人恐惧的游戏中，访客可能并非表面所见。更多游戏信息，请访问我们的 <a href=\"/\">主页</a>。"
+            "description1": "体验令人毛骨悚然的 <strong>《No I'm Not a Human》</strong> 世界——这是一款第一人称心理恐怖视觉小说，将考验你的生存本能并挑战你对现实的认知。准备<strong>《No I'm Not a Human》PC下载</strong>，沉浸在这款令人恐惧的生存体验中。",
+            "description2": "立即下载，探索谁值得信任——在这个令人恐惧的游戏中，访客可能并非表面所见。关于<strong>《No I'm Not a Human》PC下载</strong>的说明和要求，请查看下方的系统规格。更多游戏信息，请访问我们的 <a href=\"/\">主页</a>。"
         },
         "requirements": {
             "title": "《No I'm Not a Human》系统需求",
@@ -1131,11 +1135,11 @@
                 "developer": "Trioskaz - 了解更多 <a href=\"/wiki\">开发历史</a>",
                 "publisher": "CRITICAL REFLEX",
                 "series": "CRITICAL REFLEX",
-                "releaseDate": "2025年9月16日 - 探索 <a href=\"/endings\">故事结局</a>"
+                "releaseDate": "2025年9月15日 - 探索 <a href=\"/endings\">故事结局</a>"
             },
             "download": {
-                "title": "立即下载",
-                "description": "准备好开始生存之旅了吗？在开始前查看我们的 <a href=\"/visitors\">角色指南</a>。",
+                "title": "《No I'm Not a Human》PC下载",
+                "description": "准备好开始生存之旅了吗？<strong>《No I'm Not a Human》PC下载</strong>现已在 Steam 上提供。在开始前查看我们的 <a href=\"/visitors\">角色指南</a>。",
                 "steamButton": "在 Steam 上下载"
             },
             "labels": {
@@ -1233,9 +1237,15 @@
             "title": "《No I'm Not a Human》评价",
             "criticalAcclaim": {
                 "title": "媒体评价与玩家反馈",
-                "description1": "<strong>《No, I'm not a Human》</strong> 被描述为“充满恐惧与偏执感”，具有“超现实、风格化美学”，让玩家对自身行为的道德性产生担忧。多位记者将其与 <strong>Papers, Please</strong> 相比，强调其道德复杂性与决策机制。我们的 <span class=\"highlight-text\">《No I'm Not a Human》Wiki</span> 汇集了所有评价洞见。",
+                "description1": "<strong>《No, I'm not a Human》</strong> 被描述为\"充满恐惧与偏执感\"，具有\"超现实、风格化美学\"，让玩家对自身行为的道德性产生担忧。多位记者将其与 <strong>Papers, Please</strong> 相比，强调其道德复杂性与决策机制。我们的 <span class=\"highlight-text\">《No I'm Not a Human》Wiki</span> 汇集了所有评价洞见。",
                 "description2": "游戏的恐怖氛围设计因能够产生真实的恐惧与偏执感而受到赞赏。评论指出，游戏迫使玩家做出艰难的道德选择，质疑自身行为，创造了独特的心理恐怖体验。了解游戏的更多 <a href=\"/endings\">剧情结局</a>。",
                 "description3": "《No I'm Not a Human》的超现实风格美学因其独特的恐怖视觉表现获得广泛好评，并且与 Papers, Please 的比较突出了其创新的决策型玩法。我们的全面 <span class=\"highlight-text\">《No I'm Not a Human》Wiki</span> 分析了所有媒体视角。更多内容请访问我们的 <a href=\"/\">主页</a>。"
+            },
+            "communityCreations": {
+                "title": "社区创作与《No I'm Not a Human》Roblox 体验",
+                "description1": "《No I'm Not a Human》社区已将游戏独特的恐怖氛围扩展到原版游戏之外，创作了各种粉丝作品和改编。在这些创意表达中，<strong>《No I'm Not a Human》Roblox</strong> 体验已获得显著人气，让玩家在新的互动形式中探索心理恐怖主题。",
+                "description2": "这些<strong>《No I'm Not a Human》Roblox</strong> 游戏和体验捕捉了原游戏访客识别机制、生存恐怖元素和道德决策挑战的精髓。玩家可以在多人环境中体验偏执驱动的游戏玩法，与朋友分享恐怖体验，同时面临关于信任的相同艰难选择。",
+                "description3": "《No I'm Not a Human》Roblox 社区创作展现了游戏的持久影响力和粉丝群体的创意参与。这些体验证明了游戏的核心机制如何在不同平台上转换，保持了心理紧张和道德复杂性，使《No I'm Not a Human》成为如此引人入胜的恐怖体验。了解更多启发这些社区创作的原游戏 <a href=\"/visitors\">角色</a> 和 <a href=\"/guides\">游戏机制</a>。"
             }
         }
     },

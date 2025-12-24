@@ -185,6 +185,10 @@
             "q6": {
                 "question": "Où puis-je y jouer ?",
                 "answer": "No I'm not a Human est disponible sur Steam pour Windows PC. Des versions consoles sont prévues. Une démo est disponible sur Steam pour essayer avant achat. Consultez notre <a href=\"/download\">page de téléchargement</a> pour la compatibilité et les exigences système."
+            },
+            "q7": {
+                "question": "Existe-t-il des expériences No I'm Not a Human Roblox ?",
+                "answer": "Oui ! La communauté <strong>No I'm Not a Human Roblox</strong> a créé diverses expériences créées par les fans inspirées du jeu original. Ces jeux <strong>No I'm Not a Human Roblox</strong> capturent les mécaniques essentielles d'identification des visiteurs, d'horreur de survie et de prise de décision morale dans un environnement multijoueur. Les joueurs peuvent vivre les thèmes d'horreur psychologique avec des amis tout en faisant face aux mêmes choix difficiles concernant la confiance et la survie. Apprenez-en plus sur les <a href=\"/visitors\">personnages</a> et <a href=\"/wiki\">mécaniques de jeu</a> du jeu original qui ont inspiré ces créations communautaires."
             }
         }
     },
@@ -996,10 +1000,10 @@
     },
     "DownloadPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human - Téléchargement</span>",
+            "title": "<span class=\"highlight\">No I'm Not a Human - Téléchargement PC</span>",
             "subtitle": "Téléchargez l'expérience d'horreur psychologique et commencez votre voyage vers l'inconnu",
-            "description1": "Découvrez le monde glaçant de <strong>No I'm Not a Human</strong> - un roman visuel d'horreur psychologique à la première personne qui mettra vos instincts de survie à l'épreuve et défiera votre perception de la réalité.",
-            "description2": "Téléchargez maintenant et découvrez en qui vous pouvez avoir confiance dans ce jeu terrifiant où les visiteurs ne sont peut-être pas ce qu'ils semblent être. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\">page d'accueil</a>."
+            "description1": "Découvrez le monde glaçant de <strong>No I'm Not a Human</strong> - un roman visuel d'horreur psychologique à la première personne qui mettra vos instincts de survie à l'épreuve et défiera votre perception de la réalité. Préparez-vous pour le <strong>No I'm Not a Human téléchargement PC</strong> et plongez dans cette expérience de survie terrifiante.",
+            "description2": "Téléchargez maintenant et découvrez en qui vous pouvez avoir confiance dans ce jeu terrifiant où les visiteurs ne sont peut-être pas ce qu'ils semblent être. Pour les instructions et exigences du <strong>No I'm Not a Human téléchargement PC</strong>, consultez les spécifications système ci-dessous. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\">page d'accueil</a>."
         },
         "requirements": {
             "title": "Configuration système requise pour No I'm Not a Human",
@@ -1083,11 +1087,11 @@
                 "developer": "Trioskaz - En savoir plus sur <a href=\"/wiki\">l'histoire du développement</a>",
                 "publisher": "CRITICAL REFLEX",
                 "series": "CRITICAL REFLEX",
-                "releaseDate": "16 septembre 2025 - Découvrez les <a href=\"/endings\">résultats de l'histoire</a>"
+                "releaseDate": "15 septembre 2025 - Découvrez les <a href=\"/endings\">résultats de l'histoire</a>"
             },
             "download": {
-                "title": "Télécharger maintenant",
-                "description": "Prêt à commencer votre voyage de survie ? Consultez notre <a href=\"/visitors\">guide des personnages</a> avant de commencer.",
+                "title": "No I'm Not a Human Téléchargement PC",
+                "description": "Prêt à commencer votre voyage de survie ? Le <strong>No I'm Not a Human téléchargement PC</strong> est maintenant disponible sur Steam. Consultez notre <a href=\"/visitors\">guide des personnages</a> avant de commencer.",
                 "steamButton": "Télécharger sur Steam"
             },
             "labels": {
@@ -1188,6 +1192,12 @@
                 "description1": "<strong>No, I'm not a Human</strong> a été décrit comme « rempli de sensations de peur et de paranoïa » avec une « esthétique surréaliste et stylisée » et suscite des interrogations sur la moralité de ses propres actions. Le jeu a également été comparé à <strong>Papers, Please</strong> par plusieurs journalistes pour sa complexité morale et ses mécaniques de prise de décision. Notre <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> compile tous les avis critiques.",
                 "description2": "Le design atmosphérique d'horreur du jeu <strong>No I'm Not a Human</strong> a été salué pour sa capacité à créer de véritables sentiments de peur et de paranoïa. Les critiques ont noté comment le jeu oblige à prendre des décisions morales difficiles qui remettent en question les actions du joueur, créant une expérience unique d'horreur psychologique. Apprenez-en plus sur les <a href=\"/endings\">résultats narratifs</a> du jeu.",
                 "description3": "L'esthétique surréaliste et stylisée de <strong>No I'm Not a Human</strong> a été largement appréciée pour son approche unique des visuels d'horreur, et la comparaison avec Papers, Please a mis en avant l'approche innovante du gameplay basé sur les décisions. Notre <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> analyse toutes les perspectives critiques. Explorez plus de contenus sur notre <a href=\"/\">page d'accueil</a>."
+            },
+            "communityCreations": {
+                "title": "Créations communautaires et expériences No I'm Not a Human Roblox",
+                "description1": "La communauté <strong>No I'm Not a Human</strong> a étendu l'atmosphère d'horreur unique du jeu au-delà de la sortie originale, créant diverses expériences et adaptations créées par les fans. Parmi ces expressions créatives, les expériences <strong>No I'm Not a Human Roblox</strong> ont gagné une popularité significative, permettant aux joueurs d'explorer les thèmes d'horreur psychologique dans un nouveau format interactif.",
+                "description2": "Ces jeux et expériences <strong>No I'm Not a Human Roblox</strong> capturent l'essence des mécaniques d'identification des visiteurs du jeu original, des éléments d'horreur de survie et des défis de prise de décision morale. Les joueurs peuvent vivre le gameplay axé sur la paranoïa dans un environnement multijoueur, partageant l'expérience terrifiante avec des amis tout en faisant face aux mêmes choix difficiles sur qui faire confiance.",
+                "description3": "Les créations communautaires <strong>No I'm Not a Human Roblox</strong> démontrent l'impact durable du jeu et l'engagement créatif de sa base de fans. Ces expériences servent de témoignage sur la façon dont les mécaniques essentielles du jeu se traduisent à travers différentes plateformes, maintenant la tension psychologique et la complexité morale qui font de <strong>No I'm Not a Human</strong> une expérience d'horreur si captivante. Découvrez-en plus sur les <a href=\"/visitors\">personnages</a> et <a href=\"/guides\">mécaniques de jeu</a> du jeu original qui ont inspiré ces créations communautaires."
             }
         }
     },

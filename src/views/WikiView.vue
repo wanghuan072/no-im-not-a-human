@@ -240,7 +240,7 @@
         <div class="content-wrapper">
           <h2 class="section-title">{{ $t('WikiPage.reception.title') }}</h2>
 
-          <div class="text-image-layout left-image last-item">
+          <div class="text-image-layout left-image">
             <div class="image-container">
               <img src="/images/wiki-08.webp" alt="Critical Reviews" />
             </div>
@@ -254,6 +254,30 @@
               ></p>
               <p
                 v-html="$t('WikiPage.reception.criticalAcclaim.description3', {}, { raw: true })"
+              ></p>
+            </div>
+          </div>
+
+          <div class="text-image-layout right-image last-item">
+            <div class="image-container">
+              <img src="/images/wiki-08.webp" alt="Community Creations" />
+            </div>
+            <div class="text-content">
+              <h3>{{ $t('WikiPage.reception.communityCreations.title') }}</h3>
+              <p
+                v-html="
+                  $t('WikiPage.reception.communityCreations.description1', {}, { raw: true })
+                "
+              ></p>
+              <p
+                v-html="
+                  $t('WikiPage.reception.communityCreations.description2', {}, { raw: true })
+                "
+              ></p>
+              <p
+                v-html="
+                  $t('WikiPage.reception.communityCreations.description3', {}, { raw: true })
+                "
               ></p>
             </div>
           </div>

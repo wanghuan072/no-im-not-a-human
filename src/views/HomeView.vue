@@ -308,6 +308,13 @@
                 <h3 class="faq-question">{{ $t('HomePage.faq.q6.question') }}</h3>
                 <p class="faq-answer" v-html="$t('HomePage.faq.q6.answer', {}, { raw: true })"></p>
               </div>
+              <div class="faq-item">
+                <h3 class="faq-question">{{ $t('HomePage.faq.q7.question') }}</h3>
+                <p
+                  class="faq-answer"
+                  v-html="$t('HomePage.faq.q7.answer', {}, { raw: true })"
+                ></p>
+              </div>
             </div>
           </div>
         </div>

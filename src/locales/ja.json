@@ -196,6 +196,10 @@
             "q6": {
                 "question": "どこでプレイできますか？",
                 "answer": "No I'm not a HumanはWindows PC用Steamで利用可能。将来的にコンソール版も予定。デモ版もSteamで試せます。<a href=\"/download\">ダウンロードページ</a>でシステム要件や対応プラットフォームを確認可能。"
+            },
+            "q7": {
+                "question": "No I'm Not a Human Roblox体験は利用できますか？",
+                "answer": "はい！<strong>No I'm Not a Human Roblox</strong>コミュニティは、原作品にインスピレーションを得たさまざまなファン制作体験を創作しています。これらの<strong>No I'm Not a Human Roblox</strong>ゲームは、マルチプレイヤー環境で訪問者識別、サバイバルホラー、道徳的意思決定の核心メカニクスを再現しています。プレイヤーは友達と一緒に心理ホラーテーマを体験しながら、信頼と生存に関する同じ困難な選択に直面できます。これらのコミュニティ創作にインスピレーションを与えた原作品の<a href=\"/visitors\">キャラクター</a>と<a href=\"/wiki\">ゲームプレイメカニクス</a>について詳しく学べます。"
             }
         }
     },
@@ -1045,10 +1049,10 @@
     },
     "DownloadPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human - ダウンロード</span>",
+            "title": "<span class=\"highlight\">No I'm Not a Human - PCダウンロード</span>",
             "subtitle": "心理ホラー体験をダウンロードして、未知への旅を始めよう",
-            "description1": "<strong>No I'm Not a Human</strong> の冷たく恐ろしい世界を体験しよう。サバイバル本能が試され、現実認識が挑戦される一人称心理ホラー・ビジュアルノベルです。",
-            "description2": "今すぐダウンロードして、訪問者が見かけ通りでないかもしれない恐怖のゲームで、誰を信じられるかを発見しよう。ゲームの詳細は<a href=\"/\">ホームページ</a>をご覧ください。"
+            "description1": "<strong>No I'm Not a Human</strong> の冷たく恐ろしい世界を体験しよう。サバイバル本能が試され、現実認識が挑戦される一人称心理ホラー・ビジュアルノベルです。<strong>No I'm Not a Human PCダウンロード</strong>の準備をして、この恐ろしいサバイバル体験に没頭しましょう。",
+            "description2": "今すぐダウンロードして、訪問者が見かけ通りでないかもしれない恐怖のゲームで、誰を信じられるかを発見しよう。<strong>No I'm Not a Human PCダウンロード</strong>の説明と要件については、以下のシステム仕様を確認してください。ゲームの詳細は<a href=\"/\">ホームページ</a>をご覧ください。"
         },
         "requirements": {
             "title": "No I'm Not a Human システム要件",
@@ -1132,11 +1136,11 @@
                 "developer": "Trioskaz - 詳細は<a href=\"/wiki\">開発履歴</a>を参照",
                 "publisher": "CRITICAL REFLEX",
                 "series": "CRITICAL REFLEX",
-                "releaseDate": "2025年9月16日 - <a href=\"/endings\">ストーリーの結末</a>を発見"
+                "releaseDate": "2025年9月15日 - <a href=\"/endings\">ストーリーの結末</a>を発見"
             },
             "download": {
-                "title": "今すぐダウンロード",
-                "description": "サバイバルの旅を始める準備はできた？開始前に<a href=\"/visitors\">キャラクターガイド</a>を確認しよう。",
+                "title": "No I'm Not a Human PCダウンロード",
+                "description": "サバイバルの旅を始める準備はできた？<strong>No I'm Not a Human PCダウンロード</strong>はSteamで利用可能です。開始前に<a href=\"/visitors\">キャラクターガイド</a>を確認しよう。",
                 "steamButton": "Steamでダウンロード"
             },
             "labels": {
@@ -1237,6 +1241,12 @@
                 "description1": "<strong>No, I'm Not a Human</strong> は「恐怖と偏執の感情に満ちた」ゲームであり、「シュールでスタイリッシュな美学」を持ち、自身の行動の倫理性について考えさせられると評されました。その道徳的複雑さと意思決定メカニクスは、複数のジャーナリストによって <strong>Papers, Please</strong> と比較されました。私たちの <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> では、すべての批評的洞察をまとめています。",
                 "description2": "<strong>No I'm Not a Human</strong> の雰囲気のあるホラー演出は、恐怖と偏執の感情を生み出す能力で高く評価されました。批評家は、プレイヤー自身の行動を問う難しい道徳的判断を迫る点を指摘し、独自の心理ホラー体験を生み出していると述べています。ゲームの <a href=\"/endings\">ストーリーの結末</a> について詳しく学べます。",
                 "description3": "<strong>No I'm Not a Human</strong> のシュールでスタイリッシュな美学は、ホラー表現における独自のアプローチとして広く評価されました。Papers, Please との比較により、意思決定型ゲームプレイの革新的なアプローチが強調されました。私たちの包括的な <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> では、すべての批評的視点を分析しています。さらにコンテンツを知りたい場合は、<a href=\"/\">ホームページ</a> をご覧ください。"
+            },
+            "communityCreations": {
+                "title": "コミュニティ創作とNo I'm Not a Human Roblox体験",
+                "description1": "<strong>No I'm Not a Human</strong>コミュニティは、ゲームの独特なホラー雰囲気を原作品のリリースを超えて拡張し、さまざまなファン制作体験とアダプテーションを創作しています。これらの創造的な表現の中で、<strong>No I'm Not a Human Roblox</strong>体験は大きな人気を獲得し、プレイヤーが新しいインタラクティブ形式で心理ホラーテーマを探索できるようになりました。",
+                "description2": "これらの<strong>No I'm Not a Human Roblox</strong>ゲームと体験は、原作品の訪問者識別メカニクス、サバイバルホラー要素、道徳的意思決定の挑戦の本質を捉えています。プレイヤーはマルチプレイヤー環境で偏執駆動のゲームプレイを体験し、友達と恐怖体験を共有しながら、誰を信頼するかについて同じ困難な選択に直面できます。",
+                "description3": "<strong>No I'm Not a Human Roblox</strong>コミュニティ創作は、ゲームの持続的な影響力とそのファンベースの創造的関与を示しています。これらの体験は、ゲームの核心メカニクスが異なるプラットフォーム間でどのように変換されるかを証明しており、心理的緊張と道徳的複雑さを維持し、<strong>No I'm Not a Human</strong>をこれほど魅力的なホラー体験にしています。これらのコミュニティ創作にインスピレーションを与えた原作品の<a href=\"/visitors\">キャラクター</a>と<a href=\"/guides\">ゲームプレイメカニクス</a>について詳しく学べます。"
             }
         }
     },

@@ -185,6 +185,10 @@
             "q6": {
                 "question": "어디서 플레이할 수 있나요?",
                 "answer": "No I'm Not a Human은 Windows PC용 Steam에서 이용 가능하며, 콘솔 버전도 예정되어 있습니다. Steam 데모를 통해 사전 체험 가능. 시스템 요구 사항과 플랫폼 호환성은 <a href=\"/download\">다운로드 페이지</a>에서 확인하세요."
+            },
+            "q7": {
+                "question": "No I'm Not a Human Roblox 체험이 제공되나요?",
+                "answer": "네! <strong>No I'm Not a Human Roblox</strong> 커뮤니티는 원작 게임에서 영감을 받은 다양한 팬 제작 체험을 만들었습니다. 이러한 <strong>No I'm Not a Human Roblox</strong> 게임은 멀티플레이어 환경에서 방문자 식별, 생존 공포, 도덕적 의사결정의 핵심 메커니즘을 재현합니다. 플레이어는 친구들과 함께 심리 공포 테마를 경험하면서 신뢰와 생존에 대한 동일한 도전적인 선택에 직면할 수 있습니다. 이러한 커뮤니티 창작물에 영감을 준 원작 게임의 <a href=\"/visitors\">캐릭터</a>와 <a href=\"/wiki\">게임플레이 메커니즘</a>에 대해 더 알아보세요."
             }
         }
     },
@@ -996,10 +1000,10 @@
     },
     "DownloadPage": {
         "hero": {
-            "title": "<span class=\"highlight\">No I'm Not a Human - 다운로드</span>",
+            "title": "<span class=\"highlight\">No I'm Not a Human - PC 다운로드</span>",
             "subtitle": "심리 공포 경험을 다운로드하고 미지의 세계로 여행을 시작하세요",
-            "description1": "<strong>No I'm Not a Human</strong>의 오싹한 세계를 경험해보세요 - 생존 본능을 시험하고 현실 인식을 도전하는 1인칭 심리 공포 비주얼 노벨입니다.",
-            "description2": "지금 다운로드하고, 방문객이 겉보기와 다를 수 있는 이 공포스러운 게임에서 누구를 믿을 수 있는지 알아보세요. 더 많은 게임 정보는 <a href=\"/\">홈페이지</a>를 방문하세요."
+            "description1": "<strong>No I'm Not a Human</strong>의 오싹한 세계를 경험해보세요 - 생존 본능을 시험하고 현실 인식을 도전하는 1인칭 심리 공포 비주얼 노벨입니다. <strong>No I'm Not a Human PC 다운로드</strong> 준비를 하고 이 무서운 생존 경험에 몰입하세요.",
+            "description2": "지금 다운로드하고, 방문객이 겉보기와 다를 수 있는 이 공포스러운 게임에서 누구를 믿을 수 있는지 알아보세요. <strong>No I'm Not a Human PC 다운로드</strong> 지침 및 요구 사항은 아래 시스템 사양을 참조하세요. 더 많은 게임 정보는 <a href=\"/\">홈페이지</a>를 방문하세요."
         },
         "requirements": {
             "title": "No I'm Not a Human 시스템 요구 사항",
@@ -1083,11 +1087,11 @@
                 "developer": "Trioskaz - <a href=\"/wiki\">개발 역사</a> 더 알아보기",
                 "publisher": "CRITICAL REFLEX",
                 "series": "CRITICAL REFLEX",
-                "releaseDate": "2025년 9월 16일 - <a href=\"/endings\">스토리 결과</a> 확인"
+                "releaseDate": "2025년 9월 15일 - <a href=\"/endings\">스토리 결과</a> 확인"
             },
             "download": {
-                "title": "지금 다운로드",
-                "description": "생존 여정을 시작할 준비가 되셨나요? 시작하기 전에 <a href=\"/visitors\">캐릭터 가이드</a>를 확인하세요.",
+                "title": "No I'm Not a Human PC 다운로드",
+                "description": "생존 여정을 시작할 준비가 되셨나요? <strong>No I'm Not a Human PC 다운로드</strong>는 Steam에서 이용 가능합니다. 시작하기 전에 <a href=\"/visitors\">캐릭터 가이드</a>를 확인하세요.",
                 "steamButton": "Steam에서 다운로드"
             },
             "labels": {
@@ -1188,6 +1192,12 @@
                 "description1": "<strong>No, I'm not a Human</strong>은 '두려움과 편집증이 가득한 게임'으로 묘사되었으며, '초현실적이고 스타일리시한 미학'과 자신의 행동에 대한 도덕적 고민을 불러일으킨다고 평가되었습니다. 여러 기자들은 <strong>Papers, Please</strong>와 비교하며 도덕적 복잡성과 결정 기반 메커니즘을 언급했습니다. 우리의 <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span>는 모든 비평적 통찰을 수집했습니다.",
                 "description2": "<strong>No I'm Not a Human</strong>의 분위기 있는 공포 디자인은 실제 두려움과 편집증을 유발하는 능력으로 찬사를 받았습니다. 비평가들은 플레이어의 행동을 질문하게 만드는 어려운 도덕적 결정을 강제하는 게임 플레이를 주목했습니다. 게임의 <a href=\"/endings\">스토리 결과</a>를 확인하세요.",
                 "description3": "<strong>No I'm Not a Human</strong>의 초현실적이고 스타일화된 미학은 공포 비주얼에 대한 독창적 접근 방식으로 널리 인정받았습니다. Papers, Please와의 비교는 결정 기반 게임플레이의 혁신적 접근 방식을 강조했습니다. 우리의 종합적인 <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span>는 모든 비평적 관점을 분석합니다. 더 많은 콘텐츠는 <a href=\"/\">홈페이지</a>에서 확인하세요."
+            },
+            "communityCreations": {
+                "title": "커뮤니티 창작물 및 No I'm Not a Human Roblox 체험",
+                "description1": "<strong>No I'm Not a Human</strong> 커뮤니티는 게임의 독특한 공포 분위기를 원작 출시를 넘어 확장하여 다양한 팬 제작 체험과 각색을 만들었습니다. 이러한 창의적 표현 중에서 <strong>No I'm Not a Human Roblox</strong> 체험이 큰 인기를 얻어 플레이어가 새로운 대화형 형식으로 심리 공포 테마를 탐색할 수 있게 되었습니다.",
+                "description2": "이러한 <strong>No I'm Not a Human Roblox</strong> 게임과 체험은 원작 게임의 방문자 식별 메커니즘, 생존 공포 요소, 도덕적 의사결정의 도전의 본질을 포착합니다. 플레이어는 멀티플레이어 환경에서 편집증 중심의 게임플레이를 경험하고 친구들과 무서운 경험을 공유하면서 누구를 신뢰할지에 대한 동일한 어려운 선택에 직면할 수 있습니다.",
+                "description3": "<strong>No I'm Not a Human Roblox</strong> 커뮤니티 창작물은 게임의 지속적인 영향력과 팬베이스의 창의적 참여를 보여줍니다. 이러한 체험은 게임의 핵심 메커니즘이 다양한 플랫폼에 걸쳐 어떻게 번역되는지를 증명하며, <strong>No I'm Not a Human</strong>을 매우 매력적인 공포 체험으로 만드는 심리적 긴장과 도덕적 복잡성을 유지합니다. 이러한 커뮤니티 창작물에 영감을 준 원작 게임의 <a href=\"/visitors\">캐릭터</a>와 <a href=\"/guides\">게임플레이 메커니즘</a>에 대해 더 알아보세요."
             }
         }
     },

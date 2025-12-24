@@ -201,6 +201,10 @@
       "q6": {
         "question": "Where can I play it?",
         "answer": "No I'm not a Human is available on Steam for Windows PC. Console versions are planned for future release. A demo is available on Steam for players to try before purchasing. Check our <a href=\"/download\">download page</a> for system requirements and platform compatibility."
+      },
+      "q7": {
+        "question": "Are there No I'm Not a Human Roblox experiences available?",
+        "answer": "Yes! The <strong>No I'm Not a Human Roblox</strong> community has created various fan-made experiences inspired by the original game. These <strong>No I'm Not a Human Roblox</strong> games capture the core mechanics of visitor identification, survival horror, and moral decision-making in a multiplayer environment. Players can experience the psychological horror themes with friends while facing the same challenging choices about trust and survival. Learn more about the original game's <a href=\"/visitors\">characters</a> and <a href=\"/wiki\">gameplay mechanics</a> that inspired these community creations."
       }
     }
   },
@@ -1049,10 +1053,10 @@
   },
   "DownloadPage": {
     "hero": {
-      "title": "<span class=\"highlight\">No I'm Not a Human - Download</span>",
+      "title": "<span class=\"highlight\">No I'm Not a Human - Download PC</span>",
       "subtitle": "Download the psychological horror experience and start your journey into the unknown",
-      "description1": "Experience the chilling world of <strong>No I'm Not a Human</strong> - a first-person psychological horror visual novel that will test your survival instincts and challenge your perception of reality.",
-      "description2": "Download now and discover who you can trust in this terrifying game where visitors may not be what they seem. For more game information, visit our <a href=\"/\">homepage</a>."
+      "description1": "Experience the chilling world of <strong>No I'm Not a Human</strong> - a first-person psychological horror visual novel that will test your survival instincts and challenge your perception of reality. Get ready to <strong>No I'm Not a Human download PC</strong> and immerse yourself in this terrifying survival experience.",
+      "description2": "Download now and discover who you can trust in this terrifying game where visitors may not be what they seem. For <strong>No I'm Not a Human download PC</strong> instructions and requirements, see the system specifications below. For more game information, visit our <a href=\"/\">homepage</a>."
     },
     "requirements": {
       "title": "No I'm Not a Human System Requirements",
@@ -1136,11 +1140,11 @@
         "developer": "Trioskaz - Learn more about <a href=\"/wiki\">development history</a>",
         "publisher": "CRITICAL REFLEX",
         "series": "CRITICAL REFLEX",
-        "releaseDate": "September 16, 2025 - Discover <a href=\"/endings\">story outcomes</a>"
+        "releaseDate": "September 15, 2025 - Discover <a href=\"/endings\">story outcomes</a>"
       },
       "download": {
-        "title": "Download Now",
-        "description": "Ready to start your survival journey? Check our <a href=\"/visitors\">character guide</a> before you begin.",
+        "title": "No I'm Not a Human Download PC",
+        "description": "Ready to start your survival journey? <strong>No I'm Not a Human download PC</strong> is available now on Steam. Check our <a href=\"/visitors\">character guide</a> before you begin.",
         "steamButton": "Download on Steam"
       },
       "labels": {
@@ -1241,6 +1245,12 @@
         "description1": "<strong>No, I'm not a Human</strong> has been described as \"full of feelings of fear and paranoia\" with a \"surreal, stylised aesthetic\" and causing concern about the immorality of own actions. The game was also compared to <strong>Papers, Please</strong> by several journalists for its moral complexity and decision-making mechanics. Our <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> compiles all critical insights.",
         "description2": "The <strong>No I'm Not a Human</strong> game's atmospheric horror design has been praised for its ability to create genuine feelings of fear and paranoia. Critics noted how the game forces difficult moral decisions that question the player's own actions, creating a unique psychological horror experience. Learn more about the game's <a href=\"/endings\">narrative outcomes</a>.",
         "description3": "The surreal, stylized aesthetic of <strong>No I'm Not a Human</strong> was widely appreciated for its unique approach to horror visuals, and the comparison to Papers, Please highlighted the game's innovative approach to decision-based gameplay. Our comprehensive <span class=\"highlight-text\">\"No I'm Not a Human Wiki\"</span> analyzes all critical perspectives. Explore more content on our <a href=\"/\">homepage</a>."
+      },
+      "communityCreations": {
+        "title": "Community Creations and No I'm Not a Human Roblox Experiences",
+        "description1": "The <strong>No I'm Not a Human</strong> community has extended the game's unique horror atmosphere beyond the original release, creating various fan-made experiences and adaptations. Among these creative expressions, <strong>No I'm Not a Human Roblox</strong> experiences have gained significant popularity, allowing players to explore the psychological horror themes in a new interactive format.",
+        "description2": "These <strong>No I'm Not a Human Roblox</strong> games and experiences capture the essence of the original game's visitor identification mechanics, survival horror elements, and moral decision-making challenges. Players can experience the paranoia-driven gameplay in a multiplayer environment, sharing the terrifying experience with friends while facing the same difficult choices about who to trust.",
+        "description3": "The <strong>No I'm Not a Human Roblox</strong> community creations demonstrate the game's lasting impact and the creative engagement of its fanbase. These experiences serve as a testament to how the game's core mechanics translate across different platforms, maintaining the psychological tension and moral complexity that makes <strong>No I'm Not a Human</strong> such a compelling horror experience. Discover more about the <a href=\"/visitors\">original game's characters</a> and <a href=\"/guides\">gameplay mechanics</a> that inspired these community creations."
       }
     }
   },
