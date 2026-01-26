@@ -27,7 +27,7 @@ const ensureLinkTag = (rel) => {
 
 /**
  * 获取当前页面的 Canonical URL
- * 移除语言前缀，统一使用英文版本作为 Canonical URL
+ * 保留当前语言前缀，每个语言版本都有自己的 Canonical URL
  * @returns {string} Canonical URL
  */
 const getCanonicalUrl = () => {
@@ -36,17 +36,9 @@ const getCanonicalUrl = () => {
     const baseUrl = 'https://iamnotahuman.org'
     const pathname = window.location.pathname
     
-    // 移除语言前缀（如 /zh, /ja 等）
-    const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
-    const pathSegments = pathname.split('/').filter(Boolean)
-    
-    // 如果第一个段是语言代码，移除它
-    if (pathSegments.length > 0 && supportedLanguages.includes(pathSegments[0])) {
-        pathSegments.shift()
-    }
-    
-    // 构建 Canonical URL（使用英文版本）
-    const canonicalPath = pathSegments.length > 0 ? '/' + pathSegments.join('/') : '/'
+    // 直接使用当前路径，保留语言前缀
+    // 英文版本没有语言前缀（如 /guides），其他语言有前缀（如 /de/guides）
+    const canonicalPath = pathname || '/'
     return baseUrl + canonicalPath
 }
 
@@ -67,7 +59,7 @@ export function setSEO(overrides = {}) {
     const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://iamnotahuman.org/'
     ensureMetaTag('og:url', 'property').setAttribute('content', currentUrl)
 
-    // 设置 Canonical URL（使用英文版本，移除语言前缀）
+    // 设置 Canonical URL（保留当前语言版本）
     const canonicalUrl = getCanonicalUrl()
     ensureLinkTag('canonical').setAttribute('href', canonicalUrl)
 }
