@@ -15,6 +15,41 @@ const ensureMetaTag = (name, attribute = 'name') => {
     return tag
 }
 
+const ensureLinkTag = (rel) => {
+    let tag = document.querySelector(`link[rel="${rel}"]`)
+    if (!tag) {
+        tag = document.createElement('link')
+        tag.setAttribute('rel', rel)
+        document.head.appendChild(tag)
+    }
+    return tag
+}
+
+/**
+ * 获取当前页面的 Canonical URL
+ * 移除语言前缀，统一使用英文版本作为 Canonical URL
+ * @returns {string} Canonical URL
+ */
+const getCanonicalUrl = () => {
+    if (typeof window === 'undefined') return 'https://iamnotahuman.org/'
+    
+    const baseUrl = 'https://iamnotahuman.org'
+    const pathname = window.location.pathname
+    
+    // 移除语言前缀（如 /zh, /ja 等）
+    const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
+    const pathSegments = pathname.split('/').filter(Boolean)
+    
+    // 如果第一个段是语言代码，移除它
+    if (pathSegments.length > 0 && supportedLanguages.includes(pathSegments[0])) {
+        pathSegments.shift()
+    }
+    
+    // 构建 Canonical URL（使用英文版本）
+    const canonicalPath = pathSegments.length > 0 ? '/' + pathSegments.join('/') : '/'
+    return baseUrl + canonicalPath
+}
+
 export function setSEO(overrides = {}) {
     if (typeof document === 'undefined') return
 
@@ -28,9 +63,13 @@ export function setSEO(overrides = {}) {
     ensureMetaTag('og:description', 'property').setAttribute('content', seo.description)
     ensureMetaTag('og:image', 'property').setAttribute('content', seo.image || defaultSEO.image)
 
-    // 确保 og:url 也被设置
+    // 设置 og:url（使用当前完整 URL）
     const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://iamnotahuman.org/'
     ensureMetaTag('og:url', 'property').setAttribute('content', currentUrl)
+
+    // 设置 Canonical URL（使用英文版本，移除语言前缀）
+    const canonicalUrl = getCanonicalUrl()
+    ensureLinkTag('canonical').setAttribute('href', canonicalUrl)
 }
 
 /**
