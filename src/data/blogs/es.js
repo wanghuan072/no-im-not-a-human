@@ -80,7 +80,7 @@ const blogs = [
         "title": "No I'm Not a Human: Cómo Saber Si Mataste a un Visitante",
         "addressBar": "how-to-know-killed-visitor",
         "publishDate": "2025-10-11",
-        "imageUrl": "/images/2.webp",
+        "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "Consecuencias de la muerte en No I'm Not a Human – diferenciar muertes humanas de visitantes",
         "seo": {
             "title": "No I'm Not a Human: Cómo Saber Si Mataste a un Visitante o Humano",
@@ -92,7 +92,7 @@ const blogs = [
             <p>Matar en <strong><a href="/">No I'm Not a Human</a></strong> es inevitable, pero la verdadera pregunta es si tomaste la decisión correcta. <a href="/visitors">Los visitantes</a> y los humanos dejan señales diferentes tras su muerte. Conocer estas señales te permite confirmar si tu paranoia estaba justificada o si simplemente mataste a un invitado inocente. Esta guía te ayudará a entender las consecuencias de tus decisiones letales.</p>
             
             <div class="image-container">
-                <img src="/images/2.webp" alt="Consecuencias de la muerte en No I'm Not a Human" />
+                <img src="/images/blog/blog02-02.webp" alt="Consecuencias de la muerte en No I'm Not a Human" />
             </div>
     
             <h2>Muertes humanas en el juego</h2>
@@ -163,6 +163,95 @@ const blogs = [
                 "El peso de cada decisión perdura mucho después de apretar el gatillo. En No I'm Not a Human, la muerte no es solo una mecánica, es un espejo que refleja tu juicio, tu paranoia y tu humanidad."
             </blockquote>
         `
+    },
+
+    {
+        "id": 3,
+        "title": "Secretos de No I'm Not a Human: Objetos ocultos, pistas sonoras y Lore del mundo",
+        "addressBar": "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
+        "publishDate": "2026-01-26",
+        "imageUrl": "/images/blog/blog03-01.webp",
+        "imageAlt": "Secretos ocultos y detalles ambientales en No I'm Not a Human",
+        "seo": {
+            "title": "Guía de secretos de No I'm Not a Human: Objetos ocultos, sonidos y Lore",
+            "description": "Descubre los secretos ocultos en No I'm Not a Human: sonidos de golpes en la ventana, números de FEMA, el objeto Champiñón y el Hombre Inmortal. Guía completa de narrativa ambiental.",
+            "keywords": "fema no i'm not a human, qué son los golpes en la ventana en i'm not a human, número fema no i'm not a human, objetos ocultos, pistas de sonido, lore del mundo, champiñón, hombre inmortal"
+        },
+        "detailsHtml": `
+                <h2>Introducción</h2>
+                <p>La supervivencia en <strong><a href="/">No I'm Not a Human</a></strong> no se trata solo de luchar contra los <a href="/visitors">visitantes</a>; se trata de notar los pequeños y aterradores detalles en tu apartamento. Desde objetos misteriosos como el Champiñón (Mushroom) hasta los inquietantes sonidos de <strong>golpes en la ventana</strong>, el juego está lleno de secretos que muchos jugadores pasan por alto en su primera partida. En esta guía completa, exploramos las interacciones ocultas y la narrativa ambiental que hacen que este <a href="/guides">juego de terror psicológico</a> sea una verdadera pesadilla.</p>
+                
+                <div class="image-container">
+                    <img src="/images/blog/blog03-02.webp" alt="Secretos ocultos y detalles ambientales en No I'm Not a Human" />
+                </div>
+    
+                <h2>1. Entendiendo las pistas sonoras: Los golpes en la ventana</h2>
+                <p>El sonido es tu mejor amigo y tu peor enemigo en <strong><a href="/">No I'm Not a Human</a></strong>. Una pregunta común entre los jugadores es: <strong>"¿Qué son los golpes en la ventana en I'm Not a Human?"</strong> Este misterioso efecto de sonido desconcierta a muchos durante sus primeros encuentros con el juego.</p>
+                
+                <h3>Atmósfera vs. Amenaza</h3>
+                <p>A diferencia de los pasos en el pasillo (que indican que un <a href="/visitors">Visitante</a> se acerca), el golpeteo en la ventana a menudo está diseñado para aumentar tu paranoia. Este efecto de sonido atmosférico sirve para generar tensión y hacerte cuestionar si la amenaza es real o imaginaria. Entender la diferencia entre los sonidos de <strong>golpes en la ventana</strong> y las amenazas reales es crucial para mantener la cordura en esta <a href="/guides">experiencia de terror y supervivencia</a>.</p>
+                
+                <h3>Qué debes hacer</h3>
+                <p>Cuando escuches los <strong>golpes en la ventana</strong>, <strong>no abras la ventana</strong>. En el mundo de No I'm Not a Human, tu apartamento es tu única zona segura. Los ruidos extraños afuera son indicadores de que el mundo ha sido invadido. Mantente alejado del vidrio y concéntrate en la mirilla: de ahí viene el peligro real. El <strong>sonido de golpes en la ventana</strong> en No I'm Not a Human sirve como un recordatorio constante de que existen amenazas más allá de tus paredes.</p>
+                
+                <p>Los <strong>golpes en la ventana</strong> son una herramienta psicológica utilizada por el juego para mantener una tensión constante. Te recuerda que el horror no está solo dentro de tu apartamento, está en todas partes, y tu santuario es frágil. Para más <a href="/guides">estrategias de supervivencia</a> y consejos sobre cómo manejar las pistas sonoras, consulta nuestra <a href="/guides">guía completa de juego</a>.</p>
+    
+                <h2>2. Las transmisiones de emergencia (Lore)</h2>
+                <p>Los jugadores suelen buscar el <strong>"número de FEMA"</strong> o contactos de <strong>"FEMA en No I'm Not a Human"</strong> dentro del juego, con la esperanza de encontrar una forma de contactar a las autoridades o servicios de emergencia. Muchos se preguntan: <strong>"¿Cuál es el número de FEMA en No I'm Not a Human?"</strong></p>
+                
+                <h3>El estado del mundo</h3>
+                <p>A través de las transmisiones de televisión y las notas esparcidas por tu apartamento, te das cuenta de que las autoridades han perdido el control. Aunque los jugadores a menudo buscan una organización al estilo <strong>"FEMA"</strong> que los salve, el juego lo deja claro: <strong>La ayuda no vendrá</strong>. El mundo exterior ha colapsado y estás verdaderamente solo. La búsqueda de un <strong>número de FEMA en No I'm Not a Human</strong> es, en última instancia, inútil; no queda ningún sistema de respuesta de emergencia al cual contactar.</p>
+                
+                <h3>Interacciones telefónicas</h3>
+                <p>Puedes encontrar números de teléfono o códigos durante el juego. Marcarlos puede revelar lore oculto o mensajes de estática, reforzando el tema del aislamiento. Estas interacciones sirven como elementos de construcción de mundo que profundizan la atmósfera de desesperanza y abandono del juego. Aunque encuentres referencias a <strong>FEMA</strong> o agencias gubernamentales, ninguno de estos contactos te proporcionará ayuda real en <strong>No I'm Not a Human</strong>.</p>
+                
+                <p>La ausencia de un <strong>número de contacto de FEMA</strong> que funcione es intencional: es parte del diseño del juego para hacerte sentir completamente aislado. No hay rescate, ni ayuda del gobierno, ni forma de salir excepto a través de tus propias <a href="/guides">habilidades de supervivencia</a>. Esta comprensión es uno de los aspectos más aterradores del juego. Entender que <strong>FEMA en No I'm Not a Human</strong> significa que no vendrá ayuda es crucial para sobrevivir al horror psicológico del juego.</p>
+    
+                <h2>3. Objetos ocultos: El Champiñón</h2>
+                <p>La exploración produce resultados extraños en <strong><a href="/">No I'm Not a Human</a></strong>. Uno de los objetos más raros que puedes encontrar es <strong>el Champiñón</strong>. Este misterioso objeto es parte del <a href="/wiki">lore del mundo</a> oculto y de la narrativa ambiental del juego.</p>
+                
+                <h3>Ubicación</h3>
+                <p>Vigila las esquinas de las habitaciones o las zonas húmedas durante la fase de exploración. El Champiñón puede aparecer en lugares inesperados, a menudo en áreas que parecen insignificantes a primera vista. Encontrar objetos ocultos como el Champiñón requiere una observación cuidadosa y una exploración minuciosa de tu apartamento.</p>
+                
+                <h3>Interacción</h3>
+                <p>Encontrar el champiñón contribuye a la lista de logros "extraños" del juego o a interacciones específicas. Sirve como recordatorio de que la corrupción no solo afecta a las personas, sino que está afectando al entorno mismo. La presencia de tales objetos extraños sugiere que la transformación que ocurre en el mundo es más profunda de lo que parece al principio. Estos <a href="/wiki">objetos ocultos</a> son esenciales para comprender el alcance total de la narrativa de terror del juego.</p>
+                
+                <p>Estos detalles ambientales son cruciales para entender el panorama completo del horror del juego. Insinúan un mundo donde la realidad misma se está rompiendo, donde los objetos normales pueden volverse extraños y amenazantes. Para más información sobre <a href="/wiki">objetos del juego</a> e interacciones, visita nuestra <a href="/wiki">wiki completa</a>.</p>
+    
+                <h2>4. El "Hombre Inmortal" y figuras clave</h2>
+                <p>Mientras escuchas los golpes y lees las notas, nunca debes olvidar al <strong>Hombre Inmortal</strong>. Este personaje es una de las figuras más misteriosas en <strong><a href="/">No I'm Not a Human</a></strong>.</p>
+                
+                <h3>¿Quién es el Hombre Inmortal?</h3>
+                <p>No es solo un <a href="/visitors">visitante</a> aleatorio. Es una amenaza persistente tejida en el trasfondo del juego. A diferencia de los enemigos estándar, él representa lo inevitable del horror del juego. El Hombre Inmortal no puede ser derrotado permanentemente, y su presencia sirve como un recordatorio constante de que algunas amenazas están más allá de tu control. Entender al <strong>Hombre Inmortal en No I'm Not a Human</strong> es clave para sobrevivir a los momentos más desafiantes del juego.</p>
+                
+                <h3>Consejo de supervivencia</h3>
+                <p>Si lo ves, es posible que el combate estándar no sea la respuesta. Corre o escóndete. El Hombre Inmortal representa fuerzas más allá de la comprensión normal, y la confrontación directa a menudo conduce al fracaso. Entender cuándo luchar y cuándo huir es crucial para la supervivencia. Para más <a href="/guides">estrategias de supervivencia</a> y consejos sobre cómo lidiar con el Hombre Inmortal, consulta nuestra <a href="/guides">guía completa de juego</a>.</p>
+                
+                <p>Su existencia añade otra capa de horror psicológico a la experiencia. Representa la naturaleza imparable de la corrupción que se extiende por el mundo. Para más detalles sobre todos los personajes y <a href="/visitors">visitantes</a>, incluyendo al Hombre Inmortal, consulta nuestra <a href="/visitors">guía completa de visitantes</a>.</p>
+    
+                <h2>5. Conectando los secretos: Cómo encaja todo</h2>
+                <p>Entender cómo se conectan estos secretos es crucial para dominar <strong><a href="/">No I'm Not a Human</a></strong>. Los sonidos de <strong>golpes en la ventana</strong>, la ausencia de <strong>números de FEMA</strong>, el misterioso Champiñón y el Hombre Inmortal cuentan la historia de un mundo en colapso. Cada elemento contribuye a la atmósfera de aislamiento y desesperación del juego.</p>
+                
+                <p>Estos detalles ambientales trabajan juntos para crear una sensación de desesperanza. Los <strong>golpes en la ventana en No I'm Not a Human</strong> te recuerdan que las amenazas existen afuera. La falta de <strong>contacto con FEMA</strong> confirma que no vendrá ayuda. Los objetos extraños como el Champiñón muestran que la corrupción se está extendiendo. Y el Hombre Inmortal representa fuerzas fuera de tu control. Juntos, crean la experiencia perfecta de terror psicológico.</p>
+    
+                <h2>Conclusión</h2>
+                <p><strong><a href="/">No I'm Not a Human</a></strong> es una clase magistral de terror lo-fi. Los <strong>golpes en la ventana</strong>, los números de emergencia inútiles (incluyendo el inexistente <strong>número de FEMA</strong>) y los objetos extraños construyen un mundo donde estás completamente solo. Estos detalles ambientales e interacciones ocultas son lo que hace que el juego sea verdaderamente aterrador: no solo los sustos repentinos, sino la sensación constante de aislamiento y el conocimiento de que la ayuda nunca llegará.</p>
+                
+                <p>Cada sonido, cada objeto, cada nota que encuentras cuenta la historia de un mundo que ya ha terminado. Tu supervivencia depende no solo de identificar <a href="/visitors">amenazas</a>, sino de entender que estás realmente por tu cuenta. La narrativa ambiental del juego crea una sensación de pavor que perdura mucho después de haber dejado de jugar. Ya sea que estés buscando el <strong>número de FEMA en No I'm Not a Human</strong> o tratando de entender los <strong>sonidos de golpes en la ventana</strong>, recuerda que estos elementos están diseñados para mejorar la experiencia de terror.</p>
+                
+                <p>¿Has encontrado otros secretos en <strong>No I'm Not a Human</strong>? ¿Descubriste algún objeto oculto o entendiste más sobre los <strong>golpes en la ventana</strong>? ¡Háznoslo saber en los comentarios!</p>
+    
+                <h2>Guías relacionadas</h2>
+                <ul>
+                    <li><strong><a href="/visitors">Guía de todos los visitantes y personajes</a></strong> - Identifica las amenazas y entiende el papel de cada personaje, incluyendo al Hombre Inmortal</li>
+                    <li><strong><a href="/blog/how-to-know-killed-visitor">Cómo saber si mataste a un visitante</a></strong> - Aprende a distinguir entre muertes de humanos y visitantes</li>
+                    <li><strong><a href="/blog/ending-1-child-of-doom">Final 1: Guía de Child of Doom</a></strong> - Descubre cómo lograr uno de los finales más desafiantes del juego</li>
+                    <li><strong><a href="/guides">Estrategias completas de supervivencia</a></strong> - Domina las mecánicas y técnicas de supervivencia del juego</li>
+                    <li><strong><a href="/endings">Guía de todos los finales</a></strong> - Explora todos los finales posibles y sus requisitos</li>
+                    <li><strong><a href="/wiki">Wiki del juego</a></strong> - Explora la base de conocimientos completa para todos los elementos del juego, incluyendo objetos ocultos y lore del mundo</li>
+                    <li><strong><a href="/download">Guía de descarga</a></strong> - Obtén el juego y comienza tu viaje de supervivencia</li>
+                </ul>
+            `
     }
 
 ]

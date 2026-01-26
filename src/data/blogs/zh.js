@@ -51,7 +51,7 @@ const blogs = [
         "title": "《No I'm Not a Human》：如何判断你杀的是访客还是人类",
         "addressBar": "how-to-know-killed-visitor",
         "publishDate": "2025-10-11",
-        "imageUrl": "/images/2.webp",
+        "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "《No I'm Not a Human》死亡后果 - 区分人类与访客死亡",
         "seo": {
             "title": "《No I'm Not a Human》：如何判断你杀的是访客还是人类",
@@ -63,7 +63,7 @@ const blogs = [
             <p>在 <strong><a href="/">《No I'm Not a Human》</a></strong> 中，杀戮不可避免，但真正的问题是你是否做出了正确的判断。<a href="/visitors">访客</a> 和人类在死亡后会留下不同的迹象。了解这些迹象可以帮助你确认自己的偏执是否合理，或者你只是杀了一个无辜的客人。本指南将帮助你理解致命选择的后果。</p>
             
             <div class="image-container">
-                <img src="/images/2.webp" alt="《No I'm Not a Human》死亡后果" />
+                <img src="/images/blog/blog02-02.webp" alt="《No I'm Not a Human》死亡后果" />
             </div>
     
             <h2>游戏中的人类死亡</h2>
@@ -133,6 +133,95 @@ const blogs = [
             <blockquote>
                 "每个决定的重量在扣动扳机后仍会长久存在。在《No I'm Not a Human》中，死亡不仅仅是机制——它是反映你的判断、偏执和人性的镜子。"
             </blockquote>
+        `
+    },
+
+    {
+        "id": 3,
+        "title": "No I'm Not a Human 秘密全解析：隐藏物品、声音线索与世界观设定",
+        "addressBar": "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
+        "publishDate": "2026-01-26",
+        "imageUrl": "/images/blog/blog03-01.webp",
+        "imageAlt": "No I'm Not a Human 中的隐藏秘密与环境细节",
+        "seo": {
+            "title": "No I'm Not a Human 秘密指南：隐藏物品、声音线索与背景故事",
+            "description": "探索 No I'm Not a Human 中的隐藏秘密：敲窗声、FEMA 编号、蘑菇道具及不朽之人。关于环境叙事和隐藏交互的完整指南。",
+            "keywords": "fema no i'm not a human, what is the window knocking in i'm not a human, no i'm not a human fema number, 隐藏物品, 声音线索, 世界观, 蘑菇, 不朽之人"
+        },
+        "detailsHtml": `
+            <h2>引言</h2>
+            <p>在 <strong><a href="/">No I'm Not a Human</a></strong> 中生存，不仅仅是与<a href="/visitors">访客</a>战斗；更在于观察公寓里那些细小而恐怖的细节。从像“蘑菇”这样的神秘物品到令人不安的<strong>敲窗声</strong>，游戏中充满了许多玩家在首次游玩时会忽略的秘密。在这份全面指南中，我们将深入探讨让这款<a href="/guides">心理恐怖游戏</a>真正令人窒息的隐藏交互与环境叙事。</p>
+            
+            <div class="image-container">
+                <img src="/images/blog/blog03-02.webp" alt="No I'm Not a Human 中的隐藏秘密与环境细节" />
+            </div>
+
+            <h2>1. 理解声音线索：敲窗声</h2>
+            <p>在 <strong><a href="/">No I'm Not a Human</a></strong> 中，声音既是你最好的朋友，也是你最可怕的敌人。玩家们经常问的一个问题是：<strong>“I'm Not a Human 里的敲窗声是什么？”</strong> 这种神秘的音效让许多初次接触游戏的玩家感到困惑。</p>
+            
+            <h3>氛围营造 vs. 实际威胁</h3>
+            <p>与走廊里的脚步声（预示着有<a href="/visitors">访客</a>接近）不同，窗户上的敲击声通常旨在增加你的偏执感。这种环境音效的作用是营造紧张感，让你怀疑威胁究竟是真实的还是幻觉。在这一<a href="/guides">生存恐怖体验</a>中，理解<strong>敲窗声</strong>与实际威胁之间的区别，对于维持你的理智至关重要。</p>
+            
+            <h3>你该怎么办</h3>
+            <p>当你听到<strong>敲窗声</strong>时，<strong>千万不要开窗</strong>。在 No I'm Not a Human 的世界里，你的公寓是你唯一的安全区。外面奇怪的噪音预示着世界已被占领。远离玻璃，专注于门上的猫眼——那才是真正危险的来源。No I'm Not a Human 中的<strong>敲窗声</strong>不断提醒着你：威胁就存在于墙壁之外。</p>
+            
+            <p><strong>敲窗声</strong>是游戏用来保持持续紧张感的心理工具。它提醒你，恐怖不仅存在于公寓内，它无处不在，而你的避难所是脆弱的。欲了解更多<a href="/guides">生存策略</a>和处理声音线索的技巧，请查看我们的<a href="/guides">完整游戏指南</a>。</p>
+
+            <h2>2. 紧急广播（背景设定）</h2>
+            <p>玩家经常在游戏中寻找 <strong>“FEMA 编号”</strong> 或 <strong>“FEMA no I'm not a human”</strong> 的联系方式，希望能找到联系当局或紧急服务的方法。许多人好奇：<strong>“No I'm Not a Human 中的 FEMA 编号是多少？”</strong></p>
+            
+            <h3>世界现状</h3>
+            <p>通过电视广播和散落在公寓各处的笔记，你会意识到当局已经失去了控制。虽然玩家经常寻找 <strong>“FEMA”</strong> 式的组织来拯救自己，但游戏明确表示：<strong>援军不会到来</strong>。外面的世界已经崩溃，你确实是孤身一人。在 No I'm Not a Human 中寻找 <strong>FEMA 编号</strong>最终是徒劳的——已经没有紧急响应系统可以联系了。</p>
+            
+            <h3>电话交互</h3>
+            <p>你可能会在游戏过程中发现一些电话号码或代码。拨打这些号码可能会揭示隐藏的背景故事或静电干扰信息，从而强化孤立的主题。这些交互作为世界观构建的元素，加深了游戏绝望和被遗弃的氛围。虽然你可能会发现有关 <strong>FEMA</strong> 或政府机构的提及，但在 <strong>No I'm Not a Human</strong> 中，这些联系方式都不会提供实际帮助。</p>
+            
+            <p>缺乏有效的 <strong>FEMA 联系电话</strong>是故意为之的——这是游戏设计的一部分，旨在让你感到彻底的孤立。没有救援，没有政府援助，除了依靠你自己的<a href="/guides">生存技能</a>，别无出路。这种认知是游戏最恐怖的方面之一。理解 <strong>FEMA no I'm not a human</strong> 意味着没有援手，这对于在这场心理恐怖中生存至关重要。</p>
+
+            <h2>3. 隐藏物品：蘑菇</h2>
+            <p>在 <strong><a href="/">No I'm Not a Human</a></strong> 中，探索往往会带来奇怪的结果。你能找到的最古怪的物品之一就是<strong>蘑菇 (The Mushroom)</strong>。这个神秘物品是游戏隐藏<a href="/wiki">世界观</a>和环境叙事的一部分。</p>
+            
+            <h3>位置</h3>
+            <p>在探索阶段，请留意房间的角落或潮湿区域。蘑菇可能会出现在意想不到的地方，通常是那些起初看起来微不足道的区域。寻找像蘑菇这样的隐藏物品需要细致的观察和对公寓的彻底搜索。</p>
+            
+            <h3>交互</h3>
+            <p>找到蘑菇有助于完成游戏的“怪异”成就列表或特定交互。它提醒玩家，腐化不仅在影响人类，也在影响环境本身。这种奇异物品的存在表明，世界上正在发生的转变比最初看起来要深刻得多。这些<a href="/wiki">隐藏物品</a>对于理解游戏恐怖叙事的完整全貌至关重要。</p>
+            
+            <p>这些环境细节对于理解游戏恐怖的深度至关重要。它们暗示了一个现实本身正在崩塌的世界，平凡的物体也可能变得诡异且具有威胁性。欲了解更多关于<a href="/wiki">游戏物品</a>和交互的信息，请访问我们的<a href="/wiki">完整百科</a>。</p>
+
+            <h2>4. “不朽之人”与关键人物</h2>
+            <p>在聆听敲门声和阅读笔记时，你绝对不能忘记<strong>不朽之人 (The Immortal Man)</strong>。这个角色是 <strong><a href="/">No I'm Not a Human</a></strong> 中最神秘的人物之一。</p>
+            
+            <h3>谁是不朽之人？</h3>
+            <p>他不只是一个普通的<a href="/visitors">访客</a>。他是编织在游戏背景中的持续威胁。与普通的敌人不同，他代表了游戏恐怖的必然性。不朽之人无法被永久击败，他的存在不断提醒你：有些威胁是超乎你控制的。理解 <strong>No I'm Not a Human 中的不朽之人</strong> 是在游戏最具挑战性的时刻生存下来的关键。</p>
+            
+            <h3>生存提示</h3>
+            <p>如果你看到他，常规的战斗可能不是解决办法。逃跑或隐藏。不朽之人代表了超越常人理解的力量，直接对抗往往会导致失败。在游戏中，理解何时该战斗、何时该逃跑对生存至关重要。欲了解更多<a href="/guides">生存策略</a>和处理不朽之人的技巧，请查看我们的<a href="/guides">完整游戏指南</a>。</p>
+            
+            <p>他的存在为游戏体验增添了另一层心理恐怖。他代表了在世界蔓延的腐化那不可阻挡的本质。欲了解包括不朽之人在内的所有角色和<a href="/visitors">访客</a>详情，请查看我们的<a href="/visitors">完整访客指南</a>。</p>
+
+            <h2>5. 串联秘密：一切是如何关联的</h2>
+            <p>理解这些秘密如何关联，对于精通 <strong><a href="/">No I'm Not a Human</a></strong> 至关重要。<strong>敲窗声</strong>、消失的 <strong>FEMA 编号</strong>、神秘的蘑菇以及不朽之人，共同讲述了一个世界崩塌的故事。每个元素都为游戏的孤立与绝望氛围做出了贡献。</p>
+            
+            <p>这些环境细节共同营造出一种无助感。<strong>No I'm Not a Human 中的敲窗声</strong>提醒你外面存在威胁。<strong>FEMA 联系方式</strong>的缺失证实了没有援军。像蘑菇这样的奇怪物品显示了腐化正在蔓延。而不朽之人代表了你无法控制的力量。它们共同构成了一个完美的心理恐怖体验。</p>
+
+            <h2>结论</h2>
+            <p><strong><a href="/">No I'm Not a Human</a></strong> 是低保真 (lo-fi) 恐怖游戏的杰作。<strong>敲窗声</strong>、无用的紧急号码（包括并不存在的 <strong>FEMA 编号</strong>）以及奇怪的物品，共同构建了一个你完全孤立无援的世界。这些环境细节和隐藏交互才是让游戏真正恐怖的原因——不仅是惊吓，更是那种持续的孤立感以及对“援军永不会到来”的认知。</p>
+            
+            <p>你发现的每一个声音、每一件物品、每一篇笔记，都在诉说着一个已经终结的世界的故事。你的生存不仅取决于识别<a href="/visitors">威胁</a>，还取决于意识到你确实只能依靠自己。游戏的环境叙事创造了一种即便在停止游玩后仍挥之不去的恐惧感。无论你是在 No I'm Not a Human 中寻找 <strong>FEMA 编号</strong>，还是试图理解<strong>敲窗声</strong>，请记住，这些元素都是为了增强恐怖体验而设计的。</p>
+            
+            <p>你还在 <strong>No I'm Not a Human</strong> 中发现了其他秘密吗？发现了任何隐藏物品或对<strong>敲窗声</strong>有了更多理解？请在下方的评论区告诉我们！</p>
+
+            <h2>相关指南</h2>
+            <ul>
+                <li><strong><a href="/visitors">所有访客与角色指南</a></strong> - 识别威胁并了解包括不朽之人在内的每个角色的作用</li>
+                <li><strong><a href="/blog/how-to-know-killed-visitor">如何判断你是否杀死了访客</a></strong> - 学习区分人类死亡与访客死亡</li>
+                <li><strong><a href="/blog/ending-1-child-of-doom">结局 1：毁灭之子指南</a></strong> - 探索如何达成游戏中最具挑战性的结局之一</li>
+                <li><strong><a href="/guides">完整生存策略</a></strong> - 精通游戏机制与生存技巧</li>
+                <li><strong><a href="/endings">所有结局指南</a></strong> - 探索所有可能的结局及其触发条件</li>
+                <li><strong><a href="/wiki">游戏百科</a></strong> - 探索包含隐藏物品与世界观在内的所有游戏元素完整知识库</li>
+                <li><strong><a href="/download">下载指南</a></strong> - 获取游戏并开始你的生存之旅</li>
+            </ul>
         `
     }
 

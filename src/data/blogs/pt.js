@@ -51,7 +51,7 @@ const blogs = [
         "title": "『No I'm Not a Human』: Como Saber se Você Matou um Visitante",
         "addressBar": "how-to-know-killed-visitor",
         "publishDate": "2025-10-11",
-        "imageUrl": "/images/2.webp",
+        "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "Consequências da morte em No I'm Not a Human - diferenciando mortes de humanos e visitantes",
         "seo": {
             "title": "『No I'm Not a Human』: Como Saber se Você Matou um Visitante ou Humano",
@@ -63,7 +63,7 @@ const blogs = [
             <p>Matar em <strong><a href="/">No I'm Not a Human</a></strong> é inevitável, mas a verdadeira questão é se você tomou a decisão correta. <a href="/visitors">Visitantes</a> e humanos deixam sinais diferentes após a morte. Conhecer esses sinais permite confirmar se sua paranoia estava certa ou se você apenas matou um convidado inocente. Este guia ajudará você a entender as consequências de suas decisões letais.</p>
             
             <div class="image-container">
-                <img src="/images/2.webp" alt="Consequências da morte em No I'm Not a Human" />
+                <img src="/images/blog/blog02-02.webp" alt="Consequências da morte em No I'm Not a Human" />
             </div>
     
             <h2>Mortes de Humanos no Jogo</h2>
@@ -134,6 +134,95 @@ const blogs = [
                 "O peso de cada decisão permanece muito depois do gatilho ser puxado. Em No I'm Not a Human, a morte não é apenas uma mecânica - é um espelho que reflete seu julgamento, sua paranoia e sua humanidade."
             </blockquote>
         `
+    },
+
+    {
+        "id": 3,
+        "title": "Segredos de No I'm Not a Human: Itens Escondidos, Sinais Sonoros e Lore do Mundo",
+        "addressBar": "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
+        "publishDate": "2026-01-26",
+        "imageUrl": "/images/blog/blog03-01.webp",
+        "imageAlt": "Segredos escondidos e detalhes ambientais em No I'm Not a Human",
+        "seo": {
+            "title": "Guia de Segredos de No I'm Not a Human: Itens, Sons e Lore",
+            "description": "Descubra segredos em No I'm Not a Human: batidas na janela, números da FEMA, o item Cogumelo e o Homem Imortal. Guia completo de storytelling ambiental.",
+            "keywords": "fema no i'm not a human, batidas na janela no i'm not a human, número fema no i'm not a human, itens escondidos, sinais sonoros, lore do mundo, cogumelo, homem imortal"
+        },
+        "detailsHtml": `
+                <h2>Introdução</h2>
+                <p>A sobrevivência em <strong><a href="/">No I'm Not a Human</a></strong> não se trata apenas de lutar contra <a href="/visitors">visitantes</a>; trata-se de notar os pequenos e aterrorizantes detalhes em seu apartamento. De itens misteriosos como o Cogumelo aos sons perturbadores de <strong>batidas na janela</strong>, o jogo está repleto de segredos que muitos jogadores perdem em sua primeira jogada. Neste guia abrangente, exploramos as interações ocultas e a narrativa ambiental que tornam este <a href="/guides">jogo de terror psicológico</a> verdadeiramente indutor de pesadelos.</p>
+                
+                <div class="image-container">
+                    <img src="/images/blog/blog03-02.webp" alt="Segredos escondidos e detalhes ambientais em No I'm Not a Human" />
+                </div>
+    
+                <h2>1. Entendendo os Sinais Sonoros: As Batidas na Janela</h2>
+                <p>O som é seu melhor amigo e seu pior inimigo em <strong><a href="/">No I'm Not a Human</a></strong>. Uma pergunta comum entre os jogadores é: <strong>\"O que são as batidas na janela em No I'm Not a Human?\"</strong> Este efeito sonoro misterioso intriga muitos jogadores durante seus primeiros encontros com o jogo.</p>
+                
+                <h3>Atmosfera vs. Ameaça</h3>
+                <p>Ao contrário dos passos no corredor (que sinalizam a aproximação de um <a href="/visitors">Visitante</a>), as batidas na janela são frequentemente projetadas para aumentar sua paranoia. Este efeito sonoro atmosférico serve para criar tensão e fazer você questionar se a ameaça é real ou imaginária. Entender a diferença entre sons de <strong>batidas na janela</strong> e ameaças reais é crucial para manter sua sanidade nesta <a href="/guides">experiência de survival horror</a>.</p>
+                
+                <h3>O Que Você Deve Fazer</h3>
+                <p>Quando ouvir as <strong>batidas na janela</strong>, <strong>não abra a janela</strong>. No mundo de No I'm Not a Human, seu apartamento é sua única zona segura. Ruídos estranhos lá fora são indicadores de que o mundo foi dominado. Fique longe do vidro e foque no olho mágico — é de lá que vem o perigo real. O <strong>som de batida na janela</strong> em No I'm Not a Human serve como um lembrete constante de que existem ameaças além das suas paredes.</p>
+                
+                <p>As <strong>batidas na janela</strong> são uma ferramenta psicológica usada pelo jogo para manter a tensão constante. Isso lembra que o horror não está apenas dentro do seu apartamento — está em todo lugar, e seu santuário é frágil. Para mais <a href="/guides">estratégias de sobrevivência</a> e dicas sobre como lidar com sinais sonoros, confira nosso <a href="/guides">guia completo de gameplay</a>.</p>
+    
+                <h2>2. As Transmissões de Emergência (Lore)</h2>
+                <p>Os jogadores costumam procurar pelo <strong>\"número da FEMA\"</strong> ou contatos <strong>\"FEMA no I'm not a human\"</strong> dentro do jogo, na esperança de encontrar uma maneira de contatar autoridades ou serviços de emergência. Muitos se perguntam: <strong>\"Qual é o número da FEMA em No I'm Not a Human?\"</strong></p>
+                
+                <h3>O Estado do Mundo</h3>
+                <p>Através de transmissões de TV e notas espalhadas pelo seu apartamento, você percebe que as autoridades perderam o controle. Embora os jogadores muitas vezes procurem por uma organização ao estilo <strong>\"FEMA\"</strong> para salvá-los, o jogo deixa claro: <strong>A ajuda não virá</strong>. O mundo lá fora entrou em colapso e você está verdadeiramente sozinho. A busca por um <strong>número da FEMA em No I'm Not a Human</strong> é, em última análise, fútil — não resta nenhum sistema de resposta a emergências para contatar.</p>
+                
+                <h3>Interações Telefônicas</h3>
+                <p>Você pode encontrar números de telefone ou códigos durante o jogo. Discar esses números pode revelar lore oculta ou mensagens de estática, reforçando o tema do isolamento. Essas interações servem como elementos de construção de mundo que aprofundam a atmosfera de desesperança e abandono do jogo. Embora você possa encontrar referências à <strong>FEMA</strong> ou agências governamentais, nenhum desses contatos fornecerá ajuda real em <strong>No I'm Not a Human</strong>.</p>
+                
+                <p>A ausência de um <strong>número de contato da FEMA</strong> funcional é intencional — faz parte do design do jogo para fazer você se sentir completamente isolado. Não há resgate vindo, nem ajuda governamental, nem saída, exceto através de suas próprias <a href="/guides">habilidades de sobrevivência</a>. Essa percepção é um dos aspectos mais aterrorizantes do jogo. Entender que <strong>FEMA em No I'm Not a Human</strong> significa que nenhuma ajuda está a caminho é crucial para sobreviver ao horror psicológico do jogo.</p>
+    
+                <h2>3. Itens Escondidos: O Cogumelo</h2>
+                <p>A exploração produz resultados estranhos em <strong><a href="/">No I'm Not a Human</a></strong>. Um dos itens mais peculiares que você pode encontrar é <strong>o Cogumelo</strong>. Este item misterioso faz parte da <a href="/wiki">lore do mundo</a> oculta do jogo e do storytelling ambiental.</p>
+                
+                <h3>Localização</h3>
+                <p>Fique de olho nos cantos dos cômodos ou áreas úmidas durante a fase de exploração. O Cogumelo pode aparecer em lugares inesperados, muitas vezes em áreas que parecem insignificantes à primeira vista. Encontrar itens escondidos como o Cogumelo requer observação cuidadosa e exploração minuciosa do seu apartamento.</p>
+                
+                <h3>Interação</h3>
+                <p>Encontrar o cogumelo contribui para a lista de conquistas \"estranhas\" do jogo ou interações específicas. Ele serve como um lembrete de que a corrupção não está afetando apenas as pessoas — está afetando o próprio ambiente. A presença de itens tão estranhos sugere que a transformação que está ocorrendo no mundo é mais profunda do que parece à primeira vista. Esses <a href="/wiki">itens escondidos</a> são essenciais para entender todo o escopo da narrativa de horror do jogo.</p>
+                
+                <p>Esses detalhes ambientais são cruciais para entender a totalidade do horror do jogo. Eles sugerem um mundo onde a própria realidade está se desfazendo, onde objetos normais podem se tornar estranhos e ameaçadores. Para mais informações sobre <a href="/wiki">itens do jogo</a> e interações, visite nossa <a href="/wiki">wiki completa</a>.</p>
+    
+                <h2>4. O \"Homem Imortal\" e Figuras-Chave</h2>
+                <p>Enquanto ouve as batidas e lê as notas, você nunca deve esquecer o <strong>Homem Imortal</strong>. Este personagem é uma das figuras mais misteriosas de <strong><a href="/">No I'm Not a Human</a></strong>.</p>
+                
+                <h3>Quem é o Homem Imortal?</h3>
+                <p>Ele não é apenas um <a href="/visitors">visitante</a> comum. Ele é uma ameaça persistente tecida no pano de fundo do jogo. Ao contrário dos inimigos padrão, ele representa a inevitabilidade do horror do jogo. O Homem Imortal não pode ser derrotado permanentemente, e sua presença serve como um lembrete constante de que algumas ameaças estão além do seu controle. Entender o <strong>Homem Imortal em No I'm Not a Human</strong> é a chave para sobreviver aos momentos mais desafiadores do jogo.</p>
+                
+                <h3>Dica de Sobrevivência</h3>
+                <p>Se você o vir, o combate padrão pode não ser a resposta. Corra ou esconda-se. O Homem Imortal representa forças além da compreensão normal, e o confronto direto muitas vezes leva ao fracasso. Entender quando lutar e quando fugir é crucial para a sobrevivência neste jogo. Para mais <a href="/guides">estratégias de sobrevivência</a> e dicas sobre como lidar com o Homem Imortal, confira nosso <a href="/guides">guia completo de gameplay</a>.</p>
+                
+                <p>A existência dele adiciona outra camada de horror psicológico à experiência. Ele representa a natureza imparável da corrupção que se espalha pelo mundo. Para mais detalhes sobre todos os personagens e <a href="/visitors">visitantes</a>, incluindo o Homem Imortal, confira nosso <a href="/visitors">guia completo de visitantes</a>.</p>
+    
+                <h2>5. Conectando os Segredos: Como Tudo se Encaixa</h2>
+                <p>Entender como esses segredos se conectam é crucial para dominar <strong><a href="/">No I'm Not a Human</a></strong>. Os sons de <strong>batidas na janela</strong>, a ausência de <strong>números da FEMA</strong>, o misterioso Cogumelo e o Homem Imortal contam a história de um mundo em colapso. Cada elemento contribui para a atmosfera de isolamento e desespero do jogo.</p>
+                
+                <p>Esses detalhes ambientais trabalham juntos para criar uma sensação de desesperança. As <strong>batidas na janela em No I'm Not a Human</strong> lembram que existem ameaças lá fora. A falta de <strong>contato com a FEMA</strong> confirma que nenhuma ajuda está vindo. Os itens estranhos como o Cogumelo mostram que a corrupção está se espalhando. E o Homem Imortal representa forças além do seu controle. Juntos, eles criam a experiência perfeita de terror psicológico.</p>
+    
+                <h2>Conclusão</h2>
+                <p><strong><a href="/">No I'm Not a Human</a></strong> é uma aula magistral de terror lo-fi. As <strong>batidas na janela</strong>, os números de emergência inúteis (incluindo o inexistente <strong>número da FEMA</strong>) e os itens estranhos constroem um mundo onde você está completamente sozinho. Esses detalhes ambientais e interações ocultas são o que tornam o jogo verdadeiramente aterrorizante — não apenas os jump scares, mas a sensação constante de isolamento e o conhecimento de que a ajuda nunca virá.</p>
+                
+                <p>Cada som, cada item, cada nota que você encontra conta a história de um mundo que já acabou. Sua sobrevivência depende não apenas de identificar <a href="/visitors">ameaças</a>, mas de entender que você está realmente por conta própria. O storytelling ambiental do jogo cria uma sensação de pavor que perdura muito depois de você parar de jogar. Esteja você procurando pelo <strong>número da FEMA em No I'm Not a Human</strong> ou tentando entender os <strong>sons de batida na janela</strong>, lembre-se de que esses elementos foram projetados para aprimorar a experiência de horror.</p>
+                
+                <p>Você encontrou outros segredos em <strong>No I'm Not a Human</strong>? Descobriu algum item escondido ou entendeu mais sobre as <strong>batidas na janela</strong>? Deixe-nos saber nos comentários abaixo!</p>
+    
+                <h2>Guias Relacionados</h2>
+                <ul>
+                    <li><strong><a href="/visitors">Guia de Todos os Visitantes e Personagens</a></strong> - Identifique as ameaças e entenda o papel de cada personagem, incluindo o Homem Imortal</li>
+                    <li><strong><a href="/blog/how-to-know-killed-visitor">Como Saber se Você Matou um Visitante</a></strong> - Aprenda a distinguir entre mortes de humanos e de Visitantes</li>
+                    <li><strong><a href="/blog/ending-1-child-of-doom">Guia do Final 1: Child of Doom</a></strong> - Descubra como alcançar um dos finais mais desafiadores do jogo</li>
+                    <li><strong><a href="/guides">Estratégias Completas de Sobrevivência</a></strong> - Domine as mecânicas do jogo e técnicas de sobrevivência</li>
+                    <li><strong><a href="/endings">Guia de Todos os Finais</a></strong> - Explore todos os finais possíveis e seus requisitos</li>
+                    <li><strong><a href="/wiki">Wiki do Jogo</a></strong> - Explore a base de conhecimento completa para todos os elementos do jogo, incluindo itens escondidos e lore do mundo</li>
+                    <li><strong><a href="/download">Guia de Download</a></strong> - Baixe o jogo e comece sua jornada de sobrevivência</li>
+                </ul>
+            `
     }
 
 ]

@@ -80,7 +80,7 @@ const blogs = [
         "title": "No I'm Not a Human: So erkennst du, ob du einen Besucher getötet hast",
         "addressBar": "how-to-know-killed-visitor",
         "publishDate": "2025-10-11",
-        "imageUrl": "/images/2.webp",
+        "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "Tod nach No I'm Not a Human – menschliche von Besucher-Toden unterscheiden",
         "seo": {
             "title": "No I'm Not a Human: So erkennst du, ob du einen Besucher oder Menschen getötet hast",
@@ -92,7 +92,7 @@ const blogs = [
             <p>Das Töten in <strong><a href="/">No I'm Not a Human</a></strong> ist unvermeidlich, aber die eigentliche Frage ist, ob du die richtige Entscheidung getroffen hast. <a href="/visitors">Besucher</a> und Menschen hinterlassen nach ihrem Tod unterschiedliche Spuren. Diese Zeichen zu kennen, ermöglicht es dir zu bestätigen, ob deine Paranoia gerechtfertigt war oder ob du nur einen unschuldigen Gast getötet hast. Dieser Leitfaden hilft dir, die Folgen deiner tödlichen Entscheidungen zu verstehen.</p>
             
             <div class="image-container">
-                <img src="/images/2.webp" alt="Tod nach No I'm Not a Human" />
+                <img src="/images/blog/blog02-02.webp" alt="Tod nach No I'm Not a Human" />
             </div>
     
             <h2>Menschliche Tode im Spiel</h2>
@@ -163,6 +163,95 @@ const blogs = [
                 "Die Last jeder Entscheidung bleibt lange nach dem Abzug des Abzugs bestehen. In No I'm Not a Human ist der Tod nicht nur eine Mechanik – er ist ein Spiegel, der dein Urteilsvermögen, deine Paranoia und deine Menschlichkeit reflektiert."
             </blockquote>
         `
+    },
+
+    {
+        "id": 3,
+        "title": "No I'm Not a Human Geheimnisse: Versteckte Gegenstände, Sound-Hinweise und Welt-Lore",
+        "addressBar": "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
+        "publishDate": "2026-01-26",
+        "imageUrl": "/images/blog/blog03-01.webp",
+        "imageAlt": "Versteckte Geheimnisse und Umgebungsdetails in No I'm Not a Human",
+        "seo": {
+            "title": "No I'm Not a Human Geheimnisse: Guide für versteckte Items, Sounds und Lore",
+            "description": "Entdecke versteckte Geheimnisse in No I'm Not a Human: Fensterklopfen, FEMA-Nummern, das Pilz-Item und den Immortal Man. Kompletter Guide zu Environmental Storytelling.",
+            "keywords": "fema no i'm not a human, was ist das fensterklopfen in i'm not a human, no i'm not a human fema nummer, versteckte gegenstände, sound-hinweise, welt-lore, pilz, immortal man"
+        },
+        "detailsHtml": `
+                <h2>Einleitung</h2>
+                <p>Das Überleben in <strong><a href="/">No I'm Not a Human</a></strong> bedeutet nicht nur, gegen <a href="/visitors">Besucher</a> zu kämpfen; es geht darum, die kleinen, furchteinflößenden Details in deiner Wohnung zu bemerken. Von mysteriösen Gegenständen wie dem Pilz (Mushroom) bis hin zu den beunruhigenden Geräuschen des <strong>Fensterklopfens</strong> ist das Spiel voller Geheimnisse, die viele Spieler bei ihrem ersten Durchlauf übersehen. In diesem umfassenden Guide erkunden wir die verborgenen Interaktionen und das Environmental Storytelling, die dieses <a href="/guides">psychologische Horrorspiel</a> zu einem echten Albtraum machen.</p>
+                
+                <div class="image-container">
+                    <img src="/images/blog/blog03-02.webp" alt="Versteckte Geheimnisse und Umgebungsdetails in No I'm Not a Human" />
+                </div>
+    
+                <h2>1. Sound-Hinweise verstehen: Das Fensterklopfen</h2>
+                <p>Sound ist dein bester Freund und dein schlimmster Feind in <strong><a href="/">No I'm Not a Human</a></strong>. Eine häufige Frage unter Spielern ist: <strong>„Was bedeutet das Klopfen am Fenster in I'm Not a Human?“</strong> Dieser mysteriöse Soundeffekt rätselt viele Spieler bei ihren ersten Begegnungen mit dem Spiel auf.</p>
+                
+                <h3>Atmosphäre vs. Bedrohung</h3>
+                <p>Im Gegensatz zu Schritten im Flur (die die Annäherung eines <a href="/visitors">Besuchers</a> signalisieren), ist das Klopfen am Fenster oft dazu gedacht, deine Paranoia zu steigern. Dieser atmosphärische Soundeffekt dient dazu, Spannung aufzubauen und dich hinterfragen zu lassen, ob die Bedrohung real oder eingebildet ist. Den Unterschied zwischen <strong>Fensterklopfen</strong> und tatsächlichen Bedrohungen zu verstehen, ist entscheidend, um in diesem <a href="/guides">Survival-Horror-Erlebnis</a> den Verstand zu bewahren.</p>
+                
+                <h3>Was du tun solltest</h3>
+                <p>Wenn du das <strong>Fensterklopfen</strong> hörst, <strong>öffne auf keinen Fall das Fenster</strong>. In der Welt von No I'm Not a Human ist deine Wohnung deine einzige Sicherheitszone. Seltsame Geräusche draußen sind Anzeichen dafür, dass die Welt überrannt wurde. Bleib vom Glas fern und konzentriere dich auf den Türspion – dort kommt die wahre Gefahr her. Das <strong>Geräusch des Fensterklopfens</strong> in No I'm Not a Human dient als ständige Erinnerung daran, dass Bedrohungen jenseits deiner Wände existieren.</p>
+                
+                <p>Das <strong>Fensterklopfen</strong> ist ein psychologisches Werkzeug, das vom Spiel eingesetzt wird, um eine konstante Spannung aufrechtzuerhalten. Es erinnert dich daran, dass der Horror nicht nur in deiner Wohnung ist – er ist überall, und dein Zufluchtsort ist zerbrechlich. Für weitere <a href="/guides">Überlebensstrategien</a> und Tipps zum Umgang mit Sound-Hinweisen schau dir unseren <a href="/guides">vollständigen Gameplay-Guide</a> an.</p>
+    
+                <h2>2. Die Notfall-Übertragungen (Lore)</h2>
+                <p>Spieler suchen oft nach der <strong>„FEMA-Nummer“</strong> oder <strong>„FEMA No I'm Not a Human“</strong>-Kontakten im Spiel, in der Hoffnung, Behörden oder Notfalldienste zu kontaktieren. Viele fragen sich: <strong>„Was ist die FEMA-Nummer in No I'm Not a Human?“</strong></p>
+                
+                <h3>Der Zustand der Welt</h3>
+                <p>Durch TV-Übertragungen und Notizen, die in deiner Wohnung verstreut sind, wird dir klar, dass die Behörden die Kontrolle verloren haben. Während Spieler oft nach einer Organisation im Stil der <strong>„FEMA“</strong> suchen, um sie zu retten, macht das Spiel deutlich: <strong>Hilfe wird nicht kommen</strong>. Die Welt draußen ist zusammengebrochen, und du bist wirklich allein. Die Suche nach einer <strong>FEMA-Nummer in No I'm Not a Human</strong> ist letztlich vergeblich – es gibt kein Notfallsystem mehr, das man kontaktieren könnte.</p>
+                
+                <h3>Telefon-Interaktionen</h3>
+                <p>Du könntest während des Spiels Telefonnummern oder Codes finden. Das Wählen dieser Nummern kann versteckte Lore oder statische Nachrichten enthüllen, was das Thema der Isolation verstärkt. Diese Interaktionen dienen als World-Building-Elemente, die die Atmosphäre der Hoffnungslosigkeit und Verlassenheit vertiefen. Auch wenn du Hinweise auf die <strong>FEMA</strong> oder Regierungsbehörden findest, wird keiner dieser Kontakte in <strong>No I'm Not a Human</strong> tatsächliche Hilfe leisten.</p>
+                
+                <p>Das Fehlen einer funktionierenden <strong>FEMA-Kontaktnummer</strong> ist beabsichtigt – es ist Teil des Spieldesigns, um dich völlig isoliert fühlen zu lassen. Es kommt keine Rettung, keine staatliche Hilfe, kein Ausweg außer durch deine eigenen <a href="/guides">Überlebensfähigkeiten</a>. Diese Erkenntnis ist einer der erschreckendsten Aspekte des Spiels. Zu verstehen, dass <strong>FEMA No I'm Not a Human</strong> bedeutet, dass keine Hilfe kommt, ist entscheidend, um den psychologischen Horror des Spiels zu überstehen.</p>
+    
+                <h2>3. Versteckte Gegenstände: Der Pilz (Mushroom)</h2>
+                <p>Erkundung führt in <strong><a href="/">No I'm Not a Human</a></strong> zu seltsamen Ergebnissen. Einer der merkwürdigsten Gegenstände, die du finden kannst, ist <strong>der Pilz</strong>. Dieser mysteriöse Gegenstand ist Teil der verborgenen <a href="/wiki">Welt-Lore</a> und des Environmental Storytellings.</p>
+                
+                <h3>Fundort</h3>
+                <p>Achte während der Erkundungsphase auf die Ecken der Räume oder feuchte Stellen. Der Pilz kann an unerwarteten Orten erscheinen, oft in Bereichen, die auf den ersten Blick unbedeutend erscheinen. Das Finden versteckter Gegenstände wie des Pilzes erfordert sorgfältige Beobachtung und eine gründliche Durchsuchung deiner Wohnung.</p>
+                
+                <h3>Interaktion</h3>
+                <p>Das Finden des Pilzes trägt zur Liste der „seltsamen“ Errungenschaften oder spezifischen Interaktionen des Spiels bei. Es dient als Erinnerung daran, dass die Korruption nicht nur Menschen betrifft – sie wirkt sich auf die Umwelt selbst aus. Die Anwesenheit solcher seltsamen Gegenstände deutet darauf hin, dass die Transformation der Welt tiefgreifender ist, als es zunächst scheint. Diese <a href="/wiki">versteckten Gegenstände</a> sind wichtig, um das volle Ausmaß der Horrornarrative des Spiels zu verstehen.</p>
+                
+                <p>Diese Umgebungsdetails sind entscheidend. Sie deuten auf eine Welt hin, in der die Realität selbst zerbricht, in der normale Objekte seltsam und bedrohlich werden können. Für weitere Informationen über <a href="/wiki">Spielgegenstände</a> und Interaktionen besuche unser <a href="/wiki">vollständiges Wiki</a>.</p>
+    
+                <h2>4. Der „Immortal Man“ und Schlüsselfiguren</h2>
+                <p>Während du auf Klopfen achtest und Notizen liest, darfst du den <strong>Immortal Man</strong> (den unsterblichen Mann) niemals vergessen. Dieser Charakter ist eine der mysteriösesten Figuren in <strong><a href="/">No I'm Not a Human</a></strong>.</p>
+                
+                <h3>Wer ist der Immortal Man?</h3>
+                <p>Er ist nicht nur ein zufälliger <a href="/visitors">Besucher</a>. Er ist eine beständige Bedrohung, die in den Hintergrund des Spiels eingewoben ist. Im Gegensatz zu Standardgegnern repräsentiert er die Unausweichlichkeit des Horrors im Spiel. Der Immortal Man kann nicht dauerhaft besiegt werden, und seine Anwesenheit dient als ständige Erinnerung daran, dass manche Bedrohungen außerhalb deiner Kontrolle liegen. Den <strong>Immortal Man in No I'm Not a Human</strong> zu verstehen, ist der Schlüssel zum Überleben der herausforderndsten Momente des Spiels.</p>
+                
+                <h3>Überlebenstipp</h3>
+                <p>Wenn du ihn siehst, ist der Standardkampf vielleicht nicht die Lösung. Renn weg oder versteck dich. Der Immortal Man repräsentiert Kräfte jenseits des normalen Verständnisses, und eine direkte Konfrontation führt oft zum Scheitern. Zu wissen, wann man kämpfen und wann man fliehen muss, ist in diesem Spiel lebenswichtig. Weitere <a href="/guides">Überlebensstrategien</a> findest du in unserem <a href="/guides">vollständigen Guide</a>.</p>
+                
+                <p>Seine Existenz fügt dem Erlebnis eine weitere Ebene des psychologischen Horrors hinzu. Er steht für die unaufhaltsame Natur der Korruption, die sich in der Welt ausbreitet. Für mehr Details zu allen Charakteren und <a href="/visitors">Besuchern</a>, einschließlich des Immortal Man, schau dir unseren <a href="/visitors">Besucher-Guide</a> an.</p>
+    
+                <h2>5. Die Geheimnisse verbinden: Wie alles zusammenpasst</h2>
+                <p>Zu verstehen, wie diese Geheimnisse zusammenhängen, ist entscheidend, um <strong><a href="/">No I'm Not a Human</a></strong> zu meistern. Das <strong>Fensterklopfen</strong>, das Fehlen von <strong>FEMA-Nummern</strong>, der mysteriöse Pilz und der Immortal Man erzählen alle die Geschichte einer Welt im Kollaps. Jedes Element trägt zur Atmosphäre von Isolation und Verzweiflung bei.</p>
+                
+                <p>Diese Umgebungsdetails arbeiten zusammen, um ein Gefühl der Hoffnungslosigkeit zu erzeugen. Das <strong>Fensterklopfen in No I'm Not a Human</strong> erinnert dich daran, dass Bedrohungen draußen existieren. Der fehlende <strong>FEMA-Kontakt</strong> bestätigt, dass keine Hilfe kommt. Die seltsamen Gegenstände wie der Pilz zeigen, dass sich die Korruption ausbreitet. Und der Immortal Man repräsentiert Kräfte jenseits deiner Kontrolle. Zusammen ergeben sie das perfekte psychologische Horrorerlebnis.</p>
+    
+                <h2>Fazit</h2>
+                <p><strong><a href="/">No I'm Not a Human</a></strong> ist ein Meisterwerk des Lo-Fi-Horrors. Das <strong>Fensterklopfen</strong>, die nutzlosen Notrufnummern (einschließlich der nicht existierenden <strong>FEMA-Nummer</strong>) und die seltsamen Gegenstände bauen eine Welt auf, in der du völlig allein bist. Diese Details sind das, was das Spiel wirklich beängstigend macht – nicht nur die Jump-Scares, sondern das ständige Gefühl der Isolation und das Wissen, dass niemals Hilfe kommen wird.</p>
+                
+                <p>Jedes Geräusch, jeder Gegenstand, jede Notiz erzählt von einer Welt, die bereits geendet hat. Dein Überleben hängt davon ab, nicht nur <a href="/visitors">Bedrohungen</a> zu identifizieren, sondern zu verstehen, dass du wirklich auf dich allein gestellt bist. Ob du nach der <strong>FEMA-Nummer in No I'm Not a Human</strong> suchst oder das <strong>Fensterklopfen</strong> verstehen willst: Diese Elemente sind darauf ausgelegt, das Horrorerlebnis zu maximieren.</p>
+                
+                <p>Hast du andere Geheimnisse in <strong>No I'm Not a Human</strong> gefunden? Lass es uns in den Kommentaren wissen!</p>
+    
+                <h2>Verwandte Guides</h2>
+                <ul>
+                    <li><strong><a href="/visitors">Alle Besucher & Charaktere Guide</a></strong> - Identifiziere die Bedrohungen und verstehe die Rollen, inklusive des Immortal Man</li>
+                    <li><strong><a href="/blog/how-to-know-killed-visitor">Woran du erkennst, ob du einen Besucher getötet hast</a></strong> - Lerne, zwischen dem Tod von Menschen und Besuchern zu unterscheiden</li>
+                    <li><strong><a href="/blog/ending-1-child-of-doom">Ende 1: Child of Doom Guide</a></strong> - Erfahre, wie du eines der schwierigsten Enden erreichst</li>
+                    <li><strong><a href="/guides">Komplette Überlebensstrategien</a></strong> - Meistere die Mechaniken des Spiels</li>
+                    <li><strong><a href="/endings">Alle Enden Guide</a></strong> - Erkunde alle möglichen Enden und ihre Anforderungen</li>
+                    <li><strong><a href="/wiki">Spiel-Wiki</a></strong> - Die komplette Wissensdatenbank zu allen Elementen</li>
+                    <li><strong><a href="/download">Download Guide</a></strong> - Hol dir das Spiel und starte dein Abenteuer</li>
+                </ul>
+            `
     }
 
 ]
