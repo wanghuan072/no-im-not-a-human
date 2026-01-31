@@ -8,6 +8,11 @@
             <h3>{{ $t('footer.brandTitle') }}</h3>
           </div>
           <p>{{ $t('footer.brandDesc') }}</p>
+
+          <p v-if="$route.path === '/'" class="friendly-links">
+            Friendly Links: <a href="https://spendmusksmoney.org">Spend Elon Musk's Money</a>
+          </p>
+
           <div class="social-links">
             <a
               href="https://twitter.com/"
@@ -238,6 +243,10 @@ const localizedHref = (path) => {
 
 .footer-section a:hover {
   color: #00ff41;
+}
+
+.friendly-links a{
+   color: #00ff41;
 }
 
 @media (max-width: 768px) {
