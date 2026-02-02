@@ -6,6 +6,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog01-01.webp",
         "imageAlt": "O Feto em Não, Eu Não Sou Humano",
+        "description": "Descubra como encontrar o Feto em Não, Eu Não Sou Humano. Condições completas, locais ocultos e passos para o Final 1: Criança da Perdição.",
         "seo": {
             "title": "Não, Eu Não Sou Humano Final 1: Criança da Perdição - Guia de Aparição do Feto",
             "description": "Descubra como encontrar o Feto em Não, Eu Não Sou Humano. Condições completas, locais ocultos e passos para o Final 1: Criança da Perdição.",
@@ -53,6 +54,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "Consequências da morte em No I'm Not a Human - diferenciando mortes de humanos e visitantes",
+        "description": "Aprenda as diferenças visuais entre matar Visitantes e humanos em No I'm Not a Human. Sacos de corpo vs cadáveres, distorção visual e guia de confirmação de morte.",
         "seo": {
             "title": "『No I'm Not a Human』: Como Saber se Você Matou um Visitante ou Humano",
             "description": "Aprenda as diferenças visuais entre matar Visitantes e humanos em No I'm Not a Human. Sacos de corpo vs cadáveres, distorção visual e guia de confirmação de morte.",
@@ -143,6 +145,7 @@ const blogs = [
         "publishDate": "2026-01-26",
         "imageUrl": "/images/blog/blog03-01.webp",
         "imageAlt": "Segredos escondidos e detalhes ambientais em No I'm Not a Human",
+        "description": "Descubra segredos em No I'm Not a Human: batidas na janela, números da FEMA, o item Cogumelo e o Homem Imortal. Guia completo de storytelling ambiental.",
         "seo": {
             "title": "Guia de Segredos de No I'm Not a Human: Itens, Sons e Lore",
             "description": "Descubra segredos em No I'm Not a Human: batidas na janela, números da FEMA, o item Cogumelo e o Homem Imortal. Guia completo de storytelling ambiental.",
@@ -223,6 +226,73 @@ const blogs = [
                     <li><strong><a href="/download">Guia de Download</a></strong> - Baixe o jogo e comece sua jornada de sobrevivência</li>
                 </ul>
             `
+    },
+
+    {
+        "id": 4,
+        "title": "Guia de NPCs de No I'm Not a Human: Coat Guy, Cashier Girl e Vigilante explicados",
+        "addressBar": "no-im-not-a-human-npc-guide-coat-guy-cashier-girl",
+        "publishDate": "2026-02-02",
+        "imageUrl": "/images/blog/blog04.webp",
+        "imageAlt": "O Coat Guy e a Cashier Girl no jogo No I'm Not a Human",
+        "description": "O Coat Guy é perigoso? Quem é a Cashier Girl? Nosso guia de No I'm Not a Human explica os NPCs especiais, incluindo o Vigilante e o Pale Man.",
+        "seo": {
+            "title": "Guia de NPCs de No I'm Not a Human: Segredos do Coat Guy e Cashier Girl",
+            "description": "O Coat Guy é perigoso? Quem é a Cashier Girl? Nosso guia de No I'm Not a Human explica os NPCs especiais, incluindo o Vigilante e o Pale Man.",
+            "keywords": "no i'm not a human coat guy, homem de casaco, cashier girl no i'm not a human, moça do caixa, no i'm not a human vigilante, pale man, guia de npc, visitantes especiais"
+        },
+        "detailsHtml": `
+            <p>No mundo distorcido em preto e branco de <strong><a href=\"/\">No I'm Not a Human</a></strong>, nem todo mundo que bate à sua porta quer devorá-lo imediatamente. Embora a maioria dos \"vizinhos\" sejam monstros irracionais, existem alguns personagens especiais que despertaram uma curiosidade imensa na comunidade.</p>
+        
+            <p>Quem é o misterioso <strong><a href=\"/visitors\">Coat Guy</a></strong> (Homem de Casaco)? A <strong><a href=\"/visitors\">Cashier Girl</a></strong> (Moça do Caixa) é realmente humana? E de que lado o <strong><a href=\"/visitors\">Vigilante</a></strong> está?</p>
+            
+            <p>Neste guia, analisamos os comportamentos e segredos dos NPCs exclusivos do jogo para ajudá-lo a entender em quem confiar — e de quem fugir.</p>
+
+            <h2>1. O Mistério do Coat Guy</h2>
+            <p>O <strong>Coat Guy</strong> é uma das entidades mais pesquisadas no jogo. Ao contrário das abominações nuas e carnais que costumam atacar você, este personagem está totalmente vestido com um sobretudo longo, conferindo-lhe uma silhueta enganosamente \"humana\".</p>
+            <ul>
+                <li><strong>Aparência:</strong> Uma figura alta usando um sobretudo e um chapéu. Ele se destaca contra o cenário caótico.</li>
+                <li><strong>Comportamento:</strong> Jogadores costumam relatar que o Coat Guy exibe padrões de movimento mais calmos em comparação aos <a href=\"/visitors\">Visitors</a> comuns. Ele observa em vez de avançar rapidamente.</li>
+                <li><strong>Estratégia:</strong> Não se deixe enganar pelas roupas. Neste jogo, as \"roupas\" costumam ser apenas mais uma forma de camuflagem. Preste muita atenção às mãos e ao rosto dele pelo olho mágico. Se os movimentos dele se tornarem erráticos, trate-o como uma ameaça de alto nível.</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-01.webp\" alt=\"O Mistério do Coat Guy\">
+
+            <h2>2. A Cashier Girl: Um Rosto Amigável?</h2>
+            <p>Sair do seu apartamento o leva à loja, onde você encontra a <strong>Cashier Girl</strong>. Ela é uma das poucas interações que parece fundamentada na realidade, mas os fãs têm muitas teorias sobre sua verdadeira natureza.</p>
+            <ul>
+                <li><strong>Papel:</strong> Ela é sua principal fonte de recursos e suprimentos.</li>
+                <li><strong>Segredos de Diálogo:</strong> Não compre apenas itens e vá embora. Interagir com a Cashier Girl revela detalhes da lore sobre o mundo exterior. O diálogo dela muda conforme o jogo progride, refletindo a crescente corrupção da cidade.</li>
+                <li><strong>Teoria dos Fãs:</strong> Ela é imune? Ou ela também está esperando por sua transformação? A segurança dela é frequentemente uma preocupação para jogadores que buscam <a href=\"/endings\">finais específicos</a>.</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-02.webp\" alt=\"A Cashier Girl\">
+
+            <h2>3. O Vigilante: Caçador ou Ajudante?</h2>
+            <p>O <strong>Vigilante</strong> é um elemento caótico. Ele não é um monstro, mas também não é necessariamente seu amigo.</p>
+            <p>Ele representa uma força que tenta expurgar os \"<a href=\"/visitors\">Visitors</a>\", mas seus métodos são extremos. Encontrar o Vigilante geralmente acontece sob condições específicas (como uma alta contagem de mortes ou baixa sanidade). Cuidado: se você agir de forma suspeita, o Vigilante pode confundir <em>você</em> com um monstro.</p>
+
+            <img src=\"/images/blog/blog04-03.webp\" alt=\"O Vigilante\">
+
+            <h2>4. O Pale Man (O Visitante Pálido)</h2>
+            <p>Ao discutir personagens especiais, devemos mencionar o <strong><a href=\"/visitors\">Pale Man</a></strong>. Ele é um mestre da furtividade.</p>
+            <p>Ao contrário dos vizinhos barulhentos, o Pale Man se mistura aos espaços em branco do estilo artístico do jogo. Ele testa suas habilidades de percepção. Se você acha que está seguro porque o corredor parece vazio, verifique o contraste — ele pode estar parado bem na sua frente.</p>
+
+            <img src=\"/images/blog/blog04-04.webp\" alt=\"O Pale Man\">
+
+            <h2>Conclusão</h2>
+            <p>Dominar <em><a href=\"/\">No I'm Not a Human</a></em> exige mais do que apenas combate; exige entender o elenco de personagens. O <strong>Coat Guy</strong> e o <strong>Vigilante</strong> adicionam camadas de <a href=\"/guides\">horror psicológico</a> que vão além de simples sustos.</p>
+            
+            <p>Você encontrou alguma interação secreta com esses NPCs? Deixe-nos saber!</p>
+            
+            <h2>Guias Relacionados</h2>
+            <ul>
+                <li><strong><a href=\"/visitors\">Guia de Todos os Visitantes e Personagens</a></strong> - Banco de dados completo de cada personagem, incluindo Coat Guy e Cashier Girl</li>
+                <li><strong><a href=\"/blog/how-to-know-killed-visitor\">Como Saber se Você Matou um Visitante</a></strong> - Aprenda os sinais da morte de um Visitor</li>
+                <li><strong><a href=\"/endings\">Guia de Todos os Finais</a></strong> - Como as interações com NPCs afetam seu final</li>
+                <li><strong><a href=\"/wiki\">Wiki do Jogo</a></strong> - Mergulhe fundo na lore e nos segredos do jogo</li>
+            </ul>
+        `
     }
 
 ]

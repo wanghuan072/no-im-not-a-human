@@ -6,6 +6,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog01-01.webp",
         "imageAlt": "나는 인간이 아니다의 태아",
+        "description": "'나는 인간이 아니다'에서 태아를 만나는 방법을 안내합니다. 조건, 숨겨진 장소, 엔딩 1: 파멸의 아이를 위한 단계별 가이드.",
         "seo": {
             "title": "나는 인간이 아니다 엔딩 1: 파멸의 아이 - 태아 등장 가이드",
             "description": "'나는 인간이 아니다'에서 태아를 만나는 방법을 안내합니다. 조건, 숨겨진 장소, 엔딩 1: 파멸의 아이를 위한 단계별 가이드.",
@@ -82,6 +83,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "『No I'm Not a Human』에서의 사망 후 상황 - 인간과 방문자 죽음 구분",
+        "description": "『No I'm Not a Human』에서 방문자와 인간을 죽인 후의 시각적 차이를 알아보세요. 시체 봉투와 시체, 시야 왜곡, 사망 확인 가이드를 제공합니다.",
         "seo": {
             "title": "『No I'm Not a Human』: 방문자 또는 인간을 죽였는지 확인하는 방법",
             "description": "『No I'm Not a Human』에서 방문자와 인간을 죽인 후의 시각적 차이를 알아보세요. 시체 봉투와 시체, 시야 왜곡, 사망 확인 가이드를 제공합니다.",
@@ -172,6 +174,7 @@ const blogs = [
         "publishDate": "2026-01-26",
         "imageUrl": "/images/blog/blog03-01.webp",
         "imageAlt": "No I'm Not a Human의 숨겨진 비밀과 환경적 세부 요소",
+        "description": "No I'm Not a Human의 숨겨진 비밀을 발견하세요: 창문 두드리는 소리, FEMA 번호, 버섯 아이템, 그리고 불사신. 환경적 스토리텔링과 숨겨진 상호작용에 대한 완전 가이드.",
         "seo": {
             "title": "No I'm Not a Human 비밀 가이드: 숨겨진 아이템, 사운드 큐 및 로어",
             "description": "No I'm Not a Human의 숨겨진 비밀을 발견하세요: 창문 두드리는 소리, FEMA 번호, 버섯 아이템, 그리고 불사신. 환경적 스토리텔링과 숨겨진 상호작용에 대한 완전 가이드.",
@@ -252,6 +255,73 @@ const blogs = [
                     <li><strong><a href="/download">다운로드 가이드</a></strong> - 게임을 설치하고 생존의 여정을 시작하세요.</li>
                 </ul>
             `
+    },
+
+    {
+        "id": 4,
+        "title": "No I'm Not a Human NPC 가이드: 코트남, 매점 소녀, 자경단원 분석",
+        "addressBar": "no-im-not-a-human-npc-guide-coat-guy-cashier-girl",
+        "publishDate": "2026-02-02",
+        "imageUrl": "/images/blog/blog04.webp",
+        "imageAlt": "No I'm Not a Human 게임의 코트남과 매점 소녀",
+        "description": "코트남은 위험한가요? 매점 소녀의 정체는 무엇일까요? 자경단원과 창백한 남자를 포함한 No I'm Not a Human의 특별한 NPC들을 가이드에서 확인하세요.",
+        "seo": {
+            "title": "No I'm Not a Human NPC 가이드: 코트남과 매점 소녀의 비밀",
+            "description": "코트남은 위험한가요? 매점 소녀의 정체는 무엇일까요? 자경단원과 창백한 남자를 포함한 No I'm Not a Human의 특별한 NPC들을 가이드에서 확인하세요.",
+            "keywords": "no i'm not a human 코트남, 매점 소녀, no i'm not a human 자경단원, 창백한 남자, NPC 가이드, 특별한 방문자"
+        },
+        "detailsHtml": `
+            <p><strong><a href=\"/\">No I'm Not a Human</a></strong>의 뒤틀린 흑백 세상에서, 문을 두드리는 모든 이가 당신을 바로 잡아먹으려는 것은 아닙니다. 대부분의 \"이웃\"은 지능 없는 괴물이지만, 커뮤니티에서 엄청난 궁금증을 자아내는 몇몇 특별한 캐릭터들이 있습니다.</p>
+        
+            <p>미스터리한 <strong><a href=\"/visitors\">코트남(Coat Guy)</a></strong>의 정체는 무엇일까요? <strong><a href=\"/visitors\">매점 소녀(Cashier Girl)</a></strong>는 정말 인간일까요? 그리고 <strong><a href=\"/visitors\">자경단원(Vigilante)</a></strong>은 누구의 편일까요?</p>
+            
+            <p>이 가이드에서는 게임의 독특한 NPC들의 행동과 비밀을 파헤쳐, 누구를 믿어야 하고 누구로부터 도망쳐야 하는지 이해하도록 도와드립니다.</p>
+
+            <h2>1. 코트남의 미스터리</h2>
+            <p><strong>코트남</strong>은 게임에서 가장 많이 검색되는 존재 중 하나입니다. 보통 당신을 공격하는 벌거벗은 살덩이 괴물들과 달리, 이 캐릭터는 긴 트렌치코트를 온전히 입고 있어 기만적인 \"인간\"의 실루엣을 보여줍니다.</p>
+            <ul>
+                <li><strong>외형:</strong> 트렌치코트와 모자를 착용한 키 큰 인물입니다. 혼란스러운 배경 속에서도 눈에 띕니다.</li>
+                <li><strong>행동:</strong> 플레이어들은 코트남이 일반적인 <a href=\"/visitors\">방문자(Visitors)</a>들에 비해 더 차분한 움직임을 보인다고 보고합니다. 서두르기보다는 관찰하는 태도를 취합니다.</li>
+                <li><strong>전략:</strong> 그의 옷차림에 속지 마세요. 이 게임에서 \"옷\"은 종종 위장의 한 형태일 뿐입니다. 외눈박이 구멍(피프홀)을 통해 그의 손과 얼굴을 주의 깊게 살피세요. 만약 그의 움직임이 불규칙해진다면, 고위험 위협으로 간주해야 합니다.</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-01.webp\" alt=\"코트남의 미스터리\">
+
+            <h2>2. 매점 소녀: 친절한 이웃일까?</h2>
+            <p>아파트를 나서서 상점에 가면 <strong>매점 소녀</strong>를 만나게 됩니다. 그녀는 현실에 기반을 둔 몇 안 되는 상호작용 중 하나이지만, 팬들 사이에서는 그녀의 본모습에 대해 많은 이론이 존재합니다.</p>
+            <ul>
+                <li><strong>역할:</strong> 자원과 보급품을 얻을 수 있는 주요 공급원입니다.</li>
+                <li><strong>대화의 비밀:</strong> 단순히 아이템만 사고 떠나지 마세요. 매점 소녀와 대화하면 외부 세계에 대한 로어(Lore)를 알 수 있습니다. 게임이 진행됨에 따라 그녀의 대화 내용은 도시의 부패를 반영하며 변화합니다.</li>
+                <li><strong>팬 이론:</strong> 그녀는 면역 상태일까요? 아니면 그녀 역시 변이를 기다리고 있는 걸까요? <a href=\"/endings\">특정 엔딩</a>을 목표로 하는 플레이어들에게 그녀의 안전은 항상 주요 관심사입니다.</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-02.webp\" alt=\"매점 소녀\">
+
+            <h2>3. 자경단원: 사냥꾼인가 조력자인가?</h2>
+            <p><strong>자경단원</strong>은 혼돈의 요소입니다. 괴물은 아니지만, 그렇다고 반드시 당신의 친구인 것도 아닙니다.</p>
+            <p>그는 \"<a href=\"/visitors\">방문자</a>\"들을 정화하려는 세력을 대표하지만, 그 방식은 극단적입니다. 자경단원을 만나는 것은 대개 특정 조건(높은 킬 수 또는 낮은 정신력 등) 하에 발생합니다. 주의하세요. 당신이 의심스럽게 행동한다면, 자경단원은 <em>당신</em>을 괴물로 오해할 수도 있습니다.</p>
+
+            <img src=\"/images/blog/blog04-03.webp\" alt=\"자경단원\">
+
+            <h2>4. 창백한 남자 (The Pale Visitor)</h2>
+            <p>특별한 캐릭터를 논할 때 <strong><a href=\"/visitors\">창백한 남자(Pale Man)</a></strong>를 빼놓을 수 없습니다. 그는 은신의 대가입니다.</p>
+            <p>시끄러운 이웃들과 달리, 창백한 남자는 게임의 아트 스타일인 하얀 공간 속에 녹아듭니다. 그는 당신의 관찰력을 시험합니다. 복도가 비어 있어 안전하다고 생각될 때도 대비를 확인하세요. 그는 바로 당신 앞에 서 있을지도 모릅니다.</p>
+
+            <img src=\"/images/blog/blog04-04.webp\" alt=\"창백한 남자\">
+
+            <h2>결론</h2>
+            <p><em><a href=\"/\">No I'm Not a Human</a></em>을 마스터하려면 단순한 전투 이상의 것이 필요합니다. 바로 캐릭터들을 이해하는 것이죠. <strong>코트남</strong>과 <strong>자경단원</strong>은 단순한 점프 스케어를 넘어 <a href=\"/guides\">심리적 공포</a>의 층위를 더해줍니다.</p>
+            
+            <p>이 NPC들과의 비밀스러운 상호작용을 발견하셨나요? 저희에게 알려주세요!</p>
+            
+            <h2>관련 가이드</h2>
+            <ul>
+                <li><strong><a href=\"/visitors\">모든 방문자 및 캐릭터 가이드</a></strong> - 코트남과 매점 소녀를 포함한 모든 캐릭터의 전체 데이터베이스</li>
+                <li><strong><a href=\"/blog/how-to-know-killed-visitor\">방문자 처치 확인 방법</a></strong> - 방문자의 죽음을 알 수 있는 신호들을 배워보세요</li>
+                <li><strong><a href=\"/endings\">모든 엔딩 가이드</a></strong> - NPC와의 상호작용이 엔딩에 미치는 영향</li>
+                <li><strong><a href=\"/wiki\">게임 위키</a></strong> - 게임의 로어와 비밀에 대해 깊이 파헤쳐 보세요</li>
+            </ul>
+        `
     }
 
 ]

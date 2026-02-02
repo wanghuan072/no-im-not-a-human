@@ -6,6 +6,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog01-01.webp",
         "imageAlt": "Der Fötus in Nein, ich bin kein Mensch",
+        "description": "Entdecken Sie, wie Sie den Fötus in Nein, ich bin kein Mensch treffen. Vollständige Bedingungen, versteckte Orte und Schritte für Ende 1: Kind des Verderbens.",
         "seo": {
             "title": "Nein, ich bin kein Mensch Ende 1: Kind des Verderbens – Fötus Erscheinungsleitfaden",
             "description": "Entdecken Sie, wie Sie den Fötus in Nein, ich bin kein Mensch treffen. Vollständige Bedingungen, versteckte Orte und Schritte für Ende 1: Kind des Verderbens.",
@@ -82,6 +83,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "Tod nach No I'm Not a Human – menschliche von Besucher-Toden unterscheiden",
+        "description": "Lerne die visuellen Unterschiede zwischen dem Töten von Besuchern und Menschen in No I'm Not a Human kennen. Leichensäcke vs. Leichen, Sehverzerrung und Anleitung zur Todesbestätigung.",
         "seo": {
             "title": "No I'm Not a Human: So erkennst du, ob du einen Besucher oder Menschen getötet hast",
             "description": "Lerne die visuellen Unterschiede zwischen dem Töten von Besuchern und Menschen in No I'm Not a Human kennen. Leichensäcke vs. Leichen, Sehverzerrung und Anleitung zur Todesbestätigung.",
@@ -172,6 +174,7 @@ const blogs = [
         "publishDate": "2026-01-26",
         "imageUrl": "/images/blog/blog03-01.webp",
         "imageAlt": "Versteckte Geheimnisse und Umgebungsdetails in No I'm Not a Human",
+        "description": "Entdecke versteckte Geheimnisse in No I'm Not a Human: Fensterklopfen, FEMA-Nummern, das Pilz-Item und den Immortal Man. Kompletter Guide zu Environmental Storytelling.",
         "seo": {
             "title": "No I'm Not a Human Geheimnisse: Guide für versteckte Items, Sounds und Lore",
             "description": "Entdecke versteckte Geheimnisse in No I'm Not a Human: Fensterklopfen, FEMA-Nummern, das Pilz-Item und den Immortal Man. Kompletter Guide zu Environmental Storytelling.",
@@ -252,6 +255,73 @@ const blogs = [
                     <li><strong><a href="/download">Download Guide</a></strong> - Hol dir das Spiel und starte dein Abenteuer</li>
                 </ul>
             `
+    },
+
+    {
+        "id": 4,
+        "title": "No I'm Not a Human – NPC-Guide: Mantel-Typ, Kassiererin & Vigilante erklärt",
+        "addressBar": "no-im-not-a-human-npc-guide-coat-guy-cashier-girl",
+        "publishDate": "2026-02-02",
+        "imageUrl": "/images/blog/blog04.webp",
+        "imageAlt": "Der Mantel-Typ (Coat Guy) und die Kassiererin (Cashier Girl) im Spiel No I'm Not a Human",
+        "description": "Ist der Mantel-Typ gefährlich? Wer ist die Kassiererin? Unser No I'm Not a Human Guide erklärt die speziellen NPCs, einschließlich des Vigilante und des Blassen Mannes.",
+        "seo": {
+            "title": "No I'm Not a Human NPC-Guide: Mantel-Typ & Kassiererin Geheimnisse",
+            "description": "Ist der Mantel-Typ gefährlich? Wer ist die Kassiererin? Unser No I'm Not a Human Guide erklärt die speziellen NPCs, einschließlich des Vigilante und des Blassen Mannes.",
+            "keywords": "no i'm not a human coat guy, mantel typ, cashier girl no i'm not a human, kassiererin, no i'm not a human vigilante, blasser mann, npc guide, spezialbesucher"
+        },
+        "detailsHtml": `
+            <p>In der verzerrten Schwarz-Weiß-Welt von <strong><a href="/">No I'm Not a Human</a></strong> möchte nicht jeder, der an deine Tür klopft, dich sofort fressen. Während die meisten „Nachbarn“ geistlose Monster sind, gibt es ein paar besondere Charaktere, die in der Community für massive Neugier gesorgt haben.</p>
+        
+            <p>Wer ist der mysteriöse <strong><a href="/visitors">Mantel-Typ (Coat Guy)</a></strong>? Ist die <strong><a href="/visitors">Kassiererin (Cashier Girl)</a></strong> tatsächlich ein Mensch? Und auf wessen Seite steht der <strong><a href="/visitors">Vigilante</a></strong>?</p>
+            
+            <p>In diesem Guide schlüsseln wir das Verhalten und die Geheimnisse der einzigartigen NPCs des Spiels auf, damit du verstehst, wem du vertrauen kannst – und vor wem du weglaufen solltest.</p>
+
+            <h2>1. Das Rätsel um den Mantel-Typ (Coat Guy)</h2>
+            <p>Der <strong>Mantel-Typ</strong> ist eine der am häufigsten gesuchten Entitäten im Spiel. Im Gegensatz zu den nackten, fleischigen Abscheulichkeiten, die dich normalerweise angreifen, ist dieser Charakter vollständig in einen langen Trenchcoat gekleidet, was ihm eine täuschend „menschliche“ Silhouette verleiht.</p>
+            <ul>
+                <li><strong>Aussehen:</strong> Eine große Gestalt mit Trenchcoat und Hut. Er hebt sich deutlich vom chaotischen Hintergrund ab.</li>
+                <li><strong>Verhalten:</strong> Spieler berichten oft, dass der Mantel-Typ im Vergleich zu Standard-<a href="/visitors">Besuchern (Visitors)</a> ruhigere Bewegungsmuster zeigt. Er beobachtet eher, als dass er stürmt.</li>
+                <li><strong>Strategie:</strong> Lass dich nicht von seiner Kleidung täuschen. In diesem Spiel ist „Kleidung“ oft nur eine weitere Form der Tarnung. Achte durch den Türspion genau auf seine Hände und sein Gesicht. Wenn seine Bewegungen unberechenbar werden, behandle ihn als Bedrohung höchster Stufe.</li>
+            </ul>
+
+            <img src="/images/blog/blog04-01.webp" alt="Das Rätsel um den Mantel-Typ">
+
+            <h2>2. Die Kassiererin: Ein freundliches Gesicht?</h2>
+            <p>Wenn du dein Apartment verlässt, gelangst du zum Laden, wo du auf die <strong>Kassiererin (Cashier Girl)</strong> triffst. Sie ist eine der wenigen Interaktionen, die sich in der Realität verankert anfühlen, aber Fans haben viele Theorien über ihre wahre Natur.</p>
+            <ul>
+                <li><strong>Rolle:</strong> Sie ist deine primäre Quelle für Ressourcen und Vorräte.</li>
+                <li><strong>Dialog-Geheimnisse:</strong> Kaufe nicht einfach nur Gegenstände und gehe wieder. Die Interaktion mit der Kassiererin enthüllt Details über die Außenwelt. Ihr Dialog ändert sich im Laufe des Spiels und spiegelt die wachsende Korruption der Stadt wider.</li>
+                <li><strong>Fan-Theorie:</strong> Ist sie immun? Oder wartet auch sie nur auf ihre Verwandlung? Ihr Überleben ist oft ein Anliegen für Spieler, die <a href="/endings">bestimmte Enden</a> anstreben.</li>
+            </ul>
+
+            <img src="/images/blog/blog04-02.webp" alt="Die Kassiererin">
+
+            <h2>3. Der Vigilante: Jäger oder Helfer?</h2>
+            <p>Der <strong>Vigilante</strong> ist ein chaotisches Element. Er ist kein Monster, aber er ist auch nicht unbedingt dein Freund.</p>
+            <p>Er repräsentiert eine Macht, die versucht, die „<a href="/visitors">Besucher</a>“ zu eliminieren, aber seine Methoden sind extrem. Begegnungen mit dem Vigilante finden normalerweise unter bestimmten Bedingungen statt (wie eine hohe Anzahl an Kills oder niedrige geistige Gesundheit). Sei vorsichtig: Wenn du dich verdächtig verhältst, könnte der Vigilante <em>dich</em> für ein Monster halten.</p>
+
+            <img src="/images/blog/blog04-03.webp" alt="Der Vigilante">
+
+            <h2>4. Der Blasse Mann (The Pale Visitor)</h2>
+            <p>Wenn wir über Spezialcharaktere sprechen, müssen wir den <strong><a href="/visitors">Blassen Mann</a></strong> erwähnen. Er ist ein Meister der Tarnung.</p>
+            <p>Im Gegensatz zu den lärmenden Nachbarn verschmilzt der Blasse Mann mit den weißen Flächen des Kunststils des Spiels. Er stellt deine Wahrnehmung auf die Probe. Wenn du denkst, du seist sicher, weil der Flur leer aussieht, prüfe den Kontrast – er könnte direkt vor dir stehen.</p>
+
+            <img src="/images/blog/blog04-04.webp" alt="Der Blasse Mann">
+
+            <h2>Fazit</h2>
+            <p>Um <em><a href="/">No I'm Not a Human</a></em> zu meistern, ist mehr als nur Kampf erforderlich; man muss die Charaktere verstehen. Der <strong>Mantel-Typ</strong> und der <strong>Vigilante</strong> fügen Ebenen von <a href="/guides">psychologischem Horror</a> hinzu, die über einfache Jump-Scares hinausgehen.</p>
+            
+            <p>Hast du eine geheime Interaktion mit diesen NPCs gefunden? Lass es uns wissen!</p>
+            
+            <h2>Verwandte Guides</h2>
+            <ul>
+                <li><strong><a href="/visitors">Alle Besucher & Charaktere Guide</a></strong> – Komplette Datenbank jedes Charakters, inklusive Mantel-Typ und Kassiererin</li>
+                <li><strong><a href="/blog/how-to-know-killed-visitor">Woran man erkennt, ob man einen Besucher getötet hat</a></strong> – Lerne die Anzeichen für den Tod eines Besuchers</li>
+                <li><strong><a href="/endings">Guide zu allen Enden</a></strong> – Wie NPC-Interaktionen dein Ende beeinflussen</li>
+                <li><strong><a href="/wiki">Spiel-Wiki</a></strong> – Tiefes Eintauchen in den Lore und die Geheimnisse des Spiels</li>
+            </ul>
+        `
     }
 
 ]

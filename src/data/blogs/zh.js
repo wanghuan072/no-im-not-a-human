@@ -6,6 +6,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog01-01.webp",
         "imageAlt": "不，我不是人类中的胎儿",
+        "description": "了解如何在不，我不是人类中遇到胎儿。完整条件、隐藏位置和结局1：厄运之子的步骤。",
         "seo": {
             "title": "不，我不是人类 结局1：厄运之子 - 胎儿出现指南",
             "description": "了解如何在不，我不是人类中遇到胎儿。完整条件、隐藏位置和结局1：厄运之子的步骤。",
@@ -53,6 +54,7 @@ const blogs = [
         "publishDate": "2025-10-11",
         "imageUrl": "/images/blog/blog02-01.webp",
         "imageAlt": "《No I'm Not a Human》死亡后果 - 区分人类与访客死亡",
+        "description": "了解在《No I'm Not a Human》中杀死访客和人类的视觉差异。尸袋 vs 尸体，视野扭曲，以及死亡确认指南。",
         "seo": {
             "title": "《No I'm Not a Human》：如何判断你杀的是访客还是人类",
             "description": "了解在《No I'm Not a Human》中杀死访客和人类的视觉差异。尸袋 vs 尸体，视野扭曲，以及死亡确认指南。",
@@ -143,6 +145,7 @@ const blogs = [
         "publishDate": "2026-01-26",
         "imageUrl": "/images/blog/blog03-01.webp",
         "imageAlt": "No I'm Not a Human 中的隐藏秘密与环境细节",
+        "description": "探索 No I'm Not a Human 中的隐藏秘密：敲窗声、FEMA 编号、蘑菇道具及不朽之人。关于环境叙事和隐藏交互的完整指南。",
         "seo": {
             "title": "No I'm Not a Human 秘密指南：隐藏物品、声音线索与背景故事",
             "description": "探索 No I'm Not a Human 中的隐藏秘密：敲窗声、FEMA 编号、蘑菇道具及不朽之人。关于环境叙事和隐藏交互的完整指南。",
@@ -221,6 +224,73 @@ const blogs = [
                 <li><strong><a href="/endings">所有结局指南</a></strong> - 探索所有可能的结局及其触发条件</li>
                 <li><strong><a href="/wiki">游戏百科</a></strong> - 探索包含隐藏物品与世界观在内的所有游戏元素完整知识库</li>
                 <li><strong><a href="/download">下载指南</a></strong> - 获取游戏并开始你的生存之旅</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 4,
+        "title": "No I'm Not a Human NPC 指南：风衣男、收银女孩与自警者详解",
+        "addressBar": "no-im-not-a-human-npc-guide-coat-guy-cashier-girl",
+        "publishDate": "2026-02-02",
+        "imageUrl": "/images/blog/blog04.webp",
+        "imageAlt": "No I'm Not a Human 游戏中的风衣男和收银女孩",
+        "description": "风衣男危险吗？收银女孩是谁？我们的 No I'm Not a Human 指南将为您解析特殊 NPC，包括自警者和苍白者。",
+        "seo": {
+            "title": "No I'm Not a Human NPC 指南：风衣男与收银女孩的秘密",
+            "description": "风衣男危险吗？收银女孩是谁？我们的 No I'm Not a Human 指南将为您解析特殊 NPC，包括自警者和苍白者。",
+            "keywords": "no i'm not a human 风衣男, 收银女孩 no i'm not a human, no i'm not a human 自警者, 苍白者, npc 指南, 特殊访客"
+        },
+        "detailsHtml": `
+            <p>在 <strong><a href=\"/\">No I'm Not a Human</a></strong> 那扭曲的黑白世界里，并非每个敲门的人都想立刻把你吃掉。虽然大多数“邻居”都是毫无理智的怪物，但有几个特殊的角色引起了社区的极大好奇。</p>
+        
+            <p>神秘的 <strong><a href=\"/visitors\">风衣男 (Coat Guy)</a></strong> 到底是谁？<strong><a href=\"/visitors\">收银女孩 (Cashier Girl)</a></strong> 真的是人类吗？而 <strong><a href=\"/visitors\">自警者 (Vigilante)</a></strong> 又是站在哪一边的？</p>
+            
+            <p>在本指南中，我们将分析这些游戏中独特 NPC 的行为和秘密，帮助你了解谁可以信任，而谁又必须远离。</p>
+
+            <h2>1. 风衣男之谜</h2>
+            <p><strong>风衣男</strong> 是游戏中搜索量最高的实体之一。与那些通常会攻击你的赤裸、肉质恐怖物不同，这个角色穿着一件长款风衣，给人一种带有欺骗性的“人类”轮廓。</p>
+            <ul>
+                <li><strong>外观：</strong> 一个穿着风衣、戴着帽子的瘦高身影。他在混乱的背景中显得格外突出。</li>
+                <li><strong>行为：</strong> 玩家经常报告风衣男的移动模式比标准 <a href=\"/visitors\">访客 (Visitors)</a> 更冷静。他更多是在观察而非冲锋。</li>
+                <li><strong>策略：</strong> 不要被他的衣服欺骗。在这个游戏中，“衣服”往往只是另一种形式的伪装。通过猫眼密切注意他的手部和面部。如果他的动作变得反复无常，请将其视为高级威胁。</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-01.webp\" alt=\"风衣男之谜\">
+
+            <h2>2. 收银女孩：一张友善的面孔？</h2>
+            <p>走出公寓后，你会来到商店并遇到 <strong>收银女孩</strong>。她是少数让人感到富有现实感的交互对象之一，但粉丝们对她的真实身份有很多推测。</p>
+            <ul>
+                <li><strong>角色：</strong> 她是你获取资源和物资的主要来源。</li>
+                <li><strong>对话秘密：</strong> 不要只是买完东西就走。与收银女孩互动会揭示有关外界的世界观背景（Lore）。随着游戏的进行，她的对话会发生变化，反映出城市日益严重的腐化。</li>
+                <li><strong>粉丝理论：</strong> 她是免疫者吗？还是说她也在等待自己的转化？对于追求 <a href=\"/endings\">特定结局</a> 的玩家来说，她的安全通常是一个核心关注点。</li>
+            </ul>
+
+            <img src=\"/images/blog/blog04-02.webp\" alt=\"收银女孩\">
+
+            <h2>3. 自警者：猎人还是助手？</h2>
+            <p><strong>自警者</strong> 是一个混乱元素。他不是怪物，但也并不一定是你的朋友。</p>
+            <p>他代表了一股试图肃清“<a href=\"/visitors\">访客</a>”的力量，但他的手段极其极端。遇到自警者通常发生在特定条件下（例如高击杀数或低理智值）。小心：如果你表现得鬼鬼祟祟，自警者可能会把 <em>你</em> 误认为是怪物。</p>
+
+            <img src=\"/images/blog/blog04-03.webp\" alt=\"自警者\">
+
+            <h2>4. 苍白者 (The Pale Visitor)</h2>
+            <p>在讨论特殊角色时，我们必须提到 <strong><a href=\"/visitors\">苍白者 (Pale Man)</a></strong>。他是潜行大师。</p>
+            <p>与那些吵闹的邻居不同，苍白者完美地融入了游戏美术风格中的白色空间。他考验的是你的观察力。如果你因为走廊看起来空无一人而觉得安全，请检查一下对比度——他可能就站在你面前。</p>
+
+            <img src=\"/images/blog/blog04-04.webp\" alt=\"苍白者\">
+
+            <h2>结论</h2>
+            <p>精通 <em><a href=\"/\">No I'm Not a Human</a></em> 不仅仅需要战斗技巧，更需要理解这些角色阵容。<strong>风衣男</strong> 和 <strong>自警者</strong> 为游戏增添了超越简单跳杀（Jump scares）的 <a href=\"/guides\">心理恐怖</a> 层次。</p>
+            
+            <p>你是否发现了与这些 NPC 的秘密互动？请告诉我们！</p>
+            
+            <h2>相关指南</h2>
+            <ul>
+                <li><strong><a href=\"/visitors\">全访客与角色指南</a></strong> - 包含风衣男和收银女孩在内的完整角色数据库</li>
+                <li><strong><a href=\"/blog/how-to-know-killed-visitor\">如何判断你是否杀死了访客</a></strong> - 了解访客死亡的征兆</li>
+                <li><strong><a href=\"/endings\">全结局指南</a></strong> - NPC 互动如何影响你的结局</li>
+                <li><strong><a href=\"/wiki\">游戏百科</a></strong> - 深入探索游戏的背景故事和秘密</li>
             </ul>
         `
     }

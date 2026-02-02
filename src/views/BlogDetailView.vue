@@ -48,6 +48,7 @@
               <div class="blog-info">
                 <span class="publish-date">{{ formatDate(blog.publishDate) }}</span>
               </div>
+              <p v-if="blog.description" class="blog-description">{{ blog.description }}</p>
             </div>
           </div>
         </div>
@@ -156,6 +157,15 @@ export default {
 </script>
 
 <style scoped>
+.blog-description {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 1rem auto 0 auto;
+}
+
 .blog-detail-page {
   min-height: 100vh;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
@@ -214,7 +224,6 @@ export default {
   background-repeat: no-repeat;
   padding: 80px 0 60px;
   position: relative;
-  min-height: 500px;
 }
 
 .hero-overlay {

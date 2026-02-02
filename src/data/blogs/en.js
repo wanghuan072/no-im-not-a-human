@@ -1,17 +1,18 @@
 const blogs = [
     {
-        "id": 1,
-        "title": "No, I am not a human - Ending 1: Child of Doom Guide",
-        "addressBar": "ending-1-child-of-doom",
-        "publishDate": "2025-10-11",
-        "imageUrl": "/images/blog/blog01-01.webp",
-        "imageAlt": "The Fetus in No, I am not a human",
-        "seo": {
-            "title": "No, I am not a human Ending 1: Child of Doom - Fetus Appearance Guide",
-            "description": "Discover how to encounter the Fetus in No, I am not a human. Complete conditions, hidden spots, and steps for Ending 1: Child of Doom.",
-            "keywords": "No I am not a human, Fetus, Child of Doom, Seductive Woman, Ending 1, hidden Fetus, gameplay guide"
+        id: 1,
+        title: "No, I am not a human - Ending 1: Child of Doom Guide",
+        addressBar: "ending-1-child-of-doom",
+        publishDate: "2025-10-11",
+        imageUrl: "/images/blog/blog01-01.webp",
+        imageAlt: "The Fetus in No, I am not a human",
+        description: "Discover how to encounter the Fetus in No, I am not a human. Complete conditions, hidden spots, and steps for Ending 1: Child of Doom.",
+        seo: {
+            title: "No, I am not a human Ending 1: Child of Doom - Fetus Appearance Guide",
+            description: "Discover how to encounter the Fetus in No, I am not a human. Complete conditions, hidden spots, and steps for Ending 1: Child of Doom.",
+            keywords: "No I am not a human, Fetus, Child of Doom, Seductive Woman, Ending 1, hidden Fetus, gameplay guide"
         },
-        "detailsHtml": `
+        detailsHtml: `
             <h2>Introduction</h2>
             <p><strong><a href="/">No, I am not a human</a></strong> features a mysterious figure known as <strong>the Fetus</strong>, which appears exclusively in <strong><a href="/endings">Ending 1: Child of Doom</a></strong>. This guide details the steps and conditions to encounter the Fetus and achieve one of the game's most challenging endings.</p>
             
@@ -75,18 +76,19 @@ const blogs = [
         `
     },
     {
-        "id": 2,
-        "title": "No I'm Not a Human: How to Know If You Killed a Visitor",
-        "addressBar": "how-to-know-killed-visitor",
-        "publishDate": "2025-10-11",
-        "imageUrl": "/images/blog/blog02-01.webp",
-        "imageAlt": "Death aftermath in No I'm Not a Human - distinguishing human from Visitor deaths",
-        "seo": {
-            "title": "No I'm Not a Human: How to Know If You Killed a Visitor or Human",
-            "description": "Learn the visual differences between killing Visitors and humans in No I'm Not a Human. Body bags vs corpses, vision distortion, and death confirmation guide.",
-            "keywords": "No I'm not a Human, Visitor death, human death, body bags, corpse, kill confirmation, gameplay mechanics, visitor identification"
+        id: 2,
+        title: "No I'm Not a Human: How to Know If You Killed a Visitor",
+        addressBar: "how-to-know-killed-visitor",
+        publishDate: "2025-10-11",
+        imageUrl: "/images/blog/blog02-01.webp",
+        imageAlt: "Death aftermath in No I'm Not a Human - distinguishing human from Visitor deaths",
+        description: "Learn the visual differences between killing Visitors and humans in No I'm Not a Human. Body bags vs corpses, vision distortion, and death confirmation guide.",
+        seo: {
+            title: "No I'm Not a Human: How to Know If You Killed a Visitor or Human",
+            description: "Learn the visual differences between killing Visitors and humans in No I'm Not a Human. Body bags vs corpses, vision distortion, and death confirmation guide.",
+            keywords: "No I'm not a Human, Visitor death, human death, body bags, corpse, kill confirmation, gameplay mechanics, visitor identification"
         },
-        "detailsHtml": `
+        detailsHtml: `
             <h2>Introduction</h2>
             <p>Killing in <strong><a href="/">No I'm Not a Human</a></strong> is unavoidable, but the real question is whether you made the right call. <a href="/visitors">Visitors</a> and humans leave behind different signs after death. Knowing these signs lets you confirm if your paranoia was justified, or if you just killed an innocent guest. This guide will help you understand the aftermath of your deadly decisions.</p>
             
@@ -164,18 +166,19 @@ const blogs = [
         `
     },
     {
-        "id": 3,
-        "title": "No I'm Not a Human Secrets: Hidden Items, Sound Cues, and World Lore",
-        "addressBar": "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
-        "publishDate": "2026-01-26",
-        "imageUrl": "/images/blog/blog03-01.webp",
-        "imageAlt": "Hidden secrets and environmental details in No I'm Not a Human",
-        "seo": {
-            "title": "No I'm Not a Human Secrets: Hidden Items, Sound Cues, and World Lore Guide",
-            "description": "Discover hidden secrets in No I'm Not a Human: window knocking sounds, FEMA numbers, the Mushroom item, and Immortal Man. Complete guide to environmental storytelling and hidden interactions.",
-            "keywords": "fema no i'm not a human, what is the window knocking in i'm not a human, no i'm not a human fema number, hidden items, sound cues, world lore, mushroom, immortal man"
+        id: 3,
+        title: "No I'm Not a Human Secrets: Hidden Items, Sound Cues, and World Lore",
+        addressBar: "no-im-not-a-human-secrets-hidden-items-sound-cues-world-lore",
+        publishDate: "2026-01-26",
+        imageUrl: "/images/blog/blog03-01.webp",
+        imageAlt: "Hidden secrets and environmental details in No I'm Not a Human",
+        description: "Discover hidden secrets in No I'm Not a Human: window knocking sounds, FEMA numbers, the Mushroom item, and Immortal Man. Complete guide to environmental storytelling and hidden interactions.",
+        seo: {
+            title: "No I'm Not a Human Secrets: Hidden Items, Sound Cues, and World Lore Guide",
+            description: "Discover hidden secrets in No I'm Not a Human: window knocking sounds, FEMA numbers, the Mushroom item, and Immortal Man. Complete guide to environmental storytelling and hidden interactions.",
+            keywords: "fema no i'm not a human, what is the window knocking in i'm not a human, no i'm not a human fema number, hidden items, sound cues, world lore, mushroom, immortal man"
         },
-        "detailsHtml": `
+        detailsHtml: `
             <h2>Introduction</h2>
             <p>Survival in <strong><a href="/">No I'm Not a Human</a></strong> isn't just about fighting <a href="/visitors">visitors</a>; it's about noticing the small, terrifying details in your apartment. From mysterious items like the Mushroom to the unsettling sounds of <strong>window knocking</strong>, the game is filled with secrets that many players miss on their first playthrough. In this comprehensive guide, we explore the hidden interactions and environmental storytelling that make this <a href="/guides">psychological horror game</a> truly nightmare-inducing.</p>
             
@@ -250,7 +253,90 @@ const blogs = [
                 <li><strong><a href="/download">Download Guide</a></strong> - Get the game and start your survival journey</li>
             </ul>
         `
+    },
+
+    {
+        id: 4,
+        title: "No I'm Not a Human NPC Guide: Coat Guy, Cashier Girl & Vigilante Explained",
+        addressBar: "no-im-not-a-human-npc-guide-coat-guy-cashier-girl",
+        publishDate: "2026-02-02",
+        imageUrl: "/images/blog/blog04.webp",
+        imageAlt: "The Coat Guy and Cashier Girl in No I'm Not a Human game",
+        description: "Is the Coat Guy dangerous? Who is the Cashier Girl? Our No I'm Not a Human guide explains the special NPCs, including the Vigilante and the Pale Man.",
+        seo: {
+            title: "No I'm Not a Human NPC Guide: Coat Guy & Cashier Girl Secrets",
+            description: "Is the Coat Guy dangerous? Who is the Cashier Girl? Our No I'm Not a Human guide explains the special NPCs, including the Vigilante and the Pale Man.",
+            keywords: "no i'm not a human coat guy, cashier girl no i'm not a human, no i'm not a human vigilante, pale man, npc guide, special visitors"
+        },
+        detailsHtml: `
+            <p>In the distorted, black-and-white world of <strong><a href="/">No I'm Not a Human</a></strong>, not everyone who knocks on your door wants to eat you immediately. While most "neighbors" are mindless monsters, there are a few special characters that have sparked massive curiosity in the community.</p>
+        
+            <p>Who is the mysterious <strong><a href="/visitors">Coat Guy</a></strong>? Is the <strong><a href="/visitors">Cashier Girl</a></strong> actually human? And whose side is the <strong><a href="/visitors">Vigilante</a></strong> on?</p>
+            
+            <p>In this guide, we break down the behaviors and secrets of the game's unique NPCs to help you understand who to trust—and who to run from.</p>
+
+            <h2>1. The Mystery of the Coat Guy</h2>
+            <p>The <strong>Coat Guy</strong> is one of the most searched entities in the game. Unlike the naked, fleshy abominations that usually attack you, this character is fully dressed in a long trench coat, giving him a deceivingly "human" silhouette.</p>
+            <ul>
+                <li><strong>Appearance:</strong> A tall figure wearing a trench coat and a hat. He stands out against the chaotic background.</li>
+                <li><strong>Behavior:</strong> Players often report that the Coat Guy exhibits calmer movement patterns compared to standard <a href="/visitors">Visitors</a>. He observes rather than rushing.</li>
+                <li><strong>Strategy:</strong> Do not let his clothing fool you. In this game, "clothes" are often just another form of camouflage. Pay close attention to his hands and face through the peephole. If his movements become erratic, treat him as a high-level threat.</li>
+            </ul>
+
+            <img src="/images/blog/blog04-01.webp" alt="The Mystery of the Coat Guy">
+
+            <h2>2. The Cashier Girl: A Friendly Face?</h2>
+            <p>Stepping out of your apartment brings you to the store, where you meet the <strong>Cashier Girl</strong>. She is one of the few interactions that feels grounded in reality, but fans have many theories about her true nature.</p>
+            <ul>
+                <li><strong>Role:</strong> She is your primary source for resources and supplies.</li>
+                <li><strong>Dialogue Secrets:</strong> Don't just buy items and leave. Interacting with the Cashier Girl reveals lore about the outside world. Her dialogue changes as the game progresses, reflecting the growing corruption of the city.</li>
+                <li><strong>Fan Theory:</strong> Is she immune? Or is she, too, waiting for her transformation? Her safety is often a concern for players aiming for <a href="/endings">specific endings</a>.</li>
+            </ul>
+
+            <img src="/images/blog/blog04-02.webp" alt="The Cashier Girl">
+
+            <h2>3. The Vigilante: Hunter or Helper?</h2>
+            <p>The <strong>Vigilante</strong> is a chaotic element. He isn't a monster, but he isn't necessarily your friend, either.</p>
+            <p>He represents a force trying to purge the "<a href="/visitors">Visitors</a>," but his methods are extreme. Encountering the Vigilante usually happens under specific conditions (such as a high kill count or low sanity). Be careful: if you act suspiciously, the Vigilante might mistake <em>you</em> for a monster.</p>
+
+            <img src="/images/blog/blog04-03.webp" alt="The Vigilante">
+
+            <h2>4. The Pale Man (The Pale Visitor)</h2>
+            <p>While discussing special characters, we must mention the <strong><a href="/visitors">Pale Man</a></strong>. He is a master of stealth.</p>
+            <p>Unlike the noisy neighbors, the Pale Man blends into the white spaces of the game's art style. He tests your perception skills. If you think you are safe because the hallway looks empty, check the contrast—he might be standing right in front of you.</p>
+
+            <img src="/images/blog/blog04-04.webp" alt="The Pale Man">
+
+            <h2>Conclusion</h2>
+            <p>Mastering <em><a href="/">No I'm Not a Human</a></em> requires more than just combat; it requires understanding the cast of characters. The <strong>Coat Guy</strong> and the <strong>Vigilante</strong> add layers of <a href="/guides">psychological horror</a> that go beyond simple jump scares.</p>
+            
+            <p>Have you found a secret interaction with these NPCs? Let us know!</p>
+            
+            <h2>Related Guides</h2>
+            <ul>
+                <li><strong><a href="/visitors">All Visitors & Characters Guide</a></strong> - Complete database of every character including Coat Guy and Cashier Girl</li>
+                <li><strong><a href="/blog/how-to-know-killed-visitor">How to Know If You Killed a Visitor</a></strong> - Learn the signs of a Visitor death</li>
+                <li><strong><a href="/endings">All Endings Guide</a></strong> - How NPC interactions affect your ending</li>
+                <li><strong><a href="/wiki">Game Wiki</a></strong> - Deep dive into the game's lore and secrets</li>
+            </ul>
+        `
     }
+
+    // {
+    //     id: 1,
+    //     title: "",
+    //     addressBar: "",
+    //     publishDate: "2026-01-26",
+    //     imageUrl: "/images/blog/blog03.webp",
+    //     imageAlt: "",
+    //     seo: {
+    //         title: "",
+    //         description: "",
+    //         keywords: ""
+    //     },
+    //     detailsHtml: `
+    //     `
+    // }
 ]
 
 export default blogs;
